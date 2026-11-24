@@ -29,6 +29,8 @@ release/
 
 # Binary/media files
 *.mp3
+# ...except the small UI sound effects the app ships with
+!public/sounds/*.mp3
 
 # Backup files
 *.bak
