@@ -39,7 +39,7 @@ This is not consciousness in the philosophical sense; nothing in it is aware. It
 
 **Continuity.** Everything that makes a character who they are is saved and restored across sessions, worlds and restarts: mood, memories, rumination, dreams, promises, relationships and goals.
 
-The full design, including every system and its thresholds, is in **[CONSCIOUSNESS.md](CONSCIOUSNESS.md)**.
+For a plain-language tour of these minds, with examples from real play sessions, read **[CONSCIOUSNESS-SIMULATION.md](CONSCIOUSNESS-SIMULATION.md)**. The full design, including every system and its thresholds, is in **[CONSCIOUSNESS.md](CONSCIOUSNESS.md)**.
 
 ---
 
@@ -113,8 +113,8 @@ Nothing is a black box; every change is recorded and can be inspected.
 Requirements: **Node.js 22+** and **at least one AI key**.
 
 ```sh
-git clone https://github.com/xak1234/worlgenpublic.git
-cd worlgenpublic
+git clone https://github.com/xak1234/worldgenpublic.git
+cd worldgenpublic
 npm install
 cp .env.example .env      # add an AI key, e.g. DEEPSEEK_API_KEY or MISTRAL_API_KEY, and set LLM_PROVIDER
 npm run dev               # http://localhost:3002
