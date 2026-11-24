@@ -4,9 +4,16 @@
 
 Describe a world in a sentence, or hand WorldGen a script, a book or a Wikipedia page, and it builds a place to walk around in. You get locations, a history, and a population of characters who think, feel, remember, gossip, dream and change, whether or not you're talking to them.
 
+| <img src="docs/screenshots/lobby.jpg" width="200" alt="World list"> | <img src="docs/screenshots/world.jpg" width="200" alt="A world and its cast"> | <img src="docs/screenshots/play.jpg" width="200" alt="Playing in a location"> | <img src="docs/screenshots/community.jpg" width="200" alt="Observatory dossier"> |
+|:---:|:---:|:---:|:---:|
+| Your worlds | A world and its cast | Playing a location | Inside a mind |
+
+*Screenshots are from the bundled demo world Saturn Storms Hexagon World.*
+
 - [The minds inside](#the-minds-inside)
 - [Create your own world](#create-your-own-world)
 - [Simulate it: play, wait, watch](#simulate-it-play-wait-watch)
+- [Quests and adventures](#quests-and-adventures)
 - [Quick start](#quick-start)
 - [Configuration](#configuration)
 - [Portable package and deployment](#portable-package-and-deployment)
@@ -105,6 +112,29 @@ A new world gets a cover, a portrait per character and a scene per location. The
    - a 20-tab dossier per character: psychology, emotions, attachment, wounds, defences, memories with their truth gap, rumination threads, mood trajectory, identity streams, belief contagion, dreams, loyalties, observations and the raw data
 
 Nothing is a black box; every change is recorded and can be inspected.
+
+---
+
+## Quests and adventures
+
+Stories in WorldGen come out of each world's own people, places, history and source material, and the people in them are the same simulated minds as everyone else.
+
+| Kind | Where it comes from | What it is |
+|---|---|---|
+| **Global quests** | Generated live for your character | Can lead you across several worlds and follow your character between sessions. Completing them earns **medals**, which only global characters can collect. |
+| **Quest seeds** | Each world keeps up to five | Short hooks tied to the world: meet someone, reach a place, find something. |
+| **World Quest adventures** | Generated on demand from the world's concept, era, timeline and source documents | A long multi-step adventure (15 steps by default), played solo or with one co-op partner. A fresh one is generated automatically when it's completed or failed, so a world always has one ready. |
+| **Serialized adventures** | Multi-act stories built from the world's timeline or source | Acts made of story beats, which the AI judges as you play by talking, acting, moving and waiting. Narration reacts as beats complete. If you stall, the story **fails forward** rather than freezing. Your run is scored on a spectrum: **Legendary**, **Heroic**, **Standard**, **Flawed** or **Tragic**. |
+
+**How quests play**
+- **Portals and gates.** Quest destinations are portals. Hidden ones open when you've done what the story needs. Some are gated: they need the right **weather**, you being **invisible** or **cloaked**, or the right **impossible gift** given to the right person. A locked portal tells you why it refused you.
+- **Clue chains.** Each quest is a chain: a clue from the quest giver, clues found at places or through actions, a threshold gate, then a final confirmation. Talking to the right person marks a clue as heard. Wrong people and wrong places count as attempts.
+- **NPCs hint, in character.** Characters know about the gates in the quests they're part of, and let it show through their feelings and the way they talk, never through instructions.
+- **Difficulty.** *Easy* spells out the next clue action. *Normal* reveals the answer after three failed attempts. *Hard* hides clue types and targets.
+- **Guidance.** Places and people that matter for the current step glow green, with a note saying why.
+- **Weather is part of the story.** It changes scene descriptions, travel, NPC moods and quest gates.
+- **Tools for bending the world.** *God Mode* lets you plant dreams, objects and memories, or force the weather. The *Mystic Sandbox* lets you wear a dark robe, go cloaked or invisible, and give impossible gifts.
+- **Consequences.** Finished, failed and abandoned quests leave echoes in the world that the people there remember. Your character keeps a quest history with the clue path you took.
 
 ---
 
