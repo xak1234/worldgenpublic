@@ -1,0 +1,44 @@
+# Render Blueprint. Docker runtime + one persistent disk; a service with a disk always
+# runs as exactly one instance, which this app requires.
+services:
+  - type: web
+    name: worldgen
+    runtime: docker
+    plan: standard            # 2 GB RAM; starter (512 MB) is too small for the world library
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    disk:
+      name: worldgen-storage
+      mountPath: /srv/worldgen
+      sizeGB: 20
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: WORLDGEN_HEAP_MB
+        value: "1536"
+      - key: TRUST_PROXY
+        value: "1"
+      - key: WORLDGEN_API_KEY
+        generateValue: true
+      - key: WORLDGEN_PUBLIC_SIGNUP
+        value: "false"
+      - key: CORS_ORIGINS
+        value: https://your-worldgen.example.com
+      - key: LLM_PROVIDER
+        value: mistral
+      - key: MISTRAL_API_KEY
+        sync: false
+      - key: CEREBRAS_API_KEY
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: TMDB_API_KEY
+        sync: false
+      - key: TOGETHER_API_KEY
+        sync: false
+      - key: FAL_API_KEY
+        sync: false
+      - key: POLLINATIONS_API_KEY
+        sync: false
+      - key: SOMA_API
+        sync: false

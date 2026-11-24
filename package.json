@@ -1,0 +1,42 @@
+{
+  "name": "worldgen-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && node --max-old-space-size=1024 scripts/precompile-public-html.mjs && node --max-old-space-size=1024 ./node_modules/typescript/bin/tsc",
+    "start": "node --max-old-space-size=2048 dist/index.js",
+    "check:data": "node scripts/check-world-data.mjs",
+    "check:npc": "node scripts/check-npc-state-wiring.mjs",
+    "check:experience": "node scripts/check-experience-persistence.mjs",
+    "test:cognition": "npm run build && node dist/cognition.test.js",
+    "test:intent": "npm run build && node dist/playerIntent.test.js",
+    "test:deploy": "npm run build && node scripts/smoke-deploy.mjs",
+    "prepare-storage": "node scripts/prepare-storage.mjs",
+    "package:portable": "npm run build && node scripts/build-portable.mjs",
+    "test": "npm run build && node dist/cognition.test.js && node dist/playerIntent.test.js && node dist/drama.test.js && node dist/questEpisode.test.js && node dist/soundscape.test.js && node dist/voice.test.js && node dist/portraitPipeline.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.0",
+    "express-rate-limit": "^8.5.1",
+    "helmet": "^8.0.0",
+    "json5": "^2.2.3",
+    "pdf-parse": "^1.1.1",
+    "tsx": "^4.21.0",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.19.17",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.3"
+  }
+}

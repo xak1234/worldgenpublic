@@ -1,0 +1,16 @@
+[Unit]
+Description=WorldGen NPC voices (Chatterbox voice cloning, loopback only)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/apps/worldgen-voice
+# Python environment with requirements.txt installed (see README.md); point this at any existing
+# environment that already has Chatterbox if you prefer.
+ExecStart=%h/apps/worldgen-voice/.venv/bin/python -u %h/apps/worldgen-voice/server.py
+Environment=WORLDGEN_VOICE_PORT=8794
+Environment=WORLDGEN_VOICE_THREADS=8
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

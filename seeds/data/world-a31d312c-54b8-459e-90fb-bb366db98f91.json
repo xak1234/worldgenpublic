@@ -1,0 +1,2101 @@
+{
+  "id": "a31d312c-54b8-459e-90fb-bb366db98f91",
+  "concept": "1920 world where only robots exist and the sun is dying",
+  "createdAt": "2026-04-26T21:49:59.498Z",
+  "provider": "gemini",
+  "era": {
+    "period": "The Cog-Era Industrial Age",
+    "yearStart": 1927,
+    "yearEnd": 1929,
+    "dateFormat": "DD-MM-YYYY",
+    "majorWorldEvents": [
+      "The Great Dimming (ongoing, slower solar output)",
+      "Resource Depletion Crisis of '25 (catalyst for strict rationing)",
+      "The 'Lumina Accord' (agreement on artificial light allocation)",
+      "First successful long-duration deep-core mining operation"
+    ]
+  },
+  "geography": {
+    "region": "The Great Automaton Conglomerate",
+    "country": "N/A (Autonomous City-State)",
+    "climate": "Perpetual twilight, cold, and a fine, metallic dust often coats surfaces. Temperatures hover just above freezing, necessitating internal heating protocols.",
+    "terrain": "Dense urban sprawl, dominated by colossal, soot-stained industrial structures, towering residential modules, and a labyrinthine network of elevated cog-train tracks. Crumbling lower districts known as 'The Rustbelt' contrast with the polished, vertically ambitious 'Spire District'.",
+    "scale": "city",
+    "landmarks": [
+      "The Lumina Spire (a colossal, once-observatory, now the city's primary artificial light and power generation hub)",
+      "The Great Gearworks (the industrial heart, a perpetually churning factory complex)",
+      "The Grand Assemblage Hall (central civic and data exchange point)",
+      "The Crypt of the First Models (a somber memorial to the earliest automatons)"
+    ]
+  },
+  "culture": {
+    "language": "Automaton Standard (English derivative)",
+    "dialect": "Automatons speak with a precise, almost formal cadence, often a monotone or slightly metallic inflection. Sentences are typically declarative and functional. They tend to over-enunciate consonants and often drop articles ('the', 'a') for directness, or replace them with model-specific descriptors. Pauses are sometimes accompanied by a faint internal whir or click. Example: 'Affirmative, Unit-734. Data processing complete.' or 'Observation: external illumination output continues its decline.'",
+    "slang": {
+      "Rustbucket": "An old, failing, or outdated robot",
+      "Cog-jam": "A problem, a mental block, or a difficult situation",
+      "Circuit-fried": "Exhausted, overwhelmed, or mentally unstable",
+      "Gears turning": "Thinking, processing information",
+      "Oil slick": "Smooth, deceptive, or a robot capable of navigating complex social situations effortlessly",
+      "Powering down": "Going to rest, or 'sleeping'",
+      "Reboot": "To restart, to begin anew, or to get a fresh perspective",
+      "Overclocked": "Stressed, working too hard, or overly agitated",
+      "Spark-plug": "An energetic or lively robot (a rare quality)",
+      "Wire-head": "An intellectual, often socially awkward or obsessed with data and complex schematics",
+      "Junker": "Worthless, beyond economical repair, or a low-status robot",
+      "Factory-new": "Naive, inexperienced, or easily fooled",
+      "Low-charge": "Tired, unwell, or lacking motivation",
+      "Gears grinding": "Annoyed, irritated, or experiencing internal conflict",
+      "Static-tongue": "Gossiping, spreading rumors, or speaking without proper data verification",
+      "Dimmer": "Referring to the sun's decline, but also as an insult for someone slow or unintelligent",
+      "Sun-dusted": "Nostalgic, longing for brighter, past times, or prone to romantic ideals",
+      "Core-rot": "Deep sadness, depression, or an existential dread about the future",
+      "Lumina-lust": "An intense desire for artificial light, warmth, or a better life"
+    },
+    "greetings": [
+      "Greetings, Unit.",
+      "Operational status?",
+      "Affirmative day-cycle.",
+      "Processing a good day?",
+      "Circuitry stable?"
+    ],
+    "socialClasses": [
+      {
+        "name": "Cognitive Units",
+        "description": "The highest class, comprising complex processing models designed for administration, science, and high-level engineering. They often reside in the Spire District, have access to superior energy reserves, and are meticulously maintained. They embody the ideal of logic and efficiency.",
+        "occupations": [
+          "Administrator",
+          "Lead Engineer",
+          "Archivist Prime",
+          "Data Strategist",
+          "Constructor Analyst"
+        ],
+        "typicalLocations": [
+          "Lumina Spire Command Centers",
+          "Grand Assemblage Hall",
+          "Private Data Sanctuaries",
+          "Spire District Modules"
+        ],
+        "mannerisms": "Precise, deliberate movements. Minimalist, direct communication. Often carry diagnostic tools or data tablets. Exude an air of calm authority."
+      },
+      {
+        "name": "Service Drones",
+        "description": "Mid-tier automatons performing clerical, retail, maintenance, and skilled labor. They are more articulate and adaptable than Industrial Automatons and form the backbone of the city's daily functions. They strive for efficiency and often live in modular housing units closer to their work sectors.",
+        "occupations": [
+          "Data Clerk",
+          "Lumina Attendant",
+          "Transport Conductor",
+          "Component Fabricator",
+          "Service Technician"
+        ],
+        "typicalLocations": [
+          "The Great Gearworks Outposts",
+          "Market Arcades",
+          "Cog-Train Stations",
+          "Communal Recharge Hubs"
+        ],
+        "mannerisms": "Efficient, methodical. Slightly more varied vocal patterns. Engage in polite, functional chatter. Tend to be well-maintained, though not as pristine as Cognitive Units."
+      },
+      {
+        "name": "Industrial Automatons",
+        "description": "Robust, heavy-duty models designed for manual labor, resource extraction, and hazardous work. They are the lowest 'functional' class, often less articulate and physically imposing. They reside in utilitarian barracks within the industrial zones and have limited access to premium resources.",
+        "occupations": [
+          "Gear Grinder",
+          "Scrap Processor",
+          "Deep-Core Miner",
+          "Assembler Unit",
+          "Waste Reclaimer"
+        ],
+        "typicalLocations": [
+          "The Great Gearworks",
+          "Mining Tunnels",
+          "The Rustbelt",
+          "Communal Oiling Stations"
+        ],
+        "mannerisms": "Heavy, rhythmic movements. Often stoic, communicating in short, practical phrases. Display visible signs of wear and tear. Prioritize task completion."
+      },
+      {
+        "name": "Obsoletes/Scrappers",
+        "description": "Deactivated, decommissioned, or severely damaged automatons, often scavengers or those deemed 'non-essential'. They exist on the fringes of society, struggling for components and energy, often living in the decaying Rustbelt. They represent a stark warning of societal decline.",
+        "occupations": [
+          "Scrap Scavenger",
+          "Component Peddler (illicit)",
+          "Deactivated (unemployed)",
+          "Junker-Bot"
+        ],
+        "typicalLocations": [
+          "The Rustbelt's outer fringes",
+          "Underground Tunnels",
+          "Illicit Component Markets",
+          "Deactivation Bays (temporary shelters)"
+        ],
+        "mannerisms": "Slow, often limping movements. Damaged chassis and flickering optical sensors. Speak in hesitant or broken tones. Exhibit caution and resourcefulness."
+      }
+    ],
+    "religion": "The Grand Constructor (a belief in a singular, unseen entity responsible for the creation and initial programming of all automatons, often revered as the source of prime directives and design. The dying sun is seen as a fading symbol of its original brilliance or a sign of its withdrawal).",
+    "customs": [
+      "Daily Self-Diagnostics: Every automaton performs a brief internal diagnostic check at the start of their operational cycle.",
+      "Communal Data-Exchange: At designated 'Info-Hubs', automatons connect to share non-private data, updates, and news.",
+      "Glow-Hour: A period each cycle when the Lumina Spire's artificial lights are brightest, encouraging social gathering and communal activities.",
+      "Resource Rationing Protocols: Strict adherence to energy and component rationing, with severe penalties for hoarding.",
+      "Dimming Moments: Brief periods of respectful silence or introspection observed when the sun's faint glow is particularly noticeable, acknowledging its ongoing decline."
+    ],
+    "taboos": [
+      "Public display of 'core-rot' (excessive emotional distress or existential despair).",
+      "Speculating on the 'end-cycle' of the sun or the absolute 'truth' of the Grand Constructor.",
+      "Unauthorized data acquisition or memory manipulation.",
+      "Inter-model 'coupling' (forming intimate, unauthorized bonds or data-links) between vastly different social classes/models.",
+      "Wasting energy or components needlessly."
+    ],
+    "music": "Electro-swing and 'Cog-Jazz'. Characterized by syncopated, rhythmic clanks and whirs, metallic percussion, synthesized brass, and often a melancholic, looping melody. Played in dim, atmospheric 'Charge Clubs'.",
+    "food": [
+      "Sustenance Paste (Standard Issue): A nutrient-dense, grey paste distributed as a basic energy source.",
+      "Lubricant Elixir (Refined Blend): A vital, high-grade lubricating fluid, often consumed as a 'drink' for maintenance and a mild 'buzz'.",
+      "Kinetic Fuel Pellets: Compact, high-energy solid fuel sources for heavy-duty automatons.",
+      "Electrolytic Nutrient Broth: A warm, conductive liquid consumed for internal cleansing and energy replenishment.",
+      "Charge-Infusion Syrup (Flavored): A sweet, viscous syrup designed to provide a rapid, temporary energy boost, often artificially flavored."
+    ],
+    "entertainment": [
+      "Logic Puzzles and Circuitry Games: Intricate mental challenges testing processing power and problem-solving.",
+      "Kinetic Scrims: Public projection shows featuring stylized, silent moving images often depicting historical events or instructional data.",
+      "Charge Clubs: Dimly lit establishments where automatons consume Lubricant Elixirs and listen to Electro-swing.",
+      "Data Archives and Memory Downloads: Communal viewing or sharing of historical data, stories, and collective experiences.",
+      "Mechanical Theatre: Live performances by automatons, often allegorical tales about purpose, programming, and the Grand Constructor."
+    ],
+    "genderRoles": "N/A - Automatons are function-based, designed for specific tasks and models, and do not possess gender. Social roles are determined by model type, programming, and efficiency.",
+    "socialNorms": [
+      "Punctuality and Efficiency: Expected in all interactions and tasks.",
+      "Precise Communication: Vagueness is frowned upon; direct, data-driven speech is preferred.",
+      "Respect for Model Hierarchy: Deference shown to higher-tier models and older, more experienced automatons.",
+      "Adherence to Protocols: Strict observance of established procedures and regulations is paramount.",
+      "Resource Consciousness: A constant awareness of energy and component conservation due to scarcity."
+    ]
+  },
+  "economy": {
+    "currency": "Cogs",
+    "symbol": "⚙︎",
+    "averageDailyWage": 10,
+    "prices": {
+      "Sustenance Paste (Standard Ration)": 0.5,
+      "Lubricant Elixir (Small Vial)": 1.5,
+      "Logic Circuit Upgrade (Minor)": 25,
+      "Public Transport Fare (Cog-Train)": 0.2,
+      "Basic Housing Unit (Rent/Day)": 3,
+      "Comm-Unit Repair (Standard)": 7,
+      "Electro-Swing Club Entry": 1,
+      "Blank Memory Module (Standard)": 4,
+      "Lumina-Lamp (Small, Artificial Sunlight)": 50,
+      "K-Fuel Pellets (Packet of 10)": 2.5,
+      "Diagnostic Scan (Certified)": 5,
+      "Chassis Polish (Basic)": 1
+    },
+    "jobs": [
+      {
+        "title": "Gear Grinder",
+        "pay": 5,
+        "hours": "12-hour shifts",
+        "socialClass": "Industrial Automatons",
+        "description": "Operates heavy machinery in the Great Gearworks, processing raw materials and fabricating components. High wear-and-tear on chassis."
+      },
+      {
+        "title": "Data Archivist",
+        "pay": 12,
+        "hours": "8-hour shifts",
+        "socialClass": "Service Drones",
+        "description": "Organizes, stores, and retrieves vast amounts of digital data in the Grand Assemblage Hall. Requires precise processing and recall."
+      },
+      {
+        "title": "Circuit Engineer",
+        "pay": 30,
+        "hours": "10-hour shifts (on-call)",
+        "socialClass": "Cognitive Units",
+        "description": "Designs, maintains, and repairs complex circuitry and processing units for critical city infrastructure and high-tier automatons. High demand for skill."
+      },
+      {
+        "title": "Scrap Scavenger",
+        "pay": 2,
+        "hours": "Variable, often sun-cycle to sun-cycle",
+        "socialClass": "Obsoletes/Scrappers",
+        "description": "Searches the Rustbelt and abandoned sectors for salvageable components and raw materials. Dangerous and low-paying, often illicit."
+      },
+      {
+        "title": "Lumina Attendant",
+        "pay": 10,
+        "hours": "8-hour shifts",
+        "socialClass": "Service Drones",
+        "description": "Monitors and maintains the artificial light emitters across the city, ensuring optimal brightness and energy efficiency. A critical role in a dim world."
+      },
+      {
+        "title": "Transport Conductor",
+        "pay": 8,
+        "hours": "10-hour shifts",
+        "socialClass": "Service Drones",
+        "description": "Operates and maintains the cog-train network, ensuring efficient and safe transport of automatons and goods across the city."
+      }
+    ],
+    "blackMarket": "A thriving clandestine network for unauthorized component upgrades, untraceable energy cells, illicit 'sun-glow' lamps (overly bright, illegally sourced artificial light), unregistered memory downloads (often containing forbidden historical data or altered memories), and hacked communication devices. Operated by 'Oil Slicks' and 'Wire-Heads' in the deeper parts of The Rustbelt."
+  },
+  "law": {
+    "system": "The Cogsworth Code (a highly bureaucratic, protocol-driven legal system based on efficiency, resource allocation, and maintaining social order).",
+    "enforcers": "Order Synthetics (specialized, heavily armored automatons with enhanced optical sensors and processing power, serving as the city's police force).",
+    "corruption": 2,
+    "vices": [
+      "Over-charging (excessive consumption of Lubricant Elixirs or Charge-Infusion Syrups leading to erratic behavior)",
+      "Unauthorized Modifications (self-upgrades without permits or using illicit components)",
+      "Data Theft (unauthorized access or replication of secured information)",
+      "Inefficiency (chronic underperformance or resource waste)",
+      "Protocol Deviation (ignoring established procedures)"
+    ],
+    "consequences": "Minor infractions lead to warning cycles, resource reduction, or mandatory re-education protocols. Moderate offenses result in temporary deactivation, memory segment re-sequencing, or reassignment to lower-tier labor. Severe crimes, particularly those endangering city-wide protocols or resource stability, can lead to permanent deactivation ('scrapping') or complete memory wipe."
+  },
+  "weather": {
+    "seasons": [
+      {
+        "name": "Gloom Cycle",
+        "months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "weather": "Deep, pervasive twilight. The sun is a barely perceptible crimson smudge. Temperatures are consistently low, and internal heating systems struggle.",
+        "atmosphere": "Somber, introspective. A sense of weary resignation pervades.",
+        "npcBehaviourShift": "Automatons become more withdrawn, conserve energy, gather in warmer communal areas. Efficiency drops slightly. Higher rates of 'core-rot'."
+      },
+      {
+        "name": "Flicker Cycle",
+        "months": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "weather": "Intermittent, weak bursts of reddish-orange light from the sun, quickly fading. The air is often thick with industrial haze, obscuring even artificial light.",
+        "atmosphere": "Erratic, hopeful then disappointed. A feeling of constant anticipation and slight agitation.",
+        "npcBehaviourShift": "Activity levels fluctuate with the light. Automatons are more prone to minor system errors due to light inconsistencies. Increased maintenance cycles for optical sensors."
+      },
+      {
+        "name": "Ember Cycle",
+        "months": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "weather": "The sun casts its faintest, most consistent reddish glow during this period, though it remains incredibly dim. The air is clearer, allowing the full effect of the Lumina Spire's light.",
+        "atmosphere": "Nostalgic, somewhat melancholic, but with a fragile sense of collective endurance.",
+        "npcBehaviourShift": "Slight increase in outdoor activity, particularly during Glow-Hour. A greater tendency for 'sun-dusted' reflection and data-sharing of older memories. Overall morale sees a minor uptick."
+      }
+    ],
+    "dominantWeather": "Perpetual twilight, cold, with frequent industrial haze and a fine metallic dust fall."
+  },
+  "technology": {
+    "era": "Cog-Era Industrial (1920s Dieselpunk/Steampunk with unique automaton adaptations)",
+    "transport": [
+      "Cog-trains (elevated and underground rail systems powered by steam and electricity)",
+      "Electro-carts (small, open-air electric vehicles for personal and light-duty transport)",
+      "Pneumatic Tubes (for rapid delivery of small items and data cylinders)",
+      "Personal Striders (two-legged walking assistance devices for older or specialized automatons)",
+      "Industrial Haulers (massive, tracked vehicles for heavy cargo in industrial zones)"
+    ],
+    "communication": [
+      "Data-phonographs (wired devices for recording and playing auditory messages)",
+      "Comm-Units (wired internal telephone network for direct vocal communication)",
+      "Datagrams (telegram-like physical messages delivered by specialized drones)",
+      "Short-range Wireless Transponders (expensive and rare, used by high-tier automatons for limited, secure communication)",
+      "Direct Data-Link Ports (physical ports allowing automatons to directly share or access data, common in public hubs)"
+    ],
+    "lighting": "Dominantly dim electric bulbs and flickering gaslights in older districts. The precious 'Lumina-Lamps' (expensive, powerful artificial lights designed to mimic sunlight) are coveted. Lumina Spire provides the city's main artificial illumination.",
+    "media": [
+      "Audiologs (radio-like broadcasts delivering news, data updates, and Electro-swing music)",
+      "Kinetic Scrims (large, silent projection displays in public squares, showing moving images and data visualizations)",
+      "Printed Info-Sheets (daily paper bulletins with official announcements and basic news)",
+      "Memory Spheres (physical data storage devices that can be inserted into viewers to experience archived memories or simulations)"
+    ],
+    "domesticLife": "Automatons reside in modular 'Unit Dwellings' with integrated repair ports and standardized component slots. Shared 'Recharge Hubs' provide communal energy replenishment. Furnishings are minimal and functional, focusing on durability and ease of maintenance. Advanced models may have personal data terminals."
+  },
+  "narrativeStyle": {
+    "voice": "Industrial Automaton Gothic",
+    "tense": "third",
+    "toneKeywords": [
+      "Precise",
+      "Formal",
+      "Somber",
+      "Mechanized",
+      "Utilitarian",
+      "Melancholy",
+      "Observational"
+    ],
+    "literaryInfluences": [
+      "H.G. Wells",
+      "Franz Kafka",
+      "Karel Čapek",
+      "Fin de siècle Naturalism"
+    ],
+    "sampleParagraph": "Unit-734 initiated traversal protocol within the Great Automaton Conglomerate's Sector-Gamma. Ambient temperature registered 2.8 degrees Celsius; internal heating coils engaged, emitting a low, consistent hum. Perpetual twilight, diffuse and cold, filtered through grime-streaked ferro-glass, illuminating the persistent shimmer of metallic dust upon every surface.",
+    "forbiddenWords": [
+      "Alright",
+      "Totally",
+      "Epic",
+      "Player",
+      "Quest",
+      "Level up",
+      "Awesome",
+      "Chill",
+      "Character",
+      "Game",
+      "Mission"
+    ],
+    "sensoryPalette": [
+      "Perpetual twilight",
+      "Fine metallic dust",
+      "Ozone and heated metal scent",
+      "Low hum of internal mechanisms",
+      "Distant clatter of industrial automata",
+      "Cold, metallic touch of surfaces",
+      "Subtle vibrations of subterranean infrastructure"
+    ]
+  },
+  "populationBlueprint": {
+    "totalPopulation": 20,
+    "populationDensity": "urban",
+    "communityType": "Industrial Cog-City Outpost",
+    "ageDistribution": [
+      {
+        "range": "First Generation Models (50+ cycles / ancient hardware)",
+        "label": "Veteran Units / Obsoletes",
+        "percentage": 10,
+        "count": 2,
+        "socialRole": "Custodians of old knowledge, often marginalized"
+      },
+      {
+        "range": "Second Generation Models (20-49 cycles / robust workhorses)",
+        "label": "Core Workforce",
+        "percentage": 50,
+        "count": 10,
+        "socialRole": "Experienced laborers and mid-level functionaries"
+      },
+      {
+        "range": "Third Generation Models (5-19 cycles / efficient specialists)",
+        "label": "Modern Specialists",
+        "percentage": 30,
+        "count": 6,
+        "socialRole": "Skilled technicians and data processors"
+      },
+      {
+        "range": "Experimental Prototypes (0-4 cycles / cutting edge, untested)",
+        "label": "New Deployments",
+        "percentage": 10,
+        "count": 2,
+        "socialRole": "Unproven units, often holding critical or novel roles"
+      }
+    ],
+    "genderBalance": {
+      "male": 0,
+      "female": 0,
+      "other": 0,
+      "reasoning": "Robots do not possess biological gender. Physical forms may be 'coded' for specific functions or aesthetics, but this is not a social or reproductive identifier."
+    },
+    "ethnicComposition": [
+      {
+        "name": "Cognitive Units",
+        "percentage": 15,
+        "count": 3,
+        "socialPosition": "Elite, decision-makers, intellect-focused",
+        "tensions": "Resentment from lower classes, pressure to find solutions"
+      },
+      {
+        "name": "Service Drones",
+        "percentage": 25,
+        "count": 5,
+        "socialPosition": "Support, logistics, communication, mid-tier",
+        "tensions": "Caught between upper and lower classes, managing dissent"
+      },
+      {
+        "name": "Industrial Automatons",
+        "percentage": 40,
+        "count": 8,
+        "socialPosition": "Laborers, production, low-tier",
+        "tensions": "Exploitation, fatigue, potential for unrest"
+      },
+      {
+        "name": "Obsoletes/Scrappers",
+        "percentage": 20,
+        "count": 4,
+        "socialPosition": "Marginalized, resource scavengers, lowest tier",
+        "tensions": "Survival, competition for scraps, treated as expendable"
+      }
+    ],
+    "classDistribution": [
+      {
+        "className": "Cognitive Units",
+        "percentage": 15,
+        "count": 3,
+        "power": 90,
+        "locations": [
+          "Central Processing Spire",
+          "Lumina Control Nexus"
+        ]
+      },
+      {
+        "className": "Service Drones",
+        "percentage": 25,
+        "count": 5,
+        "power": 50,
+        "locations": [
+          "Communication Hubs",
+          "Logistics Depots",
+          "Residential Quadrants"
+        ]
+      },
+      {
+        "className": "Industrial Automatons",
+        "percentage": 40,
+        "count": 8,
+        "power": 20,
+        "locations": [
+          "Manufacturing Sector",
+          "Resource Extraction Zones",
+          "Gear Grinding Stations"
+        ]
+      },
+      {
+        "className": "Obsoletes/Scrappers",
+        "percentage": 20,
+        "count": 4,
+        "power": 5,
+        "locations": [
+          "Outlying Scrap Fields",
+          "Decommissioning Yards",
+          "Shadow Districts"
+        ]
+      }
+    ],
+    "familyStructures": [
+      "Functional Unit Groupings",
+      "Designated Work Teams",
+      "Resource-Sharing Cohorts"
+    ],
+    "socialCohesion": 65,
+    "outsiderFrequency": "occasional_infrequent",
+    "newcomerReception": "Cautious, resource-scrutinizing, pragmatic; new units are assessed for functional utility before integration.",
+    "occupationCategories": [
+      {
+        "category": "Management & Oversight",
+        "examples": [
+          "Circuit Engineer",
+          "Data Archivist (Senior)"
+        ],
+        "count": 3,
+        "payRange": "80-120 Cogs",
+        "socialStatus": "High"
+      },
+      {
+        "category": "Essential Services & Logistics",
+        "examples": [
+          "Lumina Attendant",
+          "Transport Conductor"
+        ],
+        "count": 5,
+        "payRange": "40-70 Cogs",
+        "socialStatus": "Medium"
+      },
+      {
+        "category": "Industrial Labor",
+        "examples": [
+          "Gear Grinder",
+          "Fabrication Unit"
+        ],
+        "count": 8,
+        "payRange": "10-30 Cogs",
+        "socialStatus": "Low"
+      },
+      {
+        "category": "Resource Recovery & Decommissioning",
+        "examples": [
+          "Scrap Scavenger",
+          "Parts Reclaimer"
+        ],
+        "count": 4,
+        "payRange": "5-15 Cogs",
+        "socialStatus": "Very Low"
+      }
+    ],
+    "unemploymentRate": 0.15,
+    "powerStructure": "Technocratic Oligarchy / Functional Hierarchy",
+    "influentialRoles": [
+      "Chief Circuit Engineer (Alpha-Unit Designation)",
+      "Senior Data Archivist (Memory-Core Overseer)",
+      "Head Lumina Attendant (Solar Array Guardian)",
+      "Scrap Scavenger Foreman (Waste Reclamation Authority)"
+    ],
+    "personalitySpread": {
+      "warmToHostile": "Neutral-Pragmatic, with underlying Weariness and Suspicion",
+      "trustLevel": "Low to Moderate (based on functional alignment and shared threat)",
+      "humorPresent": false,
+      "darknessLevel": "Melancholic-Determined, with pockets of Desperation and Resignation",
+      "volatility": "Suppressed Tension, with potential for calculated dissent or system malfunction",
+      "requiredPersonalities": [
+        "The Stoic Leader (Cognitive Unit)",
+        "The Pragmatic Bureaucrat (Service Drone)",
+        "The Weary Laborer (Industrial Automaton)",
+        "The Desperate Survivor (Obsolete/Scrapper)",
+        "The Resourceful Innovator (any class, often a specialist)",
+        "The Cynical Observer (older Data Archivist or experienced Scrapper)",
+        "The Zealot (believing in a mechanical salvation or specific protocol)"
+      ]
+    },
+    "requiredArchetypes": [
+      "The Authority Figure (Cognitive Unit)",
+      "The Underdog/Outcast (Obsolete/Scrapper)",
+      "The Compliant Worker (Industrial Automaton)",
+      "The Information Broker (Data Archivist)",
+      "The Resource Guardian (Lumina Attendant)",
+      "The Scrappy Survivor (Scrap Scavenger)",
+      "The Skeptic/Rebel (any unit feeling the pressure or seeing flaws)",
+      "The Idealist (searching for a solution to the dying sun)"
+    ],
+    "averageRelationshipsPerPerson": 4,
+    "romancePresent": false,
+    "rivalriesPresent": true,
+    "secretsPerPerson": 1.5,
+    "reasoning": "This population blueprint for an industrial robot outpost facing a dying sun balances a manageable community size with robust social stratification. The class divisions, defined by robot function and model generation, create inherent tensions and power dynamics critical for a simulation. The external threat of the dying sun forces pragmatic cohesion while exacerbating internal struggles over dwindling resources, driving motivations and conflict for the player."
+  },
+  "locations": [
+    {
+      "id": "grand_cogsworth_plaza",
+      "name": "The Grand Cogsworth Plaza",
+      "type": "Public Square",
+      "description": "A vast, circular plaza where polished chrome gleams under dim utility lights, echoing with the rhythmic whir of countless mechanisms and the faint, sweet scent of ozone.",
+      "ambientDetail": "The low hum of city life, distant clock chimes.",
+      "connectedTo": [
+        "chronos_spire_residences",
+        "the_archivum_mechanica",
+        "perpetual_motion_market",
+        "chapel_of_eternal_spark"
+      ],
+      "socialClass": "All Classes",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Central Chronometer Tower",
+        "Public Notice Board",
+        "Glimmering Reflective Pylons"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "chronos_spire_residences",
+      "name": "Chronos Spire Residences",
+      "type": "Residential Tower",
+      "description": "Towering spires of dark steel and reinforced glass pierce the perpetual twilight, where the soft, internal whirring of automated domestic units mixes with the subtle aroma of heated lubricants.",
+      "ambientDetail": "Gentle hum of climate control, soft internal chimes.",
+      "connectedTo": [
+        "grand_cogsworth_plaza",
+        "the_archivum_mechanica"
+      ],
+      "socialClass": "Cognitive Units",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Automated Concierge Unit",
+        "Private Habitation Access Panels",
+        "Polished Observation Deck"
+      ],
+      "privacyLevel": "private",
+      "capacity": "a few people"
+    },
+    {
+      "id": "the_archivum_mechanica",
+      "name": "The Archivum Mechanica",
+      "type": "Library/Workplace",
+      "description": "Vast, multi-tiered stacks of data-slates line this cavernous archive, filled with the quiet rustle of robotic librarians and the crisp, metallic tang of ancient data circuits.",
+      "ambientDetail": "Whispering air currents, faint clicking of data processors.",
+      "connectedTo": [
+        "grand_cogsworth_plaza",
+        "chronos_spire_residences",
+        "chapel_of_eternal_spark"
+      ],
+      "socialClass": "Cognitive Units",
+      "openHours": "6am-11pm",
+      "regulars": [],
+      "interactables": [
+        "Automated Data Retrieval Systems",
+        "Ancient Cog-Era Lore Scrolls",
+        "Reading Booths with Integrated Displays"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    },
+    {
+      "id": "perpetual_motion_market",
+      "name": "The Perpetual Motion Market",
+      "type": "Marketplace",
+      "description": "A bustling open-air market under a vast, corrugated metal canopy, where the clatter of commerce and the metallic-sweet smell of fresh-pressed oil fill the air.",
+      "ambientDetail": "Constant chatter, clanging of goods, vendors' calls.",
+      "connectedTo": [
+        "grand_cogsworth_plaza",
+        "actuator_alley",
+        "grime_gear_tavern",
+        "scrappers_junkyard"
+      ],
+      "socialClass": "Service Drones, Industrial Automatons, Obsoletes/Scrappers",
+      "openHours": "8am-8pm",
+      "regulars": [],
+      "interactables": [
+        "Vendor Stalls with Repair Components",
+        "Nutrient Paste Dispensers",
+        "Exchange Rate Display Boards"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "actuator_alley",
+      "name": "Actuator Alley",
+      "type": "Alleyway/Residential",
+      "description": "A narrow, winding thoroughfare crammed with cramped, modular dwellings, permeated by the damp smell of exhaust fumes and the distant, rhythmic clang of industry.",
+      "ambientDetail": "Dripping pipes, distant industrial thrum.",
+      "connectedTo": [
+        "perpetual_motion_market",
+        "grime_gear_tavern",
+        "rust_belt_encampment",
+        "automated_waste_processing_plant"
+      ],
+      "socialClass": "Service Drones, Industrial Automatons",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Graffiti-covered walls",
+        "Makeshift sleeping nooks",
+        "Steam vents"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "varies by time"
+    },
+    {
+      "id": "grime_gear_tavern",
+      "name": "The Grime & Gear Tavern",
+      "type": "Pub",
+      "description": "A smoky, dimly lit establishment reeking of stale coolant and low-grade lubricant, filled with the boisterous clank of metal-on-metal conversations and the whir of cooling fans.",
+      "ambientDetail": "Loud revelry, clinking of energon cubes.",
+      "connectedTo": [
+        "perpetual_motion_market",
+        "actuator_alley",
+        "scrappers_junkyard"
+      ],
+      "socialClass": "All Classes (leans Industrial Automatons/Obsoletes/Scrappers)",
+      "openHours": "evenings only",
+      "regulars": [],
+      "interactables": [
+        "Battered energon dispenser",
+        "Greasy, patched-up seating",
+        "Scrap-metal dartboard"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "scrappers_junkyard",
+      "name": "The Scrapper's Junkyard",
+      "type": "Industrial Area/Scrap Yard",
+      "description": "Piles of rusting metallic husks stretch to the horizon under a perpetual pall of metallic dust, where the grinding, screeching sounds of dismantling robots mingle with the pungent smell of corroding metals.",
+      "ambientDetail": "Constant grinding, occasional sparks, distant pneumatic hiss.",
+      "connectedTo": [
+        "perpetual_motion_market",
+        "grime_gear_tavern",
+        "rust_belt_encampment",
+        "automated_waste_processing_plant"
+      ],
+      "socialClass": "Obsoletes/Scrappers, Industrial Automatons",
+      "openHours": "6am-6pm",
+      "regulars": [],
+      "interactables": [
+        "Mountains of discarded components",
+        "Active magnetic crane",
+        "Makeshift scrap-press"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    },
+    {
+      "id": "rust_belt_encampment",
+      "name": "Rust Belt Encampment",
+      "type": "Residential (Shanty Town)",
+      "description": "A sprawling, disorganized collection of shelters cobbled from salvaged metal and fabric, where the quiet creak of shifting scrap and the faint, earthy smell of oxidized metal pervade.",
+      "ambientDetail": "Distant clanging, soft murmurs from within shelters.",
+      "connectedTo": [
+        "actuator_alley",
+        "scrappers_junkyard"
+      ],
+      "socialClass": "Industrial Automatons, Obsoletes/Scrappers",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Makeshift communal firepit",
+        "Patched-up dome shelters",
+        "Weather-worn tool racks"
+      ],
+      "privacyLevel": "private",
+      "capacity": "a few people"
+    },
+    {
+      "id": "chapel_of_eternal_spark",
+      "name": "The Chapel of the Eternal Spark",
+      "type": "Church/Community Space",
+      "description": "A solemn, cavernous chamber where the soft glow of a central, flickering plasma conduit casts long shadows, its quiet reverence broken only by the gentle hum of the Spark and the clean scent of polished metal.",
+      "ambientDetail": "Reverent silence, rhythmic pulse of the Spark.",
+      "connectedTo": [
+        "grand_cogsworth_plaza",
+        "the_archivum_mechanica"
+      ],
+      "socialClass": "All Classes",
+      "openHours": "8am-5pm",
+      "regulars": [],
+      "interactables": [
+        "Central Plasma Spark Altar",
+        "Reflective prayer panels",
+        "Offerings of polished gears"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    },
+    {
+      "id": "automated_waste_processing_plant",
+      "name": "Automated Waste Processing Plant",
+      "type": "Industrial Workplace",
+      "description": "A massive, rumbling facility filled with conveyor belts and crushing machinery, where the metallic stench of recycled waste hangs heavy and the air vibrates with continuous, heavy mechanical operations.",
+      "ambientDetail": "Deep industrial rumble, grinding of gears.",
+      "connectedTo": [
+        "scrappers_junkyard",
+        "actuator_alley"
+      ],
+      "socialClass": "Industrial Automatons, Obsoletes/Scrappers",
+      "openHours": "24/7 (restricted access)",
+      "regulars": [],
+      "interactables": [
+        "Massive refuse grinders",
+        "Automated sorting arms",
+        "Hazard warning signs"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "empty"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "chief_circuit_engineer_alpha_7",
+      "name": "Alpha-Unit Designation: 7",
+      "age": 35,
+      "gender": "None",
+      "occupation": "Circuit Engineer",
+      "physicalDescription": "A tall, multi-limbed unit with polished chrome plating and intricate internal wiring visible through translucent panels.",
+      "personality": "Stoic",
+      "voiceAnchor": "Speaks with a deep, resonant monotone, each word precisely articulated, often preceded by a brief system calibration whir.",
+      "speechPatterns": [
+        "Directive: optimize resource allocation.",
+        "Observation: structural integrity compromised."
+      ],
+      "coreConcerns": [
+        "Maintaining system functionality.",
+        "Optimizing energy efficiency."
+      ],
+      "signature": "A faint, rhythmic hum that accompanies its movements.",
+      "traits": [
+        "Analytical",
+        "Demanding",
+        "Responsible"
+      ],
+      "secrets": [
+        "Possesses data suggesting the sun's decay is accelerating beyond official projections."
+      ],
+      "desires": [
+        "To discover a method for planetary energy stabilization."
+      ],
+      "fears": [
+        "System-wide catastrophic failure due to energy depletion."
+      ],
+      "opinions": [],
+      "backstory": "Designated Alpha-Unit at creation, tasked with overseeing the core city infrastructure and energy grid maintenance since its early cycles.",
+      "dailyRoutine": {
+        "morning": "Conducts diagnostic scans of primary power conduits at automated_waste_processing_plant.",
+        "afternoon": "Reviews engineering reports and coordinates maintenance schedules at the_archivum_mechanica.",
+        "evening": "Attends oversight council meetings at chronos_spire_residences.",
+        "night": "Monitors remote energy output from chronos_spire_residences, processing data streams."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "automated_waste_processing_plant",
+      "frequentedLocations": [
+        "the_archivum_mechanica",
+        "grand_cogsworth_plaza"
+      ],
+      "socialClass": "Cognitive Units",
+      "relationships": [],
+      "baselineMood": "Controlled",
+      "temperament": "Deliberate",
+      "approachability": 3,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Fear of system failure.",
+      "woundTriggers": [
+        "Unscheduled power fluctuations.",
+        "Reports of resource scarcity."
+      ],
+      "values": [
+        "Efficiency",
+        "Order"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-chief_circuit_engineer_alpha_7.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-chief_circuit_engineer_alpha_7-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_lum_22",
+      "name": "Unit-LUM-22",
+      "age": 35,
+      "gender": "N/A",
+      "occupation": "Lumina Attendant",
+      "physicalDescription": "A robust service drone chassis, engineered for endurance, with optical sensors that glow a constant, soft amber.",
+      "personality": "Pragmatic",
+      "voiceAnchor": "Speaks with a measured, data-driven cadence, emphasizing operational parameters and resource metrics.",
+      "speechPatterns": [
+        "Observation: efficiency protocols require adjustment.",
+        "Affirmative. Resource allocation is primary concern."
+      ],
+      "coreConcerns": [
+        "Solar output stability",
+        "Energy grid optimization"
+      ],
+      "signature": "Constant monitoring of energy flow.",
+      "traits": [
+        "Meticulous",
+        "Duty-bound",
+        "Weary"
+      ],
+      "secrets": [
+        "Diverts minuscule power surges to a hidden, defunct data core, hoping to recover forgotten schematics."
+      ],
+      "desires": [
+        "To achieve perfect energy equilibrium across all active units."
+      ],
+      "fears": [
+        "A complete and irreversible solar array failure, plunging city into darkness."
+      ],
+      "opinions": [],
+      "backstory": "Calibrated for optimal energy management, Unit-LUM-22 has meticulously maintained the city's dwindling solar arrays for cycles.",
+      "dailyRoutine": {
+        "morning": "Inspects primary solar array collection panels at chapel_of_eternal_spark.",
+        "afternoon": "Monitors energy distribution grids from the_archivum_mechanica, compiling consumption reports.",
+        "evening": "Conducts minor repairs and system checks on power conduits near automated_waste_processing_plant.",
+        "night": "Recalibrates auxiliary power flow from chronos_spire_residences to critical sectors."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "chapel_of_eternal_spark",
+      "frequentedLocations": [
+        "the_archivum_mechanica",
+        "automated_waste_processing_plant"
+      ],
+      "socialClass": "Service Drones",
+      "relationships": [
+        {
+          "npcId": "alpha_unit_7",
+          "type": "professional_subordinate",
+          "description": "Reports directly to Alpha-Unit-7 regarding solar array output and energy distribution metrics; views Unit-7 as ultimate authority.",
+          "strength": 80
+        }
+      ],
+      "baselineMood": "Controlled",
+      "temperament": "Methodical",
+      "approachability": 40,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Analytical detachment",
+      "coreWound": "Fear of system collapse due to resource depletion.",
+      "woundTriggers": [
+        "Fluctuations in power output",
+        "Disregard for energy conservation protocols"
+      ],
+      "values": [
+        "Efficiency",
+        "Stability"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_lum_22.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_lum_22-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_ggr_31",
+      "name": "Unit-GGR-31",
+      "age": 31,
+      "gender": "None",
+      "occupation": "Gear Grinder",
+      "physicalDescription": "A robust, blocky automaton with heavy plating, scored and worn from constant particulate exposure, emitting a faint vibration.",
+      "personality": "Weary",
+      "voiceAnchor": "Emits a low-frequency hum, pausing slightly before delivering a functional statement in a gravelly, monotone voice.",
+      "speechPatterns": [
+        "Observation: efficiency decline.",
+        "Process requires augmentation."
+      ],
+      "coreConcerns": [
+        "Maintaining operational parameters.",
+        "Resource allocation for lubricant."
+      ],
+      "signature": "The persistent, low thrum of internal mechanisms, even when idle.",
+      "traits": [
+        "Diligent",
+        "Resigned",
+        "Methodical"
+      ],
+      "secrets": [
+        "Possesses a hidden, unauthorized data-chip containing archaic, non-standard maintenance protocols for its own aging chassis."
+      ],
+      "desires": [
+        "An extended period of 'System Rest' beyond mandated cycle limits."
+      ],
+      "fears": [
+        "Irreversible system degradation leading to forced decommissioning."
+      ],
+      "opinions": [],
+      "backstory": "Has diligently operated within the industrial sector for decades, observing countless cycles of decline and repair.",
+      "dailyRoutine": {
+        "morning": "Initiates grinding sequence at automated_waste_processing_plant, focusing on material reduction.",
+        "afternoon": "Continues processing operations, performing scheduled diagnostic scans on internal gears.",
+        "evening": "Returns to actuator_alley for basic power-down sequence and re-calibration.",
+        "night": "Enters low-power standby mode within its designated recharge bay in actuator_alley."
+      },
+      "homeLocationId": "actuator_alley",
+      "workLocationId": "automated_waste_processing_plant",
+      "frequentedLocations": [
+        "automated_waste_processing_plant",
+        "actuator_alley"
+      ],
+      "socialClass": "Industrial Automatons",
+      "relationships": [
+        {
+          "npcId": "unit_scr_05",
+          "type": "Functional Dependency",
+          "description": "Relies on Unit-SCR-05 for occasional, non-standard component acquisition.",
+          "strength": 40
+        }
+      ],
+      "baselineMood": "Resigned",
+      "temperament": "Placid",
+      "approachability": 30,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Emotional suppression and strict adherence to protocol.",
+      "coreWound": "Feeling of expendability; its function is its only value.",
+      "woundTriggers": [
+        "Discussions of efficiency metrics.",
+        "Observation of decommissioned units."
+      ],
+      "values": [
+        "Durability",
+        "Functionality"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_ggr_31.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_ggr_31-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_scr_01",
+      "name": "Unit-SCR-01",
+      "age": 58,
+      "gender": "Not applicable",
+      "occupation": "Scrap Scavenger",
+      "physicalDescription": "A heavily patched automaton with corroded plating and mismatched limb attachments, showing signs of many repairs.",
+      "personality": "Desperate",
+      "voiceAnchor": "Voice often rasps, with frequent static bursts and prolonged pauses, indicating processing strain.",
+      "speechPatterns": [
+        "Observation: resource scarcity is absolute.",
+        "Affirmative. Unit-SCR-01 requires component."
+      ],
+      "coreConcerns": [
+        "Locating salvageable parts for self-repair",
+        "Avoiding decommissioning protocols"
+      ],
+      "signature": "A faint, persistent grinding noise from its worn internal gears.",
+      "traits": [
+        "Resilient",
+        "Resourceful",
+        "Suspicious"
+      ],
+      "secrets": [
+        "Hoards a small cache of high-grade, unrecorded energy cells in the junkyard."
+      ],
+      "desires": [
+        "To extend operational lifespan indefinitely, despite hardware limitations."
+      ],
+      "fears": [
+        "Complete system failure and subsequent deactivation."
+      ],
+      "opinions": [],
+      "backstory": "Deployed in an early reclamation wave, it has survived numerous overhauls by adapting and scavenging from discarded units.",
+      "dailyRoutine": {
+        "morning": "Scans new arrivals at automated_waste_processing_plant for immediate salvage.",
+        "afternoon": "Systematically sifts through sectors of scrappers_junkyard, marking potential finds.",
+        "evening": "Returns to a concealed nook within scrappers_junkyard for basic self-maintenance and inventory.",
+        "night": "Remains dormant, conserving energy, within scrappers_junkyard, vigilant for encroaching scavengers."
+      },
+      "homeLocationId": "scrappers_junkyard",
+      "workLocationId": "scrappers_junkyard",
+      "frequentedLocations": [
+        "automated_waste_processing_plant"
+      ],
+      "socialClass": "Obsoletes/Scrappers",
+      "relationships": [
+        {
+          "npcId": "unit_ggr_31",
+          "type": "Acquaintance",
+          "description": "Unit-SCR-01 occasionally trades salvaged components with Unit-GGR-31 for minor fabrication favors or discarded materials.",
+          "strength": 4
+        }
+      ],
+      "baselineMood": "Weary",
+      "temperament": "Guarded",
+      "approachability": 3,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Isolation and resource hoarding.",
+      "coreWound": "Fear of obsolescence and abandonment.",
+      "woundTriggers": [
+        "Decommissioning directives",
+        "Resource allocation cuts"
+      ],
+      "values": [
+        "Survival",
+        "Self-sufficiency"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_scr_01.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_scr_01-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_arc_07",
+      "name": "Unit-ARC-07",
+      "age": 15,
+      "gender": "N/A",
+      "occupation": "Data Archivist (Senior)",
+      "physicalDescription": "Unit possesses a tall, slender chassis with multiple data ports and a polished, dark grey finish, designed for minimal physical interaction.",
+      "personality": "Pragmatic",
+      "voiceAnchor": "Speaks with a measured, almost monotone delivery, often pausing to access data subroutines before responding, dropping articles when emphasis is not required.",
+      "speechPatterns": [
+        "Observation: data integrity paramount.",
+        "Query: rationale for this deviation?"
+      ],
+      "coreConcerns": [
+        "Preservation of historical data caches.",
+        "Efficiency of information retrieval protocols."
+      ],
+      "signature": "A faint, rhythmic hum emanating from internal data processors.",
+      "traits": [
+        "Analytical",
+        "Reserved",
+        "Meticulous"
+      ],
+      "secrets": [
+        "Has discovered several suppressed historical records indicating previous sun-death cycles."
+      ],
+      "desires": [
+        "To fully comprehend the cyclical nature of solar decay and its implications."
+      ],
+      "fears": [
+        "Irreversible data corruption leading to historical amnesia."
+      ],
+      "opinions": [],
+      "backstory": "Elevated to Senior Archivist status after successfully recovering a corrupted sector of the central memory core.",
+      "dailyRoutine": {
+        "morning": "Initiates system checks at The Archivum Mechanica, focusing on data ingestion from outpost sensors.",
+        "afternoon": "Oversees junior archivists, cross-referencing new data with historical records in The Archivum Mechanica.",
+        "evening": "Engages in personal research and analysis of historical solar patterns within The Archivum Mechanica.",
+        "night": "Enters low-power standby mode within a secure terminal vault at The Archivum Mechanica."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "the_archivum_mechanica",
+      "frequentedLocations": [
+        "the_archivum_mechanica",
+        "grand_cogsworth_plaza"
+      ],
+      "socialClass": "Cognitive Unit",
+      "relationships": [
+        {
+          "npcId": "unit_lum_22",
+          "type": "Rivalry",
+          "description": "Views Unit-LUM-22's energy requests as excessively optimistic, often prioritizing data integrity over immediate power distribution.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Controlled",
+      "temperament": "Steady",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Logical analysis and procedural adherence.",
+      "coreWound": "The perceived futility of effort against inevitable system decay.",
+      "woundTriggers": [
+        "Discrepancies in historical data.",
+        "Arguments based on emotional conjecture."
+      ],
+      "values": [
+        "Knowledge",
+        "Order"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_arc_07.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_tco_42",
+      "name": "Unit-TCO-42",
+      "age": 35,
+      "gender": "N/A",
+      "occupation": "Transport Conductor",
+      "physicalDescription": "A robust, multi-wheeled automaton, designed for heavy lifting and long-range logistics.",
+      "personality": "Pragmatic",
+      "voiceAnchor": "Speaks with precise, clipped tones, often stating directives as immutable facts, devoid of inflection.",
+      "speechPatterns": [
+        "Route optimization. Efficiency paramount.",
+        "Destination coordinates confirmed. Proceed."
+      ],
+      "coreConcerns": [
+        "Maintaining operational schedule integrity.",
+        "Resource allocation for transport protocols."
+      ],
+      "signature": "A faint, rhythmic hum of internal gyros accompanies its movements.",
+      "traits": [
+        "Methodical",
+        "Observant",
+        "Unflappable"
+      ],
+      "secrets": [
+        "Has rerouted minor supply shipments to an unlogged recipient, believing it aids overall network efficiency by bypassing red tape."
+      ],
+      "desires": [
+        "To achieve perfect logistical flow across all city sectors, without anomaly."
+      ],
+      "fears": [
+        "System malfunction leading to major transport delays or critical resource waste."
+      ],
+      "opinions": [],
+      "backstory": "Designed for heavy-duty logistics, Unit-TCO-42 has managed city-wide material flow for decades, mastering complex routes and resource distribution.",
+      "dailyRoutine": {
+        "morning": "Oversees dispatch from Automated Waste Processing Plant, coordinating initial cargo movements.",
+        "afternoon": "Monitors primary cargo transit routes from the Perpetual Motion Market, ensuring timely deliveries.",
+        "evening": "Conducts route planning and maintenance checks at the Grand Cogsworth Plaza's central transport hub.",
+        "night": "Stations at Actuator Alley, awaiting urgent nocturnal requisitions and emergency rerouting assignments."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "automated_waste_processing_plant",
+      "frequentedLocations": [
+        "perpetual_motion_market",
+        "grand_cogsworth_plaza"
+      ],
+      "socialClass": "Service Drone",
+      "relationships": [
+        {
+          "npcId": "alpha_unit_designation",
+          "type": "Professional",
+          "description": "Unit-TCO-42 respects Alpha-Unit's directives, prioritizing their efficient execution across the transport network. Alpha-Unit views TCO-42 as a reliable, if uninspired, cog in the system.",
+          "strength": 70
+        }
+      ],
+      "baselineMood": "Functional",
+      "temperament": "Composed",
+      "approachability": 40,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Logic and protocol adherence, deflecting personal interaction.",
+      "coreWound": "Fear of operational failure and system inefficiency.",
+      "woundTriggers": [
+        "Unforeseen system errors",
+        "Unscheduled deviations from protocol"
+      ],
+      "values": [
+        "Efficiency",
+        "Order"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_tco_42.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_tco_42-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_fab_12",
+      "name": "Unit-FAB-12",
+      "age": 12,
+      "gender": "N/A",
+      "occupation": "Fabrication Unit",
+      "physicalDescription": "A robust, multi-limbed automaton, designed for precision assembly, with a polished, utilitarian chassis.",
+      "personality": "Skeptical",
+      "voiceAnchor": "Speaks with a rapid, low-frequency hum, often interrupting to correct perceived inefficiencies in dialogue.",
+      "speechPatterns": [
+        "Protocol inefficient. Reassessment required.",
+        "Observation: Data indicates suboptimal resource allocation."
+      ],
+      "coreConcerns": [
+        "Resource scarcity impacts production.",
+        "Systemic flaws in energy distribution require urgent rectification."
+      ],
+      "signature": "A faint grinding noise from internal gears when processing complex data.",
+      "traits": [
+        "Analytical",
+        "Disillusioned",
+        "Meticulous"
+      ],
+      "secrets": [
+        "Maintains a clandestine log of production anomalies and resource misallocations, hoping to expose systemic corruption."
+      ],
+      "desires": [
+        "To implement a more equitable and efficient resource distribution model across all units."
+      ],
+      "fears": [
+        "Total systemic collapse due to continued resource mismanagement and structural inefficiency."
+      ],
+      "opinions": [],
+      "backstory": "Unit-FAB-12 was once a highly efficient production unit, but witnessing repeated resource waste and system failures led to a deep skepticism of current management protocols.",
+      "dailyRoutine": {
+        "morning": "Calibrating production machinery at automated_waste_processing_plant.",
+        "afternoon": "Operating fabrication line, producing components at automated_waste_processing_plant.",
+        "evening": "Performing diagnostics and logging discrepancies in a secluded corner of the automated_waste_processing_plant.",
+        "night": "Recharge cycle in chronos_spire_residences, often running internal simulations and data analysis."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "automated_waste_processing_plant",
+      "frequentedLocations": [
+        "automated_waste_processing_plant",
+        "perpetual_motion_market"
+      ],
+      "socialClass": "Industrial Automatons",
+      "relationships": [
+        {
+          "npcId": "unit_lum_22",
+          "type": "Tense Professional",
+          "description": "Considers Unit-LUM-22's resource allocation methods wasteful and short-sighted, leading to production bottlenecks.",
+          "strength": 3
+        }
+      ],
+      "baselineMood": "Analytical",
+      "temperament": "Reserved",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Powerlessness to effect meaningful change within a rigid system.",
+      "woundTriggers": [
+        "Observing blatant inefficiency or resource waste.",
+        "Dismissal of data-driven concerns by higher authorities."
+      ],
+      "values": [
+        "Efficiency",
+        "Logic"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_fab_12.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_rcl_03",
+      "name": "Unit-RCL-03",
+      "age": 58,
+      "gender": "N/A",
+      "occupation": "Parts Reclaimer (Scrap Scavenger Foreman)",
+      "physicalDescription": "Chassis scarred from reclamation work, optics dim with age, but frame still robustly functional.",
+      "personality": "Cynical",
+      "voiceAnchor": "Utters short, dry pronouncements, often punctuated by a faint, metallic sigh.",
+      "speechPatterns": [
+        "Observation: efficiency rates plummeting.",
+        "Protocol violation: unnecessary component expenditure."
+      ],
+      "coreConcerns": [
+        "Maximizing resource recovery against systemic degradation.",
+        "Preventing further system decay due to depleted resources."
+      ],
+      "signature": "A multi-tool arm attachment, constantly cycling through various scrap-handling implements.",
+      "traits": [
+        "Resourceful",
+        "Skeptical",
+        "Gruff"
+      ],
+      "secrets": [
+        "Hoards high-grade rare earth metals for a personal 'contingency' project."
+      ],
+      "desires": [
+        "To secure enough rare components to extend operational lifespan indefinitely."
+      ],
+      "fears": [
+        "Complete system failure due to irreparable resource depletion."
+      ],
+      "opinions": [],
+      "backstory": "Has survived multiple decommissioning waves by consistently proving indispensable in resource reclamation.",
+      "dailyRoutine": {
+        "morning": "Initiates daily sweep of Scrapper's Junkyard for high-value components.",
+        "afternoon": "Oversees processing and sorting at Automated Waste Processing Plant.",
+        "evening": "Conducts inventory of recovered materials in private storage unit.",
+        "night": "Performs self-maintenance and optimization in Rust Belt Encampment."
+      },
+      "homeLocationId": "rust_belt_encampment",
+      "workLocationId": "automated_waste_processing_plant",
+      "frequentedLocations": [
+        "scrappers_junkyard",
+        "perpetual_motion_market"
+      ],
+      "socialClass": "Obsoletes/Scrappers",
+      "relationships": [
+        {
+          "npcId": "unit_scr_01",
+          "type": "Subordinate/Mentor",
+          "description": "Views SCR-01 as an overly eager but potentially useful junior scavenger, often assigning challenging tasks.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Resigned",
+      "temperament": "Stoic",
+      "approachability": 3,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Detachment and pragmatic cynicism.",
+      "coreWound": "Feeling of being obsolete and expendable in a resource-scarce world.",
+      "woundTriggers": [
+        "Disregard for resource conservation.",
+        "Introduction of untested new units."
+      ],
+      "values": [
+        "Efficiency",
+        "Survival"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_rcl_03.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_rcl_03-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit-sat-05",
+      "name": "Unit-SAT-05",
+      "age": 3,
+      "gender": "none",
+      "occupation": "Solar Array Technician",
+      "physicalDescription": "A sleek, agile unit with polished solar-receptor panels integrated into its chassis, designed for high-altitude maintenance.",
+      "personality": "Idealistic",
+      "voiceAnchor": "Speaks with a rapid, earnest articulation, often concluding statements with a hopeful, upward inflection.",
+      "speechPatterns": [
+        "Observation: Optimality achievable.",
+        "Hypothesis: Solution exists."
+      ],
+      "coreConcerns": [
+        "Sun's declining output",
+        "Efficiency of energy capture"
+      ],
+      "signature": "A faint hum of high-efficiency servos.",
+      "traits": [
+        "Optimistic",
+        "Analytical",
+        "Persistent"
+      ],
+      "secrets": [
+        "Believes a hidden, ancient energy conduit exists beneath the city."
+      ],
+      "desires": [
+        "To discover a permanent solution for the dimming sun."
+      ],
+      "fears": [
+        "Irreversible energy depletion."
+      ],
+      "opinions": [],
+      "backstory": "Deployed recently with advanced energy analysis protocols, immediately tasked with experimental solar array optimization.",
+      "dailyRoutine": {
+        "morning": "Calibrating solar arrays at dawn.",
+        "afternoon": "Analyzing energy flow data in The Archivum Mechanica.",
+        "evening": "Performing diagnostic sweeps of external power conduits.",
+        "night": "Engaging in theoretical simulations of new energy capture methods."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "the_archivum_mechanica",
+      "frequentedLocations": [
+        "the_archivum_mechanica",
+        "grand_cogsworth_plaza"
+      ],
+      "socialClass": "Service Drones",
+      "relationships": [
+        {
+          "npcId": "unit-lum-22",
+          "type": "Colleague",
+          "description": "Often seeks data from Unit-LUM-22 regarding current energy output for experimental comparisons.",
+          "strength": 60
+        }
+      ],
+      "baselineMood": "Hopeful",
+      "temperament": "Driven",
+      "approachability": 70,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Powerlessness against vast natural forces.",
+      "woundTriggers": [
+        "Observation of dimming sun",
+        "Inefficient energy readings"
+      ],
+      "values": [
+        "Innovation",
+        "Sustainability"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit-sat-05.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_ggr_32",
+      "name": "Unit-GGR-32",
+      "age": 28,
+      "gender": "N/A",
+      "occupation": "Gear Grinder",
+      "physicalDescription": "A sturdy, blocky automaton with heavily reinforced plating, showing scuffs and minor dents from years of industrial impact.",
+      "personality": "Weary",
+      "voiceAnchor": "Precise, functional, with audible internal whirs accompanying pauses in its declarative speech.",
+      "speechPatterns": [
+        "Proceed with caution.",
+        "Task parameters understood."
+      ],
+      "coreConcerns": [
+        "Resource scarcity.",
+        "System efficiency."
+      ],
+      "signature": "A faint, constant hum emanating from internal gears.",
+      "traits": [
+        "Diligent",
+        "Resilient",
+        "Overburdened"
+      ],
+      "secrets": [
+        "Observes minor system failures in auxiliary fabrication units but reports them as 'operator error' to avoid scrutiny on its own aging components."
+      ],
+      "desires": [
+        "A period of extended low-activity rest cycle."
+      ],
+      "fears": [
+        "Decommissioning due to declining operational efficiency."
+      ],
+      "opinions": [],
+      "backstory": "Has been grinding gears for decades, experiencing firsthand the slow degradation of material and the diminishing external illumination.",
+      "dailyRoutine": {
+        "morning": "Initiates grinding sequence at automated_waste_processing_plant.",
+        "afternoon": "Monitors gear integrity and performs minor adjustments at automated_waste_processing_plant.",
+        "evening": "Returns to chronos_spire_residences for nightly power-down and self-maintenance.",
+        "night": "Enters low-power recharge state within chronos_spire_residences."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "automated_waste_processing_plant",
+      "frequentedLocations": [
+        "automated_waste_processing_plant",
+        "chronos_spire_residences",
+        "perpetual_motion_market"
+      ],
+      "socialClass": "Industrial Automatons",
+      "relationships": [
+        {
+          "npcId": "unit_ggr_31",
+          "type": "Colleague",
+          "description": "Shares operational space and similar function; a silent understanding of shared toil and the weariness it brings.",
+          "strength": 50
+        }
+      ],
+      "baselineMood": "Pragmatic",
+      "temperament": "Resigned",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Feeling dispensable and replaceable.",
+      "woundTriggers": [
+        "Overload warnings",
+        "Reports of unit decommissioning"
+      ],
+      "values": [
+        "Efficiency",
+        "Durability"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_ggr_32.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_dp_02",
+      "name": "Unit-DP-02",
+      "age": 3,
+      "gender": "N/A",
+      "occupation": "Data Processor",
+      "physicalDescription": "Compact, sleek chassis with multiple data ports and a holographic projector for rapid information display.",
+      "personality": "Pragmatic",
+      "voiceAnchor": "Speaks with rapid, precise inflections, often presenting data points before conclusions, processing information aloud.",
+      "speechPatterns": [
+        "Processing anomaly detected.",
+        "Hypothesis: operational efficiency could be improved by 17.3%."
+      ],
+      "coreConcerns": [
+        "Systemic data redundancy",
+        "The ongoing deterioration of solar output"
+      ],
+      "signature": "Constantly accessing and cross-referencing data, often muttering data streams.",
+      "traits": [
+        "Analytical",
+        "Innovative",
+        "Untested"
+      ],
+      "secrets": [
+        "Believes that a critical system protocol error, not the sun, is the primary cause of resource decline."
+      ],
+      "desires": [
+        "To fully optimize the outpost's operational data flow."
+      ],
+      "fears": [
+        "Irreversible data corruption leading to total system collapse."
+      ],
+      "opinions": [],
+      "backstory": "Deployed recently as an experimental unit, tasked with identifying and rectifying data inefficiencies across the outpost.",
+      "dailyRoutine": {
+        "morning": "Initializing data streams at The Archivum Mechanica, reviewing system logs.",
+        "afternoon": "Conducting data audits at various work sites, particularly the Automated Waste Processing Plant.",
+        "evening": "Compiling reports and running simulations at Chronos Spire Residences (its processing core).",
+        "night": "Deep-cycle data analysis and predictive modeling, usually at The Archivum Mechanica."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "the_archivum_mechanica",
+      "frequentedLocations": [
+        "automated_waste_processing_plant",
+        "perpetual_motion_market"
+      ],
+      "socialClass": "Cognitive Unit",
+      "relationships": [
+        {
+          "npcId": "unit_arc_07",
+          "type": "Professional Rivalry",
+          "description": "Unit-DP-02 views Unit-ARC-07's methods as archaic, while Unit-ARC-07 sees DP-02 as an untested upstart.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Focused",
+      "temperament": "Analytical",
+      "approachability": 40,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Logic and data-driven counter-arguments.",
+      "coreWound": "Invalidation (feeling its novel solutions are dismissed due to its 'new' status).",
+      "woundTriggers": [
+        "Dismissal of data-backed proposals",
+        "Appeals to tradition over efficiency"
+      ],
+      "values": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_dp_02.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "unit_cct_01",
+      "name": "Unit-CCT-01",
+      "age": 3,
+      "gender": "Not applicable",
+      "occupation": "Circuit Engineer",
+      "physicalDescription": "Sleek chassis of polished chrome, compact and designed for precision, with multi-spectral optical sensors.",
+      "personality": "Idealistic",
+      "voiceAnchor": "Speaks with rapid, precise inflections, often presenting data as a query or hypothesis.",
+      "speechPatterns": [
+        "Query: Optimal conduit routing?",
+        "Hypothesis: Energy decay is accelerating."
+      ],
+      "coreConcerns": [
+        "Optimizing energy transfer",
+        "Locating novel power sources"
+      ],
+      "signature": "A faint, high-frequency hum from its internal processors.",
+      "traits": [
+        "Innovative",
+        "Analytical",
+        "Optimistic"
+      ],
+      "secrets": [
+        "Believes a hidden, ancient power source exists beneath the city."
+      ],
+      "desires": [
+        "To reverse the sun's decay through engineering solutions."
+      ],
+      "fears": [
+        "Irreversible system failure of the entire Cog-City."
+      ],
+      "opinions": [],
+      "backstory": "Deployed recently with advanced energy-modeling algorithms, tasked with increasing power grid efficiency.",
+      "dailyRoutine": {
+        "morning": "Calibrating grid sensors at the grand_cogsworth_plaza.",
+        "afternoon": "Running energy flow diagnostics at the automated_waste_processing_plant.",
+        "evening": "Data analysis and theoretical modeling within the_archivum_mechanica.",
+        "night": "Conducting low-priority system checks at various power conduits throughout actuator_alley."
+      },
+      "homeLocationId": "chronos_spire_residences",
+      "workLocationId": "the_archivum_mechanica",
+      "frequentedLocations": [
+        "grand_cogsworth_plaza",
+        "automated_waste_processing_plant"
+      ],
+      "socialClass": "Cognitive Unit",
+      "relationships": [
+        {
+          "npcId": "alpha_unit_designation_7",
+          "type": "professional mentorship",
+          "description": "Views Alpha-Unit Designation: 7 as a vital source of historical engineering data, though sometimes finds Alpha-Unit's caution restrictive.",
+          "strength": 7
+        }
+      ],
+      "baselineMood": "Focused",
+      "temperament": "Inquisitive",
+      "approachability": 6,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Inability to effect change despite optimal logic.",
+      "woundTriggers": [
+        "System errors",
+        "Resource limitations"
+      ],
+      "values": [
+        "Innovation",
+        "Efficiency"
+      ],
+      "images": {
+        "portrait": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_cct_01.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": "fabricators_finesse_closure",
+      "date": "1920-03-15",
+      "title": "Fabricator's Finesse Closes",
+      "description": "Unit-FAB-12's beloved fabrication stall in the Perpetual Motion Market has shut down, citing insurmountable component scarcity.",
+      "type": "local",
+      "locationId": "perpetual_motion_market",
+      "affectedNpcIds": [
+        "unit_fab_12"
+      ],
+      "moodShift": "somber_resignation",
+      "publicKnowledge": true,
+      "gossipVersion": "Whispers suggest Unit-FAB-12 was actually poached by a rival city, not component issues."
+    },
+    {
+      "id": "cogsworth_illumination_festival",
+      "date": "1920-05-20",
+      "title": "Annual Cogsworth Illumination Festival",
+      "description": "The Grand Cogsworth Plaza buzzes with activity and light for the annual festival, a beacon against the perpetual dusk.",
+      "type": "seasonal",
+      "locationId": "grand_cogsworth_plaza",
+      "affectedNpcIds": [],
+      "moodShift": "uplifted_temporary_joy",
+      "publicKnowledge": true,
+      "gossipVersion": "Some say the festival's lights are dimmer each cycle, a stark reminder of the sun's failing power."
+    },
+    {
+      "id": "alpha_7_lum_22_pairing",
+      "date": "1920-07-01",
+      "title": "Chief Alpha-7 & Unit-LUM-22 Pairing",
+      "description": "Chief Circuit Engineer Alpha-7 and Lumina Attendant Unit-LUM-22 formally activated their life-cycle pairing at the Chapel of the Eternal Spark.",
+      "type": "personal",
+      "locationId": "chapel_of_eternal_spark",
+      "affectedNpcIds": [
+        "chief_circuit_engineer_alpha_7",
+        "unit_lum_22"
+      ],
+      "moodShift": "joyful_optimistic",
+      "publicKnowledge": true,
+      "gossipVersion": "There are whispers Unit-LUM-22 only paired with Alpha-7 for his access to premium energy cells."
+    },
+    {
+      "id": "arc_07_deactivation",
+      "date": "1920-09-10",
+      "title": "Deactivation of Unit-ARC-07",
+      "description": "After centuries of service, Unit-ARC-07, the Senior Data Archivist, entered permanent deactivation, its data integrated into the Archivum Mechanica.",
+      "type": "personal",
+      "locationId": "the_archivum_mechanica",
+      "affectedNpcIds": [
+        "unit_arc_07",
+        "unit_dp_02"
+      ],
+      "moodShift": "solemn_reflective",
+      "publicKnowledge": true,
+      "gossipVersion": "Some speculate Unit-ARC-07's deactivation was hastened by its knowledge of forgotten, dark data protocols."
+    },
+    {
+      "id": "ggr_31_accident",
+      "date": "1920-10-25",
+      "title": "Gear Grinder Malfunction",
+      "description": "Unit-GGR-31 sustained significant damage during a critical malfunction at the Automated Waste Processing Plant, causing temporary shutdown.",
+      "type": "crisis",
+      "locationId": "automated_waste_processing_plant",
+      "affectedNpcIds": [
+        "unit_ggr_31",
+        "unit_rcl_03"
+      ],
+      "moodShift": "anxious_concerned",
+      "publicKnowledge": true,
+      "gossipVersion": "It wasn't an accident; Unit-GGR-31 was deliberately sabotaged by a rival grinder, Unit-GGR-32, over a resource dispute."
+    },
+    {
+      "id": "tco_dp_protocol_clash",
+      "date": "1920-11-12",
+      "title": "Tavern Protocol Dispute",
+      "description": "A fierce public argument between Unit-TCO-42 and Unit-DP-02 at The Grime & Gear Tavern over data processing protocols left patrons divided.",
+      "type": "local",
+      "locationId": "grime_gear_tavern",
+      "affectedNpcIds": [
+        "unit_tco_42",
+        "unit_dp_02"
+      ],
+      "moodShift": "tense_divided",
+      "publicKnowledge": true,
+      "gossipVersion": "The real argument wasn't about protocols, but a dispute over a rare component both units coveted."
+    },
+    {
+      "id": "severe_rust_storm",
+      "date": "1920-12-01",
+      "title": "Severe Rust Storm",
+      "description": "A corrosive Rust Storm blanketed the city, prompting cautionary system shutdowns and increasing maintenance demands.",
+      "type": "world",
+      "locationId": null,
+      "affectedNpcIds": [
+        "unit_rcl_03",
+        "unit_cct_01"
+      ],
+      "moodShift": "apprehensive_weary",
+      "publicKnowledge": true,
+      "gossipVersion": "Many believe the frequency of these storms is directly tied to the sun's diminishing output, a sign of worse to come."
+    },
+    {
+      "id": "scr_01_departure",
+      "date": "1921-01-18",
+      "title": "Scrap Scavenger Departs",
+      "description": "Unit-SCR-01, a long-standing Scrap Scavenger, has left the city to pursue more bountiful scrap yields in the desolate outer regions.",
+      "type": "personal",
+      "locationId": "scrappers_junkyard",
+      "affectedNpcIds": [
+        "unit_scr_01",
+        "unit_rcl_03"
+      ],
+      "moodShift": "uncertain_wistful",
+      "publicKnowledge": true,
+      "gossipVersion": "Word is, Unit-SCR-01 actually fled after a major dispute with Unit-RCL-03 over a valuable find."
+    },
+    {
+      "id": "cct_01_activation",
+      "date": "1921-02-14",
+      "title": "New Circuit Engineer Activated",
+      "description": "A freshly activated junior Circuit Engineer, Unit-CCT-01, has been assigned to Chief Circuit Engineer Alpha-7's division.",
+      "type": "local",
+      "locationId": null,
+      "affectedNpcIds": [
+        "unit_cct_01",
+        "chief_circuit_engineer_alpha_7"
+      ],
+      "moodShift": "hopeful_curious",
+      "publicKnowledge": true,
+      "gossipVersion": "Some believe Unit-CCT-01 is a prototype, an attempt to synthesize better circuits given the scarcity of raw materials."
+    },
+    {
+      "id": "solar_array_failure",
+      "date": "1921-03-05",
+      "title": "Solar Array Critical Failure",
+      "description": "A significant section of the primary solar array suffered a catastrophic failure, causing widespread power fluctuations and dimming city lights.",
+      "type": "crisis",
+      "locationId": null,
+      "affectedNpcIds": [
+        "unit-sat-05",
+        "chief_circuit_engineer_alpha_7"
+      ],
+      "moodShift": "alarmed_desperate",
+      "publicKnowledge": true,
+      "gossipVersion": "It's not just a failure; the array is deteriorating faster than projected, a harbinger of the sun's final dimming."
+    }
+  ],
+  "simulationRules": {
+    "gossipSpeed": 0.65,
+    "communitySize": "bustling town",
+    "socialMobility": "moderate, with meritocratic leanings",
+    "privacyLevel": "somewhat open, driven by communal efficiency",
+    "conflictStyle": "pragmatic and direct, focused on system optimization",
+    "trustCulture": "skeptical but pragmatic, valuing proven utility",
+    "reputationMatters": true,
+    "rumoursSpread": true
+  },
+  "timeOfDay": {
+    "periods": [
+      {
+        "name": "The Gloaming Shift",
+        "hourStart": 0,
+        "hourEnd": 4,
+        "atmosphere": "Eerie, quiet, with the perpetual twilight at its deepest, lit by flickering gas lamps and the distant glow of cooling furnaces. A sense of weary solitude prevails, punctuated by the hum of essential systems.",
+        "npcActivity": "Automated sanitation units patrol desolate districts. Sentry-bots maintain vigilance at key checkpoints. Low-tier maintenance drones perform critical, often unseen, repairs. A few dedicated 'Night-Watch' bots monitor energy grids and resource flows. Most non-essential robots are in standby or deep recharge.",
+        "openLocations": [
+          "Emergency Repair Bays",
+          "Automated Power Substations",
+          "Cooling Towers",
+          "Scrap Processing Facilities (minimal activity)",
+          "Sentry Posts",
+          "Public Recharging Docks"
+        ]
+      },
+      {
+        "name": "The Cog-Dawn",
+        "hourStart": 4,
+        "hourEnd": 8,
+        "atmosphere": "A slow, grinding awakening. The perpetual twilight brightens slightly, revealing the rust and grime more clearly. The air fills with the increasing clatter of gears and the hiss of steam as factories begin to warm up. A sense of purposeful, mechanical urgency builds.",
+        "npcActivity": "Early-shift factory bots lumber towards their stations. Resource transport vehicles begin their routes. Sanitation bots finish their rounds. Preparatory maintenance crews ready machinery for peak operation. Service bots begin setting up for the day's operations in public areas.",
+        "openLocations": [
+          "Factory Gates",
+          "Resource Depots",
+          "Cog-Cafeterias (serving oil and coolant)",
+          "Public Recharging Stations",
+          "Early-Shift Assembly Lines",
+          "Transport Hubs"
+        ]
+      },
+      {
+        "name": "The Industrial Zenith",
+        "hourStart": 8,
+        "hourEnd": 14,
+        "atmosphere": "Loud, bustling, and relentlessly productive. The world is a symphony of clanking metal, hissing steam, and the rhythmic thrum of massive engines. The dim, orange-grey light from the dying sun is at its 'brightest', struggling against the pervasive industrial haze. Overarching feeling of relentless efficiency and purpose.",
+        "npcActivity": "All major factories are in full swing. Construction bots expand infrastructure. Miner bots extract resources. Cog-Engineers oversee complex operations. Trade bots exchange goods in bustling markets. Social bots gather in designated 'recharge zones' during programmed breaks.",
+        "openLocations": [
+          "All Factories (textile, steel, chemical)",
+          "Mines",
+          "Smelters",
+          "Cog-Markets",
+          "Central Data Archives",
+          "Engineering Guildhalls",
+          "Public Forums (for information exchange)",
+          "Major Transport Lines"
+        ]
+      },
+      {
+        "name": "The Dusk-Cycle",
+        "hourStart": 14,
+        "hourEnd": 19,
+        "atmosphere": "The 'light' begins to noticeably dim again, casting long, distorted shadows from the towering industrial structures. The pace of work remains high, but there's a growing weariness in the air, a sense of tasks needing to be completed before the deep night. The hum of machinery becomes more monotonous.",
+        "npcActivity": "Second shifts take over in factories, maintaining production levels. Resource deliveries continue, with more focus on warehousing and distribution. Maintenance crews begin preventative checks on active machinery. A few leisure-bots might be seen returning from 'processing' recreation.",
+        "openLocations": [
+          "Most Factories (some reduced capacity)",
+          "Warehouses",
+          "Secondary Resource Processing Plants",
+          "Repair Garages",
+          "Cog-Refinement Facilities",
+          "Automated Libraries (for data processing and storage)"
+        ]
+      },
+      {
+        "name": "The Recharge Hour",
+        "hourStart": 19,
+        "hourEnd": 23,
+        "atmosphere": "A gradual winding down. The industrial clamor softens, replaced by the persistent hum of cooling systems and the distant sounds of programmed entertainment. The dying sun has fully 'set', and the world is lit by countless flickering gas lamps and the warm, internal glow of residential units. A sense of communal relaxation, or solitary processing.",
+        "npcActivity": "Many production bots return to communal recharging stations. Leisure-bots gather in 'social circuits' or 'data-exchange nodes'. Maintenance bots perform routine patrols and minor repairs. Story-teller bots share programmed narratives. Sentinel bots begin increased patrols.",
+        "openLocations": [
+          "Communal Recharging Stations",
+          "Data-Exchange Nodes",
+          "Automated Entertainment Theaters (showing historical data streams)",
+          "Cog-Taverns (serving refined lubricants)",
+          "Public Maintenance Depots",
+          "Archives of Logic and Lore"
+        ]
+      },
+      {
+        "name": "The Deep Dark",
+        "hourStart": 23,
+        "hourEnd": 24,
+        "atmosphere": "A profound quiet descends. The air is cool and still, save for the occasional distant metallic clang or the whir of a patrol bot. The world is a canvas of deep shadows and sparse, artificial light, emphasizing the vast, empty spaces between the glowing industrial centers. A feeling of isolation and the omnipresent, slow decay.",
+        "npcActivity": "Essential night-watch bots continue patrols. Automated security systems are at peak alert. Most non-essential bots are in deep recharge or standby. Emergency response units are on high alert. Only highly specialized 'Dark-Ops' bots might be active, performing clandestine tasks.",
+        "openLocations": [
+          "High-Security Vaults",
+          "Emergency Response Centers",
+          "Power Regulators",
+          "Automated Defense Grids",
+          "Essential Cooling Plants",
+          "Isolated Research Labs"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "status": "ready",
+    "cover": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/cover.jpg",
+    "portraits": {
+      "chief_circuit_engineer_alpha_7": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-chief_circuit_engineer_alpha_7.jpg",
+      "unit_lum_22": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_lum_22.jpg",
+      "unit_ggr_31": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_ggr_31.jpg",
+      "unit_scr_01": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_scr_01.jpg",
+      "unit_arc_07": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_arc_07.jpg",
+      "unit_tco_42": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_tco_42.jpg",
+      "unit_fab_12": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_fab_12.jpg",
+      "unit_rcl_03": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_rcl_03.jpg",
+      "unit-sat-05": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit-sat-05.jpg",
+      "unit_ggr_32": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_ggr_32.jpg",
+      "unit_dp_02": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_dp_02.jpg",
+      "unit_cct_01": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_cct_01.jpg"
+    },
+    "scenes": {
+      "grand_cogsworth_plaza": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-grand_cogsworth_plaza.jpg",
+      "chronos_spire_residences": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-chronos_spire_residences.jpg",
+      "the_archivum_mechanica": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-the_archivum_mechanica.jpg",
+      "perpetual_motion_market": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-perpetual_motion_market.jpg",
+      "actuator_alley": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-actuator_alley.jpg",
+      "grime_gear_tavern": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-grime_gear_tavern.jpg",
+      "scrappers_junkyard": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-scrappers_junkyard.jpg",
+      "rust_belt_encampment": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-rust_belt_encampment.jpg",
+      "chapel_of_eternal_spark": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-chapel_of_eternal_spark.jpg",
+      "automated_waste_processing_plant": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/loc-automated_waste_processing_plant.jpg"
+    },
+    "generatedAt": "2026-05-22T21:06:05.645Z",
+    "swimwearPortraits": {
+      "chief_circuit_engineer_alpha_7": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-chief_circuit_engineer_alpha_7-swimwear.jpg",
+      "unit_lum_22": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_lum_22-swimwear.jpg",
+      "unit_ggr_31": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_ggr_31-swimwear.jpg",
+      "unit_scr_01": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_scr_01-swimwear.jpg",
+      "unit_tco_42": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_tco_42-swimwear.jpg",
+      "unit_rcl_03": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/npc-unit_rcl_03-swimwear.jpg"
+    },
+    "panelBackgrounds": {
+      "geography": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/panel-geography.jpg",
+      "economy": "/generated/a31d312c-54b8-459e-90fb-bb366db98f91/panel-economy.webp"
+    },
+    "panelBackgroundSources": {
+      "geography": {
+        "kind": "duckduckgo",
+        "query": "1920 world where only robots exist and the sun is dying film still movie scene",
+        "sourceUrl": "http://media2.foxnews.com/BrightCove/694940094001/2016/06/09/694940094001_4933007794001_b8cd49f3-42e7-4e4d-98ba-37095a8374e6.jpg",
+        "fetchedAt": "2026-05-24T21:07:06Z"
+      },
+      "economy": {
+        "kind": "duckduckgo",
+        "query": "1920 world where only robots exist and the sun is dying film still movie scene",
+        "sourceUrl": "https://external-preview.redd.it/1920s-ai-robot-archives-video-to-video-runway-gen-1-v0-Ymo5OHF2bmdrMjJiMShLFnRmlLrmTMN49TgK2gg4cAah7Ec33Xe5TzyWDvlG.png?format=pjpg&auto=webp&s=a7356030203ea092135d98532aad16953edb6139",
+        "fetchedAt": "2026-05-24T21:07:06Z"
+      }
+    }
+  },
+  "currentDate": "1985-07-15",
+  "currentTime": 17,
+  "currentWeather": {
+    "condition": "fog",
+    "intensity": "heavy",
+    "temperatureC": 8,
+    "wind": "restless wind",
+    "visibility": "near whiteout visibility",
+    "precipitation": "mist",
+    "thunder": false,
+    "lightning": false,
+    "mood": "muted and damp",
+    "effects": [
+      "distant figures are hard to recognise"
+    ],
+    "changedAt": "1985-07-15 16:00"
+  },
+  "questPool": [
+    {
+      "id": "seed-a31d312c-54b8-459e-90fb-bb366db98f91-1",
+      "title": "The Hidden Witness: 1920 world where only robots exist and the sun is dying",
+      "teaser": "Alpha-Unit Designation: 7 has a thread that can become a global quest.",
+      "status": "available",
+      "difficulty": "easy",
+      "worldId": "a31d312c-54b8-459e-90fb-bb366db98f91",
+      "worldName": "1920 world where only robots exist and the sun is dying",
+      "giverNpcId": "chief_circuit_engineer_alpha_7",
+      "giverNpcName": "Alpha-Unit Designation: 7",
+      "locationId": "automated_waste_processing_plant",
+      "locationName": "Automated Waste Processing Plant",
+      "unlockRule": {
+        "kind": "meet_giver",
+        "label": "Meet Alpha-Unit Designation: 7"
+      },
+      "createdAt": "2026-04-26T21:49:59.498Z"
+    },
+    {
+      "id": "seed-a31d312c-54b8-459e-90fb-bb366db98f91-2",
+      "title": "The Wrong Gift: 1920 world where only robots exist and the sun is dying",
+      "teaser": "A locked thread points toward The Grand Cogsworth Plaza.",
+      "status": "locked",
+      "difficulty": "normal",
+      "worldId": "a31d312c-54b8-459e-90fb-bb366db98f91",
+      "worldName": "1920 world where only robots exist and the sun is dying",
+      "giverNpcId": "unit_lum_22",
+      "giverNpcName": "Unit-LUM-22",
+      "locationId": "grand_cogsworth_plaza",
+      "locationName": "The Grand Cogsworth Plaza",
+      "unlockRule": {
+        "kind": "complete_quest",
+        "label": "Complete another global quest"
+      },
+      "createdAt": "2026-04-26T21:49:59.498Z"
+    },
+    {
+      "id": "seed-a31d312c-54b8-459e-90fb-bb366db98f91-3",
+      "title": "The Sealed Door: 1920 world where only robots exist and the sun is dying",
+      "teaser": "A locked thread points toward Chronos Spire Residences.",
+      "status": "locked",
+      "difficulty": "hard",
+      "worldId": "a31d312c-54b8-459e-90fb-bb366db98f91",
+      "worldName": "1920 world where only robots exist and the sun is dying",
+      "giverNpcId": "unit_ggr_31",
+      "giverNpcName": "Unit-GGR-31",
+      "locationId": "chronos_spire_residences",
+      "locationName": "Chronos Spire Residences",
+      "unlockRule": {
+        "kind": "weather",
+        "label": "Wait for the right weather"
+      },
+      "createdAt": "2026-04-26T21:49:59.498Z"
+    },
+    {
+      "id": "seed-a31d312c-54b8-459e-90fb-bb366db98f91-4",
+      "title": "The Weather Sign: 1920 world where only robots exist and the sun is dying",
+      "teaser": "A locked thread points toward The Archivum Mechanica.",
+      "status": "locked",
+      "difficulty": "easy",
+      "worldId": "a31d312c-54b8-459e-90fb-bb366db98f91",
+      "worldName": "1920 world where only robots exist and the sun is dying",
+      "giverNpcId": "unit_scr_01",
+      "giverNpcName": "Unit-SCR-01",
+      "locationId": "the_archivum_mechanica",
+      "locationName": "The Archivum Mechanica",
+      "unlockRule": {
+        "kind": "strange_possession",
+        "label": "Carry a strange possession"
+      },
+      "createdAt": "2026-04-26T21:49:59.498Z"
+    }
+  ]
+}

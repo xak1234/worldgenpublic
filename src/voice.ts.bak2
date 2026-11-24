@@ -1,0 +1,363 @@
+/**
+ * NPC Voice Engine
+ * Uses Mistral's free-tier API for dialogue generation dedicated to NPC chat.
+ * Uses Mistral Voxtral TTS for server-side speech synthesis.
+ */
+
+import { llmText } from './llm.js';
+import type { WorldNPC, VoiceProfile } from './types.js';
+
+const TTS_MODEL = 'voxtral-mini-tts-2603';
+
+const VOICE_PROVIDER = process.env.VOICE_PROVIDER ?? 'mistral';
+const VOICE_MODEL = process.env.VOICE_MODEL ?? 'mistral-small-latest';
+const MISTRAL_VOICE_CACHE_MS = 5 * 60 * 1000;
+
+// WorldGen NPC voice set — public-domain LibriVox clones, audited gender/age
+// (POST /v1/audio/voices 2026-05-17; gender/age set per record on the account).
+// Env MISTRAL_VOX_*_VOICE_IDS still overrides these defaults if set.
+const DEFAULT_MISTRAL_VOX_VOICE_IDS = [
+  'cd4415c7-1f0f-4420-a846-ccb8685574cf', // lv_armageddon  M 42
+  '46c43b3d-ff1f-4ad1-952f-b2d1c82c6095', // lv_invisible   M 36
+  'f027242c-5b74-4ec4-97df-4554106f431b', // lv_oz          M 29
+  '3225beb1-f56e-4b81-aae2-3e7ad784a318', // lv_anne        F 19
+  '2315203e-0fa9-4f60-861e-7b5aaaebd400', // lv_princess    F 23
+  '3c7a8392-2c2a-49c1-a4ce-e0da9e6a383e', // lv_garden      F 27
+  '2b7169eb-3605-49c4-844c-a1673ca81df1', // lv_wives       F 28
+  'ebddbbc5-856e-477c-801a-9648bfe22afc', // lv_custom      F 30
+  'd3ecb14a-45fd-4c3e-aa66-fe207ba42b44', // lv_wuthering   F 48
+];
+
+const DEFAULT_MISTRAL_VOX_FEMALE_VOICE_IDS = [
+  '3225beb1-f56e-4b81-aae2-3e7ad784a318', // lv_anne        F 19
+  '2315203e-0fa9-4f60-861e-7b5aaaebd400', // lv_princess    F 23
+  '3c7a8392-2c2a-49c1-a4ce-e0da9e6a383e', // lv_garden      F 27
+  '2b7169eb-3605-49c4-844c-a1673ca81df1', // lv_wives       F 28
+  'ebddbbc5-856e-477c-801a-9648bfe22afc', // lv_custom      F 30
+  'd3ecb14a-45fd-4c3e-aa66-fe207ba42b44', // lv_wuthering   F 48
+];
+
+const DEFAULT_MISTRAL_VOX_MALE_VOICE_IDS = [
+  'cd4415c7-1f0f-4420-a846-ccb8685574cf', // lv_armageddon  M 42
+  '46c43b3d-ff1f-4ad1-952f-b2d1c82c6095', // lv_invisible   M 36
+  'f027242c-5b74-4ec4-97df-4554106f431b', // lv_oz          M 29
+];
+
+interface MistralVoice {
+  id: string;
+  name?: string;
+  gender?: string | null;
+  languages?: string[];
+  tags?: string[] | null;
+}
+
+let mistralVoicesCache: { voices: MistralVoice[]; expiresAt: number } | null = null;
+const invalidMistralVoiceIds = new Set<string>();
+
+export interface VoiceChatRequest {
+  system: string;
+  user: string;
+  maxTokens?: number;
+  temperature?: number;
+}
+
+export async function voiceChat(req: VoiceChatRequest): Promise<string> {
+  return llmText({
+    system: req.system,
+    user: req.user,
+    maxTokens: req.maxTokens ?? 256,
+    temperature: req.temperature ?? 0.9,
+    provider: VOICE_PROVIDER,
+    model: VOICE_MODEL,
+  });
+}
+
+export function deriveVoiceProfile(npc: WorldNPC): VoiceProfile {
+  if (npc.voiceProfile) return npc.voiceProfile;
+
+  const age = npc.age;
+  const gender = inferGender(npc.gender);
+  const ageCategory = age < 25 ? 'young' : age < 55 ? 'middle' : 'old';
+
+  let pitch = 1.0;
+  let rate = 1.0;
+  let timbre = 'clear';
+
+  // Pitch based on gender and age
+  if (gender === 'female') {
+    pitch = ageCategory === 'young' ? 1.3 : ageCategory === 'middle' ? 1.15 : 1.0;
+  } else if (gender === 'male') {
+    pitch = ageCategory === 'young' ? 1.0 : ageCategory === 'middle' ? 0.85 : 0.75;
+  } else {
+    pitch = 1.0;
+  }
+
+  // Rate from speech patterns
+  const patterns = npc.speechPatterns.join(' ').toLowerCase();
+  if (/short|clipped|curt|terse/.test(patterns)) rate = 1.15;
+  else if (/drawl|slow|deliberate|measured/.test(patterns)) rate = 0.8;
+  else if (/rapid|fast|excitable|nervous/.test(patterns)) rate = 1.25;
+  else if (/rambling|winding|long/.test(patterns)) rate = 0.9;
+
+  // Timbre from voice anchor and traits
+  const anchor = npc.voiceAnchor.toLowerCase();
+  const traits = npc.traits.join(' ').toLowerCase();
+  if (/gravel|rough|rasp|hoarse/.test(anchor)) timbre = 'gravelly';
+  else if (/breath|soft|whisper|quiet/.test(anchor)) timbre = 'breathy';
+  else if (/nasal|whine|thin/.test(anchor)) timbre = 'nasal';
+  else if (/boom|loud|deep|resonant/.test(anchor)) timbre = 'deep';
+  else if (/musical|sing|lilt/.test(anchor)) timbre = 'melodic';
+  else if (/sharp|precise|crisp/.test(anchor)) timbre = 'crisp';
+
+  // Accent from occupation/class/traits
+  let accent: string | undefined;
+  if (/farmer|rural|country|field/.test(npc.occupation.toLowerCase() + ' ' + traits)) accent = 'rural';
+  else if (/noble|lord|lady|scholar|professor/.test(npc.occupation.toLowerCase())) accent = 'formal';
+  else if (/dock|sailor|ship|sea/.test(npc.occupation.toLowerCase() + ' ' + traits)) accent = 'dockside';
+  else if (/merchant|trade|shop/.test(npc.occupation.toLowerCase())) accent = 'mercantile';
+
+  return { pitch, rate, gender, age: ageCategory, timbre, accent };
+}
+
+function inferGender(genderStr: string): 'male' | 'female' | 'neutral' {
+  const g = genderStr.toLowerCase();
+  if (/^(m|male|man|boy)/.test(g)) return 'male';
+  if (/^(f|female|woman|girl)/.test(g)) return 'female';
+  return 'neutral';
+}
+
+export async function generateVoiceDialogue(
+  npc: WorldNPC,
+  systemPrompt: string,
+  userPrompt: string,
+  temperature?: number,
+): Promise<{ text: string; voiceProfile: VoiceProfile }> {
+  try {
+    const text = await voiceChat({
+      system: systemPrompt,
+      user: userPrompt,
+      maxTokens: 256,
+      temperature: temperature ?? 0.9,
+    });
+
+    return {
+      text,
+      voiceProfile: deriveVoiceProfile(npc),
+    };
+  } catch (err) {
+    console.error('[voice] LLM call failed:', err);
+    return { text: '', voiceProfile: deriveVoiceProfile(npc) };
+  }
+}
+
+export function getVoiceConfig() {
+  return {
+    provider: VOICE_PROVIDER,
+    model: VOICE_MODEL,
+    available: Boolean(process.env.MISTRAL_API_KEY),
+    ttsModel: TTS_MODEL,
+  };
+}
+
+export async function selectVoxVoice(profile: VoiceProfile, seed?: string): Promise<string> {
+  const configured = selectConfiguredVoxVoice(profile, seed);
+  if (configured && !invalidMistralVoiceIds.has(configured)) return configured;
+
+  const voices = await listMistralVoices();
+  const gender = profile.gender ?? 'neutral';
+  const available = voices.filter(voice => !invalidMistralVoiceIds.has(voice.id));
+  const gendered = gender === 'neutral'
+    ? available
+    : available.filter(voice => (voice.gender ?? '').toLowerCase() === gender);
+  const pool = gendered.length ? gendered : available;
+  if (!pool.length) {
+    throw new Error('No Mistral Vox voices available. Create voices with /v1/audio/voices or set MISTRAL_VOX_VOICE_IDS.');
+  }
+  return pool[stableIndex(`${gender}:${seed ?? 'fallback'}`, pool.length)].id;
+}
+
+function selectConfiguredVoxVoice(profile: VoiceProfile, seed?: string): string | undefined {
+  const gender = profile.gender ?? 'neutral';
+  const male = parseVoiceIds(process.env.MISTRAL_VOX_MALE_VOICE_IDS, DEFAULT_MISTRAL_VOX_MALE_VOICE_IDS);
+  const female = parseVoiceIds(process.env.MISTRAL_VOX_FEMALE_VOICE_IDS, DEFAULT_MISTRAL_VOX_FEMALE_VOICE_IDS);
+  const neutral = parseVoiceIds(process.env.MISTRAL_VOX_VOICE_IDS, DEFAULT_MISTRAL_VOX_VOICE_IDS);
+  const pool = gender === 'female'
+    ? [...female, ...neutral]
+    : gender === 'male'
+      ? [...male, ...neutral]
+      : [...neutral, ...male, ...female];
+  if (!pool.length) return undefined;
+  return pool[stableIndex(`${gender}:${seed ?? 'fallback'}`, pool.length)];
+}
+
+function parseVoiceIds(value: string | undefined, fallback: string[] = []): string[] {
+  const parsed = (value ?? '')
+    .split(/[,\s]+/)
+    .map(id => id.trim())
+    .filter(Boolean);
+  return parsed.length ? parsed : fallback;
+}
+
+async function listMistralVoices(): Promise<MistralVoice[]> {
+  if (mistralVoicesCache && mistralVoicesCache.expiresAt > Date.now()) return mistralVoicesCache.voices;
+  const key = process.env.MISTRAL_API_KEY;
+  if (!key) return [];
+
+  const res = await fetch('https://api.mistral.ai/v1/audio/voices?limit=100', {
+    headers: { 'Authorization': `Bearer ${key}` },
+  });
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw new Error(`Mistral voices ${res.status}: ${body.slice(0, 200)}`);
+  }
+  const data = await res.json() as { items?: MistralVoice[] };
+  const voices = Array.isArray(data.items) ? data.items.filter(voice => voice.id) : [];
+  mistralVoicesCache = { voices, expiresAt: Date.now() + MISTRAL_VOICE_CACHE_MS };
+  return voices;
+}
+
+function stableIndex(input: string, length: number): number {
+  return stableHash(input) % length;
+}
+
+function stableHash(input: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < input.length; i++) {
+    h ^= input.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+export function extractSpokenTtsText(text: string): string {
+  const source = text.trim();
+  if (!source) return '';
+
+  const quoted = Array.from(source.matchAll(/["“]([^"”]{2,}?)["”]/g))
+    .map(match => match[1].trim())
+    .filter(Boolean);
+  const base = quoted.length ? quoted.join(' ') : source;
+
+  const withoutStageDirections = base
+    .replace(/\[[^\]]*]/g, ' ')
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\*[^*]*\*/g, ' ')
+    .replace(/_{1,2}[^_]+_{1,2}/g, ' ')
+    .replace(/^\s*[A-Z][\w '’-]{0,40}:\s*/gm, '');
+
+  const sentences = withoutStageDirections
+    .split(/(?<=[.!?])\s+|\n+/)
+    .map(part => part.trim())
+    .filter(Boolean)
+    .filter(part => !isLikelyNarrationOrAction(part));
+
+  const spoken = (sentences.length ? sentences.join(' ') : withoutStageDirections)
+    .replace(/[#_~`>]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return spoken;
+}
+
+function isLikelyNarrationOrAction(sentence: string): boolean {
+  const s = sentence
+    .replace(/^[-–—\s]+/, '')
+    .trim()
+    .toLowerCase();
+  if (!s) return true;
+  if (/^(he|she|they|the npc|the man|the woman|the boy|the girl|[a-z][\w'’-]+)\s+(looks?|glances?|nods?|shakes?|smiles?|laughs?|sighs?|shrugs?|turns?|steps?|walks?|sits?|stands?|leans?|reaches?|takes?|puts?|sets?|folds?|rubs?|wipes?|stares?|watches?|gestures?|points?|raises?|lowers?|pauses?|hesitates?|goes quiet|falls silent)\b/.test(s)) {
+    return true;
+  }
+  if (/^i\s+(look|glance|nod|shake|smile|laugh|sigh|shrug|turn|step|walk|sit|stand|lean|reach|take|put|set|fold|rub|wipe|stare|watch|gesture|point|raise|lower|pause|hesitate|go quiet|fall silent)\b/.test(s)) {
+    return true;
+  }
+  if (/^(nods?|shrugs?|sighs?|smiles?|laughs?|looks?|glances?|pauses?|hesitates?|silence)\b/.test(s)) {
+    return true;
+  }
+  return false;
+}
+
+interface TtsFetchResult {
+  audioData: string;
+  voiceId: string;
+}
+
+class MistralTtsError extends Error {
+  constructor(
+    public readonly status: number,
+    public readonly body: string,
+  ) {
+    super(`Mistral TTS ${status}: ${body.slice(0, 200)}`);
+  }
+}
+
+export async function synthesizeSpeech(
+  text: string,
+  voiceId: string,
+): Promise<TtsFetchResult> {
+  const key = process.env.MISTRAL_API_KEY;
+  if (!key) throw new Error('MISTRAL_API_KEY required for TTS');
+
+  const cleaned = extractSpokenTtsText(text);
+  if (!cleaned) throw new Error('Empty text after cleanup');
+
+  const candidates = await ttsVoiceCandidates(voiceId);
+  let lastErr: unknown = null;
+  for (const candidate of candidates) {
+    try {
+      return await requestMistralSpeech(key, cleaned, candidate);
+    } catch (err: any) {
+      lastErr = err;
+      if (err instanceof MistralTtsError && err.status === 404 && /voice/i.test(err.body)) {
+        invalidMistralVoiceIds.add(candidate);
+        mistralVoicesCache = null;
+        continue;
+      }
+      throw err;
+    }
+  }
+  throw lastErr ?? new Error('No usable Mistral TTS voice found');
+}
+
+async function ttsVoiceCandidates(primaryVoiceId: string): Promise<string[]> {
+  const ids: string[] = [];
+  const add = (id: string | undefined) => {
+    if (id && !invalidMistralVoiceIds.has(id) && !ids.includes(id)) ids.push(id);
+  };
+  add(primaryVoiceId);
+  try {
+    const voices = await listMistralVoices();
+    voices.forEach(voice => add(voice.id));
+  } catch {
+    [
+      ...DEFAULT_MISTRAL_VOX_MALE_VOICE_IDS,
+      ...DEFAULT_MISTRAL_VOX_FEMALE_VOICE_IDS,
+    ].forEach(add);
+  }
+  return ids;
+}
+
+async function requestMistralSpeech(key: string, cleaned: string, voiceId: string): Promise<TtsFetchResult> {
+  const res = await fetch('https://api.mistral.ai/v1/audio/speech', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${key}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: TTS_MODEL,
+      input: cleaned.slice(0, 1200),
+      voice_id: voiceId,
+      response_format: 'mp3',
+    }),
+  });
+
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw new MistralTtsError(res.status, body);
+  }
+
+  const data = await res.json() as { audio_data?: string };
+  if (!data.audio_data) throw new Error('No audio_data in TTS response');
+  return { audioData: data.audio_data, voiceId };
+}

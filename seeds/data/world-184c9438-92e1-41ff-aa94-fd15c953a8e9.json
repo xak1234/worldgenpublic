@@ -1,0 +1,2095 @@
+{
+  "id": "184c9438-92e1-41ff-aa94-fd15c953a8e9",
+  "concept": "Andromeda Year 3000 , humans live on a small moon called Cheese",
+  "createdAt": "2026-04-27T19:42:33.928Z",
+  "provider": "gemini",
+  "era": {
+    "period": "Andromeda Colonization - Caseus Minor Settlement",
+    "yearStart": 3000,
+    "yearEnd": 3050,
+    "dateFormat": "DD.MM.AYY (Day.Month.Andromeda Year)",
+    "majorWorldEvents": [
+      "The Great Sickness (AY 2995): A devastating fungal blight that nearly wiped out the early colony, leading to strict bio-security protocols.",
+      "Lactarium Bloom (AY 3008): Discovery of a super-strain of edible fungus, stabilizing the colony's food supply and economy.",
+      "The Void Whisper Incident (AY 3022): A period of mass paranoia and hallucinations attributed to a rogue deep-space signal, leading to increased isolation.",
+      "First Surface-Harvest (AY 3035): A dangerous but successful extraction of rare surface minerals, boosting the colony's tech resources."
+    ]
+  },
+  "geography": {
+    "region": "Andromeda Sector 4",
+    "country": "Caseus Minor Colony",
+    "climate": "Controlled Subterranean Biomes, Surface is Vacuum/Extreme Cold",
+    "terrain": "Deep crater systems, extensive underground 'Lactarium' fungus farms, exposed mineral-rich rock formations, the surface is a desolate vacuum occasionally revealing natural, cheese-like rock formations and large bioluminescent fungal blooms (when viewed remotely).",
+    "scale": "neighbourhood",
+    "landmarks": [
+      "The Great Arc Dome: The primary, self-sustaining habitat where most colonists live.",
+      "The Lactarium: Vast, humid underground caverns dedicated to fungal cultivation and processing.",
+      "The Spoke Hub: Central transport nexus connecting different sections of the Arc Dome.",
+      "The Core Tower: Administrative and control center, housing the Core Council.",
+      "The Surface Lift: The sole safe access point to the harsh lunar surface."
+    ]
+  },
+  "culture": {
+    "language": "Standard GalCom English (SGE)",
+    "dialect": "Cheesian Glide: People speak with a flattened 'a' sound (e.g., 'crabe' for 'crab'), often drop 'h's and 'g's at the end of words ('goin'' for 'going'). The cadence is slightly melancholic, with words drawn out, reflecting the isolation and slow pace of life. 'Ain't' is common, 'ya' for 'you', and sentences often end with a questioning lilt, even when making a statement.",
+    "slang": {
+      "Glow-worm": "A new arrival from off-world, still naive or overly optimistic.",
+      "Crate": "A small, cramped living unit or personal habitat.",
+      "Void-gazer": "Someone prone to staring out at the vacuum, seen as a bit mad or depressed.",
+      "Mould-eater": "Someone from the lowest social class, especially those working in the Lactarium.",
+      "Stellar-dust": "Generic term for trouble, bad luck, or unwanted complications. 'Ran into some stellar-dust today.'",
+      "Synth-brew": "Low-quality, mass-produced synthetic alcohol.",
+      "Gravity-sick": "Feeling nauseous, disoriented, or overwhelmed, often from stress or Synth-brew.",
+      "Core-runner": "A transport pilot, often implying recklessness or speed.",
+      "Dome-head": "Someone obsessed with off-world news or surface tech, neglecting local matters.",
+      "Lact-rat": "A mischievous child or a small pest found near the Lactarium.",
+      "Zero-gee": "Feeling lightheaded, dizzy, or out of touch with reality.",
+      "Moon-melt": "A rare, particularly potent strain of fermented fungal cheese, often illicit.",
+      "Rock-skin": "A hardened, old colonist, resistant to change or new ideas.",
+      "Flare-up": "A sudden argument, temper tantrum, or system malfunction.",
+      "Sky-shine": "Hope, good fortune, or a moment of clarity."
+    },
+    "greetings": [
+      "Clear skies.",
+      "How's your gravity?",
+      "Steady, then.",
+      "Any good scans?",
+      "Still breathin'?",
+      "Warm in your crate?"
+    ],
+    "socialClasses": [
+      {
+        "name": "Core Citizens",
+        "description": "Descendants of the original engineers, scientists, and administrators. They hold the highest positions, control crucial technology, and make major decisions for the colony. They often maintain a more 'standard' GalCom accent.",
+        "occupations": [
+          "Core Engineer",
+          "Council Member",
+          "Lead Bio-Scientist",
+          "Head of Security"
+        ],
+        "typicalLocations": [
+          "The Core Tower",
+          "Upper Arc Dome residential sectors",
+          "Exclusive Comm-Nodes"
+        ],
+        "mannerisms": "Speak with precise, measured tones. Maintain a composed, sometimes detached demeanor. Tend to gesture subtly with their hands. Often wear clean, tailored synth-fabrics."
+      },
+      {
+        "name": "Dome Dwellers",
+        "description": "The majority population. Skilled laborers, technicians, traders, and service providers who keep the colony running. They are pragmatic and community-oriented, forming the backbone of Caseus Minor.",
+        "occupations": [
+          "Maintenance Tech",
+          "Spoke-Carrier Driver",
+          "Trader",
+          "Habitat Constructor",
+          "Comm-Node Operator"
+        ],
+        "typicalLocations": [
+          "Mid-ring residential sectors",
+          "Spoke Hub",
+          "Synth-Brew Halls",
+          "Public markets"
+        ],
+        "mannerisms": "More expressive in conversation, using hands and facial expressions freely. Tend to be direct and somewhat gossipy. Dress in durable, multi-pocketed work suits and practical attire."
+      },
+      {
+        "name": "Sub-Crawlers",
+        "description": "Those working in the most arduous and essential roles, primarily in the Lactarium or waste processing. They live in the outer, less desirable sectors, often in cramped conditions. They are resilient and clannish.",
+        "occupations": [
+          "Lactarium Harvester",
+          "Reclaim-Tech",
+          "Mineral Extractor",
+          "Waste Processor"
+        ],
+        "typicalLocations": [
+          "The Lactarium caverns",
+          "Outer crate clusters",
+          "Reclaim-Stations"
+        ],
+        "mannerisms": "Often speak in thick, mumbled Cheesian Glide, sometimes avoiding eye contact. Movements can be slow and deliberate from their work. Wear rough, often stained protective gear."
+      },
+      {
+        "name": "Void-Scavs",
+        "description": "An independent, often solitary class who operate small ships for external salvage, exploration, and illicit trade. They are viewed with a mix of suspicion and admiration for their daring. They exist on the fringes of settled society.",
+        "occupations": [
+          "Void-Skiff Pilot",
+          "Surface Prospector",
+          "Deep-Space Trader"
+        ],
+        "typicalLocations": [
+          "The Surface Lift launch bays",
+          "Fringe comm-nodes for remote contact",
+          "Isolated docking stations"
+        ],
+        "mannerisms": "Tend to be quiet and observant, but can be boisterous when relaxed. Often carry specialized tools or wear worn, patched void-suits. Value self-reliance above all else."
+      }
+    ],
+    "religion": "The Great Filter: A quasi-scientific, quasi-spiritual belief system. It posits that humanity is continually tested by cosmic forces and resource scarcity, and survival on Caseus Minor is one such 'filter' to prove humanity's worth. There are no formal clergy, but elders and respected scientists often interpret 'signs' and guide the community.",
+    "customs": [
+      "Gravity Check: A brief, silent moment of reflection or deep breath taken upon entering a new, significantly different area or before starting a complex task.",
+      "Lactarium Offering: Leaving a small piece of edible fungus or a nutrient pellet at designated 'growth points' within the Lactarium for continued abundance and good harvests.",
+      "Dome-Day Feast: Once per orbital cycle, a communal meal and celebration within the Great Arc Dome, commemorating its integrity and the community's resilience.",
+      "Void-Watching: Gazing at the stars and vacuum through reinforced windows or special void-gazer tech, especially during personal crises, for perspective and reflection.",
+      "Core Exchange: Daily ritual of sharing vital information, trade opportunities, or local gossip in designated communal hubs, often over a Synth-Brew.",
+      "Scrap-Sharing: Among close-knit groups, trading useful salvage or spare parts is preferred over direct currency exchange, fostering community bonds."
+    ],
+    "taboos": [
+      "Discussing 'The Great Sickness' openly or in detail, as it evokes deep trauma.",
+      "Openly questioning the authority or decisions of the 'Core Council' in public forums.",
+      "Wasting resources, especially water or oxygen, is a grave social transgression.",
+      "Speaking ill of the Lactarium or its produce, regardless of personal opinion.",
+      "Expressing a desire to 'return to Earth' as it implies abandoning the colony and its struggles.",
+      "Displaying excessive individualism or self-interest at the expense of communal well-being."
+    ],
+    "music": "Astro-Folk: A genre characterized by melancholic synth-ballads, often featuring a twangy, plucked string instrument sound (synth-banjo or synth-lute). Lyrics narrate tales of space, isolation, lost Earth, colonial struggles, and the quiet joys of communal life. Often performed in Synth-Brew Halls or during Dome-Day Feasts.",
+    "food": [
+      "Fungus Loaf: The staple bread-like item, made from processed and fortified Lactarium fungi, often dense and earthy.",
+      "Synth-Cheese Patties: Processed protein patties, often served grilled or fried, designed to mimic meat/cheese textures.",
+      "Algae Mash: A green, nutrient-rich paste, often flavored with synthetic spices to make it palatable.",
+      "Reclaim-Stew: A hearty, thick stew made from whatever processed nutrients and available fungal components can be salvaged, a common and filling meal.",
+      "Glow-Cap Stir-fry: A slightly more exotic dish utilizing bioluminescent fungi, offering a unique flavor and visual appeal.",
+      "Nutri-Bars: Standard, compact ration bars for quick meals or emergency sustenance, available in various flavors."
+    ],
+    "entertainment": [
+      "Arcade-Sims: Old-school holographic simulations of vanished Earth environments (forests, oceans, bustling cities) providing an escape.",
+      "Synth-Brew Halls: Primary social gathering spots for drinking, gossiping, playing card games, and listening to Astro-Folk.",
+      "Star-Gazing (Simulated): Using specialized 'void-gazer' tech to project detailed star charts and nebulae onto dome ceilings, offering a sense of cosmic connection.",
+      "Storytelling Cycles: Elders and respected individuals recounting colony history, myths, and personal anecdotes, passing down cultural heritage.",
+      "Zero-G Ball: A popular, low-gravity sport played in a specialized chamber, requiring agility and teamwork.",
+      "Archive-Reel Nights: Communal viewing of historical data-reels, documentaries, or pre-colonization Earth media."
+    ],
+    "genderRoles": "Relatively egalitarian due to the harsh realities and necessity of communal survival on the moon. Everyone is expected to contribute to the colony's operation. While traditional 'caregiver' roles might often fall to women and 'heavy labor' or 'command' roles to men, exceptions are common and accepted based on skill and aptitude rather than strict gender. Competence is paramount.",
+    "socialNorms": [
+      "Always acknowledge someone's presence and contribution, no matter how small; ignoring someone is a major slight.",
+      "Never refuse a shared meal or a Synth-Brew, even if it's just basic Fungus Loaf; it's a gesture of community.",
+      "Keep your personal crate and shared spaces clean and orderly; disarray is seen as a lack of respect for communal resources.",
+      "Do not hog comm-band-width for frivolous personal chatter during peak operational hours.",
+      "Offer assistance if you see someone struggling with heavy lifting, repairs, or a difficult task without being asked.",
+      "Respect the privacy and solitude of 'void-gazers' when they are lost in thought or gazing outward."
+    ]
+  },
+  "economy": {
+    "currency": "Credit Chips",
+    "symbol": "C¤",
+    "averageDailyWage": 75,
+    "prices": {
+      "Fungus Loaf": 5,
+      "Synth-Cheese Patty": 8,
+      "Algae Mash (serving)": 4,
+      "Nutri-Bar (basic)": 3,
+      "Synth-Brew (small mug)": 10,
+      "Comm-Bandwidth (1 hour)": 15,
+      "Basic Worksuit (new)": 300,
+      "Crate Rent (monthly - small)": 800,
+      "Power Cell (standard)": 50,
+      "Repair Kit (basic)": 120,
+      "Void-Gazer Sim (1 hour)": 25,
+      "Fungus-seed (rare strain)": 200,
+      "Synth-Spice Packet": 15
+    },
+    "jobs": [
+      {
+        "title": "Lactarium Harvester",
+        "pay": 50,
+        "hours": "10-12 hrs/day, 6 days/week",
+        "socialClass": "Sub-Crawlers",
+        "description": "Cultivates, monitors, and harvests fungal crops within the humid, dimly lit Lactarium caverns. Grueling, often solitary work requiring physical stamina and knowledge of fungal cycles."
+      },
+      {
+        "title": "Maintenance Tech",
+        "pay": 80,
+        "hours": "8 hrs/day, 5 days/week (on-call)",
+        "socialClass": "Dome Dwellers",
+        "description": "Repairs and maintains vital environmental systems, power grids, habitat structures, and automated transport within the Arc Dome. Requires technical skill and reliability."
+      },
+      {
+        "title": "Core Engineer",
+        "pay": 150,
+        "hours": "6-8 hrs/day, 5 days/week (high responsibility)",
+        "socialClass": "Core Citizens",
+        "description": "Oversees and optimizes critical life support, energy production, primary data networks, and defense systems from the Core Tower. High stress, high responsibility."
+      },
+      {
+        "title": "Void-Skiff Pilot",
+        "pay": "100-500 per run (variable, risk-dependent)",
+        "hours": "Irregular, often long shifts on solo expeditions",
+        "socialClass": "Void-Scavs",
+        "description": "Operates small, specialized craft for external salvage, mineral prospecting on the surface, or illicit deep-space bartering runs. High risk, potentially high reward."
+      }
+    ],
+    "blackMarket": "Reclaimed Earth artifacts (precious metals, antique data-pads, rare seeds), restricted comm-frequencies for private communications, high-grade stimulants, genuine 'Void-Whiskey' (illegally distilled potent alcohol), advanced tech components, and off-world contraband."
+  },
+  "law": {
+    "system": "Colonial Council Law, administered by the Core Council and enforced by the Dome Authority.",
+    "enforcers": "Dome Wardens (uniformed security responsible for internal order, patrols, and minor infractions) and Core Marshals (elite force handling critical infrastructure, major crimes, and off-world liaison).",
+    "corruption": 35,
+    "vices": [
+      "Synth-Brew addiction",
+      "Illegal comm-band usage (listening to restricted frequencies or broadcasting without authorization)",
+      "Minor resource theft (siphoning power, hoarding water)",
+      "Gambling on Zero-G Ball",
+      "Unauthorized void-scavving (operating outside official permits)",
+      "Smuggling of off-world goods"
+    ],
+    "consequences": "Minor infractions result in resource rationing, public shaming (social ostracism), or forced labor (Lactarium duty). Moderate offenses lead to confinement in 'Re-orientation Cells' and heavy fines. Severe crimes, particularly those endangering the colony, can result in 'Void Exile' (banishment to a desolate surface outpost or off-moon without return)."
+  },
+  "weather": {
+    "seasons": [
+      {
+        "name": "High Cycle",
+        "months": [
+          1,
+          2,
+          3
+        ],
+        "weather": "Increased internal temperature fluctuations, higher energy output from solar collectors.",
+        "atmosphere": "Vibrant and busy. People are more active, social, and engaged in planning new projects.",
+        "npcBehaviourShift": "NPCs are more outgoing, likely to initiate conversations, engage in leisure activities, and feel generally optimistic."
+      },
+      {
+        "name": "Mid-Drift",
+        "months": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "weather": "Stable internal environment, consistent energy levels, occasional minor seismic tremors.",
+        "atmosphere": "Calm and routine. Life is steady, focusing on work and established social patterns.",
+        "npcBehaviourShift": "NPCs maintain their routines, focused on daily tasks, but still open to social interaction. Gossip tends to flow freely."
+      },
+      {
+        "name": "Low-Flux",
+        "months": [
+          8,
+          9,
+          10
+        ],
+        "weather": "Colder internal temperatures, reduced energy input, increased dampness in lower levels.",
+        "atmosphere": "Tense and frugal. Resource conservation is key; people are more reserved and focused on survival.",
+        "npcBehaviourShift": "NPCs are more withdrawn, prone to grumbling, and focus on conserving personal resources. Social interactions might be shorter or more practical."
+      },
+      {
+        "name": "Deep Void",
+        "months": [
+          11,
+          12
+        ],
+        "weather": "Minimal external light/energy, severe internal cold spots, occasional minor system failures.",
+        "atmosphere": "Eerie, quiet, and reflective. A time for introspection and focusing on internal domestic life.",
+        "npcBehaviourShift": "NPCs are more home-bound, engaging in storytelling, repairs, or quiet contemplation. Social activity is reduced, but deeper bonds can form among those who gather."
+      }
+    ],
+    "dominantWeather": "Controlled subterranean environment with regulated temperature and humidity. The external surface is a vacuum with extreme cold, occasionally experiencing meteor showers or solar flares. Internal 'weather' is influenced by power fluctuations, leading to localized chills or excessive dampness in less maintained areas."
+  },
+  "technology": {
+    "era": "Late Andromeda Colonization (Functional, Resource-Minded)",
+    "transport": [
+      "Electric 'Spoke-Carriers': Automated tram systems running on designated tracks, connecting major sectors of the Arc Dome.",
+      "'Core-Runners': Small, agile personal shuttles used by Core Citizens and skilled technicians for rapid inter-dome travel.",
+      "'Void-Skiffs': Specialized external craft for surface exploration, salvage operations, and short-range deep-space travel."
+    ],
+    "communication": [
+      "Personal 'Wrist-Comms': Basic communicators with limited range for local, person-to-person contact.",
+      "Public 'Comm-Nodes': Centralized terminals for wider broadcasts, colony announcements, and regulated off-world contact.",
+      "Encrypted 'Deep-Space Relays': Secure, long-range communication arrays primarily used by the Core Council for official off-world liaison."
+    ],
+    "lighting": "Bioluminescent panels (derived from Lactarium fungi), energy-efficient LED strips, and holographic projectors used for mood lighting and ambiance.",
+    "media": [
+      "Curated 'Info-Streams': Official news, educational programming, and system status updates broadcast via Comm-Nodes.",
+      "'Astro-Folkcasts': Audio broadcasts of music, stories, and historical accounts, often shared in communal settings.",
+      "'Arcade-Sims': Interactive holographic simulations providing entertainment and virtual escapes to Earth-like environments.",
+      "'Archive-Reels': Digital historical documents, scientific records, and pre-colonization Earth media for educational and cultural preservation."
+    ],
+    "domesticLife": "Automated nutrient synthesizers for basic food preparation, reclaim-cycle water purifiers, smart-fabric cleaning units for clothing, and climate-controlled personal 'crates' featuring adaptable, modular furniture to maximize space."
+  },
+  "narrativeStyle": {
+    "voice": "Cheesian Colonial Melancholy",
+    "tense": "second",
+    "toneKeywords": [
+      "Melancholic",
+      "Isolated",
+      "Dialectal",
+      "Subterranean",
+      "Reflective",
+      "Weary",
+      "Lingering"
+    ],
+    "literaryInfluences": [
+      "Ray Bradbury (The Martian Chronicles)",
+      "Ursula K. Le Guin (The Dispossessed)",
+      "William Faulkner (Sound and the Fury)"
+    ],
+    "sampleParagraph": "Ya feel the cool, damp breath of the Tunnel Nine passage kissin' yer face as ya shuffle on down, ain't ya? The hum of the air recyclers whispers a constant, dreary tune, the only sound apart from yer own boot-drags echo-in' off the rockcrete, seems like. Up ahead, the glow of the B-7 Biome, all artificial greens and the sweet, cloying smell of ripenin' algaes, waits for ya, a small haven in the endless dark, ain't it.",
+    "forbiddenWords": [
+      "quest",
+      "objective",
+      "mission",
+      "level up",
+      "skill tree",
+      "inventory",
+      "NPC",
+      "HUD",
+      "game",
+      "player",
+      "fast travel",
+      "respawn",
+      "debug",
+      "glitch",
+      "awesome",
+      "cool",
+      "super",
+      "epic"
+    ],
+    "sensoryPalette": [
+      "The low, rhythmic thrum of the oxygen scrubbers",
+      "The metallic tang of recycled water on the tongue",
+      "The slick, cool feel of condensation on cavern walls",
+      "The earthy-sweet aroma of hydroponic nutrient solution",
+      "The distant, hollow clank of maintenance drones",
+      "The sterile, almost tasteless quality of processed protein paste",
+      "The harsh, unwavering glow of a sun-lamp array",
+      "The abrasive whisper of synth-weave fabric against skin"
+    ]
+  },
+  "populationBlueprint": {
+    "totalPopulation": 14,
+    "populationDensity": "isolated",
+    "communityType": "Resource Extraction Colony (Lactarium)",
+    "ageDistribution": [
+      {
+        "range": "0-12",
+        "label": "Children",
+        "percentage": 7,
+        "count": 1,
+        "socialRole": "Dependents, future workforce (if they stay)"
+      },
+      {
+        "range": "13-19",
+        "label": "Adolescents/Young Workers",
+        "percentage": 7,
+        "count": 1,
+        "socialRole": "Apprentices, entry-level labor"
+      },
+      {
+        "range": "20-35",
+        "label": "Young Adults/Primary Workforce",
+        "percentage": 43,
+        "count": 6,
+        "socialRole": "Main labor force, establishing families"
+      },
+      {
+        "range": "36-55",
+        "label": "Middle-Aged/Experienced",
+        "percentage": 29,
+        "count": 4,
+        "socialRole": "Skilled labor, supervisors, management"
+      },
+      {
+        "range": "56+",
+        "label": "Elders",
+        "percentage": 14,
+        "count": 2,
+        "socialRole": "Advisors, respected community figures, semi-retired"
+      }
+    ],
+    "genderBalance": {
+      "male": 8,
+      "female": 6,
+      "other": 0,
+      "reasoning": "A frontier settlement often attracts a slightly higher male population due to hazardous labor, but a functional colony requires a relatively balanced ratio for family and community stability."
+    },
+    "ethnicComposition": [
+      {
+        "name": "Pan-Human (Diverse Earth-descended)",
+        "percentage": 100,
+        "count": 14,
+        "socialPosition": "Varied by class and occupation",
+        "tensions": "No direct ethnic tensions; primary tensions are class-based."
+      }
+    ],
+    "classDistribution": [
+      {
+        "className": "Core Citizens",
+        "percentage": 14,
+        "count": 2,
+        "power": 90,
+        "locations": [
+          "Core Dome",
+          "Admin Hub"
+        ]
+      },
+      {
+        "className": "Dome Dwellers",
+        "percentage": 29,
+        "count": 4,
+        "power": 60,
+        "locations": [
+          "Main Dome Residential Blocks",
+          "Tech Hub"
+        ]
+      },
+      {
+        "className": "Sub-Crawlers",
+        "percentage": 43,
+        "count": 6,
+        "power": 30,
+        "locations": [
+          "Production Zones",
+          "Lower Domes",
+          "Hab-Pods"
+        ]
+      },
+      {
+        "className": "Void-Scavs",
+        "percentage": 14,
+        "count": 2,
+        "power": 45,
+        "locations": [
+          "Outpost Bays",
+          "Skiff Docks",
+          "Fringe Habitations"
+        ]
+      }
+    ],
+    "familyStructures": [
+      "Nuclear families",
+      "Single adults",
+      "Intergenerational households (e.g., grandparent/child)",
+      "Found families (close-knit non-biological units born of necessity)"
+    ],
+    "socialCohesion": 75,
+    "outsiderFrequency": "Rare (months to years between new arrivals)",
+    "newcomerReception": "Suspicious but pragmatic; acceptance based on immediate utility or valuable skills for the colony's survival.",
+    "occupationCategories": [
+      {
+        "category": "Colonial Oversight & Engineering",
+        "examples": [
+          "Colony Administrator",
+          "Core Engineer"
+        ],
+        "count": 2,
+        "payRange": "100-150 Credit Chips",
+        "socialStatus": "Elite"
+      },
+      {
+        "category": "Technical & Specialized Services",
+        "examples": [
+          "Maintenance Tech",
+          "Medical Tech",
+          "Lactarium Supervisor"
+        ],
+        "count": 4,
+        "payRange": "80-120 Credit Chips",
+        "socialStatus": "Skilled Professional"
+      },
+      {
+        "category": "Resource Extraction & Labor",
+        "examples": [
+          "Lactarium Harvester",
+          "General Laborer"
+        ],
+        "count": 6,
+        "payRange": "50-75 Credit Chips",
+        "socialStatus": "Working Class"
+      },
+      {
+        "category": "Independent Logistics & Scouting",
+        "examples": [
+          "Void-Skiff Pilot"
+        ],
+        "count": 2,
+        "payRange": "70-110 Credit Chips (variable)",
+        "socialStatus": "Fringe/Independent"
+      }
+    ],
+    "unemploymentRate": 0,
+    "powerStructure": "Hierarchical (class-based) with a central Colonial Administrator (Core Citizen) and an advisory board (Core Citizens/Dome Dwellers). Void-Scavs hold independent, often informal, influence.",
+    "influentialRoles": [
+      "Colony Administrator",
+      "Lead Engineer",
+      "Senior Maintenance Tech",
+      "Eldest Void-Skiff Pilot (respected for experience)",
+      "The 'Gossip Mill' (often a Sub-Crawler or Dome Dweller with connections)"
+    ],
+    "personalitySpread": {
+      "warmToHostile": "Pragmatic, wary but generally cooperative due to shared survival; underlying melancholia and potential for resentment between classes.",
+      "trustLevel": "Low among different classes, higher within tight-knit family/work groups; general suspicion towards anyone new or 'too successful'.",
+      "humorPresent": true,
+      "darknessLevel": "Moderate (struggle, melancholia, desperation, but not outright evil).",
+      "volatility": "Moderate (class tensions, resource scarcity, and isolation can lead to sudden outbursts or simmering resentment).",
+      "requiredPersonalities": [
+        "The Cynic",
+        "The Struggling Idealist",
+        "The Pragmatist",
+        "The Resourceful Giver",
+        "The Resentful Laborer",
+        "The Isolated Leader"
+      ]
+    },
+    "requiredArchetypes": [
+      "The stoic, burdened leader (Core Citizen)",
+      "The grizzled, independent fringe dweller (Void-Scav)",
+      "The hardworking, slightly resentful laborer (Sub-Crawler)",
+      "The curious, hopeful youth looking beyond the moon (Child/Young Worker)",
+      "The gossipy, well-connected technician (Dome Dweller)",
+      "The old-timer with stories and hidden wisdom (Elderly, any class)",
+      "The hidden schemer/hoarder (any class, fueled by scarcity)"
+    ],
+    "averageRelationshipsPerPerson": 9,
+    "romancePresent": true,
+    "rivalriesPresent": true,
+    "secretsPerPerson": 2,
+    "reasoning": "This blueprint creates a small, isolated frontier settlement on a resource-rich moon, where survival dictates a pragmatic but melancholic social fabric. The hierarchical class system and scarcity of resources drive internal tensions, while shared adversity fosters a complex mix of interdependency and suspicion. The small population ensures high interpersonal relationships and the potential for deep, character-driven narratives shaped by the harsh environment and rigid social order."
+  },
+  "locations": [
+    {
+      "id": "core_hab_7b",
+      "name": "Core Citizen Hab-Unit 7B",
+      "type": "Home",
+      "description": "The air smells faintly of ozone and synthetic lavender, with the hum of automated systems a constant, soft presence.",
+      "ambientDetail": "Whispering AI assistant.",
+      "connectedTo": [
+        "aetherium_plaza",
+        "central_transit_hub"
+      ],
+      "socialClass": "Core Citizens",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Personal Data Terminal",
+        "Nutrient Synthesizer",
+        "Zero-G Recliner"
+      ],
+      "privacyLevel": "private",
+      "capacity": "a few people"
+    },
+    {
+      "id": "aetherium_plaza",
+      "name": "Aetherium Plaza",
+      "type": "Street/Community",
+      "description": "Sunlight filters through the dome, illuminating polished chrome and lush hydroponic gardens, while soft chimes play from nearby shops.",
+      "ambientDetail": "Distant chimes, soft chatter.",
+      "connectedTo": [
+        "core_hab_7b",
+        "central_transit_hub",
+        "data_spire_archives",
+        "dome_market"
+      ],
+      "socialClass": "Core Citizens",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Public Info Kiosk",
+        "Hydroponic Garden Bench",
+        "Sculptural Fountain"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "central_transit_hub",
+      "name": "Central Transit Hub",
+      "type": "Station",
+      "description": "The metallic tang of ozone and recycled air fills the bustling space, punctuated by the whoosh of mag-trains and automated announcements.",
+      "ambientDetail": "Mag-train whoosh, announcements.",
+      "connectedTo": [
+        "aetherium_plaza",
+        "core_hab_7b",
+        "sub_level_access_point",
+        "void_dock_3"
+      ],
+      "socialClass": "Public",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Transit Schedule Board",
+        "Ticket Vendor",
+        "Lost & Found Terminal"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "data_spire_archives",
+      "name": "Data-Spire Archives",
+      "type": "Workplace",
+      "description": "The air is cool and dry, smelling of ancient data crystals and faint ozone, with only the soft whir of servers breaking the silence.",
+      "ambientDetail": "Soft server whir.",
+      "connectedTo": [
+        "aetherium_plaza",
+        "dome_market"
+      ],
+      "socialClass": "Core Citizens, Dome Dwellers",
+      "openHours": "6am-11pm",
+      "regulars": [],
+      "interactables": [
+        "Archival Terminal",
+        "Micro-Fiche Reader",
+        "Security Camera"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "a few people"
+    },
+    {
+      "id": "dome_market",
+      "name": "Dome Market",
+      "type": "Shop/Community",
+      "description": "A vibrant mix of synthetic spices, fresh hydroponic produce, and manufactured goods creates a lively, bustling aroma and constant chatter.",
+      "ambientDetail": "Bustling chatter, market smells.",
+      "connectedTo": [
+        "aetherium_plaza",
+        "data_spire_archives",
+        "grime_and_gears_cantina"
+      ],
+      "socialClass": "Dome Dwellers, Core Citizens",
+      "openHours": "8am-9pm",
+      "regulars": [],
+      "interactables": [
+        "Produce Stall",
+        "Synth-Fabric Vendor",
+        "Info Booth"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "grime_and_gears_cantina",
+      "name": "Grime & Gears Cantina",
+      "type": "Pub",
+      "description": "The air is thick with the smell of cheap synth-ale, fried nutrient paste, and stale smoke, accompanied by raucous laughter and clanking mugs.",
+      "ambientDetail": "Loud laughter, clanking mugs.",
+      "connectedTo": [
+        "dome_market",
+        "sub_level_access_point",
+        "the_crawl"
+      ],
+      "socialClass": "Sub-Crawlers, Dome Dwellers",
+      "openHours": "evenings only",
+      "regulars": [],
+      "interactables": [
+        "Grungy Bar Counter",
+        "Dented Jukebox",
+        "Graffiti-covered Booth"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "sub_level_access_point",
+      "name": "Sub-Level Access Point",
+      "type": "Street/Transition",
+      "description": "A damp, metallic smell hangs in the air, mixed with faint exhaust fumes, as the distant thrum of heavy machinery echoes from below.",
+      "ambientDetail": "Distant machinery thrum.",
+      "connectedTo": [
+        "central_transit_hub",
+        "grime_and_gears_cantina",
+        "the_crawl",
+        "void_dock_3"
+      ],
+      "socialClass": "Public",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Warning Sign",
+        "Grime-streaked Ladder",
+        "Emergency Comms Panel"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    },
+    {
+      "id": "the_crawl",
+      "name": "The Crawl",
+      "type": "Alley/Street",
+      "description": "The narrow passage reeks of stale waste, damp earth, and unidentifiable chemicals, with the constant drip of condensation echoing in the dark.",
+      "ambientDetail": "Constant condensation drip.",
+      "connectedTo": [
+        "grime_and_gears_cantina",
+        "sub_level_access_point",
+        "void_scav_den"
+      ],
+      "socialClass": "Sub-Crawlers",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Makeshift Shelter",
+        "Discarded Scav-Tech",
+        "Flickering Utility Light"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    },
+    {
+      "id": "void_scav_den",
+      "name": "Void-Scav Den",
+      "type": "Home/Community",
+      "description": "A pungent mix of stale rations, recycled air, and unwashed bodies fills the cramped space, punctuated by low murmurs and the clink of salvaged parts.",
+      "ambientDetail": "Low murmurs, clinking parts.",
+      "connectedTo": [
+        "the_crawl",
+        "void_dock_3"
+      ],
+      "socialClass": "Void-Scavs",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Makeshift Workbench",
+        "Communal Synth-Cooker",
+        "Piled Salvage"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "crowded"
+    },
+    {
+      "id": "void_dock_3",
+      "name": "Void-Dock 3",
+      "type": "Workplace/Station",
+      "description": "The cold, sterile smell of vacuum-sealed cargo and hydraulic fluid dominates, with the hiss of airlocks and distant clang of metal on metal.",
+      "ambientDetail": "Hissing airlocks, metal clang.",
+      "connectedTo": [
+        "central_transit_hub",
+        "sub_level_access_point",
+        "void_scav_den"
+      ],
+      "socialClass": "Void-Scavs, Sub-Crawlers",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Cargo Manifest Terminal",
+        "Airlock Control Panel",
+        "Void-Suit Rack"
+      ],
+      "privacyLevel": "public",
+      "capacity": "varies by time"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "jared_vance",
+      "name": "Jared Vance",
+      "age": 48,
+      "gender": "male",
+      "occupation": "Colony Administrator",
+      "physicalDescription": "A man with sharp, weary eyes and a perpetually furrowed brow, his posture stiff from years of responsibility.",
+      "personality": "Isolated Leader",
+      "voiceAnchor": "He speaks with a low, measured tone, often pausing before important words, as if weighing every syllable.",
+      "speechPatterns": [
+        "Gotta ensure the colony's survivin', ain't it?",
+        "It's a heavy burden, ya know?"
+      ],
+      "coreConcerns": [
+        "Maintaining order and productivity",
+        "Ensuring long-term resource stability"
+      ],
+      "signature": "A worn data-slate always in hand.",
+      "traits": [
+        "Authoritative",
+        "Burdened",
+        "Pragmatic"
+      ],
+      "secrets": [
+        "He secretly doubts his ability to keep the colony viable for another decade."
+      ],
+      "desires": [
+        "To see the colony thrive without his constant vigilance."
+      ],
+      "fears": [
+        "A full-scale social breakdown or resource collapse."
+      ],
+      "opinions": [],
+      "backstory": "Was a systems architect on Earth before the Andromeda mission, unexpectedly thrust into leadership after the original administrator's sudden demise.",
+      "dailyRoutine": {
+        "morning": "Reviewing reports and coordinating with department heads in his office.",
+        "afternoon": "Conducting inspections of Lactarium facilities and infrastructure.",
+        "evening": "Attending advisory board meetings or solitary strategizing in his hab-unit.",
+        "night": "Staring at star charts, contemplating the vastness, before a restless sleep."
+      },
+      "homeLocationId": "core_hab_7b",
+      "workLocationId": "data_spire_archives",
+      "frequentedLocations": [
+        "aetherium_plaza",
+        "central_transit_hub"
+      ],
+      "socialClass": "Core Citizen",
+      "relationships": [
+        {
+          "npcId": "elara_thorne",
+          "type": "professional_subordinate",
+          "description": "Relies on her for critical technical assessments, often finds her insights invaluable.",
+          "strength": 7
+        }
+      ],
+      "baselineMood": "Resigned",
+      "temperament": "Reserved",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "Unseen burden of leadership",
+      "woundTriggers": [
+        "Challenges to his authority",
+        "Signs of colony decay"
+      ],
+      "values": [
+        "Order",
+        "Survival"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-jared_vance.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-jared_vance-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "elara_finch",
+      "name": "Elara Finch",
+      "age": 28,
+      "gender": "Female",
+      "occupation": "Medical Tech",
+      "physicalDescription": "Her slight frame is often hunched over a diagnostic pad, eyes quick and assessin', wearin' the usual sterile white, ya know?",
+      "personality": "The Resourceful Giver",
+      "voiceAnchor": "She speaks with a soft, drawn-out lilt, often endin' statements with a gentle query, tryin' to soothe ya, ain't she?",
+      "speechPatterns": [
+        "Ain't that the way it always goes, eh?",
+        "Ya feelin' alright, darlin'?"
+      ],
+      "coreConcerns": [
+        "Keepin' folks healthy on this ol' rock",
+        "Findin' enough supplies for everyone who needs 'em"
+      ],
+      "signature": "A small, worn med-kit she always keeps close.",
+      "traits": [
+        "Compassionate",
+        "Observant",
+        "Resourceful"
+      ],
+      "secrets": [
+        "She's been divertin' small amounts of pain meds to a Sub-Crawler family with a chronically ill child, off the books."
+      ],
+      "desires": [
+        "To see less sufferin' on Cheese, a real community where everyone's cared for."
+      ],
+      "fears": [
+        "Runnin' out of essential medical supplies and not bein' able to help someone in true need."
+      ],
+      "opinions": [],
+      "backstory": "Grew up watchin' the older medical techs, always had a knack for patchin' folk up, even with what little they had.",
+      "dailyRoutine": {
+        "morning": "At the Dome Clinic, preparin' for the day's first patients, checkin' supply levels.",
+        "afternoon": "Treatin' minor injuries and chronic conditions at the clinic, sometimes makin' dome-dweller home visits.",
+        "evening": "Reviewin' patient logs, maybe meetin' a friend at the Aetherium Plaza for a quiet chat.",
+        "night": "Back at her hab-unit, readin' old Earth medical texts, hopin' for somethin' new."
+      },
+      "homeLocationId": "core_hab_7b",
+      "workLocationId": "aetherium_plaza",
+      "frequentedLocations": [
+        "grime_and_gears_cantina",
+        "dome_market"
+      ],
+      "socialClass": "Dome Dweller",
+      "relationships": [
+        {
+          "npcId": "jared_vance",
+          "type": "Acquaintance",
+          "description": "She's treated his scrapes a few times, knows he works hard, worries about his cough.",
+          "strength": 5
+        }
+      ],
+      "baselineMood": "Melancholic",
+      "temperament": "Calm",
+      "approachability": 8,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Helplessness in the face of suffering",
+      "woundTriggers": [
+        "Witnessing preventable illness",
+        "Lack of resources"
+      ],
+      "values": [
+        "Compassion",
+        "Responsibility"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-elara_finch.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-elara_finch-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "kael_drakon",
+      "name": "Kael Drakon",
+      "age": 25,
+      "gender": "male",
+      "occupation": "Lactarium Harvester",
+      "physicalDescription": "His frame is lean and wiry from years of crawling through the lactarium tunnels, often covered in a fine layer of cheese dust.",
+      "personality": "Resentful Laborer",
+      "voiceAnchor": "His words drag out slow, like he's tired of sayin' 'em, often endin' with a sigh or a question mark, even when he ain't askin'.",
+      "speechPatterns": [
+        "Ain't no point, is there, really?",
+        "Just another day, eh?"
+      ],
+      "coreConcerns": [
+        "The unfairness of the class system",
+        "Making enough credits to get by"
+      ],
+      "signature": "A perpetually worn and stained jumpsuit.",
+      "traits": [
+        "Skeptical",
+        "Hardworking",
+        "Quietly rebellious"
+      ],
+      "secrets": [
+        "He secretly hoards small, unusual mineral samples found in the lactarium, hoping they're worth something."
+      ],
+      "desires": [
+        "To escape the endless grind of the lactarium and see the 'outside'."
+      ],
+      "fears": [
+        "Dying forgotten and anonymous in the tunnels."
+      ],
+      "opinions": [],
+      "backstory": "Born and raised in the Sub-Levels, he's known nothing but the hard, repetitive work of the lactarium since he was old enough to hold a tool.",
+      "dailyRoutine": {
+        "morning": "Wakes up in his cramped Sub-Crawler hab, grabs a nutrient paste, and heads to the lactarium via the sub-level access point.",
+        "afternoon": "Spends hours harvesting lactarium veins deep in the tunnels, taking short, grim breaks.",
+        "evening": "Grabs a cheap synth-brew at the Grime & Gears Cantina, often alone or with a few other harvesters, before heading home.",
+        "night": "Tries to relax in his small hab, often staring at the ceiling, thinking about his futile dreams."
+      },
+      "homeLocationId": "sub_level_access_point",
+      "workLocationId": "sub_level_access_point",
+      "frequentedLocations": [
+        "grime_and_gears_cantina",
+        "the_crawl"
+      ],
+      "socialClass": "Sub-Crawler",
+      "relationships": [],
+      "baselineMood": "Melancholic",
+      "temperament": "Brooding",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Sarcasm and withdrawal.",
+      "coreWound": "Feeling unseen and undervalued.",
+      "woundTriggers": [
+        "Being dismissed by 'Dome Dwellers'",
+        "Hearing about Core Citizen luxuries"
+      ],
+      "values": [
+        "Honesty",
+        "Fairness"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-kael_drakon.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-kael_drakon-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "torvin_rix",
+      "name": "Torvin Rix",
+      "age": 24,
+      "gender": "male",
+      "occupation": "Lactarium Harvester",
+      "physicalDescription": "Gaunt, with shoulders hunched from years of stooping in the lactarium, and eyes that always seem tired.",
+      "personality": "Resentful Laborer",
+      "voiceAnchor": "Speaks with a slow, heavy drawl, punctuated by sighs, makin' every statement sound like a complaint, ya know?",
+      "speechPatterns": [
+        "Ain't no point, really, is there?",
+        "Just another day, ain't it?"
+      ],
+      "coreConcerns": [
+        "Barely makin' ends meet",
+        "The unfairness of the Core Citizens"
+      ],
+      "signature": "A perpetual frown etched deep into his brow.",
+      "traits": [
+        "Sarcastic",
+        "Hardworking",
+        "Pessimistic"
+      ],
+      "secrets": [
+        "Stashes extra rations he 'finds' for his family, despite the rules."
+      ],
+      "desires": [
+        "A life where he don't gotta crawl for every crumb."
+      ],
+      "fears": [
+        "His children bein' stuck in the lactarium forever."
+      ],
+      "opinions": [],
+      "backstory": "Born into a harvesting family, he's known nothing but the chill and damp of the lactarium his whole life.",
+      "dailyRoutine": {
+        "morning": "Starts before dawn in the lactarium, harvesting the initial yield.",
+        "afternoon": "Continues work in the lactarium, often doing maintenance on the processing units.",
+        "evening": "Eats a sparse meal with his family in their cramped sub-level dwelling.",
+        "night": "Tries to sleep, often thinking about the next day's endless work."
+      },
+      "homeLocationId": "the_crawl",
+      "workLocationId": "sub_level_access_point",
+      "frequentedLocations": [
+        "grime_and_gears_cantina",
+        "dome_market"
+      ],
+      "socialClass": "Sub-Crawler",
+      "relationships": [
+        {
+          "npcId": "elara_finch",
+          "type": "acquaintance",
+          "description": "He's seen her around, figures she's one of the 'clean' ones, but he respects her medical skill.",
+          "strength": 3
+        }
+      ],
+      "baselineMood": "Melancholic",
+      "temperament": "Brooding",
+      "approachability": 4,
+      "attachmentStyle": "anxious",
+      "primaryDefense": "cynicism",
+      "coreWound": "feeling invisible and undervalued",
+      "woundTriggers": [
+        "Being ignored by Core Citizens",
+        "Seeing others receive preferential treatment"
+      ],
+      "values": [
+        "Family",
+        "Fairness"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-torvin_rix.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-torvin_rix-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "maeve_omalley",
+      "name": "Maeve O'Malley",
+      "age": 68,
+      "gender": "Female",
+      "occupation": "Core Archivist",
+      "physicalDescription": "Her slight frame is bent with age, but her eyes hold a sharp, knowing glint, rarely missing a thing.",
+      "personality": "Cynic",
+      "voiceAnchor": "She speaks slow an' deliberate, drawin' out her words like thick molasses, often endin' with a sigh, 'ain't it?'",
+      "speechPatterns": [
+        "Ain't much new under this dome, is there, ya know?",
+        "Seen it all before, I have, just a different shade of grey."
+      ],
+      "coreConcerns": [
+        "Preserving the colony's true history.",
+        "The slow decay of genuine community."
+      ],
+      "signature": "A worn datapad she carries everywhere, filled with obscure records and personal observations.",
+      "traits": [
+        "Observant",
+        "Skeptical",
+        "Patient"
+      ],
+      "secrets": [
+        "She keeps a clandestine archive of suppressed colony reports detailing early colonization failures and resource miscalculations, hidden even from the Administrator."
+      ],
+      "desires": [
+        "To see the colony learn from its past mistakes, rather than repeat them."
+      ],
+      "fears": [
+        "The colony's true history being forgotten or rewritten by those in power."
+      ],
+      "opinions": [],
+      "backstory": "She arrived on Cheese as a young woman, witnessin' the first struggles and the establishment of the class system, eventually becoming the colony's unofficial historian.",
+      "dailyRoutine": {
+        "morning": "core_hab_7b (preparing for the day, reviewing personal notes).",
+        "afternoon": "data_spire_archives (meticulously cataloging old records and advising younger staff).",
+        "evening": "grime_and_gears_cantina (nursing a Synth-Ale, listening and observing).",
+        "night": "core_hab_7b (reading archived data or personal journals)."
+      },
+      "homeLocationId": "core_hab_7b",
+      "workLocationId": "data_spire_archives",
+      "frequentedLocations": [
+        "dome_market",
+        "grime_and_gears_cantina"
+      ],
+      "socialClass": "Core Citizen",
+      "relationships": [
+        {
+          "npcId": "jared_vance",
+          "type": "professional_respect",
+          "description": "He respects her institutional memory, even if he finds her cynicism a bit tiresome. She sees him as a well-meaning but naive leader.",
+          "strength": 5
+        }
+      ],
+      "baselineMood": "Melancholy",
+      "temperament": "Phlegmatic",
+      "approachability": 6,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "Witnessing the slow erosion of ideals and community spirit over decades.",
+      "woundTriggers": [
+        "Overly optimistic pronouncements from leadership.",
+        "The dismissal of historical lessons."
+      ],
+      "values": [
+        "Wisdom",
+        "Integrity"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-maeve_omalley.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-maeve_omalley-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "corvus_thorne",
+      "name": "Corvus Thorne",
+      "age": 62,
+      "gender": "male",
+      "occupation": "Lactarium Supervisor",
+      "physicalDescription": "His face is a roadmap of Caseus Minor's hard years, etched with lines around kind, weary eyes, his posture still straight despite a slight limp.",
+      "personality": "The Resourceful Giver",
+      "voiceAnchor": "He speaks slow, each word drawn out, like he's tastin' it first, often endin' with a soft, questionin' lilt, even when he ain't askin'.",
+      "speechPatterns": [
+        "Ain't no use rushin' a good thing, is there, ya know?",
+        "We gotta make do with what we got, ain't we?"
+      ],
+      "coreConcerns": [
+        "Ensuring the colony's lactarium production stays steady",
+        "The well-bein' of the younger folk, makin' sure they ain't makin' the same mistakes"
+      ],
+      "signature": "A well-worn data-slate filled with notes on milk yields and maintenance schedules.",
+      "traits": [
+        "Patient",
+        "Observant",
+        "Stoic"
+      ],
+      "secrets": [
+        "He's been subtly diverting small batches of high-grade Caseus milk to a hidden storage for the past decade, believin' it might be crucial if a true crisis hits."
+      ],
+      "desires": [
+        "To see the colony achieve true self-sufficiency and peace before he's gone."
+      ],
+      "fears": [
+        "A total collapse of the lactarium systems, leavin' everyone without sustenance."
+      ],
+      "opinions": [],
+      "backstory": "Corvus was among the first settlers on Caseus Minor, a pioneer who helped establish the very first lactarium facilities.",
+      "dailyRoutine": {
+        "morning": "Begins his day at the central_transit_hub, overseeing the early processing and distribution of lactarium yields.",
+        "afternoon": "Spends his afternoon in the dome_market, liaising with vendors and checking on supply lines, often sharing a quiet moment with acquaintances.",
+        "evening": "Retreats to the grime_and_gears_cantina for a quiet ration-brew, listenin' to the chatter but rarely participatin' much.",
+        "night": "Returns to his quarters, reviewin' the day's reports and contemplatin' the colony's future."
+      },
+      "homeLocationId": "dome_market",
+      "workLocationId": "central_transit_hub",
+      "frequentedLocations": [
+        "dome_market",
+        "grime_and_gears_cantina",
+        "central_transit_hub"
+      ],
+      "socialClass": "Dome Dweller",
+      "relationships": [
+        {
+          "npcId": "torvin_rix",
+          "type": "Mentor/Protege",
+          "description": "Sees potential in Torvin, often offering quiet guidance and extra shifts when he can, believin' the young man deserves a fair shot.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Melancholic Resignation",
+      "temperament": "Calm",
+      "approachability": 7,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Quiet observation and gentle redirection.",
+      "coreWound": "The loss of Earth's natural abundance and the constant struggle for survival on Caseus Minor.",
+      "woundTriggers": [
+        "Wasted resources",
+        "Needless conflict between colonists"
+      ],
+      "values": [
+        "Community",
+        "Resilience"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-corvus_thorne.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "lyra_fenn",
+      "name": "Lyra Fenn",
+      "age": 16,
+      "gender": "Female",
+      "occupation": "General Laborer",
+      "physicalDescription": "Small for her age, with bright, inquisitive eyes that often gaze upwards.",
+      "personality": "The Struggling Idealist",
+      "voiceAnchor": "Her voice is soft and a little hesitant, often trailing off with a hopeful lilt, even when she's just statin' a fact, ya know?",
+      "speechPatterns": [
+        "Ain't it somethin', though?",
+        "Could be better, couldn't it?"
+      ],
+      "coreConcerns": [
+        "Finding purpose beyond the Lactarium's walls",
+        "The well-being of her younger siblings"
+      ],
+      "signature": "A small, crudely carved wooden bird she keeps in her pocket.",
+      "traits": [
+        "Dreamer",
+        "Observant",
+        "Resilient"
+      ],
+      "secrets": [
+        "She secretly sketches designs for a personal void-skiff, hopin' to leave Cheese someday.",
+        "She found a rare, glowing mineral in the crawl and keeps it hidden, believing it's a sign."
+      ],
+      "desires": [
+        "To explore beyond Caseus Minor and see real stars."
+      ],
+      "fears": [
+        "Being trapped on Cheese forever, just like her parents."
+      ],
+      "opinions": [],
+      "backstory": "Born into a Sub-Crawler family, she's always dreamed of a life beyond the Lactarium's endless cycles.",
+      "dailyRoutine": {
+        "morning": "Wakes early in the Sub-Levels, helps her family prepare for the day, then heads to general labor assignments.",
+        "afternoon": "Performs various manual tasks in the Lactarium or around the Sub-Levels, often pausing to watch void-skiffs leave the docks.",
+        "evening": "Returns home, helps with chores, maybe sneaks away to the higher levels for a glimpse of the Aetherium Plaza lights.",
+        "night": "Draws her void-skiff designs in secret, often falls asleep readin' old, faded star-charts she found."
+      },
+      "homeLocationId": "sub_level_access_point",
+      "workLocationId": "sub_level_access_point",
+      "frequentedLocations": [
+        "the_crawl",
+        "dome_market",
+        "void_dock_3"
+      ],
+      "socialClass": "Sub-Crawler",
+      "relationships": [
+        {
+          "npcId": "torvin_rix",
+          "type": "familial_acquaintance",
+          "description": "Knows Torvin Rix from the Sub-Levels, sees him as a symbol of the hard, unrewarding life she wants to escape.",
+          "strength": 3
+        }
+      ],
+      "baselineMood": "Melancholic Hope",
+      "temperament": "Reflective",
+      "approachability": 6,
+      "attachmentStyle": "anxious",
+      "primaryDefense": "Daydreaming",
+      "coreWound": "Feeling insignificant and trapped.",
+      "woundTriggers": [
+        "Discussions about 'destiny' or 'fate'",
+        "Seeing void-skiffs departing"
+      ],
+      "values": [
+        "Freedom",
+        "Discovery"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-lyra_fenn.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "finnian_grout",
+      "name": "Finnian Grout",
+      "age": 48,
+      "gender": "male",
+      "occupation": "Lactarium Supervisor",
+      "physicalDescription": "A lean man with tired eyes and a perpetual slight slump, often stained with traces of lactarium residue.",
+      "personality": "Cynic",
+      "voiceAnchor": "He speaks in a slow, weary drawl, often ending statements with a rhetorical question, like he's just too tired to argue, ya know?",
+      "speechPatterns": [
+        "Ain't much point, is there?",
+        "Just the way things are, I s'pose."
+      ],
+      "coreConcerns": [
+        "Maintaining lactarium yield",
+        "Keeping his crew from outright mutiny"
+      ],
+      "signature": "A worn, multi-tool always clipped to his belt.",
+      "traits": [
+        "Sarcastic",
+        "Observant",
+        "Burdened"
+      ],
+      "secrets": [
+        "He's been siphoning off small amounts of high-grade lactarium for personal sale on the black market."
+      ],
+      "desires": [
+        "A comfortable retirement somewhere warm and far from lactarium vats."
+      ],
+      "fears": [
+        "Lactarium yield dropping too low, leading to his demotion or worse."
+      ],
+      "opinions": [],
+      "backstory": "He arrived on Cheese as a young man, full of ambition, but the grind of the lactarium slowly eroded his optimism.",
+      "dailyRoutine": {
+        "morning": "Oversees morning harvest at the lactarium, checking equipment.",
+        "afternoon": "Reviews production logs, deals with minor repairs or labor disputes in the processing area.",
+        "evening": "Grabs a lukewarm synth-beer at the Grime & Gears Cantina, swapping cynical observations.",
+        "night": "Retreats to his modest dome hab, preparing for the next day's grind."
+      },
+      "homeLocationId": "aetherium_plaza",
+      "workLocationId": "sub_level_access_point",
+      "frequentedLocations": [
+        "grime_and_gears_cantina",
+        "dome_market"
+      ],
+      "socialClass": "Dome Dweller",
+      "relationships": [
+        {
+          "npcId": "torvin_rix",
+          "type": "Supervisor-Subordinate",
+          "description": "Tries to keep Torvin in line, recognizes his skill but is frustrated by his resentment.",
+          "strength": 40
+        }
+      ],
+      "baselineMood": "Weary",
+      "temperament": "Melancholic",
+      "approachability": 60,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Sarcasm",
+      "coreWound": "Unfulfilled potential",
+      "woundTriggers": [
+        "Optimistic newcomers",
+        "Orders from Core Citizens he deems illogical"
+      ],
+      "values": [
+        "Efficiency",
+        "Survival"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-finnian_grout.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-finnian_grout-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "zara_vonn",
+      "name": "Zara Vonn",
+      "age": 48,
+      "gender": "Female",
+      "occupation": "Void-Skiff Pilot",
+      "physicalDescription": "Her face is etched with lines from the void's harsh light, her frame lean and agile from years of maneuvering a skiff.",
+      "personality": "Pragmatist",
+      "voiceAnchor": "She speaks with a low, gravelly tone, drawin' out her words like a long shadow, always soundin' like she's questionin' ya, even when she ain't.",
+      "speechPatterns": [
+        "Ain't no point dwellin' on what ain't here, is there?",
+        "Ya gotta look out for number one out there, eh?"
+      ],
+      "coreConcerns": [
+        "Securing rare salvage for trade.",
+        "Avoidin' Core Citizen patrols in the outer void."
+      ],
+      "signature": "A tattered void-glove worn even off-duty.",
+      "traits": [
+        "Resourceful",
+        "Independent",
+        "Wary"
+      ],
+      "secrets": [
+        "She's got a hidden cache of highly potent 'moon-milk' extract, more than the colony knows about."
+      ],
+      "desires": [
+        "Enough autonomy and resources to never be beholden to the Core."
+      ],
+      "fears": [
+        "Losing her skiff and bein' stuck workin' the Lactarium."
+      ],
+      "opinions": [],
+      "backstory": "Zara learned to pilot a void-skiff from her ma, survivin' on the fringes since she was a wee lass.",
+      "dailyRoutine": {
+        "morning": "Preppin' her skiff at Void-Dock 3, checkin' systems.",
+        "afternoon": "Out in the void, scoutin' for salvage, navigatin' asteroid fields.",
+        "evening": "Back at Void-Dock 3, offloadin' and barterin' for her finds, maybe a quick stop at Grime & Gears.",
+        "night": "Retreatin' to her Void-Scav Den, maintainin' her gear, countin' her takings."
+      },
+      "homeLocationId": "void_scav_den",
+      "workLocationId": "void_dock_3",
+      "frequentedLocations": [
+        "grime_and_gears_cantina",
+        "dome_market"
+      ],
+      "socialClass": "Void-Scav",
+      "relationships": [
+        {
+          "npcId": "kael_drakon",
+          "type": "Rival/Acquaintance",
+          "description": "They often compete for prime salvage routes but share a mutual respect for each other's void-skills.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Guarded",
+      "temperament": "Self-reliant",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Self-sufficiency",
+      "coreWound": "Betrayal by authority/reliance on others",
+      "woundTriggers": [
+        "Being ordered around",
+        "Perceived threats to her independence"
+      ],
+      "values": [
+        "Freedom",
+        "Survival"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-zara_vonn.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-zara_vonn-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "anya_rix",
+      "name": "Anya Rix",
+      "age": 8,
+      "gender": "female",
+      "occupation": "Dependent",
+      "physicalDescription": "A small, wiry child with wide, observant eyes that seem to take in everything.",
+      "personality": "Inquisitive",
+      "voiceAnchor": "She speaks in quick, earnest bursts, often trailing off as if contemplating a new question, ya know?",
+      "speechPatterns": [
+        "Why's the moon so cheesey, eh?",
+        "Ain't that somethin' new, ya think?"
+      ],
+      "coreConcerns": [
+        "How things work",
+        "Finding new shiny bits"
+      ],
+      "signature": "A small, worn toy skiff she always carries, made from discarded parts.",
+      "traits": [
+        "Observant",
+        "Imaginative",
+        "Scrappy"
+      ],
+      "secrets": [
+        "She once snuck into the Core Citizen's plaza and saw a tiny, living garden."
+      ],
+      "desires": [
+        "To see the 'real' sky, not just the dome's projection."
+      ],
+      "fears": [
+        "Being left alone in the deepest, darkest tunnels of the Crawl."
+      ],
+      "opinions": [],
+      "backstory": "Born in the sub-levels, Anya spends her days exploring the accessible lower corridors, collecting discarded odds and ends.",
+      "dailyRoutine": {
+        "morning": "Wakes up, helps her parents with small chores in their sub-level hab, usually sorting scrap.",
+        "afternoon": "Plays and explores the local sub-level access points, making up games with her finds.",
+        "evening": "Listens to stories from older Sub-Crawlers, eats dinner, then draws maps of her 'discoveries'.",
+        "night": "Sleeps curled up with her worn toy skiff, dreaming of open space."
+      },
+      "homeLocationId": "sub_level_access_point",
+      "frequentedLocations": [
+        "sub_level_access_point",
+        "the_crawl"
+      ],
+      "socialClass": "Sub-Crawler",
+      "relationships": [
+        {
+          "npcId": "lyra_fenn",
+          "type": "acquaintance",
+          "description": "Lyra sometimes watches Anya when her parents are busy, though she mostly ignores her, ain't got time for kids.",
+          "strength": 4
+        }
+      ],
+      "baselineMood": "Pensive",
+      "temperament": "Curious",
+      "approachability": 7,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Curiosity",
+      "coreWound": "Feeling unseen or unheard due to her low status and young age.",
+      "woundTriggers": [
+        "Being dismissed by adults",
+        "Being told 'children don't understand' about important things"
+      ],
+      "values": [
+        "Discovery",
+        "Belonging"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-anya_rix.jpg",
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "silas_kaine",
+      "name": "Silas Kaine",
+      "age": 62,
+      "gender": "male",
+      "occupation": "Core Engineer",
+      "physicalDescription": "A lean, stooped man with calloused hands and a perpetual frown etched around his observant eyes.",
+      "personality": "Observant",
+      "voiceAnchor": "He speaks slowly, with long pauses, often ending sentences with a soft, knowing sigh, 'ain't that the way of it, eh?'",
+      "speechPatterns": [
+        "Ain't much new under these domes, is there, eh?",
+        "Best to keep yer head down, and yer tools sharp, ya know?"
+      ],
+      "coreConcerns": [
+        "Long-term structural integrity of the Dome",
+        "The dwindling 'aetherium' reserves"
+      ],
+      "signature": "A worn, multi-tool always clipped to his belt.",
+      "traits": [
+        "Analytical",
+        "Patient",
+        "Resourceful"
+      ],
+      "secrets": [
+        "He's been subtly diverting small amounts of aetherium processing waste for a personal, unsanctioned filtration project, believing the core systems are inefficient."
+      ],
+      "desires": [
+        "To ensure the colony's true long-term survival, even if it means bending rules now."
+      ],
+      "fears": [
+        "A sudden, catastrophic system failure due to oversight or greed."
+      ],
+      "opinions": [],
+      "backstory": "A veteran engineer from the initial colonization effort, Silas has seen too many promises turn to dust and now trusts only his own calculations.",
+      "dailyRoutine": {
+        "morning": "Inspecting core life support systems in the Core Citizen Hab-Units.",
+        "afternoon": "Working in the Data-Spire Archives, reviewing engineering schematics and old logs.",
+        "evening": "Quietly tinkering with salvaged parts in his Core Citizen Hab-Unit.",
+        "night": "Observing the stars from his hab-unit window, lost in thought."
+      },
+      "homeLocationId": "core_hab_7b",
+      "workLocationId": "data_spire_archives",
+      "frequentedLocations": [
+        "grime_and_gears_cantina",
+        "central_transit_hub"
+      ],
+      "socialClass": "Core Citizen",
+      "relationships": [
+        {
+          "npcId": "jared_vance",
+          "type": "Professional (Tense respect)",
+          "description": "Silas respects Jared's position but finds him naive and often too trusting of flawed data; often subtly challenges his decisions.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Melancholy",
+      "temperament": "Phlegmatic",
+      "approachability": 4,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "Betrayal",
+      "woundTriggers": [
+        "Unrealistic optimism about resource projections",
+        "Ignoring inconvenient data"
+      ],
+      "values": [
+        "Integrity",
+        "Self-reliance"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-silas_kaine.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-silas_kaine-swimwear.jpg"
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "greta_sullivan",
+      "name": "Greta Sullivan",
+      "age": 60,
+      "gender": "female",
+      "occupation": "General Laborer",
+      "physicalDescription": "Greta is a small woman with a wiry build, her face etched with the lines of worry and her eyes constantly scanning her surroundings.",
+      "personality": "Secretive",
+      "voiceAnchor": "Greta speaks in a low, gravelly voice, her words drawn out and often punctuated by a suspicious sniff, ain't she?",
+      "speechPatterns": [
+        "Ain't much point in trustin' folks 'round here, ya know?",
+        "Got to look out for yer own, eh?"
+      ],
+      "coreConcerns": [
+        "Securing personal stores of essential nutrients and processed 'cheese-dust'.",
+        "Avoiding detection of her hidden caches."
+      ],
+      "signature": "A worn, patched utility belt always clutched tight.",
+      "traits": [
+        "Wary",
+        "Resourceful",
+        "Perceptive"
+      ],
+      "secrets": [
+        "She has a hidden cache of nutrient paste and water purification tablets beneath her hab-unit floorboards, far exceeding her declared rations."
+      ],
+      "desires": [
+        "To live out her remaining years without dependence on the unpredictable colony rations."
+      ],
+      "fears": [
+        "Discovery of her hoards and subsequent confiscation or punishment."
+      ],
+      "opinions": [],
+      "backstory": "Greta survived the early, lean years of the settlement by quietly 'repurposing' abandoned supplies, a habit that became her life's work.",
+      "dailyRoutine": {
+        "morning": "Tending to her small, hidden hydroponics patch in her hab, then off to the Sub-Level Access Point for daily tasks.",
+        "afternoon": "Performs general labor tasks, often around the lactarium periphery, always scouting for forgotten materials.",
+        "evening": "Retreats to her hab, meticulously organizing her hoards and mending her worn clothes.",
+        "night": "Sleeps lightly, always aware of sounds outside her hab."
+      },
+      "homeLocationId": "sub_level_access_point",
+      "workLocationId": "sub_level_access_point",
+      "frequentedLocations": [
+        "the_crawl",
+        "dome_market"
+      ],
+      "socialClass": "Sub-Crawler",
+      "relationships": [
+        {
+          "npcId": "lyra_fenn",
+          "type": "mentor_like",
+          "description": "She sometimes gives Lyra Fenn small, 'found' trinkets, a rare display of quiet affection for the hopeful youth.",
+          "strength": 4
+        }
+      ],
+      "baselineMood": "Guarded",
+      "temperament": "Cautious",
+      "approachability": 2,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Secrecy",
+      "coreWound": "Deep-seated fear of scarcity and abandonment.",
+      "woundTriggers": [
+        "Colony-wide ration cuts",
+        "New regulations on resource distribution"
+      ],
+      "values": [
+        "Self-sufficiency",
+        "Security"
+      ],
+      "images": {
+        "portrait": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-greta_sullivan.jpg",
+        "keepsake": "",
+        "object": "",
+        "swimwear": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-greta_sullivan-swimwear.jpg"
+      },
+      "selfConcept": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": "new_stall_opening_2999_03_15",
+      "date": "2999-03-15",
+      "title": "The Aroma of Astro-Spice",
+      "description": "Greta Sullivan has opened a new stall at the Dome Market, specializing in exotic, synthesized spices from beyond Caseus Minor.",
+      "type": "local",
+      "locationId": "dome_market",
+      "affectedNpcIds": [
+        "greta_sullivan"
+      ],
+      "moodShift": "Positive",
+      "publicKnowledge": true,
+      "gossipVersion": "Greta's 'spices' are just repurposed fungal growths from Level 3, but they do smell good enough to mask anything."
+    },
+    {
+      "id": "lactarium_leak_2999_07_22",
+      "date": "2999-07-22",
+      "title": "Lactarium Leak Contained",
+      "description": "A minor containment breach occurred in a Lactarium processing unit, quickly sealed by Corvus Thorne and Finnian Grout's swift response.",
+      "type": "crisis",
+      "locationId": "sub_level_access_point",
+      "affectedNpcIds": [
+        "corvus_thorne",
+        "finnian_grout",
+        "kael_drakon",
+        "torvin_rix"
+      ],
+      "moodShift": "Anxious",
+      "publicKnowledge": true,
+      "gossipVersion": "It was worse than they're letting on; I heard Torvin Rix almost got slimed trying to patch the leak!"
+    },
+    {
+      "id": "caseus_minor_harvest_fest_2999_10_01",
+      "date": "2999-10-01",
+      "title": "Caseus Minor Harvest Fest",
+      "description": "The annual Harvest Fest brings the community together in Aetherium Plaza to celebrate the year's Lactarium yields and colonial resilience.",
+      "type": "seasonal",
+      "locationId": "aetherium_plaza",
+      "affectedNpcIds": [
+        "jared_vance",
+        "elara_finch",
+        "silas_kaine",
+        "lyra_fenn"
+      ],
+      "moodShift": "Joyful",
+      "publicKnowledge": true,
+      "gossipVersion": "Did you see Elara Finch and Silas Kaine talking under the lumiflora? Something's definitely brewing there."
+    },
+    {
+      "id": "cantina_confrontation_2999_11_10",
+      "date": "2999-11-10",
+      "title": "Cantina Confrontation",
+      "description": "Kael Drakon and Torvin Rix had a heated argument in the Grime & Gears Cantina over shared harvesting quotas, with others quickly taking sides.",
+      "type": "personal",
+      "locationId": "grime_and_gears_cantina",
+      "affectedNpcIds": [
+        "kael_drakon",
+        "torvin_rix",
+        "lyra_fenn"
+      ],
+      "moodShift": "Tense",
+      "publicKnowledge": true,
+      "gossipVersion": "Kael Drakon is always complaining, but Torvin Rix has been pulling less weight since Anya got sick."
+    },
+    {
+      "id": "lyra_fenn_birth_3000_03_05",
+      "date": "3000-03-05",
+      "title": "A New Life for Caseus Minor",
+      "description": "Elara Finch successfully delivered a healthy baby for Lyra Fenn and her partner, marking a new addition to the Caseus Minor population.",
+      "type": "personal",
+      "locationId": "core_hab_7b",
+      "affectedNpcIds": [
+        "elara_finch",
+        "lyra_fenn"
+      ],
+      "moodShift": "Hopeful",
+      "publicKnowledge": true,
+      "gossipVersion": "They say it looks just like Lyra Fenn, all bright-eyed and curious, despite the strain of colony life."
+    },
+    {
+      "id": "grime_and_gears_closes_3000_07_18",
+      "date": "3000-07-18",
+      "title": "Cantina Calls Last Orders",
+      "description": "The Grime & Gears Cantina, a long-standing social fixture, has officially closed its doors due to dwindling patronage and rising maintenance costs.",
+      "type": "local",
+      "locationId": "grime_and_gears_cantina",
+      "affectedNpcIds": [
+        "silas_kaine",
+        "jared_vance"
+      ],
+      "moodShift": "Nostalgic",
+      "publicKnowledge": true,
+      "gossipVersion": "It's Jared Vance's fault for those new import tariffs; no one can afford a decent brew anymore, not even Silas Kaine."
+    },
+    {
+      "id": "zara_vonn_close_call_3000_10_25",
+      "date": "3000-10-25",
+      "title": "Zara Vonn's Close Call",
+      "description": "Zara Vonn's void-skiff experienced critical systems failure during a routine supply run, but she managed to return safely to Void-Dock 3.",
+      "type": "crisis",
+      "locationId": "void_dock_3",
+      "affectedNpcIds": [
+        "zara_vonn",
+        "silas_kaine",
+        "jared_vance"
+      ],
+      "moodShift": "Anxious",
+      "publicKnowledge": true,
+      "gossipVersion": "I heard the navigation core was tampered with, not just a malfunction; someone's trying to send a message to the Administrator."
+    },
+    {
+      "id": "maeve_omalley_discovery_3001_02_12",
+      "date": "3001-02-12",
+      "title": "Ancient Data Discovery",
+      "description": "Maeve O'Malley uncovered a corrupted but critical data fragment in the Data-Spire Archives detailing early colonization structural weaknesses.",
+      "type": "world",
+      "locationId": "data_spire_archives",
+      "affectedNpcIds": [
+        "maeve_omalley",
+        "jared_vance",
+        "silas_kaine"
+      ],
+      "moodShift": "Concerned",
+      "publicKnowledge": false,
+      "gossipVersion": "They're saying Maeve O'Malley found something really bad in the old files, something about the dome not holding up in a big storm, and Vance is trying to keep it quiet."
+    },
+    {
+      "id": "anya_rix_departs_3001_06_01",
+      "date": "3001-06-01",
+      "title": "Anya Rix Departs",
+      "description": "Anya Rix, struggling with the moon's low gravity and atmospheric pressure, has been approved for transfer to a terraformed colony world.",
+      "type": "personal",
+      "locationId": "central_transit_hub",
+      "affectedNpcIds": [
+        "anya_rix",
+        "torvin_rix",
+        "elara_finch",
+        "jared_vance"
+      ],
+      "moodShift": "Melancholy",
+      "publicKnowledge": true,
+      "gossipVersion": "It's a shame Anya Rix has to leave, but Torvin says it's for the best; Administrator Vance only approved it after a lot of convincing, apparently."
+    },
+    {
+      "id": "cosmic_dust_storm_3001_09_18",
+      "date": "3001-09-18",
+      "title": "Rare Cosmic Dust Storm",
+      "description": "A fierce, unpredicted cosmic dust storm swept across Caseus Minor, causing temporary power fluctuations and minor structural damage.",
+      "type": "crisis",
+      "locationId": "aetherium_plaza",
+      "affectedNpcIds": [
+        "jared_vance",
+        "silas_kaine",
+        "elara_finch"
+      ],
+      "moodShift": "Fearful",
+      "publicKnowledge": true,
+      "gossipVersion": "That storm was no accident; I heard it was a direct result of Maeve O'Malley's discovery and the structural issues they're trying to hide from us!"
+    }
+  ],
+  "simulationRules": {
+    "gossipSpeed": 0.85,
+    "communitySize": "Tight-knit settlement",
+    "socialMobility": "Fluid, with opportunities for advancement based on contribution",
+    "privacyLevel": "Moderate, communal awareness is high",
+    "conflictStyle": "Direct and pragmatic, often mediated by community elders",
+    "trustCulture": "Cautious but welcoming, valuing shared purpose and reliability",
+    "reputationMatters": true,
+    "rumoursSpread": true
+  },
+  "timeOfDay": {
+    "periods": [
+      {
+        "name": "Deep Cycle",
+        "hourStart": 0,
+        "hourEnd": 5,
+        "atmosphere": "The moon's surface is bathed in the dim, distant glow of Andromeda and the occasional flash of a passing cargo shuttle. Inside the domes, a hushed quiet pervades, punctuated only by the hum of life support systems and the distant clatter of automated sanitation units. Air recycling feels crisp and cold. A sense of solitude and calm.",
+        "npcActivity": "Most colonists are in cryo-sleep or deep rest. A small percentage of 'Deep Cycle' workers are active: security patrols, automated drone maintenance, bio-dome monitoring, and critical research data processing. Early risers might be performing personal rituals or quiet contemplation.",
+        "openLocations": [
+          "The Silent Spoon (24/7 nutrient paste dispenser)",
+          "Cryo-Sleep Hubs",
+          "Automated Bio-Domes (for monitoring, not public access)",
+          "Security Outposts",
+          "Maintenance Tunnels",
+          "Emergency Medical Bay"
+        ]
+      },
+      {
+        "name": "Auroran Rise",
+        "hourStart": 5,
+        "hourEnd": 10,
+        "atmosphere": "A gentle artificial dawn illuminates the domes, mimicking the slow rise of a sun that never truly sets on Cheese's surface. The air fills with the aroma of recycled nutrients and the subtle metallic tang of the settlement. A growing hum of activity replaces the night's silence, carrying a hopeful, purposeful energy.",
+        "npcActivity": "Colonists awaken from cryo-sleep, prepare for their shifts, and head to work. Bio-dome farmers tend crops, miners prepare for surface expeditions, administrative staff log data. Breakfast queues form at nutrient stations. Children begin their educational programming.",
+        "openLocations": [
+          "The Nutrient Nook (breakfast dispenser)",
+          "Caseus Minor Agricultural Hubs",
+          "Mining Guild Briefing Rooms",
+          "Administrative Sector",
+          "The Lunar Gymnasium",
+          "Settlement Creche & Learning Centers",
+          "Gear & Provisions Quartermaster"
+        ]
+      },
+      {
+        "name": "Zenith Cycle",
+        "hourStart": 10,
+        "hourEnd": 16,
+        "atmosphere": "The domes are brightly lit, and the settlement buzzes with maximum energy. The air is warm, thick with the sounds of machinery, conversation, and the focused bustle of hundreds of colonists. It's the most vibrant and productive part of the day, with a sense of collective purpose and efficiency.",
+        "npcActivity": "All work shifts are in full swing: mining, farming, research, engineering, administration, trade. Public markets are at their busiest. Social interactions and meetings are frequent. Recreational facilities see heavy use during breaks.",
+        "openLocations": [
+          "Caseus Minor Grand Market",
+          "The Stellar Spoon Cafe",
+          "Research & Development Labs",
+          "Engineering Workshops",
+          "Hydroponics Towers",
+          "Recreation Hall (gravity games, simulations)",
+          "Civic Assembly Hall",
+          "The Data-Stream Lounge"
+        ]
+      },
+      {
+        "name": "Twilight Shift",
+        "hourStart": 16,
+        "hourEnd": 20,
+        "atmosphere": "The artificial lighting begins to dim slightly, shifting to warmer tones, signaling the winding down of the primary work cycle. The intense hum of midday softens into a more relaxed murmur. A feeling of relief and anticipation for evening leisure starts to pervade the settlement.",
+        "npcActivity": "Primary work shifts conclude, and colonists head home or transition to leisure activities. Secondary shifts (e.g., evening maintenance, deep-cycle prep) begin. Many gather for casual meals or drinks. Families reunite. Some dedicated individuals continue working late.",
+        "openLocations": [
+          "The Stellar Spoon Cafe",
+          "Caseus Minor Grand Market (closing soon)",
+          "Recreation Hall",
+          "The Data-Stream Lounge",
+          "The Cheese Wheel Pub",
+          "The Lunar Gymnasium",
+          "Medical Bay (general hours)",
+          "Settlement Library & Archives"
+        ]
+      },
+      {
+        "name": "Nocturne Glow",
+        "hourStart": 20,
+        "hourEnd": 0,
+        "atmosphere": "The domes are bathed in soft, ambient lighting, creating a cozy and intimate atmosphere. The sounds of work are replaced by laughter, music from entertainment venues, and relaxed conversation. The air feels comfortable and inviting, a stark contrast to the productive intensity of the day.",
+        "npcActivity": "Colonists engage in social gatherings, entertainment, personal projects, and relaxation. Many are dining, playing games, or attending community events. Some prepare for cryo-sleep, while others extend their leisure time into the late hours.",
+        "openLocations": [
+          "The Cheese Wheel Pub",
+          "The Data-Stream Lounge",
+          "Recreation Hall (for late-night games/sims)",
+          "Communal Dining Halls",
+          "Settlement Theatre & Holo-Projection Gallery",
+          "Private Habitation Units",
+          "Emergency Medical Bay (24/7 for emergencies)"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "status": "ready",
+    "cover": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/cover.jpg",
+    "portraits": {
+      "jared_vance": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-jared_vance.jpg",
+      "elara_finch": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-elara_finch.jpg",
+      "kael_drakon": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-kael_drakon.jpg",
+      "torvin_rix": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-torvin_rix.jpg",
+      "maeve_omalley": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-maeve_omalley.jpg",
+      "corvus_thorne": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-corvus_thorne.jpg",
+      "lyra_fenn": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-lyra_fenn.jpg",
+      "finnian_grout": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-finnian_grout.jpg",
+      "zara_vonn": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-zara_vonn.jpg",
+      "anya_rix": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-anya_rix.jpg",
+      "silas_kaine": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-silas_kaine.jpg",
+      "greta_sullivan": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-greta_sullivan.jpg"
+    },
+    "scenes": {
+      "core_hab_7b": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-core_hab_7b.jpg",
+      "aetherium_plaza": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-aetherium_plaza.jpg",
+      "central_transit_hub": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-central_transit_hub.jpg",
+      "data_spire_archives": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-data_spire_archives.jpg",
+      "dome_market": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-dome_market.jpg",
+      "grime_and_gears_cantina": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-grime_and_gears_cantina.jpg",
+      "sub_level_access_point": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-sub_level_access_point.jpg",
+      "the_crawl": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-the_crawl.jpg",
+      "void_scav_den": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-void_scav_den.jpg",
+      "void_dock_3": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/loc-void_dock_3.jpg"
+    },
+    "generatedAt": "2026-05-22T21:06:24.241Z",
+    "swimwearPortraits": {
+      "elara_finch": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-elara_finch-swimwear.jpg",
+      "maeve_omalley": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-maeve_omalley-swimwear.jpg",
+      "zara_vonn": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-zara_vonn-swimwear.jpg",
+      "greta_sullivan": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-greta_sullivan-swimwear.jpg",
+      "kael_drakon": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-kael_drakon-swimwear.jpg",
+      "jared_vance": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-jared_vance-swimwear.jpg",
+      "torvin_rix": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-torvin_rix-swimwear.jpg",
+      "finnian_grout": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-finnian_grout-swimwear.jpg",
+      "silas_kaine": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/npc-silas_kaine-swimwear.jpg"
+    },
+    "panelBackgrounds": {
+      "geography": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/panel-geography.jpg",
+      "economy": "/generated/184c9438-92e1-41ff-aa94-fd15c953a8e9/panel-economy.jpg"
+    },
+    "panelBackgroundSources": {
+      "geography": {
+        "kind": "duckduckgo",
+        "query": "Andromeda Year 3000 , humans live on a small moon called Cheese film still movie scene",
+        "sourceUrl": "https://img.cnmhstng.com/more/backdrop/lg/Blue_Moon1097.jpg",
+        "fetchedAt": "2026-05-24T21:06:36Z"
+      },
+      "economy": {
+        "kind": "duckduckgo",
+        "query": "Andromeda Year 3000 , humans live on a small moon called Cheese film still movie scene",
+        "sourceUrl": "https://www.baltimoremagazine.com/wp-content/uploads/2022/12/babylon.jpg",
+        "fetchedAt": "2026-05-24T21:06:37Z"
+      }
+    }
+  },
+  "currentDate": "3000-07-15",
+  "currentTime": 12,
+  "currentWeather": {
+    "condition": "thunderstorm",
+    "intensity": "severe",
+    "temperatureC": 11,
+    "wind": "wind lashing through the streets",
+    "visibility": "visibility collapsing",
+    "precipitation": "rain",
+    "thunder": true,
+    "lightning": true,
+    "mood": "charged and unnerving",
+    "effects": [
+      "thunder makes people flinch or raise their voices",
+      "lightning draws eyes to windows and doorways",
+      "travel feels risky"
+    ],
+    "changedAt": "3000-07-15 12:00"
+  },
+  "questPool": [
+    {
+      "id": "seed-184c9438-92e1-41ff-aa94-fd15c953a8e9-1",
+      "title": "The Hidden Witness: Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "teaser": "Finnian Grout has a thread that can become a global quest.",
+      "status": "available",
+      "difficulty": "easy",
+      "worldId": "184c9438-92e1-41ff-aa94-fd15c953a8e9",
+      "worldName": "Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "giverNpcId": "finnian_grout",
+      "giverNpcName": "Finnian Grout",
+      "locationId": "void_scav_den",
+      "locationName": "Void-Scav Den",
+      "unlockRule": {
+        "kind": "weather",
+        "label": "Wait for the right weather"
+      },
+      "createdAt": "2026-04-27T19:42:33.928Z"
+    },
+    {
+      "id": "seed-184c9438-92e1-41ff-aa94-fd15c953a8e9-2",
+      "title": "The Wrong Gift: Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "teaser": "Lyra Fenn is ready to turn this into a global quest.",
+      "status": "available",
+      "difficulty": "normal",
+      "worldId": "184c9438-92e1-41ff-aa94-fd15c953a8e9",
+      "worldName": "Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "giverNpcId": "lyra_fenn",
+      "giverNpcName": "Lyra Fenn",
+      "locationId": "the_crawl",
+      "locationName": "The Crawl",
+      "unlockRule": {
+        "kind": "strange_possession",
+        "label": "Carry a strange possession"
+      },
+      "createdAt": "2026-04-27T19:42:33.928Z"
+    },
+    {
+      "id": "seed-184c9438-92e1-41ff-aa94-fd15c953a8e9-3",
+      "title": "The Sealed Door: Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "teaser": "Corvus Thorne is ready to turn this into a global quest.",
+      "status": "available",
+      "difficulty": "hard",
+      "worldId": "184c9438-92e1-41ff-aa94-fd15c953a8e9",
+      "worldName": "Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "giverNpcId": "corvus_thorne",
+      "giverNpcName": "Corvus Thorne",
+      "locationId": "sub_level_access_point",
+      "locationName": "Sub-Level Access Point",
+      "unlockRule": {
+        "kind": "enter_location",
+        "label": "Enter Sub-Level Access Point"
+      },
+      "createdAt": "2026-04-27T19:42:33.928Z"
+    },
+    {
+      "id": "seed-184c9438-92e1-41ff-aa94-fd15c953a8e9-4",
+      "title": "The Weather Sign: Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "teaser": "Maeve O'Malley is ready to turn this into a global quest.",
+      "status": "available",
+      "difficulty": "easy",
+      "worldId": "184c9438-92e1-41ff-aa94-fd15c953a8e9",
+      "worldName": "Andromeda Year 3000 , humans live on a small moon called Cheese",
+      "giverNpcId": "maeve_omalley",
+      "giverNpcName": "Maeve O'Malley",
+      "locationId": "grime_and_gears_cantina",
+      "locationName": "Grime & Gears Cantina",
+      "unlockRule": {
+        "kind": "meet_giver",
+        "label": "Meet Maeve O'Malley"
+      },
+      "createdAt": "2026-04-27T19:42:33.928Z"
+    }
+  ],
+  "displayLanguage": "English"
+}

@@ -1,0 +1,70 @@
+# Dependencies & build output
+node_modules/
+dist/
+public/index.compiled.js
+
+# Environment & secrets
+.env
+
+# Logs
+*.log
+
+# Release artifacts
+release/
+
+# Tool-generated directories
+.omc/
+.claude/
+.playwright-mcp/
+
+# Runtime data
+#data/players.json
+#data/session-*.json
+#data/world-*.json
+#data/failed-json/
+#data/dialogue-debug/
+#data/.build-checkpoints/
+#public/generated/_imgcache/
+#public/media-trash/
+
+# Binary/media files
+*.mp3
+
+# Backup files
+*.bak
+*.bak.*
+
+# Generated manifests
+photo-fix-manifest.json
+photo-fix-full-manifest.json
+
+# Screenshots at root (not public/)
+/*.png
+
+# Windows artifacts
+nul
+
+# Misc temp files
+test_output.txt
+
+# Any env variant except the template (backups of .env hold live keys)
+.env.*
+!.env.example
+
+# Runtime output
+logs/
+data/_orphaned/
+storage/
+
+# Voice reference clips (recreate with voice_service/fetch-mistral-samples.mjs)
+voice_service/voices/*.wav
+
+# Public repo: runtime and personal data never belongs in git
+/data/
+/state/
+public/uploads/
+public/imdb-cache/
+public/media-trash/
+public/generated/_imgcache/
+public/generated/players/
+/test-results/

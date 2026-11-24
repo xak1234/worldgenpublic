@@ -1,0 +1,50 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# VCS, tooling, editor state
+.git
+.github
+.vscode
+.claude
+.omc
+.agents
+.cursorrules
+.playwright-cli
+.playwright-mcp
+mcps
+packages
+portable-template
+release
+test-results
+node_modules
+dist
+**/__pycache__
+**/*.bak
+**/*.bak*
+**/*.log
+**/*.err
+*.txt
+!scripts/requirements.txt
+
+# Runtime data — lives on the /srv/worldgen volume, never in the image
+data
+state
+public/generated
+public/uploads
+public/imdb-cache
+public/media-trash
+public/audio/**/*.mp3
+public/audio/**/*.ogg
+public/audio/**/*.wav
+public/index.compiled.js
+
+# Docs, books and offline tooling output
+docs
+sources
+scripts/sources
+scripts/_current-batch.txt
+scripts/portrait-report.json
+*.md
+!README.md

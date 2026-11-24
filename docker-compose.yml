@@ -1,0 +1,26 @@
+# Single-host deployment (VPS, home server). One instance only: all state is in memory
+# and saved to the ./storage volume.
+#
+#   cp .env.example .env    # add WORLDGEN_API_KEY + at least one LLM key
+#   node scripts/prepare-storage.mjs ./storage   # optional: copy existing worlds/sessions/images
+#   docker compose up -d --build
+services:
+  worldgen:
+    build:
+      context: .
+      args:
+        WITH_PYTHON: "${WITH_PYTHON:-0}"
+    image: worldgen:latest
+    restart: unless-stopped
+    init: true                      # reap Python/Chromium children of the pipelines
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: "3002"                  # container port is fixed; change HOST_PORT instead
+      WORLDGEN_STORAGE: /srv/worldgen
+      WORLDGEN_DATA_DIR: /srv/worldgen/data
+    ports:
+      - "${HOST_PORT:-3002}:3002"
+    volumes:
+      - ./storage:/srv/worldgen
+    stop_grace_period: 10s

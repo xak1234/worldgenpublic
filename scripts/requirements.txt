@@ -1,0 +1,15 @@
+# Third-party Python deps for scripts/*.py. Install: pip install -r scripts/requirements.txt
+
+# --- Media orchestrator / sound packs ---
+# complete-all-media, build-world-packs, auto-pack-worlds, enhance-bland-packs, fetch-sfx*,
+# fetch-duckduckgo-panel-backgrounds use only the standard library.
+# index_fancaps.py (browser-impersonating HTTP, also used by the portrait pipeline):
+curl_cffi
+
+# --- Portrait pipeline (heavy, optional): portrait_pipeline.py ---
+numpy
+opencv-python-headless
+requests
+playwright
+insightface
+onnxruntime

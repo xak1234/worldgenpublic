@@ -1,0 +1,67 @@
+{
+  "voices": [
+    {
+      "id": "lv_anne",
+      "file": "lv_anne.wav",
+      "gender": "female",
+      "age": 19,
+      "mistralId": "3225beb1-f56e-4b81-aae2-3e7ad784a318"
+    },
+    {
+      "id": "lv_armageddon",
+      "file": "lv_armageddon.wav",
+      "gender": "male",
+      "age": 42,
+      "mistralId": "cd4415c7-1f0f-4420-a846-ccb8685574cf"
+    },
+    {
+      "id": "lv_custom",
+      "file": "lv_custom.wav",
+      "gender": "female",
+      "age": 30,
+      "mistralId": "ebddbbc5-856e-477c-801a-9648bfe22afc"
+    },
+    {
+      "id": "lv_garden",
+      "file": "lv_garden.wav",
+      "gender": "female",
+      "age": 27,
+      "mistralId": "3c7a8392-2c2a-49c1-a4ce-e0da9e6a383e"
+    },
+    {
+      "id": "lv_invisible",
+      "file": "lv_invisible.wav",
+      "gender": "male",
+      "age": 36,
+      "mistralId": "46c43b3d-ff1f-4ad1-952f-b2d1c82c6095"
+    },
+    {
+      "id": "lv_oz",
+      "file": "lv_oz.wav",
+      "gender": "male",
+      "age": 29,
+      "mistralId": "f027242c-5b74-4ec4-97df-4554106f431b"
+    },
+    {
+      "id": "lv_princess",
+      "file": "lv_princess.wav",
+      "gender": "female",
+      "age": 23,
+      "mistralId": "2315203e-0fa9-4f60-861e-7b5aaaebd400"
+    },
+    {
+      "id": "lv_wives",
+      "file": "lv_wives.wav",
+      "gender": "female",
+      "age": 28,
+      "mistralId": "2b7169eb-3605-49c4-844c-a1673ca81df1"
+    },
+    {
+      "id": "lv_wuthering",
+      "file": "lv_wuthering.wav",
+      "gender": "female",
+      "age": 48,
+      "mistralId": "d3ecb14a-45fd-4c3e-aa66-fe207ba42b44"
+    }
+  ]
+}

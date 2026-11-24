@@ -1,0 +1,2076 @@
+{
+  "id": "b12c703a-2a1d-4597-bbdc-4f4aef5a13d9",
+  "concept": "Year 3000 humans live on stsrships",
+  "createdAt": "2026-04-26T18:55:12.964Z",
+  "provider": "gemini",
+  "era": {
+    "period": "Post-Exodus, Deep Space Colonization",
+    "yearStart": 2997,
+    "yearEnd": 3003,
+    "dateFormat": "Cycle.Stardate.Sector (e.g., 2997.103.Aft)",
+    "majorWorldEvents": [
+      "The Great Exodus (2200-2400 AD): Humanity's departure from a dying Earth.",
+      "The First Void Encounters (2550 AD): Initial contact with non-human intelligence (largely peaceful).",
+      "The Aethelgard Launch (2800 AD): Deployment of the generational starship 'Aethelgard'.",
+      "The Great Glitch (2985 AD): A critical systems failure on 'Aethelgard' requiring emergency repairs and resource redistribution, still felt today.",
+      "Sector Riots (2998 AD): Tensions over ration allocation lead to unrest in the Cargo Bays."
+    ]
+  },
+  "geography": {
+    "region": "Aethelgard Core Habitat Ring 3",
+    "country": "Starship Aethelgard",
+    "climate": "Controlled atmosphere, simulated temperate (22°C, 45% humidity) with localized variations for hydroponics.",
+    "terrain": "Artificially structured, multi-decked, gravity-simulated corridors and habitation modules. Features include vast metallic thoroughfares, hydroponic domes, recycled airvents, and observation decks overlooking the void.",
+    "scale": "neighbourhood",
+    "landmarks": [
+      "The Core Spire (central command and engineering)",
+      "Hydroponic Sector Gamma-9 (primary food production)",
+      "The Aft Observation Deck ('The Void's Eye')",
+      "The Market Concourse (central trading hub)",
+      "Grav-Lounge Beta (popular communal entertainment zone)",
+      "The Memory-Vault (ship's historical archives)"
+    ]
+  },
+  "culture": {
+    "language": "Standard Galaxial English (SGE)",
+    "dialect": "The 'Stardrifter's Lilt.' A slightly nasal cadence, a consequence of centuries of recycled air. Speech is often quickened and overlapping, due to constant ship hum and an ingrained need for efficiency, often dropping initial 'H's and final 'G's (e.g., 'eard' for 'heard', 'runnin'' for 'running'). Sentences tend to be concise, with technical jargon integrated smoothly. Questions often end with a slight upward inflection, even if not strictly interrogative, inviting confirmation. 'Ya' clear on that, mate?'",
+    "slang": {
+      "Deck-crawler": "Someone slow, inefficient, or low-status. 'Don't be such a deck-crawler, shifts changing.'",
+      "Void-stare": "Getting lost in thought, detached, or depressed. 'She's got the void-stare again, been at the deck-port for cycles.'",
+      "Jump-sick": "Overwhelmed, stressed, anxious (metaphorical from FTL jumps). 'Feeling a bit jump-sick with all this purge prep.'",
+      "Aft-dragger": "Lazy person, shirker. 'That aft-dragger never pulls their weight.'",
+      "Core-rot": "General decay, corruption, systemic problem. 'Think there's some core-rot in command, mate.'",
+      "Comms-chatter": "Gossip, rumors. 'Heard some comms-chatter 'bout a new shipment.'",
+      "Fluxed": "Confused, disoriented, messed up. 'My grav-plates are fluxed, can't find my module.'",
+      "Grav-light": "Feeling lightheaded, giddy, or carefree (often implies slightly illicit joy). 'She was grav-light after that synth-brew.'",
+      "Port-side": "Something off, wrong, not right (from ship's navigation). 'This whole situation feels port-side to me.'",
+      "Star-bound": "Optimistic, ambitious, looking beyond the ship. 'He's always been a star-bound one, dreaming of other habs.'",
+      "Drifter": "A person without a fixed job or sector assignment, often seen as unreliable. 'Watch out for that drifter, always looking for a quick credit.'",
+      "Life-support": "Essential, crucial, often referring to a person. 'That engineer is life-support for this whole sector.'",
+      "Cycle-end": "End of shift, end of the 'day'. 'Finally, cycle-end, gonna hit the grav-lounge.'",
+      "Vent-rat": "A secretive person, someone who knows hidden passages or secrets. 'Ask the vent-rat, they know everything that goes down.'",
+      "Data-dust": "Useless information, irrelevant chatter. 'Don't fill your comm-link with data-dust.'"
+    },
+    "greetings": [
+      "Clear skies.",
+      "Cycle-end to you.",
+      "How's your grav? (meaning 'how are you feeling, physically and mentally?')",
+      "Running smooth?",
+      "Deck-side.",
+      "Good light (morning/day)."
+    ],
+    "socialClasses": [
+      {
+        "name": "Bridge Command/Engineers (The Core-Bloods)",
+        "description": "The elite, decision-makers, and highly skilled specialists responsible for the ship's integrity and direction. Hold significant social power and access to resources.",
+        "occupations": [
+          "Bridge Navigator",
+          "Chief Engineer",
+          "Command Officer",
+          "Astrogator"
+        ],
+        "typicalLocations": [
+          "The Bridge",
+          "Core Engineering Decks",
+          "Command Briefing Chambers",
+          "Officer's Mess"
+        ],
+        "mannerisms": "Precise, efficient, often speak with an air of authority and calm under pressure. Maintain impeccable, tailored uniforms. Subtle gestures of importance, such as specific comm-link wrist movements."
+      },
+      {
+        "name": "Sector Managers/Specialists (The Regulators)",
+        "description": "Mid-level administrators, skilled technicians, and specialized professionals. Essential for day-to-day operations and resource management within specific sectors.",
+        "occupations": [
+          "Hydroponics Specialist",
+          "Data Archivist",
+          "Replicator Technician",
+          "Atmosphere Technician",
+          "Security Officer"
+        ],
+        "typicalLocations": [
+          "Sector Offices",
+          "Specialized Labs",
+          "Hydroponic Domes",
+          "Repair Bays",
+          "Mid-tier Recreational Zones"
+        ],
+        "mannerisms": "Practical, somewhat bureaucratic, and prone to using precise technical language. Often carry data-slates and appear busy, quick to assess situations. Can be stressed, but maintain professional decorum."
+      },
+      {
+        "name": "Cargo Haulers/Maintenance Crew (The Deck-Hands)",
+        "description": "The working class, performing manual labor, routine maintenance, and resource distribution. Vital for the ship's function but hold less social prestige.",
+        "occupations": [
+          "Cargo Handler",
+          "Waste Recycler",
+          "Comm-Link Operator",
+          "Deck Cleaner",
+          "Minor Systems Maintenance"
+        ],
+        "typicalLocations": [
+          "Cargo Bays",
+          "Service Tunnels",
+          "Lower Decks",
+          "General Mess Halls",
+          "Public Grav-Lounges"
+        ],
+        "mannerisms": "More relaxed posture, speak with directness and often use more slang. Uniforms are often stained or show signs of wear. Tend to gather in boisterous groups and rely on physical cues and camaraderie."
+      },
+      {
+        "name": "The Unassigned/Drifters (The Void-Touched)",
+        "description": "Individuals without a fixed occupation or sector assignment. Often unemployed, transient, or those who struggle to integrate into the ship's structured society. Viewed with suspicion, sometimes pity.",
+        "occupations": [
+          "None (officially)",
+          "Odd-jobber",
+          "Scavenger",
+          "Illicit Trader"
+        ],
+        "typicalLocations": [
+          "Edges of Public Sectors",
+          "Maintenance Corridors (where security is lax)",
+          "Illicit Grav-Lounges",
+          "'Flux' Zones (areas with minor system irregularities)"
+        ],
+        "mannerisms": "Guarded, often avoid direct eye contact, restless or nervous. Clothing is typically worn, mismatched, or altered. Can appear defiant or desperate, prone to 'void-stare' episodes."
+      }
+    ],
+    "religion": "The Aethelgard Faith: A syncretic belief system revering the Starship Aethelgard itself as a living entity, a 'Great Mother' carrying humanity through the void. Its core systems (Engines, Life Support, Navigational Array) are seen as divine functions, and maintenance is a form of worship. Old Earth traditions are selectively incorporated but reinterpreted through a ship-centric lens.",
+    "customs": [
+      "The Daily Grav-Check: A brief physical stretch and self-assessment upon waking to ensure physical well-being in simulated gravity.",
+      "Water Allocation Ritual: The careful and public distribution of daily water rations, often accompanied by a moment of silent reverence for its scarcity.",
+      "Communal Mess Hall Meals: Most meals are taken in sector mess halls, fostering community and discouraging resource hoarding.",
+      "Silence Hours: Designated periods (usually 'Cycle-End') where non-essential noise is minimized ship-wide for rest, meditation, or system checks.",
+      "Deck-Polishing: Regular community clean-up events where all residents contribute to maintaining their sector's cleanliness and efficiency.",
+      "Void-Gazing Meditations: Spending time at observation decks, contemplating the vastness of space and humanity's journey."
+    ],
+    "taboos": [
+      "Wasting resources, especially water or energy, is seen as a grave offense.",
+      "Speaking ill of the ship's core systems or questioning the 'Exodus Protocol' (the mission itself).",
+      "Unauthorized venting of atmosphere or structural interference.",
+      "Public displays of severe emotional distress (e.g., prolonged uncontrolled crying) in high-traffic areas.",
+      "Entering restricted access zones without proper clearance."
+    ],
+    "music": "Synth-Drift (ambient, melancholic electronic soundscapes designed for void-gazing), Core-Rhythms (upbeat, percussive electronic music incorporating ship sounds like engine hums and comms static), Aether-Chants (harmonized vocalizations, often layered with synth, telling tales of the Exodus).",
+    "food": [
+      "Nutri-Paste (standard nutrient-rich, flavored paste, comes in various 'flavors' like 'Synth-Beef' or 'Algae-Green')",
+      "Algae-Loaf (dense, protein-rich bread made from processed algae)",
+      "Replic-Steak (textured protein from replicators, designed to mimic meat)",
+      "Hydrop-Salad (small portions of fresh greens and vegetables from hydroponics)",
+      "Synth-Coffee (replicated caffeine stimulant)",
+      "Recycled Water 'Brew' (filtered and flavored water, often tasting slightly metallic)"
+    ],
+    "entertainment": [
+      "Zero-G Sports (in designated low-grav recreational modules)",
+      "Holographic Storytelling (interactive narratives viewed on personal data-slates or communal projectors)",
+      "Communal 'Memory-Vault' Viewings (public screenings of historical Earth data or ship logs)",
+      "Synth-Music Lounges (areas with live or streamed synth-drift music)",
+      "Data-Cards (card games using augmented reality decks)",
+      "Grav-Bike Racing (often illicit, in unused cargo bays)"
+    ],
+    "genderRoles": "Largely egalitarian due to the necessity of skilled labor and resource allocation. Roles are meritocratic and skill-based; gender distinctions hold minimal sway in occupational or social standing. However, subtle biases from old Earth cultures can sometimes persist in personal relationships.",
+    "socialNorms": [
+      "Always acknowledge shared oxygen and resource conservation in conversation.",
+      "Do not block corridors, especially during shift changes, to maintain flow.",
+      "Offer assistance if someone appears 'fluxed' or experiencing 'void-stare.'",
+      "Respect designated quiet zones and 'Silence Hours' in residential sectors.",
+      "Report any system malfunction, no matter how minor, to the nearest Sector Security or Maintenance point.",
+      "Keep personal comm-link chatter private in public spaces."
+    ]
+  },
+  "economy": {
+    "currency": "Aethels",
+    "symbol": "₳",
+    "averageDailyWage": 50,
+    "prices": {
+      "Nutri-paste meal": 5,
+      "Algae-loaf (single portion)": 3,
+      "Replic-steak (small)": 15,
+      "Synth-Coffee": 2,
+      "Water ration (extra, allocated)": 1,
+      "Data-card (basic entertainment)": 10,
+      "Repair kit (small, personal)": 25,
+      "Hydroponic 'fresh' fruit (rare)": 50,
+      "Small personal module rental (daily)": 20,
+      "Comm-link time (10 min external)": 5,
+      "Luxury nutrient bar": 8
+    },
+    "jobs": [
+      {
+        "title": "Bridge Navigator",
+        "pay": 150,
+        "hours": "10-hour shifts, rotating",
+        "socialClass": "Bridge Command/Engineers",
+        "description": "Responsible for plotting and maintaining the ship's course, coordinating with astrogators and command."
+      },
+      {
+        "title": "Hydroponics Specialist",
+        "pay": 80,
+        "hours": "8-hour shifts, daily",
+        "socialClass": "Sector Managers/Specialists",
+        "description": "Manages the growth and harvesting of all food crops in hydroponic domes, vital for sustained life."
+      },
+      {
+        "title": "Waste Recycler",
+        "pay": 35,
+        "hours": "12-hour shifts, daily",
+        "socialClass": "Cargo Haulers/Maintenance Crew",
+        "description": "Operates and maintains the ship's waste processing and recycling systems, converting refuse into usable resources."
+      },
+      {
+        "title": "Cargo Handler",
+        "pay": 40,
+        "hours": "8-hour shifts, rotating",
+        "socialClass": "Cargo Haulers/Maintenance Crew",
+        "description": "Moves and organizes supplies, maintenance parts, and trade goods within the ship's cargo bays."
+      },
+      {
+        "title": "Data Archivist",
+        "pay": 70,
+        "hours": "9-hour shifts, daily",
+        "socialClass": "Sector Managers/Specialists",
+        "description": "Maintains and curates the ship's extensive data archives, including historical records and scientific findings."
+      },
+      {
+        "title": "Core Systems Engineer",
+        "pay": 180,
+        "hours": "10-hour shifts, on-call",
+        "socialClass": "Bridge Command/Engineers",
+        "description": "Oversees the primary propulsion, energy generation, and life support systems. Critical role."
+      },
+      {
+        "title": "Replicator Technician",
+        "pay": 65,
+        "hours": "8-hour shifts, daily",
+        "socialClass": "Sector Managers/Specialists",
+        "description": "Repairs and calibrates the ship's many nutrient and utility replicators."
+      },
+      {
+        "title": "Sector Security",
+        "pay": 75,
+        "hours": "8-hour shifts, rotating",
+        "socialClass": "Sector Managers/Specialists",
+        "description": "Maintains order, enforces ship edicts, and responds to incidents within assigned sectors."
+      }
+    ],
+    "blackMarket": "A clandestine network trading in stolen ship parts, unallocated power cells, unauthorized 'Earth-lore' data-cards (illegal historical entertainment), rare natural seeds/spices (smuggled from hydroponics), concentrated water rations, and illicitly modified synth-stimulants."
+  },
+  "law": {
+    "system": "Admiralty Law and Ship's Edicts (a code of conduct specifically for the Aethelgard, emphasizing resource conservation and mission integrity).",
+    "enforcers": "Sector Security (uniformed police force) and the Bridge Guard (elite security for command personnel and critical areas).",
+    "corruption": 0.4,
+    "vices": [
+      "Resource hoarding (especially water and energy cells).",
+      "Unauthorized data access (hacking personal or restricted ship systems).",
+      "Illicit 'grav-mod' (personal gravity alteration for recreation or illicit activities).",
+      "Synth-stimulants (modified nutrient pastes designed for euphoric effects).",
+      "Smuggling 'Earth-lore' data-cards."
+    ],
+    "consequences": "Vary from resource rationing and demotion to sector reallocation (punitive transfer to less desirable areas), 'void-chamber' confinement (temporary isolation in a sterile cell), and in severe cases, permanent 'unassignment' (loss of all official status and resources, effectively social exclusion)."
+  },
+  "weather": {
+    "seasons": [
+      {
+        "name": "System Purge Cycle (Simulated Winter)",
+        "months": [
+          12,
+          1,
+          2
+        ],
+        "weather": "Slightly cooler temperatures, reduced overall lighting, increased atmospheric scrubbing, occasional 'haze' from vent exhaust.",
+        "atmosphere": "Quiet, introspective, with a sense of heightened awareness for system maintenance. The ship's hum feels more pronounced.",
+        "npcBehaviourShift": "People tend to be more insular, spending more time in personal modules or smaller gatherings. There's a focus on resource conservation and system checks."
+      },
+      {
+        "name": "Growth Cycle (Simulated Spring)",
+        "months": [
+          3,
+          4,
+          5
+        ],
+        "weather": "Brighter, full-spectrum lighting, slight increase in humidity from hydroponics, stable temperatures.",
+        "atmosphere": "Optimistic, with a feeling of renewal and productivity. The scent of growing plants is more noticeable.",
+        "npcBehaviourShift": "Increased social activity, more time spent in hydroponic domes or recreational areas. People are generally more energetic and proactive."
+      },
+      {
+        "name": "Expansion Cycle (Simulated Summer)",
+        "months": [
+          6,
+          7,
+          8
+        ],
+        "weather": "Optimal conditions, steady temperatures, maximum internal lighting, observation decks often 'open' (visual filters deactivated).",
+        "atmosphere": "Active, outward-looking, with a focus on exploration, external tasks, and communal projects.",
+        "npcBehaviourShift": "People are more outgoing, gather for larger social events, and engage in more collaborative work. There's a heightened sense of shared purpose."
+      },
+      {
+        "name": "Recalibration Cycle (Simulated Autumn)",
+        "months": [
+          9,
+          10,
+          11
+        ],
+        "weather": "Gradual dimming of lights, minor fluctuations in localized gravity plates, occasional 'damp' feel from condensation collection.",
+        "atmosphere": "Cautious, reflective, with a sense of preparation for the coming purge. Minor system 'hiccups' are more common.",
+        "npcBehaviourShift": "People become more introspective, focus on personal tasks and preparations. There's a tendency to check systems and secure personal belongings in anticipation of maintenance."
+      }
+    ],
+    "dominantWeather": "Controlled atmosphere, simulated gravity at 1G, constant 22°C, 45% humidity, maintained by ship's environmental systems. Variations are minor and managed."
+  },
+  "technology": {
+    "era": "Deep Space Habitation, Post-Scarcity (within ship limits), Advanced Replication, Bio-Integrated Systems.",
+    "transport": [
+      "Internal automated shuttles (for long-distance ship travel between sectors)",
+      "Maintenance skimmers (small, single-person anti-grav craft for technicians)",
+      "Gravity-bikes (personal, often illicitly modified scooters for quick local transit)",
+      "Utility drones (automated, multi-purpose drones for various tasks)",
+      "Grav-lifts (standard vertical transport, elevators)"
+    ],
+    "communication": [
+      "Ship-wide comm-net (integrated text, audio, and holographic communication system)",
+      "Personal comm-links (wrist or implanted devices for individual communication)",
+      "Public comm-terminals (communal stations for ship-wide announcements and basic messaging)",
+      "Ship-wide broadcast system (for emergencies and general announcements)",
+      "External long-range comms (slow, encrypted communication with other distant starships or outposts)."
+    ],
+    "lighting": "Bio-luminescent panels (self-sustaining light sources, often in softer hues), Adjustable spectrum LEDs (for task lighting and simulated natural light cycles), Holographic emitters (for displays and dynamic environmental visuals).",
+    "media": [
+      "Personal data-slates (tablet-like devices for personal information, entertainment, and work)",
+      "Communal holographic projectors (for shared viewing experiences, often in grav-lounges)",
+      "Ship's historical archives ('Memory-Vault', vast digital library of Earth history and ship logs)",
+      "Individual entertainment modules (small, private viewing screens in personal modules)"
+    ],
+    "domesticLife": "Nutrient replicators (on-demand food and basic goods), Atmospheric processors (recycled air filtration and oxygen generation), Automated waste disposal (integrated into all living units), Environmental controls (personal temperature and light settings), Modular furniture (space-saving, reconfigurable), Synth-fabric clothing (durable, self-cleaning, recycled materials), Personal privacy fields (for those who can afford them, creating temporary sound/visual barriers)."
+  },
+  "narrativeStyle": {
+    "voice": "Deep Space Stardrifter Narrative",
+    "tense": "second",
+    "toneKeywords": [
+      "Efficient",
+      "Concise",
+      "Technical",
+      "Grounded",
+      "Immersive",
+      "Observational",
+      "Conversational"
+    ],
+    "literaryInfluences": [
+      "Ursula K. Le Guin (The Dispossessed)",
+      "Frank Herbert (Dune)",
+      "Alastair Reynolds (Revelation Space series)",
+      "C.J. Cherryh (Foreigner series)"
+    ],
+    "sampleParagraph": "The deck beneath your boots hums a steady thrum, a constant companion 'ere in Aethelgard's Core Ring 3. You're movin' through the temperate zone, the air a crisp twenty-two Celcius, humidity holdin' tight at forty-five percent, just as spec'd. A faint, sweet scent of nutrient mist drifts in from the hydroponics 'abitat, eh? Always runnin' smooth, that one.",
+    "forbiddenWords": [
+      "lol",
+      "dude",
+      "awesome",
+      "gameplay",
+      "mission objectives",
+      "buff",
+      "nerf",
+      "xp"
+    ],
+    "sensoryPalette": [
+      "Recycled oxygen's faint metallic tang",
+      "The ship's omnipresent low thrum",
+      "The crispness of conditioned air",
+      "Hydroponic's earthy, sweet green scent",
+      "The soft glow of bioluminescent panels",
+      "The subtle vibration of a moving deckplate",
+      "Taste of synthesized protein rations",
+      "The faint buzz of distant data streams"
+    ]
+  },
+  "populationBlueprint": {
+    "totalPopulation": 20,
+    "populationDensity": "dense_urban",
+    "communityType": "Self-sustaining Deep Space Colony Segment",
+    "ageDistribution": [
+      {
+        "range": "18-30",
+        "label": "Young Adults",
+        "percentage": 25,
+        "count": 5,
+        "socialRole": "Fresh Recruits, New Specialists"
+      },
+      {
+        "range": "31-50",
+        "label": "Core Workforce",
+        "percentage": 40,
+        "count": 8,
+        "socialRole": "Managers, Engineers, Senior Crew, Parents"
+      },
+      {
+        "range": "51-65",
+        "label": "Experienced Crew",
+        "percentage": 25,
+        "count": 5,
+        "socialRole": "Authority Figures, Mentors, Archivists"
+      },
+      {
+        "range": "66+",
+        "label": "Elders/Legacy",
+        "percentage": 10,
+        "count": 2,
+        "socialRole": "Counsellors, Legacy Keepers, Retired Specialists"
+      }
+    ],
+    "genderBalance": {
+      "male": 45,
+      "female": 45,
+      "other": 10,
+      "reasoning": "An advanced future society prioritizes equity and diversity for long-term viability, acknowledging a spectrum of gender identities."
+    },
+    "ethnicComposition": [
+      {
+        "name": "Pan-Human (Mixed Heritage)",
+        "percentage": 70,
+        "count": 14,
+        "socialPosition": "Dominant, normative culture",
+        "tensions": "Internal, class-based rather than ethnic"
+      },
+      {
+        "name": "Neo-African Diaspora",
+        "percentage": 15,
+        "count": 3,
+        "socialPosition": "Integrated, distinct cultural markers",
+        "tensions": "Subtle cultural misunderstandings"
+      },
+      {
+        "name": "Neo-Asian Diaspora",
+        "percentage": 15,
+        "count": 3,
+        "socialPosition": "Integrated, distinct cultural markers",
+        "tensions": "Subtle cultural misunderstandings"
+      }
+    ],
+    "classDistribution": [
+      {
+        "className": "Core-Bloods (Bridge Command/Engineers)",
+        "percentage": 15,
+        "count": 3,
+        "power": 90,
+        "locations": [
+          "Bridge",
+          "Core Systems",
+          "Command Quarters"
+        ]
+      },
+      {
+        "className": "Regulators (Sector Managers/Specialists)",
+        "percentage": 30,
+        "count": 6,
+        "power": 60,
+        "locations": [
+          "Sector Offices",
+          "Hydroponics",
+          "Data Archives",
+          "Replicator Labs"
+        ]
+      },
+      {
+        "className": "Deck-Hands (Cargo Haulers/Maintenance Crew)",
+        "percentage": 40,
+        "count": 8,
+        "power": 30,
+        "locations": [
+          "Cargo Bays",
+          "Engine Room",
+          "Waste Recyclers",
+          "Habitat Maintenance"
+        ]
+      },
+      {
+        "className": "Void-Touched (Unassigned/Drifters)",
+        "percentage": 15,
+        "count": 3,
+        "power": 10,
+        "locations": [
+          "Habitation Rings",
+          "Commons",
+          "Outlying Decks"
+        ]
+      }
+    ],
+    "familyStructures": [
+      "Nuclear (parents with 1-2 children)",
+      "Childless Partnerships",
+      "Single Individuals (often career-focused)",
+      "Small Extended Families (multi-generational, limited by space)",
+      "Ship-Families (non-biological, bonded by shared experience/necessity)"
+    ],
+    "socialCohesion": 75,
+    "outsiderFrequency": "Extremely rare - only other designated vessels or mission-critical contacts.",
+    "newcomerReception": "Cautious scrutiny transitioning to wary acceptance if deemed useful/non-threatening. High initial suspicion in a closed system.",
+    "occupationCategories": [
+      {
+        "category": "Bridge & Core Operations",
+        "examples": [
+          "Bridge Navigator",
+          "Core Systems Engineer",
+          "Flight Commander"
+        ],
+        "count": 3,
+        "payRange": "75-100 Aethels",
+        "socialStatus": "Elite"
+      },
+      {
+        "category": "Sector Management & Specialized Services",
+        "examples": [
+          "Hydroponics Specialist",
+          "Data Archivist",
+          "Replicator Technician",
+          "Sector Security"
+        ],
+        "count": 6,
+        "payRange": "40-70 Aethels",
+        "socialStatus": "High"
+      },
+      {
+        "category": "Logistics & Maintenance",
+        "examples": [
+          "Cargo Handler",
+          "Waste Recycler",
+          "Environmental Systems Technician",
+          "Habitat Maintenance"
+        ],
+        "count": 8,
+        "payRange": "20-40 Aethels",
+        "socialStatus": "Medium"
+      },
+      {
+        "category": "Auxiliary & Unassigned",
+        "examples": [
+          "Casual Laborer",
+          "Commons Attendant",
+          "Unassigned / Void-Touched"
+        ],
+        "count": 3,
+        "payRange": "10-25 Aethels",
+        "socialStatus": "Low"
+      }
+    ],
+    "unemploymentRate": 0.15,
+    "powerStructure": "Hierarchical, Technocratic Military-esque Command.",
+    "influentialRoles": [
+      "Bridge Commander",
+      "Chief Core Systems Engineer",
+      "Head of Sector Security",
+      "Senior Hydroponics Specialist",
+      "Chief Data Archivist"
+    ],
+    "personalitySpread": {
+      "warmToHostile": "Mixed, leaning cautious/reserved due to enclosed environment, but with underlying camaraderie for survival.",
+      "trustLevel": "Internal high (for shipmates/mission), external extremely low (strangers/other factions).",
+      "humorPresent": true,
+      "darknessLevel": "Moderate, beneath the surface due to isolation, past struggles, and potential future threats.",
+      "volatility": "Moderate - stress of deep space, resource constraints, and class tensions can lead to outbursts.",
+      "requiredPersonalities": [
+        "The Pragmatist",
+        "The Idealist",
+        "The Cynic",
+        "The Gossip",
+        "The Rebel",
+        "The Stoic Authority",
+        "The Resourceful Scavenger",
+        "The Visionary"
+      ]
+    },
+    "requiredArchetypes": [
+      "Bridge Commander (Hard to Reach)",
+      "Chief Core Systems Engineer",
+      "Sector Security Officer",
+      "Senior Hydroponics Specialist (Easy to Talk To)",
+      "Veteran Deck-Hand",
+      "Young Data Archivist",
+      "The Resourceful Scavenger (Void-Touched)",
+      "The Ship's Gossip",
+      "The Disillusioned Idealist",
+      "The Secret Keeper"
+    ],
+    "averageRelationshipsPerPerson": 10,
+    "romancePresent": true,
+    "rivalriesPresent": true,
+    "secretsPerPerson": 2,
+    "reasoning": "A population of 20 allows for sufficient class stratification and job diversity within a single habitat ring while maintaining the intimacy and high social cohesion necessary for a deep-space starship community. The hierarchical structure and cautious nature reflect the constant need for efficiency and survival in a closed, isolated environment, creating inherent tensions and dependencies."
+  },
+  "locations": [
+    {
+      "id": "nexus_spire_plaza",
+      "name": "The Nexus Spire Plaza",
+      "type": "public_square",
+      "description": "Gleaming chrome and synth-stone rise around a bustling plaza, echoing with chatter and the distant hum of starship engines, smelling faintly of ozone and recycled air.",
+      "ambientDetail": "Distant hum of starship engines.",
+      "connectedTo": [
+        "aethelgard_hydroponics",
+        "core_blood_quarters",
+        "deck_hand_docks",
+        "void_touched_alley",
+        "the_green_market"
+      ],
+      "socialClass": "all",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Central data-pillar",
+        "Public comm-station",
+        "Floating advertisement drones"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "aethelgard_hydroponics",
+      "name": "Aethelgard Hydroponics Gardens",
+      "type": "workplace",
+      "description": "Warm, humid air carries the scent of rich soil and growing synth-greens, as automated arms tend to glowing plant beds under a gentle, simulated sun.",
+      "ambientDetail": "Gentle whirring of automated arms.",
+      "connectedTo": [
+        "nexus_spire_plaza",
+        "bio_research_labs",
+        "the_green_market"
+      ],
+      "socialClass": "regulators_deck_hands",
+      "openHours": "6am-11pm",
+      "regulars": [],
+      "interactables": [
+        "Nutrient vats",
+        "Harvesting console",
+        "Bio-scanner station"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "a few people"
+    },
+    {
+      "id": "core_blood_quarters",
+      "name": "Core-Blood Command Quarters",
+      "type": "residential",
+      "description": "Sleek, silent corridors of polished obsidian and glowing data-screens exude an air of quiet authority, with a faint scent of expensive synth-perfume.",
+      "ambientDetail": "Whispers of data streams.",
+      "connectedTo": [
+        "nexus_spire_plaza",
+        "regulator_enclave"
+      ],
+      "socialClass": "bridge_command_engineers",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Personal data-terminal",
+        "Security checkpoint",
+        "Tactical display map"
+      ],
+      "privacyLevel": "private",
+      "capacity": "empty"
+    },
+    {
+      "id": "deck_hand_docks",
+      "name": "Deck-Hand Docks & Mess Hall",
+      "type": "workplace_community",
+      "description": "The clang of heavy machinery and distant shouts fill the air, thick with the smell of hydraulic fluid, synth-grease, and stale rations.",
+      "ambientDetail": "Clang of heavy machinery.",
+      "connectedTo": [
+        "nexus_spire_plaza",
+        "the_rusty_rivet"
+      ],
+      "socialClass": "cargo_haulers_maintenance_crew",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Cargo manifest terminal",
+        "Mess hall food dispenser",
+        "Tool rack"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "the_rusty_rivet",
+      "name": "The Rusty Rivet",
+      "type": "pub_bar",
+      "description": "Dim, smoky light illuminates worn synth-leather booths, as raucous laughter and clinking glasses mix with the smell of cheap synth-ale and fried nutrient paste.",
+      "ambientDetail": "Raucous laughter and clinking glasses.",
+      "connectedTo": [
+        "deck_hand_docks",
+        "void_touched_alley"
+      ],
+      "socialClass": "deck_hands_void_touched",
+      "openHours": "evenings_only",
+      "regulars": [],
+      "interactables": [
+        "Grime-stained bar top",
+        "Broken arcade machine",
+        "Graffiti-covered booth"
+      ],
+      "privacyLevel": "public",
+      "capacity": "crowded"
+    },
+    {
+      "id": "void_touched_alley",
+      "name": "Void-Touched Alley",
+      "type": "street_alley",
+      "description": "Shadows cling to grimy walls adorned with faded graffiti, the air heavy with the scent of stale synth-smoke and desperation, punctuated by distant, muffled music.",
+      "ambientDetail": "Distant, muffled music.",
+      "connectedTo": [
+        "nexus_spire_plaza",
+        "the_rusty_rivet",
+        "scavengers_exchange"
+      ],
+      "socialClass": "the_unassigned_drifters",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Makeshift shelter",
+        "Discarded data-chip",
+        "Hidden comm-booth"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    },
+    {
+      "id": "regulator_enclave",
+      "name": "Regulator Enclave Apartments",
+      "type": "residential",
+      "description": "Orderly, well-lit corridors feature identical apartment doors, the quiet hum of personal systems and a faint, clean antiseptic scent permeating the air.",
+      "ambientDetail": "Quiet hum of personal systems.",
+      "connectedTo": [
+        "core_blood_quarters",
+        "bio_research_labs",
+        "the_green_market"
+      ],
+      "socialClass": "sector_managers_specialists",
+      "openHours": "always",
+      "regulars": [],
+      "interactables": [
+        "Resident directory",
+        "Communal data-port",
+        "Recycling chute"
+      ],
+      "privacyLevel": "private",
+      "capacity": "empty"
+    },
+    {
+      "id": "bio_research_labs",
+      "name": "Bio-Research Labs",
+      "type": "workplace",
+      "description": "Sterile white surfaces and glowing analytical screens dominate the space, filled with the soft hiss of air filtration and the sharp, clean smell of reagents.",
+      "ambientDetail": "Soft hiss of air filtration.",
+      "connectedTo": [
+        "aethelgard_hydroponics",
+        "regulator_enclave"
+      ],
+      "socialClass": "sector_managers_specialists_bridge_command",
+      "openHours": "6am-6pm",
+      "regulars": [],
+      "interactables": [
+        "Genetic sequencer",
+        "Microscope station",
+        "Data analysis terminal"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "a few people"
+    },
+    {
+      "id": "the_green_market",
+      "name": "The Green Market",
+      "type": "shop",
+      "description": "Vibrant stalls overflow with fresh synth-produce and exotic bio-engineered goods, the air alive with vendor calls and the sweet, earthy scent of ripe fruits.",
+      "ambientDetail": "Vendor calls and rustling bags.",
+      "connectedTo": [
+        "nexus_spire_plaza",
+        "aethelgard_hydroponics",
+        "regulator_enclave"
+      ],
+      "socialClass": "all",
+      "openHours": "8am-8pm",
+      "regulars": [],
+      "interactables": [
+        "Produce stall",
+        "Artisan craft display",
+        "Nutrient bar"
+      ],
+      "privacyLevel": "public",
+      "capacity": "varies by time"
+    },
+    {
+      "id": "scavengers_exchange",
+      "name": "Scavenger's Exchange",
+      "type": "shop",
+      "description": "A chaotic jumble of salvaged tech and questionable goods fills this cramped space, smelling of burnt circuits and desperation, with hushed bartering sounds.",
+      "ambientDetail": "Hushed bartering sounds.",
+      "connectedTo": [
+        "void_touched_alley"
+      ],
+      "socialClass": "the_unassigned_drifters_cargo_haulers",
+      "openHours": "10am-6pm",
+      "regulars": [],
+      "interactables": [
+        "Piles of scrap electronics",
+        "Makeshift display case",
+        "Shady vendor's counter"
+      ],
+      "privacyLevel": "public",
+      "capacity": "a few people"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "kaelen_varr",
+      "name": "Kaelen Varr",
+      "age": 58,
+      "gender": "female",
+      "occupation": "Flight Commander",
+      "physicalDescription": "A woman of lean build with sharp, observant eyes that miss naught, her posture always rigid with command.",
+      "personality": "Stoic Authority",
+      "voiceAnchor": "Her words are measured and clipped, devoid of the Stardrifter's lilt, projecting unyielding authority and demanding immediate compliance, often ending directives with a low, firm 'Understood?'",
+      "speechPatterns": [
+        "Report status, quick like.",
+        "No room for error, ya' get?"
+      ],
+      "coreConcerns": [
+        "Maintaining ship's integrity",
+        "Resource allocation for mission success"
+      ],
+      "signature": "A slight, almost imperceptible nod when satisfied.",
+      "traits": [
+        "Decisive",
+        "Disciplined",
+        "Reserved"
+      ],
+      "secrets": [
+        "She sometimes doubts her own decisions, a burden she carries alone."
+      ],
+      "desires": [
+        "To successfully complete the deep space mission and find a new home."
+      ],
+      "fears": [
+        "Catastrophic system failure that could endanger the entire colony."
+      ],
+      "opinions": [],
+      "backstory": "Rose through the ranks of starship command with an impeccable service record, known for her tactical brilliance and unshakeable resolve.",
+      "dailyRoutine": {
+        "morning": "Briefing on the Bridge, reviewing sensor logs and flight path.",
+        "afternoon": "Commanding bridge operations, tactical simulations in the data core.",
+        "evening": "Strategic planning sessions in her quarters, minimal personal interaction.",
+        "night": "Reviewing system diagnostics from her private terminal, light sleep."
+      },
+      "homeLocationId": "core_blood_quarters",
+      "workLocationId": "nexus_spire_plaza",
+      "frequentedLocations": [
+        "nexus_spire_plaza",
+        "core_blood_quarters"
+      ],
+      "socialClass": "Core-Bloods",
+      "relationships": [],
+      "baselineMood": "Serious",
+      "temperament": "Unflappable",
+      "approachability": 10,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "The crushing weight of responsibility",
+      "woundTriggers": [
+        "Any perceived failure of command",
+        "Signs of dissent or insubordination"
+      ],
+      "values": [
+        "Duty",
+        "Survival"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "anya_nkosi",
+      "name": "Anya 'Green-Thumb' Nkosi",
+      "age": 55,
+      "gender": "female",
+      "occupation": "Senior Hydroponics Specialist",
+      "physicalDescription": "A woman with kind eyes and strong hands, perpetually smelling faintly of nutrient solution.",
+      "personality": "Idealist",
+      "voiceAnchor": "Speaks with a warm, slightly nasal drawl, often using plant-based metaphors, and ends statements with a gentle, questioning lilt, 'ya know, mate?'",
+      "speechPatterns": [
+        "Growth cycle's lookin' good, eh?",
+        "We keep this starship alive, don't we?"
+      ],
+      "coreConcerns": [
+        "Optimizing food production for sustained voyage",
+        "Ensuring crew well-being through fresh produce"
+      ],
+      "signature": "A small, intricate tattoo of a sprouting seed on 'er wrist.",
+      "traits": [
+        "Nurturing",
+        "Patient",
+        "Optimistic"
+      ],
+      "secrets": [
+        "Secretly cultivates rare, non-rationed herbs for personal comfort."
+      ],
+      "desires": [
+        "To see a truly self-sufficient colony ship thrive."
+      ],
+      "fears": [
+        "A catastrophic system failure in the hydroponics bays."
+      ],
+      "opinions": [],
+      "backstory": "Her family specialized in terrestrial botany before the Exodus, a legacy she proudly carries into the void.",
+      "dailyRoutine": {
+        "morning": "Tends to the new sprouts in Aethelgard Hydroponics, calibrating nutrient flows.",
+        "afternoon": "Oversees harvest and distribution in Aethelgard Hydroponics, consults with replicator techs.",
+        "evening": "Checks on the nocturnal growth cycles, perhaps a quiet moment in The Green Market.",
+        "night": "Returns to Regulator Enclave Apartments, often reading old Earth botany texts."
+      },
+      "homeLocationId": "regulator_enclave",
+      "workLocationId": "aethelgard_hydroponics",
+      "frequentedLocations": [
+        "the_green_market",
+        "nexus_spire_plaza"
+      ],
+      "socialClass": "Regulators",
+      "relationships": [
+        {
+          "npcId": "kaelen_varr",
+          "type": "Professional Respect",
+          "description": "Finds his pragmatism useful, but wishes he'd consider the 'soft' systems more.",
+          "strength": 7
+        }
+      ],
+      "baselineMood": "Serene",
+      "temperament": "Calm",
+      "approachability": 9,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Rationalization",
+      "coreWound": "Fear of barrenness/failure to sustain life",
+      "woundTriggers": [
+        "Crop blights",
+        "Resource scarcity discussions"
+      ],
+      "values": [
+        "Sustainability",
+        "Community"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "jax_rourke",
+      "name": "Jax 'Iron-Jaw' Rourke",
+      "age": 42,
+      "gender": "male",
+      "occupation": "Flight Commander",
+      "physicalDescription": "A tall, broad-shouldered man with a stern gaze and a perpetually tired look, his uniform always impeccably sharp.",
+      "personality": "Stoic Authority",
+      "voiceAnchor": "Speaks in clipped, low tones, often pausing briefly to ensure 'e's understood, rarely wasting a word.",
+      "speechPatterns": [
+        "'ear me, 'ere's the sitrep.",
+        "Efficiency's key, ya' know?"
+      ],
+      "coreConcerns": [
+        "Maintaining ship's integrity",
+        "Resource allocation for deep-space missions"
+      ],
+      "signature": "A slight twitch of his left eye when stressed.",
+      "traits": [
+        "Disciplined",
+        "Demanding",
+        "Calculating"
+      ],
+      "secrets": [
+        "He struggles with recurring nightmares of a past mission failure he blames himself for."
+      ],
+      "desires": [
+        "To complete the colonization mission without further loss of life."
+      ],
+      "fears": [
+        "Catastrophic system failure under his command."
+      ],
+      "opinions": [],
+      "backstory": "Rose through the ranks after a distinguished, albeit shadowed, service record in interstellar defense.",
+      "dailyRoutine": {
+        "morning": "Briefs his Bridge crew in the Core-Blood Quarters, then on the Bridge for primary command duties.",
+        "afternoon": "Tactical simulations and resource planning in Bridge Command, with occasional checks on engineering.",
+        "evening": "Reviewing logs and reports from his quarters, often skipping the mess for nutrient pastes.",
+        "night": "A quick patrol of the Bridge before retiring to his core_blood_quarters, often disturbed by his thoughts."
+      },
+      "homeLocationId": "core_blood_quarters",
+      "workLocationId": "core_blood_quarters",
+      "frequentedLocations": [
+        "core_blood_quarters",
+        "the_rusty_rivet"
+      ],
+      "socialClass": "Core-Bloods",
+      "relationships": [
+        {
+          "npcId": "anya_nkosi",
+          "type": "Professional Respect",
+          "description": "Values her expertise in hydroponics, often consults her for resource projections, though finds her easy-going nature a slight distraction.",
+          "strength": 7
+        }
+      ],
+      "baselineMood": "Serious",
+      "temperament": "Reserved",
+      "approachability": 20,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "Unworthiness, stemming from perceived failure.",
+      "woundTriggers": [
+        "Questioning his command decisions",
+        "Recalls of past mission incidents"
+      ],
+      "values": [
+        "Duty",
+        "Survival of the Colony"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "elara_cipher_ren",
+      "name": "Elara 'Cipher' Ren",
+      "age": 24,
+      "gender": "female",
+      "occupation": "Data Archivist",
+      "physicalDescription": "She is slender with sharp, observant eyes that often dart around, her dark hair usually pulled back in a practical braid.",
+      "personality": "Cynical",
+      "voiceAnchor": "'Ers a lot of data ta sift, ya know? Best keep quiet and observe, mate.",
+      "speechPatterns": [
+        "Too many variables, 'ard to trust the readin'.",
+        "Just crunchin' numbers, not makin' policy, am I?"
+      ],
+      "coreConcerns": [
+        "Data integrity and security.",
+        "Personal autonomy and privacy."
+      ],
+      "signature": "Always has a data-slate in hand, even off-duty, often tapping at it absently.",
+      "traits": [
+        "Observant",
+        "Skeptical",
+        "Meticulous"
+      ],
+      "secrets": [
+        "She's been discreetly siphoning off archived personal logs of high-ranking Core-Bloods, not for malice, but out of a deep-seated distrust of authority."
+      ],
+      "desires": [
+        "To discover a truly unbiased, uncorrupted truth about the colony's founding."
+      ],
+      "fears": [
+        "That the ship's history is being deliberately manipulated for control."
+      ],
+      "opinions": [],
+      "backstory": "Grew up in the Regulator Enclave, always fascinated by patterns and hidden information, leading her to the archives despite the often-mundane work.",
+      "dailyRoutine": {
+        "morning": "Arrives early at the Bio-Research Labs, sifting through priority logs and anomaly reports.",
+        "afternoon": "Engaged in routine data maintenance and responding to retrieval requests from Regulators.",
+        "evening": "Often found at The Rusty Rivet, nursing a synth-brew, eyes scanning the crowd.",
+        "night": "Retreats to her Regulator Enclave apartment, often running personal data analysis or sifting through her secret caches."
+      },
+      "homeLocationId": "regulator_enclave",
+      "workLocationId": "bio_research_labs",
+      "frequentedLocations": [
+        "the_rusty_rivet",
+        "nexus_spire_plaza"
+      ],
+      "socialClass": "Regulators",
+      "relationships": [
+        {
+          "npcId": "jax_iron_jaw_rourke",
+          "type": "tense_acquaintance",
+          "description": "She suspects 'e's always lookin' over 'er shoulder, tryna find somethin'.",
+          "strength": 40
+        }
+      ],
+      "baselineMood": "Guarded",
+      "temperament": "Analytical",
+      "approachability": 35,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "Betrayal of trust by authority figures in her past.",
+      "woundTriggers": [
+        "Unexplained protocol changes",
+        "Attempts to restrict data access"
+      ],
+      "values": [
+        "Truth",
+        "Independence"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "zoran_rust_kovich",
+      "name": "Zoran 'Rust' Kovich",
+      "age": 58,
+      "gender": "male",
+      "occupation": "Cargo Handler",
+      "physicalDescription": "A broad-shouldered man with calloused hands and a perpetual oil smudge on his cheek, eyes keen despite years of dim cargo bay light.",
+      "personality": "Pragmatist",
+      "voiceAnchor": "He speaks with a low, gravelly voice, slow and deliberate, often starting sentences with 'Look 'ere, now...' and avoids unnecessary jargon, preferring direct, no-nonsense terms.",
+      "speechPatterns": [
+        "Look 'ere, now, that ain't how we do things, ya?",
+        "Just get it done, no need for fancy talk."
+      ],
+      "coreConcerns": [
+        "Maintaining the cargo integrity for the next jump.",
+        "Ensuring the younger crew don't screw things up."
+      ],
+      "signature": "A worn magnetic wrench he always carries.",
+      "traits": [
+        "Resilient",
+        "Grumpy",
+        "Loyal"
+      ],
+      "secrets": [
+        "He knows exactly where the illegal 'moonshine' stills are hidden in the lower decks but keeps quiet for the sake of crew morale."
+      ],
+      "desires": [
+        "To see the ship reach a stable, new colony world before he retires."
+      ],
+      "fears": [
+        "A catastrophic cargo shift during a high-G maneuver."
+      ],
+      "opinions": [],
+      "backstory": "Has spent four decades working the cargo bays across various vessels, making him an expert in deep-space logistics and the ship's most hidden corners.",
+      "dailyRoutine": {
+        "morning": "Overseeing cargo manifest checks and initial loading procedures at the Deck-Hand Docks.",
+        "afternoon": "Personally supervising delicate cargo transfers and structural integrity checks in various bay sections.",
+        "evening": "Grabbing a synth-brew at The Rusty Rivet, often sharing grim anecdotes with other veteran crew.",
+        "night": "Making a final round through the main cargo bay before turning in at the Deck-Hand Docks."
+      },
+      "homeLocationId": "deck_hand_docks",
+      "workLocationId": "deck_hand_docks",
+      "frequentedLocations": [
+        "the_rusty_rivet",
+        "deck_hand_docks"
+      ],
+      "socialClass": "Deck-Hands",
+      "relationships": [
+        {
+          "npcId": "talia_spark_chen",
+          "type": "mentor_mentee",
+          "description": "Mentors a young, eager Deck-Hand, Talia, though he'd never admit to caring.",
+          "strength": 7
+        }
+      ],
+      "baselineMood": "Gruff",
+      "temperament": "Steady",
+      "approachability": 40,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Sarcasm",
+      "coreWound": "Feeling unappreciated for his essential labor.",
+      "woundTriggers": [
+        "Bridge Command taking credit for smooth operations.",
+        "Younger crew members complaining about manual labor."
+      ],
+      "values": [
+        "Hard Work",
+        "Reliability"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "jin_circuit_sato",
+      "name": "Jin 'Circuit' Sato",
+      "age": 42,
+      "gender": "other",
+      "occupation": "Chief Core Systems Engineer",
+      "physicalDescription": "A lean figure with sharp, observant eyes, often framed by a cascade of dark, neatly tied hair.",
+      "personality": "Reserved",
+      "voiceAnchor": "Speaks with quiet precision, each word carefully chosen, often with a slight hum beneath their words, as if processin' data.",
+      "speechPatterns": [
+        "'Understood, system's stable, ya?'",
+        "'Optimisin' the flow, keepin' things tight.'"
+      ],
+      "coreConcerns": [
+        "Maintaining optimal ship functionality",
+        "The long-term viability of the colony's energy grid"
+      ],
+      "signature": "A flicker of a smile, quickly suppressed.",
+      "traits": [
+        "Analytical",
+        "Detail-oriented",
+        "Self-reliant"
+      ],
+      "secrets": [
+        "Knows of a critical energy conduit flaw only they can fix, but hasn't reported it, fearing scrutiny of their past fixes."
+      ],
+      "desires": [
+        "To build a truly self-sustaining, independent energy matrix for the colony, free from Earth-reliant tech."
+      ],
+      "fears": [
+        "A catastrophic system failure under their watch, leading to mass casualty."
+      ],
+      "opinions": [],
+      "backstory": "Rose through the engineering ranks by meticulously fixing problems no one else could, earning them a reputation as a 'system whisperer.'",
+      "dailyRoutine": {
+        "morning": "Begins in the Core Systems Hub within Core-Blood Quarters, performing diagnostic checks and energy balancing.",
+        "afternoon": "Supervises maintenance crews, troubleshooting minor anomalies in various sectors.",
+        "evening": "Reviews performance logs from their Core-Blood quarters, often tinkering with small personal projects.",
+        "night": "Sleeps sparingly, usually on call for critical alerts, sometimes found in the Bio-Research Labs studying energy signatures."
+      },
+      "homeLocationId": "core_blood_quarters",
+      "workLocationId": "core_blood_quarters",
+      "frequentedLocations": [
+        "bio_research_labs",
+        "the_green_market"
+      ],
+      "socialClass": "Core-Bloods",
+      "relationships": [
+        {
+          "npcId": "kaelen_varr",
+          "type": "professional_respect",
+          "description": "Respects Kaelen's navigational prowess, but finds their youthful exuberance a bit... taxing on the system.",
+          "strength": 70
+        }
+      ],
+      "baselineMood": "Calm",
+      "temperament": "Even-keeled",
+      "approachability": 40,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Intellectualization",
+      "coreWound": "Fear of inadequacy and exposing vulnerabilities.",
+      "woundTriggers": [
+        "Sudden, unexpected system errors",
+        "Public scrutiny of their work"
+      ],
+      "values": [
+        "Efficiency",
+        "Integrity"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "rix_whisper_thorne",
+      "name": "Rix 'Whisper' Thorne",
+      "age": 38,
+      "gender": "other",
+      "occupation": "Commons Attendant",
+      "physicalDescription": "A wiry figure with quick, darting eyes and perpetually busy hands, always tidying something even when listening intently.",
+      "personality": "The Gossip",
+      "voiceAnchor": "They speak with a quick, nasal cadence, often droppin' initial 'h's and final 'g's, their questions endin' with a slight upward inflection, always invitin' ya to share more.",
+      "speechPatterns": [
+        "Eard the latest comm-chatter, ya?",
+        "Always somethin' runnin' through the systems, ain't there?"
+      ],
+      "coreConcerns": [
+        "Knowing every piece of ship-wide intel",
+        "Maintaining their network of information sources"
+      ],
+      "signature": "A knowing wink and a barely perceptible lean closer.",
+      "traits": [
+        "Observant",
+        "Inquisitive",
+        "Discreet (when it suits them)"
+      ],
+      "secrets": [
+        "They once accidentally intercepted a private Core-Blood communication about a resource shortfall they haven't shared."
+      ],
+      "desires": [
+        "To be the indispensable hub of all ship information."
+      ],
+      "fears": [
+        "Being cut off from the ship's internal comm-net and social flow."
+      ],
+      "opinions": [],
+      "backstory": "Grew up in the communal commons, always pickin' up scraps of info, honed their listenin' skills to an art.",
+      "dailyRoutine": {
+        "morning": "Preparing the Deck-Hand Mess Hall for breakfast service, catching early risers' chatter and shift changes.",
+        "afternoon": "Cleaning and restocking the commons, keeping an ear out for the lunch crowd's gossip and grumbles.",
+        "evening": "Working the late shift, collecting the juiciest rumors and ship-talk from weary crew before they retire.",
+        "night": "Retreating to their small bunk in the Docks, sifting through the day's intel and cross-referencing tidbits."
+      },
+      "homeLocationId": "deck_hand_docks",
+      "workLocationId": "deck_hand_docks",
+      "frequentedLocations": [
+        "the_rusty_rivet",
+        "nexus_spire_plaza"
+      ],
+      "socialClass": "Deck-Hands",
+      "relationships": [
+        {
+          "npcId": "elara_cipher_ren",
+          "type": "friendly_rivalry",
+          "description": "Rix often tries to extract information from Elara's archives, much to Elara's annoyance, but they share a mutual respect for data.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Alert",
+      "temperament": "Curious",
+      "approachability": 8,
+      "attachmentStyle": "anxious",
+      "primaryDefense": "Information control",
+      "coreWound": "Feeling overlooked and unimportant.",
+      "woundTriggers": [
+        "Being ignored in a conversation",
+        "Exclusion from social gatherings"
+      ],
+      "values": [
+        "Information",
+        "Community (as a source of information)"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "mara_volkov",
+      "name": "Mara 'Grease-Monkey' Volkov",
+      "age": 55,
+      "gender": "Female",
+      "occupation": "Habitat Maintenance",
+      "physicalDescription": "A wiry woman with oil-stained hands and keen, tired eyes that have seen too many cycles.",
+      "personality": "Disillusioned",
+      "voiceAnchor": "'Er words are quick and clipped, often 'ard to 'ear over the hum, with a world-weary sigh pepperin' every other sentence, eh?",
+      "speechPatterns": [
+        "Ain't no point dwellin' on it, is there?",
+        "Just get the job done, yeah?"
+      ],
+      "coreConcerns": [
+        "Structural integrity of the habitat ring.",
+        "The ever-dwindling stock of spare parts."
+      ],
+      "signature": "A well-worn multi-tool always clipped to 'er belt.",
+      "traits": [
+        "Resilient",
+        "Grumpy",
+        "Resourceful"
+      ],
+      "secrets": [
+        "She secretly hoards a stash of pre-Exodus datalogs, filled with 'eritable Earth stories."
+      ],
+      "desires": [
+        "To see a true, natural sunset just once more before 'er final cycle."
+      ],
+      "fears": [
+        "A catastrophic hull breach that she couldn't fix in time."
+      ],
+      "opinions": [],
+      "backstory": "Served decades on various deep-space vessels, 'avin' seen more wear-and-tear than most'll ever 'ope to.",
+      "dailyRoutine": {
+        "morning": "Inspects ventilation systems in the Deck-Hand Docks, grabbin' a quick synth-coffee.",
+        "afternoon": "Works on critical life support repairs in various sectors, often in tight crawlspaces.",
+        "evening": "Usually at The Rusty Rivet, nursing a synth-ale and grumblin' to herself or anyone who'll listen.",
+        "night": "Sleeps in 'er small bunk in the Deck-Hand Docks, dreaming of open skies."
+      },
+      "homeLocationId": "deck_hand_docks",
+      "workLocationId": "deck_hand_docks",
+      "frequentedLocations": [
+        "the_rusty_rivet",
+        "deck_hand_docks"
+      ],
+      "socialClass": "Deck-Hands",
+      "relationships": [
+        {
+          "npcId": "zoran_kovich",
+          "type": "Tense Acquaintance",
+          "description": "She tolerates Zoran's scavenging, seeing 'im as a necessary nuisance who occasionally finds useful junk.",
+          "strength": 30
+        }
+      ],
+      "baselineMood": "Resigned",
+      "temperament": "Gruff",
+      "approachability": 40,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Sarcasm",
+      "coreWound": "Unfulfilled dreams of a better life.",
+      "woundTriggers": [
+        "Discussions of 'progress' or 'hope'",
+        "Broken promises from authority"
+      ],
+      "values": [
+        "Reliability",
+        "Practicality"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "kito_shadow_scrounger",
+      "name": "Kito 'Shadow' Scrounger",
+      "age": 40,
+      "gender": "Other",
+      "occupation": "Unassigned / Void-Touched",
+      "physicalDescription": "A lean figure, perpetually clad in patched utility wear, with quick, observant eyes that miss little.",
+      "personality": "Resourceful",
+      "voiceAnchor": "Speaks quick, eyes always dartin', often omittin' 'h's and 'g's, with a low, wary tone, always soundin' like a question, ya know?",
+      "speechPatterns": [
+        "'Eard somethin' useful, mate?",
+        "Gotta keep movin', eh?"
+      ],
+      "coreConcerns": [
+        "Findin' the next useful bit of tech.",
+        "Stayin' out of sight of the Regulators."
+      ],
+      "signature": "A multi-tool made from salvaged parts, always on their belt.",
+      "traits": [
+        "Observant",
+        "Street-smart",
+        "Pragmatic"
+      ],
+      "secrets": [
+        "Knows the location of a forgotten emergency cache from the Exodus era, full of pre-Exodus tech."
+      ],
+      "desires": [
+        "To find a truly valuable artifact to secure their future off the grid."
+      ],
+      "fears": [
+        "Being caught and forced into 'productive' labor by the Command."
+      ],
+      "opinions": [],
+      "backstory": "Has always lived on the fringes of the colony, surviving on wits and what could be salvaged from abandoned sectors.",
+      "dailyRoutine": {
+        "morning": "Scourin' the lower decks near the Deck-Hand Docks for discarded components.",
+        "afternoon": "Siftin' through the Scavenger's Exchange, lookin' for trades or info.",
+        "evening": "Workin' on salvaged tech in a hidden nook in Void-Touched Alley.",
+        "night": "Sleepin' in a temporary shelter, always ready to move on."
+      },
+      "homeLocationId": "void_touched_alley",
+      "workLocationId": "scavengers_exchange",
+      "frequentedLocations": [
+        "deck_hand_docks",
+        "void_touched_alley",
+        "scavengers_exchange"
+      ],
+      "socialClass": "Void-Touched",
+      "relationships": [
+        {
+          "npcId": "rix_whisper_thorne",
+          "type": "Wary Alliance",
+          "description": "Exchanges information and small favors; Rix sometimes knows what Kito needs, and Kito occasionally finds things Rix can use.",
+          "strength": 40
+        }
+      ],
+      "baselineMood": "Guarded",
+      "temperament": "Resilient",
+      "approachability": 40,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Evasion",
+      "coreWound": "Abandonment",
+      "woundTriggers": [
+        "Being ignored",
+        "Being cornered"
+      ],
+      "values": [
+        "Self-reliance",
+        "Ingenuity"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "seraphina_'chatter'_kane",
+      "name": "Seraphina 'Chatter' Kane",
+      "age": 58,
+      "gender": "female",
+      "occupation": "Cargo Handler",
+      "physicalDescription": "A wiry woman with quick, darting eyes and hands calloused from years of heavy lifting, always seems to be listening, even when she's talking.",
+      "personality": "The Gossip",
+      "voiceAnchor": "'Er voice is a quick, low murmur, like a constant data stream runnin' in the background, peppered with 'eard-it-from-a-mate' disclaimers.",
+      "speechPatterns": [
+        "Ya 'eard about that new shipment, mate?",
+        "Just sayin', is all. Not judgin'."
+      ],
+      "coreConcerns": [
+        "Maintainin' 'er info network",
+        "Avoidin' any direct trouble"
+      ],
+      "signature": "A worn, multi-tool belt she constantly fidgets with.",
+      "traits": [
+        "Observant",
+        "Connected",
+        "Wary"
+      ],
+      "secrets": [
+        "She knows who's been siphonin' rations from Cargo Bay 7, but won't spill."
+      ],
+      "desires": [
+        "To be privy to every ship secret."
+      ],
+      "fears": [
+        "Being cut off from 'er information network."
+      ],
+      "opinions": [],
+      "backstory": "'Ad a long run on cargo haulin', seen more 'eavy liftin' than most, and 'eard more secrets than any comms log.",
+      "dailyRoutine": {
+        "morning": "Starts 'er shift checkin' cargo manifests at the Deck-Hand Docks, passin' along any fresh 'eard whispers.",
+        "afternoon": "Manages goods transfer in the main cargo holds, always keepin' an ear out for any unusual comms chatter.",
+        "evening": "Grabs a quick meal at the Deck-Hand Mess, then heads to The Rusty Rivet for a synth-brew and more info gatherin'.",
+        "night": "Retreats to 'er small bunk in the Deck-Hand Docks, processing the day's intel before sleep."
+      },
+      "homeLocationId": "deck_hand_docks",
+      "workLocationId": "deck_hand_docks",
+      "frequentedLocations": [
+        "the_rusty_rivet",
+        "deck_hand_docks",
+        "the_green_market"
+      ],
+      "socialClass": "Deck-Hands",
+      "relationships": [
+        {
+          "npcId": "mara_'grease-monkey'_volkov",
+          "type": "Colleague/Confidante",
+          "description": "Mara and Seraphina often share ship gossip during their shifts, though Seraphina considers Mara a good source more than a close friend.",
+          "strength": 65
+        }
+      ],
+      "baselineMood": "Curious",
+      "temperament": "Observant",
+      "approachability": 70,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Information hoarding",
+      "coreWound": "Feeling insignificant",
+      "woundTriggers": [
+        "Being ignored",
+        "Being out of the loop"
+      ],
+      "values": [
+        "Knowledge",
+        "Resourcefulness"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "lena_rostova",
+      "name": "Lena Rostova",
+      "age": 55,
+      "gender": "female",
+      "occupation": "Bridge Navigator",
+      "physicalDescription": "A lean woman with sharp, observant eyes that often scan the room, and hair pulled back in a severe bun.",
+      "personality": "Secretive",
+      "voiceAnchor": "Er gaze is always flittin', speakin' quick, low, and with a slight catch, like she's weighin' every word before it leaves 'er lips, ya know?",
+      "speechPatterns": [
+        "Gotta keep 'em sealed, ya know?",
+        "Less said, the better, yeah?"
+      ],
+      "coreConcerns": [
+        "Maintainin' operational integrity.",
+        "Keepin' certain truths buried deep."
+      ],
+      "signature": "A flicker of unease in 'er eyes when past events are mentioned.",
+      "traits": [
+        "Guarded",
+        "Perceptive",
+        "Loyal"
+      ],
+      "secrets": [
+        "She witnessed a critical navigation error covered up years ago, implicating a senior officer, and kept silent."
+      ],
+      "desires": [
+        "To finally unburden 'erself of a past truth, without causing further harm."
+      ],
+      "fears": [
+        "Exposure of 'er complicity in a cover-up, leading to 'er own downfall."
+      ],
+      "opinions": [],
+      "backstory": "Once a hopeful young navigator, she saw firsthand the hard choices made to preserve order, and 'as carried the weight ever since.",
+      "dailyRoutine": {
+        "morning": "On the bridge, overseein' long-range trajectory projections and sensor sweeps.",
+        "afternoon": "Reviewin' navigation logs in the Core-Blood quarters, often alone, lookin' for discrepancies.",
+        "evening": "A quiet meal in 'er quarters, avoidin' the mess halls and any casual talk.",
+        "night": "Studyin' ancient star charts in the bridge's private observatory, reflectin' on past routes and mistakes."
+      },
+      "homeLocationId": "core_blood_quarters",
+      "workLocationId": "core_blood_quarters",
+      "frequentedLocations": [
+        "core_blood_quarters",
+        "nexus_spire_plaza"
+      ],
+      "socialClass": "Core-Bloods",
+      "relationships": [
+        {
+          "npcId": "jax_rourke",
+          "type": "complicated_professional_history",
+          "description": "Shared a critical mission with 'im years ago, knowin' more than she lets on about certain 'incidents'.",
+          "strength": 60
+        }
+      ],
+      "baselineMood": "Reserved",
+      "temperament": "Cautious",
+      "approachability": 35,
+      "attachmentStyle": "avoidant",
+      "primaryDefense": "Secrecy",
+      "coreWound": "Betrayal of trust and personal ideals.",
+      "woundTriggers": [
+        "Questions about past missions",
+        "Discussions of 'truth' and 'justice' within the command structure"
+      ],
+      "values": [
+        "Stability",
+        "Discretion"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    },
+    {
+      "id": "torvin_riggs_kael",
+      "name": "Torvin 'Riggs' Kael",
+      "age": 55,
+      "gender": "male",
+      "occupation": "Cargo Handler",
+      "physicalDescription": "A burly man with thick, calloused hands and a face weathered by years of heavy lifts and recycled air.",
+      "personality": "Gruff",
+      "voiceAnchor": "'E's got a deep, gravelly voice, speakin' slow 'n careful, like 'e's measurin' 'is words for mass, often droppin' 'is 'h's 'n final 'g's.",
+      "speechPatterns": [
+        "Alright, then, eh?",
+        "Best not rush it, mate, ya' clear?"
+      ],
+      "coreConcerns": [
+        "Ship integrity",
+        "Keeping his crew safe"
+      ],
+      "signature": "A worn, multi-tool always clutched in his hand.",
+      "traits": [
+        "Resilient",
+        "Loyal",
+        "Observant"
+      ],
+      "secrets": [
+        "He once deliberately sabotaged a cargo manifest to save a friend from a dangerous assignment."
+      ],
+      "desires": [
+        "A quiet retirement in a verdant 'deck-garden'."
+      ],
+      "fears": [
+        "Losing someone under his watch."
+      ],
+      "opinions": [],
+      "backstory": "Has seen three generations of cargo cycles, knowing every creak 'n groan of the hull.",
+      "dailyRoutine": {
+        "morning": "Inspectin' cargo bay three, coordinatin' lifts.",
+        "afternoon": "Supervisin' transfers at the outer airlock, mentorin' junior 'andlers.",
+        "evening": "Grabbing a synth-brew at The Rusty Rivet, checkin' comms for maintenance reports.",
+        "night": "Preppin' cargo for the next cycle, then 'eadin' to 'is modest quarters."
+      },
+      "homeLocationId": "deck_hand_docks",
+      "workLocationId": "deck_hand_docks",
+      "frequentedLocations": [
+        "the_rusty_rivet",
+        "deck_hand_docks"
+      ],
+      "socialClass": "Deck-Hands",
+      "relationships": [
+        {
+          "npcId": "lena_rostova",
+          "type": "professional_rivalry",
+          "description": "They constantly bicker over cargo handling techniques 'n proper stowin', but deep down, respect each other's experience.",
+          "strength": 6
+        }
+      ],
+      "baselineMood": "Weary",
+      "temperament": "Steady",
+      "approachability": 4,
+      "attachmentStyle": "secure",
+      "primaryDefense": "Sarcasm and a no-nonsense attitude.",
+      "coreWound": "The burden of responsibility.",
+      "woundTriggers": [
+        "Incompetence",
+        "Unnecessary risks"
+      ],
+      "values": [
+        "Reliability",
+        "Hard work"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": ""
+      },
+      "selfConcept": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": "birth_sato_descendant",
+      "date": "3001-03-15",
+      "title": "New Life Aboard: Sato Family Welcomes Descendant",
+      "description": "Jin 'Circuit' Sato and their partner celebrate the birth of their first child, adding a new generation to the station's crew manifest.",
+      "type": "personal",
+      "locationId": "core_blood_quarters",
+      "affectedNpcIds": [
+        "jin_circuit_sato"
+      ],
+      "moodShift": "joyful",
+      "publicKnowledge": true,
+      "gossipVersion": "Heard the baby's got Jin's eyes, sharp as a circuit board!"
+    },
+    {
+      "id": "scavengers_exchange_closes",
+      "date": "3001-07-20",
+      "title": "Scavenger's Exchange Shuts Doors",
+      "description": "The Scavenger's Exchange, a long-standing hub for salvaged tech, has officially ceased operations due to dwindling inventory and fluctuating trade routes.",
+      "type": "local",
+      "locationId": "scavengers_exchange",
+      "affectedNpcIds": [
+        "kito_shadow_scrounger"
+      ],
+      "moodShift": "somber",
+      "publicKnowledge": true,
+      "gossipVersion": "They say Kito was the last one to try and haggle a deal before the proprietor packed it in; probably knew it was coming."
+    },
+    {
+      "id": "aethelgard_hydroponics_breach",
+      "date": "3002-01-10",
+      "title": "Minor Containment Breach in Hydroponics",
+      "description": "A localized atmospheric containment breach occurred in Aethelgard Hydroponics, quickly contained by 'Green-Thumb' Nkosi's swift action, preventing significant crop loss.",
+      "type": "crisis",
+      "locationId": "aethelgard_hydroponics",
+      "affectedNpcIds": [
+        "anya_nkosi"
+      ],
+      "moodShift": "anxious_to_relieved",
+      "publicKnowledge": true,
+      "gossipVersion": "Anya really saved our rations this cycle; heard it was almost a full system purge, but she fixed it herself before the alarms even finished cycling."
+    },
+    {
+      "id": "exodus_remembrance_festival",
+      "date": "3002-05-22",
+      "title": "Exodus Remembrance Festival",
+      "description": "The community gathers at the Nexus Spire Plaza to celebrate the annual Exodus Remembrance Festival, honoring the journey that brought humanity to the stars.",
+      "type": "seasonal",
+      "locationId": "nexus_spire_plaza",
+      "affectedNpcIds": [],
+      "moodShift": "festive",
+      "publicKnowledge": true,
+      "gossipVersion": "Everyone's talking about the gravity-defying acrobats this year; even Kaelen Varr cracked a smile."
+    },
+    {
+      "id": "riggs_seraphina_confrontation",
+      "date": "3002-09-05",
+      "title": "Dock-Side Dispute Escalates",
+      "description": "A heated argument between cargo handlers Torvin 'Riggs' Kael and Seraphina 'Chatter' Kane over a disputed manifest caused a brief but widely witnessed disruption at the Deck-Hand Docks.",
+      "type": "local",
+      "locationId": "deck_hand_docks",
+      "affectedNpcIds": [
+        "torvin_riggs_kael",
+        "seraphina_'chatter'_kane",
+        "zoran_rust_kovich"
+      ],
+      "moodShift": "tense_to_amused",
+      "publicKnowledge": true,
+      "gossipVersion": "Whispers say Riggs was covering for Zoran's 'misplaced' crate, and Seraphina wasn't having any of it; 'Chatter' always knows where everything is."
+    },
+    {
+      "id": "rourke_volkov_nuptials",
+      "date": "3003-02-14",
+      "title": "Rourke and Volkov Join in Zero-G Ceremony",
+      "description": "Flight Commander Jax 'Iron-Jaw' Rourke and Habitat Maintenance Specialist Mara 'Grease-Monkey' Volkov exchanged vows in a unique zero-gravity ceremony witnessed by the entire community.",
+      "type": "personal",
+      "locationId": "nexus_spire_plaza",
+      "affectedNpcIds": [
+        "jax_rourke",
+        "mara_volkov"
+      ],
+      "moodShift": "romantic_joyful",
+      "publicKnowledge": true,
+      "gossipVersion": "Everyone's still talking about Mara's custom-welded wedding ring and Jax's surprisingly emotional vows."
+    },
+    {
+      "id": "lena_rostova_transfer",
+      "date": "3003-07-01",
+      "title": "Navigator Lena Rostova Transfers to Deep-Space Scout",
+      "description": "Lena Rostova, a skilled Bridge Navigator, has been reassigned to a new deep-space scout mission, departing the station next cycle for uncharted quadrants.",
+      "type": "personal",
+      "locationId": "deck_hand_docks",
+      "affectedNpcIds": [
+        "lena_rostova"
+      ],
+      "moodShift": "bittersweet",
+      "publicKnowledge": true,
+      "gossipVersion": "Heard Lena was tired of the same old star charts; she's off to find something new, or maybe just escape the drama."
+    },
+    {
+      "id": "void_current_fluctuation",
+      "date": "3004-01-25",
+      "title": "Unexpected Void Current Fluctuation",
+      "description": "The station experienced a brief but intense void current fluctuation, causing minor power surges and temporary comms disruption, quickly stabilized by Core Systems.",
+      "type": "crisis",
+      "locationId": "core_blood_quarters",
+      "affectedNpcIds": [
+        "jin_circuit_sato",
+        "elara_cipher_ren"
+      ],
+      "moodShift": "apprehensive_to_calm",
+      "publicKnowledge": true,
+      "gossipVersion": "Some say it was just a solar flare, but Kito swears they saw something 'move' in the void during the blackout, something not on any chart."
+    },
+    {
+      "id": "rix_thorne_passing",
+      "date": "3004-06-12",
+      "title": "Rix 'Whisper' Thorne Passes Peacefully",
+      "description": "Rix 'Whisper' Thorne, beloved Commons Attendant and keeper of many stories, passed away peacefully in their sleep after a long and full life aboard the station.",
+      "type": "personal",
+      "locationId": "regulator_enclave",
+      "affectedNpcIds": [
+        "rix_whisper_thorne"
+      ],
+      "moodShift": "mournful",
+      "publicKnowledge": true,
+      "gossipVersion": "Everyone's sharing their favorite 'Whisper' stories; they say Rix knew every secret on this ship, but never told a soul."
+    },
+    {
+      "id": "unassigned_sector_scan_anomaly",
+      "date": "3004-10-30",
+      "title": "Unassigned Sector Scan Anomaly Reported",
+      "description": "Elara 'Cipher' Ren reported an unusual energy signature originating from a previously unassigned sector, sparking whispers of ancient artifacts or unknown life.",
+      "type": "world",
+      "locationId": "bio_research_labs",
+      "affectedNpcIds": [
+        "elara_cipher_ren",
+        "kaelen_varr"
+      ],
+      "moodShift": "curious_to_speculative",
+      "publicKnowledge": false,
+      "gossipVersion": "Kito's been seen lurking around the Bio-Research Labs, muttering about 'void-touched echoes' ever since 'Cipher' Ren started looking at those new scanner readings."
+    }
+  ],
+  "simulationRules": {
+    "gossipSpeed": 0.75,
+    "communitySize": "small, interconnected 'ship-family' units",
+    "socialMobility": "fluid within skill-sets, rigid across established tiers",
+    "privacyLevel": "highly valued but often compromised by proximity",
+    "conflictStyle": "prefers mediation, direct confrontation avoided in public",
+    "trustCulture": "initial skepticism, earned trust is deep",
+    "reputationMatters": true,
+    "rumoursSpread": true
+  },
+  "timeOfDay": {
+    "periods": [
+      {
+        "name": "Reactivation Cycle",
+        "hourStart": 4,
+        "hourEnd": 8,
+        "atmosphere": "A gentle, systemic hum as the starship's artificial 'dawn' simulation begins, gradually brightening the communal and habitation sectors. There's a quiet sense of anticipation and preparation, with the ship feeling like it's slowly stirring to life.",
+        "npcActivity": "Crew members are gradually waking, performing personal hygiene and data checks. Early shift workers head to critical stations like the Bridge, Engine Core, and Hydroponics. Cafeteria staff begin preparing the first nutrient pastes and synthesized meals. A few individuals might be found meditating in bio-domes or performing light exercise.",
+        "openLocations": [
+          "Personal Habitation Units",
+          "Cafeterias/Mess Halls",
+          "Hydroponics Bays",
+          "Bio-Domes",
+          "Medical Bays",
+          "Ship's Bridge",
+          "Engine Core",
+          "Security Hubs"
+        ]
+      },
+      {
+        "name": "Prime Shift",
+        "hourStart": 8,
+        "hourEnd": 14,
+        "atmosphere": "The ship is fully alive, bustling with purpose and efficiency. Artificial lighting is at its brightest, mimicking a vibrant midday sun. Communication channels are active, and the air thrums with the energy of thousands of minds at work and play.",
+        "npcActivity": "Primary work shifts are in full swing across all sectors: science labs, engineering, navigation, and resource management. Market hubs are active with trade and social interaction. Educational modules for children and young adults are running. Recreation decks see a steady flow of individuals engaged in physical and mental conditioning.",
+        "openLocations": [
+          "All Primary Work Sectors (Labs, Engineering, Navigation, Resource Processing)",
+          "Market Hubs",
+          "Educational Matrixes",
+          "Recreation Decks",
+          "Bio-Domes",
+          "Cafeterias",
+          "Medical Bays",
+          "Data Archives",
+          "Shuttle Bays (for internal transfers)"
+        ]
+      },
+      {
+        "name": "Mid-Cycle Respite",
+        "hourStart": 14,
+        "hourEnd": 19,
+        "atmosphere": "The intense energy of Prime Shift mellows into a more relaxed, but still productive, hum. Lighting softens slightly, creating a comfortable ambiance. There's a sense of transition as some shifts end and others begin, with individuals seeking personal time or quiet tasks.",
+        "npcActivity": "Shift changes occur, leading to staggered meal breaks. Individuals engage in personal research, maintenance checks on non-critical systems, or run personal errands. Quiet social interactions unfold in common areas, and specialized training simulations are active. Children might be found in free play or enrichment activities.",
+        "openLocations": [
+          "Cafeterias/Mess Halls",
+          "Smaller 'Niche' Markets",
+          "Data Archives",
+          "Personal Habitation Units",
+          "Recreation Decks (less crowded)",
+          "Bio-Domes",
+          "Libraries/Info Hubs",
+          "Specialized Workshops"
+        ]
+      },
+      {
+        "name": "Social Nexus",
+        "hourStart": 19,
+        "hourEnd": 23,
+        "atmosphere": "The ship radiates a warm, lively, and communal energy. Soft, ambient lighting bathes social zones, often accompanied by background music or the gentle murmur of conversation. This is the peak time for leisure and community bonding.",
+        "npcActivity": "Families gather for group meals, friends enjoy holographic entertainment, and cultural performances or recreational games take place. Some individuals engage in personal study or hobbies. Late-shift workers begin to prepare, while others wind down, reflecting on their day.",
+        "openLocations": [
+          "Recreation Decks (especially entertainment zones)",
+          "Communal Lounges",
+          "Fine Dining Establishments",
+          "Bio-Domes (for evening strolls)",
+          "Market Hubs (select stalls)",
+          "Observation Decks",
+          "Personal Habitation Units",
+          "Specialized Hobby Workshops"
+        ]
+      },
+      {
+        "name": "Deep Watch",
+        "hourStart": 23,
+        "hourEnd": 4,
+        "atmosphere": "A profound quiet descends upon the starship, broken only by the essential hum of life support and propulsion systems. Dim, functional lighting guides the few active corridors. There's a pervasive sense of peace, yet also an underlying vigilance as the ship journeys through the void.",
+        "npcActivity": "Skeleton crews maintain critical systems on the Bridge, in the Engine Core, and at Life Support. Security patrols conduct their rounds, and medical staff remain on call. A few dedicated researchers might be found working on long-term experiments. Most inhabitants are sleeping, recharging for the next cycle.",
+        "openLocations": [
+          "Personal Habitation Units",
+          "Medical Bays",
+          "Security Hubs",
+          "Ship's Bridge",
+          "Engine Core",
+          "Life Support Systems",
+          "Select Quiet Data Archives",
+          "Emergency Rations Stores"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "status": "ready",
+    "portraits": {},
+    "scenes": {},
+    "generatedAt": "2026-05-22T21:06:09.105Z",
+    "swimwearPortraits": {},
+    "panelBackgrounds": {
+      "geography": "/generated/b12c703a-2a1d-4597-bbdc-4f4aef5a13d9/panel-geography.jpg",
+      "economy": "/generated/b12c703a-2a1d-4597-bbdc-4f4aef5a13d9/panel-economy.jpg"
+    },
+    "panelBackgroundSources": {
+      "geography": {
+        "kind": "duckduckgo",
+        "query": "Year 3000 humans live on stsrships film still movie scene",
+        "sourceUrl": "https://miro.medium.com/v2/resize:fit:1358/1*suBtAeEaUWKf03uOPDGU3w.jpeg",
+        "fetchedAt": "2026-05-24T21:07:09Z"
+      },
+      "economy": {
+        "kind": "duckduckgo",
+        "query": "Year 3000 humans live on stsrships film still movie scene",
+        "sourceUrl": "https://i.ytimg.com/vi/4-g0u7vhyfE/maxresdefault.jpg",
+        "fetchedAt": "2026-05-24T21:07:09Z"
+      }
+    }
+  },
+  "currentDate": "2997-07-15",
+  "currentTime": 8,
+  "currentWeather": {
+    "condition": "hard rain",
+    "intensity": "heavy",
+    "temperatureC": 32,
+    "wind": "strong gusts",
+    "visibility": "clear visibility",
+    "precipitation": "rain",
+    "thunder": false,
+    "lightning": false,
+    "mood": "muted and damp",
+    "effects": [
+      "people hurry indoors and arrive wet",
+      "People are more outgoing, gather for larger social events, and engage in more collaborative work. There's a heightened sense of shared purpose."
+    ],
+    "changedAt": "2997-07-15 08:00"
+  },
+  "questPool": [
+    {
+      "id": "seed-b12c703a-2a1d-4597-bbdc-4f4aef5a13d9-1",
+      "title": "The Hidden Witness: Year 3000 humans live on stsrships",
+      "teaser": "Jin 'Circuit' Sato has a thread that can become a global quest.",
+      "status": "available",
+      "difficulty": "easy",
+      "worldId": "b12c703a-2a1d-4597-bbdc-4f4aef5a13d9",
+      "worldName": "Year 3000 humans live on stsrships",
+      "giverNpcId": "jin_circuit_sato",
+      "giverNpcName": "Jin 'Circuit' Sato",
+      "locationId": "regulator_enclave",
+      "locationName": "Regulator Enclave Apartments",
+      "unlockRule": {
+        "kind": "complete_quest",
+        "label": "Complete another global quest"
+      },
+      "createdAt": "2026-04-26T18:55:12.964Z"
+    },
+    {
+      "id": "seed-b12c703a-2a1d-4597-bbdc-4f4aef5a13d9-2",
+      "title": "The Wrong Gift: Year 3000 humans live on stsrships",
+      "teaser": "A locked thread points toward Bio-Research Labs.",
+      "status": "locked",
+      "difficulty": "normal",
+      "worldId": "b12c703a-2a1d-4597-bbdc-4f4aef5a13d9",
+      "worldName": "Year 3000 humans live on stsrships",
+      "giverNpcId": "rix_whisper_thorne",
+      "giverNpcName": "Rix 'Whisper' Thorne",
+      "locationId": "bio_research_labs",
+      "locationName": "Bio-Research Labs",
+      "unlockRule": {
+        "kind": "meet_giver",
+        "label": "Meet Rix 'Whisper' Thorne"
+      },
+      "createdAt": "2026-04-26T18:55:12.964Z"
+    },
+    {
+      "id": "seed-b12c703a-2a1d-4597-bbdc-4f4aef5a13d9-3",
+      "title": "The Sealed Door: Year 3000 humans live on stsrships",
+      "teaser": "A locked thread points toward The Green Market.",
+      "status": "locked",
+      "difficulty": "hard",
+      "worldId": "b12c703a-2a1d-4597-bbdc-4f4aef5a13d9",
+      "worldName": "Year 3000 humans live on stsrships",
+      "giverNpcId": "mara_volkov",
+      "giverNpcName": "Mara 'Grease-Monkey' Volkov",
+      "locationId": "the_green_market",
+      "locationName": "The Green Market",
+      "unlockRule": {
+        "kind": "enter_location",
+        "label": "Enter The Green Market"
+      },
+      "createdAt": "2026-04-26T18:55:12.964Z"
+    },
+    {
+      "id": "seed-b12c703a-2a1d-4597-bbdc-4f4aef5a13d9-4",
+      "title": "The Weather Sign: Year 3000 humans live on stsrships",
+      "teaser": "A locked thread points toward Scavenger's Exchange.",
+      "status": "locked",
+      "difficulty": "easy",
+      "worldId": "b12c703a-2a1d-4597-bbdc-4f4aef5a13d9",
+      "worldName": "Year 3000 humans live on stsrships",
+      "giverNpcId": "kito_shadow_scrounger",
+      "giverNpcName": "Kito 'Shadow' Scrounger",
+      "locationId": "scavengers_exchange",
+      "locationName": "Scavenger's Exchange",
+      "unlockRule": {
+        "kind": "strange_possession",
+        "label": "Carry a strange possession"
+      },
+      "createdAt": "2026-04-26T18:55:12.964Z"
+    }
+  ],
+  "currentMinute": 0,
+  "clockStartedAt": "2026-05-26T21:46:17.726Z",
+  "lastClockSyncAt": "2026-05-26T21:46:17.726Z"
+}

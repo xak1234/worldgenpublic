@@ -1,0 +1,2436 @@
+{
+  "id": "8d8aa212-c89d-481e-9c68-ad4847303f60",
+  "concept": "Saturn Storms Hexagon World",
+  "createdAt": "2026-05-15T14:09:32.808Z",
+  "provider": "gemini",
+  "era": {
+    "period": "The Gust-and-Gear Era",
+    "yearStart": 1905,
+    "yearEnd": 1925,
+    "dateFormat": "DD-MM-YY (Hex-Year)",
+    "majorWorldEvents": [
+      "The Great Stabilisation (of the Hex-Array)",
+      "First Turbine-Drill Descent into the Maelstrom",
+      "The Hex-Plateau Secession Crisis",
+      "Invention of the Aether-Wave Amplifier"
+    ]
+  },
+  "geography": {
+    "region": "The Hex-Plateau",
+    "country": "Aethelgard",
+    "climate": "Perpetual cyclonic storms, freezing temperatures, high atmospheric pressure, frequent lightning",
+    "terrain": "Wind-scoured basalt plains, jagged 'Storm-Spire' mountains, deep chasms leading into the lower atmosphere, fortified sky-cradles",
+    "scale": "region",
+    "landmarks": [
+      "The Central Eye (a relatively calm, vortex-like region)",
+      "The Six Towers (colossal stabilization pylons at each Hex-point)",
+      "The Maelstrom Chasm (a vast, turbulent vortex at the Hex-Plateau's edge)",
+      "The Great Static Spire (Aethelgard's primary lightning harvester)"
+    ]
+  },
+  "culture": {
+    "language": "Aerth-Tongue",
+    "dialect": "Hex-Speak",
+    "slang": {
+      "Gale-force": "Intense, extreme, powerful",
+      "Eye-blink": "A brief moment of calm or opportunity",
+      "Turbine-head": "Someone stubborn, dense, or unthinking",
+      "Groundling": "A commoner, someone bound to manual labor or the surface",
+      "Wind-burnt": "Exhausted, weathered, or having faced extreme hardship",
+      "Hexed-up": "Troubled, in a bad or dangerous situation",
+      "Storm-drunk": "Reckless, overly confident, or foolhardy",
+      "Static-shocked": "Surprised, startled, or bewildered",
+      "Spinning gears": "Thinking hard, contemplating a solution",
+      "Tighten the bolts": "Get ready, prepare for action or hardship",
+      "Clear the vents": "Take a deep breath, relax, or calm down",
+      "Rigger's luck": "Unexpected good fortune in a dangerous situation"
+    },
+    "greetings": [
+      "May the Static guide your turbines.",
+      "Stay clear of the Maelstrom.",
+      "Fair winds, if any.",
+      "Secure your bolts, friend."
+    ],
+    "socialClasses": [
+      {
+        "name": "The Vane-Lords",
+        "description": "The ruling elite, controllers of the Hex-Array, lightning harvesting infrastructure, and atmospheric navigation. They live in opulent, fortified sky-cradles.",
+        "occupations": [
+          "Hex-Array Controller",
+          "Atmospheric Navigator",
+          "Energy Baron",
+          "Storm-Fleet Admiral"
+        ],
+        "typicalLocations": [
+          "The Citadel-Aeries",
+          "Command Towers of the Six Towers",
+          "Exclusive Sky-Cradles"
+        ],
+        "mannerisms": "Speak with calculated precision, often aloof, wear finely crafted storm-silks and polished brass accents."
+      },
+      {
+        "name": "The Cog-Masters",
+        "description": "Skilled engineers, architects, technicians, and specialized artisans. They design, build, and maintain the complex machinery that keeps the Hex-Plateau habitable.",
+        "occupations": [
+          "Turbine Engineer",
+          "Aether-Weaver",
+          "Structural Architect",
+          "Master Mechanic",
+          "Geo-Driller"
+        ],
+        "typicalLocations": [
+          "Engineering Guildhalls",
+          "Fortified Workshops",
+          "Research Labs",
+          "Core Infrastructure Hubs"
+        ],
+        "mannerisms": "Practical and direct, often grease-stained, value efficiency and ingenuity, speak with technical jargon."
+      },
+      {
+        "name": "The Riggers",
+        "description": "The backbone of society, performing dangerous manual labor to maintain the Hex-Plateau's exterior structures, turbines, and resource extraction sites. They are hardy and resilient.",
+        "occupations": [
+          "Hex-Plateau Rigger",
+          "Wind-Farm Laborer",
+          "Maelstrom Miner",
+          "Storm-Panel Cleaner",
+          "Cable-Runner"
+        ],
+        "typicalLocations": [
+          "Communal Storm-Shelters",
+          "Outer Hex-points",
+          "Turbine Fields",
+          "Mining Outposts"
+        ],
+        "mannerisms": "Gruff and stoic, prioritize teamwork, wear durable, utilitarian storm-gear, communicate with concise signals."
+      },
+      {
+        "name": "The Groundlings",
+        "description": "The lowest social stratum, often engaged in subsistence farming (fungi, algae) or basic, unskilled labor within the protected interior zones. They rarely see the open sky.",
+        "occupations": [
+          "Sub-Farm Cultivator",
+          "Synthetics Processor",
+          "Waste Recycler",
+          "Interior Cleaner",
+          "Dock Laborer"
+        ],
+        "typicalLocations": [
+          "Subterranean Farms",
+          "Enclosed Residential Blocks",
+          "Recycling Depots",
+          "Interior Markets"
+        ],
+        "mannerisms": "Humble and wary, often speaking softly, wear simple, patched clothing, highly community-oriented out of necessity."
+      }
+    ],
+    "religion": "The Great Static (a revered, unseen energy that powers life and storms, believed to have a conscious will and temper), The Calm Eye (a promised afterlife or state of ultimate peace, often referenced in eulogies).",
+    "customs": [
+      "Daily wind-readings (predictions for the day's storms are a common morning ritual).",
+      "Communal sheltering during peak gales (most public and private buildings have reinforced storm-shelters).",
+      "Offering 'lightning-tokens' (small copper or brass charms) for good fortune before dangerous tasks.",
+      "The 'Turbine Blessing' (a ritual performed before activating new or repaired storm machinery)."
+    ],
+    "taboos": [
+      "Wasting energy or critical resources (considered a direct threat to survival).",
+      "Deliberately damaging storm-tech or stabilization systems.",
+      "Venturing unprepared into the outer gales or Maelstrom Chasm.",
+      "Ignoring distress signals from those caught in the storms."
+    ],
+    "music": "Heavy, percussive industrial rhythms incorporating the sounds of turbines and grinding gears; mournful, low-frequency folk songs about lost 'Sky-sailors' and enduring the storms; rhythmic work chants.",
+    "food": [
+      "Hearty stews made from cultivated fungi and synthesized proteins.",
+      "Nutrient-dense 'Gale-biscuits' (hard tack for travel).",
+      "Preserved meats (from native Hex-fauna or cultured sources).",
+      "Algae-based drinks and nutrient pastes.",
+      "Storm-root liquor (potent, distilled from subterranean flora)."
+    ],
+    "entertainment": [
+      "Aether-wave radio dramas (often featuring tales of daring storm-scouts).",
+      "Gambling on storm patterns and the output of lightning harvesters.",
+      "Public 'rigging' competitions (demonstrations of skill in climbing and repair).",
+      "Storytelling and communal singing during shelter periods."
+    ],
+    "genderRoles": "Highly practical and fluid, roles are determined by skill, aptitude, and utility for collective survival rather than traditional gender. Both men and women are expected to contribute to infrastructure maintenance, defense, and resource gathering.",
+    "socialNorms": [
+      "Emphasis on collective survival and resourcefulness.",
+      "Stoicism and resilience in the face of hardship.",
+      "Deep respect for skilled labor and practical knowledge.",
+      "Strict adherence to safety protocols during storm activity."
+    ]
+  },
+  "economy": {
+    "currency": "Gears",
+    "symbol": "G",
+    "averageDailyWage": 3,
+    "prices": {
+      "Gale-biscuit (loaf)": 0.5,
+      "Synthetic protein ration (standard)": 1,
+      "Heavy storm-coat (basic)": 15,
+      "Basic tool-kit (Rigger's)": 10,
+      "Aether-wave radio (second-hand)": 30,
+      "Bottle of 'Storm-brew' (strong liquor)": 2,
+      "Replacement turbine blade (small)": 5,
+      "Hydro-filter cartridge": 3,
+      "Glow-lamp (refillable)": 4,
+      "Storm-goggles": 7,
+      "Communal shelter bunk (monthly rent)": 8,
+      "Pack of Static-sticks (tobacco substitute)": 1.5,
+      "Map of local storm currents": 6,
+      "Reinforced climbing hook": 2.5
+    },
+    "jobs": [
+      {
+        "title": "Turbine Mechanic",
+        "pay": 4,
+        "hours": "10-12 hours/day",
+        "socialClass": "Cog-Masters",
+        "description": "Maintains and repairs the vital wind-harvesting turbines and lightning conduits."
+      },
+      {
+        "title": "Hex-Rigger",
+        "pay": 3,
+        "hours": "12-14 hours/day",
+        "socialClass": "Riggers",
+        "description": "Performs dangerous exterior maintenance on the Hex-Plateau's structures, often suspended in high winds."
+      },
+      {
+        "title": "Storm-Scout",
+        "pay": 6,
+        "hours": "Variable, highly dangerous",
+        "socialClass": "Skiffs",
+        "description": "Pilots small, robust craft into the outer storms to salvage resources, map new currents, and monitor weather."
+      },
+      {
+        "title": "Aether-Weaver",
+        "pay": 5,
+        "hours": "8-10 hours/day",
+        "socialClass": "Cog-Masters",
+        "description": "Operates, repairs, and calibrates the Aether-wave communication grid and navigational beacons."
+      },
+      {
+        "title": "Ground-Farmer",
+        "pay": 2.5,
+        "hours": "14-16 hours/day",
+        "socialClass": "Groundlings",
+        "description": "Cultivates fungi, algae, and nutrient-rich flora in subterranean, climate-controlled farms."
+      }
+    ],
+    "blackMarket": "Salvaged storm-tech (unregistered/untaxed), unassigned energy cells, atmospheric charts (often inaccurate or stolen), 'pre-Hex' relics, illicit 'Static-brew' (highly potent liquor)."
+  },
+  "law": {
+    "system": "The Hex-Code (a strict set of regulations focused on communal survival and infrastructure integrity, enforced by the Vane-Lords and their deputies).",
+    "enforcers": "Storm Marshals (armored, highly visible officers equipped with static-batons and basic gale-rifles).",
+    "corruption": 0.4,
+    "vices": [
+      "Storm-brew gambling (illegal betting on storm patterns or turbine output).",
+      "'Static-chasing' (risky ventures into minor electrical fields for thrills or illicit energy taps).",
+      "Illegal salvage trade (unregistered or stolen components).",
+      "Aether-wave pirating (broadcasting unsanctioned content)."
+    ],
+    "consequences": "Public shaming, forced labor on exposed Hex-points, 'Static-branding' (minor electrical burns as a permanent mark), confiscation of property, exile to the outer gales for severe offenses (often a death sentence)."
+  },
+  "weather": {
+    "seasons": [
+      {
+        "name": "Deep Gale",
+        "months": "'First Roil' to 'Third Roil'",
+        "tone": "Bleak and punishing, a test of endurance",
+        "averageTemp": "-40°C to -20°C",
+        "commonWeather": "Constant hurricane-force winds (200-400 km/h), blizzards of ice crystals, frequent mega-lightning strikes, near-zero visibility."
+      },
+      {
+        "name": "Waning Blow",
+        "months": "'Calm-Breather' to 'Gear-Turn'",
+        "tone": "Tense anticipation, a brief reprieve",
+        "averageTemp": "-30°C to -10°C",
+        "commonWeather": "High winds (100-200 km/h), but with intermittent lulls, heavy snow, localized electrical storms, better (but still poor) visibility."
+      },
+      {
+        "name": "Calm Eye",
+        "months": "'Stillness' to 'Whisper-Wind'",
+        "tone": "Rare and precious, a time for urgent repairs and limited movement",
+        "averageTemp": "-10°C to 0°C",
+        "commonWeather": "Significantly reduced winds (50-100 km/h), occasional light snowfall, visibility greatly improved, but always with the underlying hum of the greater storm."
+      },
+      {
+        "name": "Rising Squall",
+        "months": "'First Hum' to 'Building Gale'",
+        "tone": "Increasing intensity, a period for crucial preparations",
+        "averageTemp": "-25°C to -5°C",
+        "commonWeather": "Winds steadily increase (75-200 km/h), minor squalls become more frequent, atmospheric pressure drops noticeably, scattered lightning."
+      }
+    ],
+    "dominantWeather": "Perpetual cyclonic storms with winds regularly exceeding 200 km/h, constant atmospheric electrical discharge, extreme cold, and low visibility due to ice crystals and turbulent gases. The Hex-Plateau is a stable island within a gas giant's upper atmosphere."
+  },
+  "technology": {
+    "level": "Advanced Dieselpunk/Steampunk hybrid, highly specialized for extreme atmospheric conditions and resource scarcity.",
+    "transport": [
+      "Armored 'Gale-Crawlers' (heavy ground vehicles for short-range surface travel).",
+      "'Turbine-Skiffs' (small, robust, propeller-driven airships for local atmospheric travel).",
+      "'Hex-Runners' (maglev-like trains along the Hex-Plateau's inner circuits, shielded from storms).",
+      "'Storm-Cutters' (large, reinforced atmospheric vessels for long-range travel and cargo)."
+    ],
+    "communication": [
+      "Aether-wave radio (long-range, but prone to static interference and disruption during peak storms).",
+      "Visual signal lamps and heliographs (short-range, line-of-sight communication when visibility permits).",
+      "Pneumatic tube systems (within fortified structures and complexes).",
+      "Hard-line telegraphs (for critical, secure communication)."
+    ],
+    "energy": "Lightning Harvesting (primary source, captured via massive 'Static-Spires' and arrayed conduits), Geothermal vents (secondary heating and power for subterranean facilities), Wind Turbines (supplementary power, integrated into structures).",
+    "weapons": "Heavy 'Gale-Rifles' (pneumatic or combustion-powered, firing heavy, armor-piercing slugs), 'Static-Batons' (stun weapons used by law enforcement), 'Harpoon-Guns' (for securing structures, retrieving salvage, or defense against atmospheric fauna), 'Flak-Cannons' (mounted on defensive positions).",
+    "medicine": "Robust trauma care (splints, sutures, cauterization), treatments for severe frostbite, atmospheric pressure sickness, and 'Static-burns', basic antiseptics and pain relief derived from synthetic compounds.",
+    "limitations": [
+      "Extreme weather severely limits open-air operations and travel.",
+      "Heavy reliance on specific energy harvesting methods makes the society vulnerable to infrastructure damage.",
+      "Resource scarcity necessitates extensive recycling and synthetic production.",
+      "All technology requires constant, rigorous maintenance due to extreme wear from storms and cold.",
+      "Atmospheric interference limits advanced sensor and long-range targeting systems."
+    ]
+  },
+  "narrativeStyle": {
+    "tone": "Awe-struck by the immense, chaotic power of the storms, yet grounded in the precise, functional language of engineering and hexagonal logic. A blend of intrepid wonder and gritty, practical observation, often tinged with a sense of the sublime and the precarious.",
+    "perspective": "Third-person limited, often through the eyes of an engineer, cartographer, or storm-chaser deeply accustomed to the 'Gust-and-Gear' world and its 'Hex-Speak' idiom. The narrative filters events through a mind that naturally categorizes and describes in geometric and mechanical terms.",
+    "pacing": "Varies from the breathless, roaring intensity of storm surges and structural stress to the deliberate, methodical rhythm of gear assembly, maintenance, and hexagonal plotting. Periods of rapid, impactful descriptions are punctuated by detailed, almost clinical explanations of mechanisms and patterns.",
+    "vocabulary": "Rich with terms from engineering, meteorology, and geometry. Expect words like 'strut,' 'fulcrum,' 'torque,' 'vortex,' 'current,' 'facet,' 'vertex,' 'tessellation,' 'gust-front,' 'cog-wheel,' 'aether-pressure.' Language is precise, analytical, and occasionally formal, reflecting 'Hex-Speak' as a structured mode of thought.",
+    "atmosphereDescriptors": [
+      "Roaring",
+      "Geometric",
+      "Tempestuous",
+      "Intricate",
+      "Industrious",
+      "Immense",
+      "Precise",
+      "Grimy"
+    ],
+    "literaryReferences": [
+      "Jules Verne",
+      "H.P. Lovecraft",
+      "China Miéville",
+      "Moby Dick by Herman Melville"
+    ]
+  },
+  "populationBlueprint": {
+    "totalPopulation": 12,
+    "populationDensity": "sparse",
+    "communityType": "Storm-Harvesting Enclave",
+    "ageDistribution": [
+      {
+        "range": "Child (0-12)",
+        "label": "The Young Cogs",
+        "percentage": 8,
+        "count": 1,
+        "socialRole": "Protected dependents, future apprentices"
+      },
+      {
+        "range": "Adolescent (13-18)",
+        "label": "Aspiring Riggers & Apprentices",
+        "percentage": 17,
+        "count": 2,
+        "socialRole": "Trainees, learning essential skills"
+      },
+      {
+        "range": "Young Adult (19-35)",
+        "label": "Active Workforce",
+        "percentage": 33,
+        "count": 4,
+        "socialRole": "Primary laborers and junior specialists"
+      },
+      {
+        "range": "Adult (36-60)",
+        "label": "Experienced Core",
+        "percentage": 42,
+        "count": 5,
+        "socialRole": "Leadership, senior specialists, veteran workers"
+      },
+      {
+        "range": "Elder (61+)",
+        "label": "Retired/Consultants",
+        "percentage": 0,
+        "count": 0,
+        "socialRole": "Due to harsh conditions, few reach this age in active service"
+      }
+    ],
+    "genderBalance": {
+      "male": 45,
+      "female": 45,
+      "other": 10,
+      "notes": "Gender roles are largely merit-based, though some physically demanding Rigger roles may see a slight male leaning, balanced by critical female presence in technical or navigational fields."
+    },
+    "ethnicComposition": [
+      {
+        "name": "Hex-Plateau Born",
+        "percentage": 70,
+        "context": "Individuals born and raised on the Hex-Plateau, often showing physical adaptations to the atmospheric conditions and strong affinity for the local technology."
+      },
+      {
+        "name": "Main-World Specialists",
+        "percentage": 30,
+        "context": "Experts from core worlds, brought in for specific high-level technical or administrative skills, often less accustomed to the harsh environment."
+      }
+    ],
+    "classDistribution": [
+      {
+        "className": "The Vane-Lords",
+        "percentage": 8,
+        "count": 1
+      },
+      {
+        "className": "The Cog-Masters",
+        "percentage": 25,
+        "count": 3
+      },
+      {
+        "className": "The Riggers",
+        "percentage": 42,
+        "count": 5
+      },
+      {
+        "className": "The Groundlings",
+        "percentage": 25,
+        "count": 3
+      }
+    ],
+    "familyStructures": [
+      "Work-unit focused (survival often prioritizes professional bonds)",
+      "Small nuclear units (especially among Cog-Masters and Vane-Lords)",
+      "Apprenticeship bonds (mentorship often functions as a familial tie)",
+      "Communal living arrangements (for efficiency and safety in shared hex-structures)"
+    ],
+    "socialCohesion": 90,
+    "outsiderFrequency": "Very Rare",
+    "newcomerReception": "Highly scrutinized but valued if possessing crucial skills; integration is slow and deliberate.",
+    "occupationCategories": [
+      {
+        "category": "Leadership & Control",
+        "percentage": 8,
+        "examples": [
+          "Hex-Array Controller",
+          "Storm-Fleet Admiral"
+        ]
+      },
+      {
+        "category": "Technical & Engineering",
+        "percentage": 25,
+        "examples": [
+          "Turbine Engineer",
+          "Aether-Weaver",
+          "Structural Architect"
+        ]
+      },
+      {
+        "category": "Hazardous Labor",
+        "percentage": 42,
+        "examples": [
+          "Hex-Plateau Rigger",
+          "Maelstrom Miner",
+          "Wind-Farm Laborer"
+        ]
+      },
+      {
+        "category": "Support & Maintenance",
+        "percentage": 25,
+        "examples": [
+          "Sub-Farm Cultivator",
+          "Synthetics Processor",
+          "Interior Cleaner"
+        ]
+      }
+    ],
+    "unemploymentRate": 0,
+    "powerStructure": "Hierarchical Technocracy led by the Vane-Lords, with the Cog-Masters (technical experts) holding significant operational influence.",
+    "influentialRoles": [
+      "Hex-Array Controller",
+      "Storm-Fleet Admiral",
+      "Chief Turbine Engineer",
+      "Master Mechanic",
+      "Lead Aether-Weaver"
+    ],
+    "personalitySpread": {
+      "introvertedPct": 60,
+      "extrovertedPct": 40,
+      "warmPct": 45,
+      "coldPct": 55,
+      "openPct": 30,
+      "guardedPct": 70
+    },
+    "requiredArchetypes": [
+      "The Stern Commander",
+      "The Brilliant but Eccentric Engineer",
+      "The Hardened Veteran Rigger",
+      "The Resourceful Groundling",
+      "The Ambitious Apprentice",
+      "The Calculating Navigator"
+    ],
+    "averageRelationshipsPerPerson": 5,
+    "romancePresent": true,
+    "rivalriesPresent": true,
+    "secretsPerPerson": 1.5,
+    "reasoning": "This population blueprint reflects a small, highly specialized community essential for survival and operation within the dangerous 'Saturn Storms Hexagon World'. The sparse density, high social cohesion, and zero unemployment rate underscore the absolute necessity of every individual's contribution. The age and class distributions are skewed towards productive adults in critical roles, emphasizing the industrial and hazardous nature of their existence. Family structures and newcomer reception are pragmatic, prioritizing functionality and safety. The power structure is a technocracy, where control over vital gust-and-gear technology grants ultimate authority, while technical expertise is highly valued. Personality traits lean towards guardedness and introversion, typical for high-pressure, isolated environments, yet enough warmth and extroversion exist to maintain morale and leadership. Romance and rivalries are present, adding depth to interpersonal dynamics within this isolated group."
+  },
+  "locations": [
+    {
+      "id": "great_hex_market",
+      "name": "The Great Hex-Market",
+      "type": "Market",
+      "description": "A sprawling market built atop a series of interlocking hexagonal plates, where goods from across Aethelgard are traded. The air is thick with the scent of roasted hex-nuts and ozone.",
+      "ambientDetail": "Constant whirring of small wind-vanes on stalls, the distant rumble of the plateau's gears, and the occasional clang of dropping hex-plates.",
+      "connectedTo": [
+        "cog_wheel_tavern",
+        "gust_gear_workshop",
+        "under_plateau_warrens",
+        "stratosphere_dock"
+      ],
+      "socialClass": "Groundlings, Riggers, Cog-Masters",
+      "openHours": "6 AM - 8 PM",
+      "regulars": [],
+      "interactables": [
+        "Stall displays",
+        "Hex-nut roaster",
+        "Wind-powered clock tower",
+        "Merchant ledgers"
+      ],
+      "privacyLevel": "public",
+      "capacity": "High"
+    },
+    {
+      "id": "cog_wheel_tavern",
+      "name": "The Cog-Wheel Tavern",
+      "type": "Tavern/Pub",
+      "description": "A boisterous, dimly lit tavern popular with Riggers and Groundlings, known for its strong hex-brew and lively debates about the latest storms.",
+      "ambientDetail": "The clinking of tankards, rough laughter, the creak of wooden beams under the constant wind, and the hum of a small, gear-driven music box.",
+      "connectedTo": [
+        "great_hex_market",
+        "riggers_roost"
+      ],
+      "socialClass": "Riggers, Groundlings",
+      "openHours": "10 AM - Midnight",
+      "regulars": [],
+      "interactables": [
+        "Beer taps",
+        "Dartboard",
+        "Card tables",
+        "Rough-hewn bar",
+        "Gust-powered ventilation system"
+      ],
+      "privacyLevel": "public",
+      "capacity": "Medium"
+    },
+    {
+      "id": "vane_lords_spire",
+      "name": "The Vane-Lord's Spire",
+      "type": "Private Residence/Club",
+      "description": "The opulent, highest point of the Hex-Plateau, home to the most influential Vane-Lords. Its hexagonal facets gleam in the stormlight, offering unparalleled views.",
+      "ambientDetail": "The faint, harmonious chime of wind-chimes crafted from rare metals, the distant, muffled roar of the Saturnian winds, and the soft whir of automated valets.",
+      "connectedTo": [
+        "whisperwind_tea_house",
+        "aethelgard_archives",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "The Vane-Lords",
+      "openHours": "By Appointment Only",
+      "regulars": [],
+      "interactables": [
+        "Ornate wind-sculptures",
+        "Private lift controls",
+        "Storm-proof viewing gallery",
+        "Rare book collection",
+        "Automated tea service"
+      ],
+      "privacyLevel": "private",
+      "capacity": "Intimate"
+    },
+    {
+      "id": "gust_gear_workshop",
+      "name": "Gust-Gear Workshop",
+      "type": "Workshop/Factory",
+      "description": "A bustling workshop where Cog-Masters design, repair, and test the complex gear mechanisms and wind-powered devices essential to the Hex-Plateau.",
+      "ambientDetail": "The rhythmic clang of hammers on metal, the hiss of steam, the high-pitched whine of precision gears being calibrated, and the smell of oil and hot metal.",
+      "connectedTo": [
+        "great_hex_market",
+        "riggers_roost",
+        "storm_chasers_hangar"
+      ],
+      "socialClass": "The Cog-Masters",
+      "openHours": "7 AM - 7 PM",
+      "regulars": [],
+      "interactables": [
+        "Tool benches",
+        "Gear presses",
+        "Wind-tunnel testing bay",
+        "Schematic blueprints",
+        "Parts inventory"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "Medium"
+    },
+    {
+      "id": "riggers_roost",
+      "name": "The Rigger's Roost",
+      "type": "Bunkhouse/Lodging",
+      "description": "A communal lodging house for Riggers, a place for rest and camaraderie after long shifts maintaining the plateau's structural integrity or chasing storms.",
+      "ambientDetail": "The creaking of bunk beds, the murmur of tired voices, the distant thrum of the plateau, and the smell of stale hex-brew and worn leather.",
+      "connectedTo": [
+        "cog_wheel_tavern",
+        "gust_gear_workshop",
+        "stratosphere_dock"
+      ],
+      "socialClass": "The Riggers",
+      "openHours": "Always Open for Residents",
+      "regulars": [],
+      "interactables": [
+        "Bunk beds",
+        "Shared washroom",
+        "Communal stove",
+        "Gear repair kits",
+        "Storm maps on the wall"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "Medium"
+    },
+    {
+      "id": "stratosphere_dock",
+      "name": "Stratosphere Dock",
+      "type": "Airship Dock/Transit Hub",
+      "description": "The primary docking station for airships and smaller gust-skimmers, connecting the Hex-Plateau to other regions of Aethelgard. A constant hub of activity.",
+      "ambientDetail": "The throbbing hum of airship engines, the flapping of canvas sails, the shrill whistle of docking signals, and the crisp, high-altitude air.",
+      "connectedTo": [
+        "great_hex_market",
+        "riggers_roost",
+        "storm_chasers_hangar",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "All classes",
+      "openHours": "24 Hours",
+      "regulars": [],
+      "interactables": [
+        "Docking gantries",
+        "Ticket kiosks",
+        "Cargo crates",
+        "Gust-current charts",
+        "Telescopic viewing scopes"
+      ],
+      "privacyLevel": "public",
+      "capacity": "High"
+    },
+    {
+      "id": "storm_chasers_hangar",
+      "name": "The Storm-Chaser's Hangar",
+      "type": "Hangar/Research Outpost",
+      "description": "A rugged hangar dedicated to the maintenance and deployment of specialized storm-chasing vessels and the study of Saturn's atmospheric phenomena.",
+      "ambientDetail": "The metallic tang of ozone, the heavy clang of tools, the smell of fuel and lubricants, and the occasional roar of a test-fired storm-engine.",
+      "connectedTo": [
+        "gust_gear_workshop",
+        "stratosphere_dock",
+        "wind_farm_hex"
+      ],
+      "socialClass": "Riggers, Cog-Masters",
+      "openHours": "24 Hours (Operational)",
+      "regulars": [],
+      "interactables": [
+        "Storm-chaser vessel",
+        "Repair platforms",
+        "Weather monitoring equipment",
+        "Fuel tanks",
+        "Storm data logs"
+      ],
+      "privacyLevel": "semi-private",
+      "capacity": "Medium"
+    },
+    {
+      "id": "wind_farm_hex",
+      "name": "The Wind-Farm Hex",
+      "type": "Energy Production/Open Area",
+      "description": "A vast, exposed hexagonal plate covered in towering wind turbines and smaller, ground-level vanes that harness the relentless Saturnian winds to power the plateau.",
+      "ambientDetail": "The constant, powerful whoosh of massive turbine blades, the low rumble of power conduits, and the feeling of immense, unobstructed wind.",
+      "connectedTo": [
+        "storm_chasers_hangar",
+        "under_plateau_warrens"
+      ],
+      "socialClass": "Groundlings, Riggers",
+      "openHours": "Always Open",
+      "regulars": [],
+      "interactables": [
+        "Wind turbines",
+        "Access panels to power conduits",
+        "Maintenance platforms",
+        "Scattered debris from storms"
+      ],
+      "privacyLevel": "public",
+      "capacity": "High"
+    },
+    {
+      "id": "whisperwind_tea_house",
+      "name": "The Whisperwind Tea House",
+      "type": "Café/Social Club",
+      "description": "An elegant, quiet establishment favored by Vane-Lords and Cog-Masters for its delicate hex-blossom teas and subtle, wind-chime music.",
+      "ambientDetail": "The gentle tinkle of glass wind-chimes, soft conversations, the aroma of exotic teas, and the muted sounds of the city outside.",
+      "connectedTo": [
+        "vane_lords_spire",
+        "aethelgard_archives"
+      ],
+      "socialClass": "Vane-Lords, Cog-Masters",
+      "openHours": "9 AM - 6 PM",
+      "regulars": [],
+      "interactables": [
+        "Tea sets",
+        "Comfortable armchairs",
+        "Small stage for gust-musicians",
+        "Display of rare hex-blossoms"
+      ],
+      "privacyLevel": "public",
+      "capacity": "Low"
+    },
+    {
+      "id": "under_plateau_warrens",
+      "name": "The Under-Plateau Warrens",
+      "type": "Subterranean Dwellings/Hidden Area",
+      "description": "A labyrinthine network of cramped, makeshift dwellings and tunnels beneath the main Hex-Plateau, home to many of the Groundlings struggling for survival.",
+      "ambientDetail": "The dripping of condensation, the faint hum of the plateau's gears above, the smell of damp earth and cooking fires, and hushed voices.",
+      "connectedTo": [
+        "great_hex_market",
+        "wind_farm_hex"
+      ],
+      "socialClass": "The Groundlings",
+      "openHours": "Always Open",
+      "regulars": [],
+      "interactables": [
+        "Makeshift shelters",
+        "Hidden caches",
+        "Water collection points",
+        "Glow-fungus patches",
+        "Crude tools"
+      ],
+      "privacyLevel": "private",
+      "capacity": "High"
+    },
+    {
+      "id": "aethelgard_archives",
+      "name": "The Aethelgard Archives",
+      "type": "Library/Research Center",
+      "description": "A vast repository of knowledge, containing historical records, scientific research on Saturnian phenomena, and engineering schematics of the Hex-Plateau.",
+      "ambientDetail": "The rustle of turning pages, the soft click of indexing machines, the faint scent of aged paper and preservation chemicals, and the distant, almost imperceptible thrum of the plateau.",
+      "connectedTo": [
+        "vane_lords_spire",
+        "whisperwind_tea_house",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "Cog-Masters, Vane-Lords",
+      "openHours": "8 AM - 9 PM",
+      "regulars": [],
+      "interactables": [
+        "Shelves of scrolls and books",
+        "Reading desks",
+        "Micro-film readers (gust-powered)",
+        "Ancient cartography tools",
+        "Restricted section access panel"
+      ],
+      "privacyLevel": "public",
+      "capacity": "Medium"
+    },
+    {
+      "id": "hex_plateau_observation_deck",
+      "name": "Hex-Plateau Observation Deck",
+      "type": "Scenic Viewpoint/Public Plaza",
+      "description": "A public viewing platform offering breathtaking, if often stormy, vistas of the Saturnian sky and the surrounding Hex-Plateau. Popular for stargazing and storm-watching.",
+      "ambientDetail": "The howl of the wind, the distant glitter of Saturn's rings through the clouds, the rhythmic groan of the plateau's structure, and the excited murmurs of onlookers.",
+      "connectedTo": [
+        "stratosphere_dock",
+        "vane_lords_spire",
+        "aethelgard_archives"
+      ],
+      "socialClass": "All classes",
+      "openHours": "24 Hours",
+      "regulars": [],
+      "interactables": [
+        "Telescopes (coin-operated)",
+        "Informational plaques",
+        "Storm-warning signal tower",
+        "Benches",
+        "Panoramic viewfinders"
+      ],
+      "privacyLevel": "public",
+      "capacity": "High"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "elara_gust",
+      "name": "Elara Gust",
+      "age": 67,
+      "gender": "Female",
+      "occupation": "Wind-Farm Hex Overseer",
+      "physicalDescription": "A woman whose face is a map of weathered lines, etched by countless winds and suns. Her posture is slightly stooped from years of looking up at the sky, but her gaze remains sharp and discerning. She has strong, calloused hands, and her silver-streaked hair is usually tied back in a practical braid, often adorned with a small, polished gear.",
+      "personality": "Stoic and pragmatic, Elara has seen enough storms to know that sentiment rarely saves a hex-plateau from ruin. She speaks with a quiet authority, valuing efficiency and resilience above all else. Beneath her stern exterior lies a deep, almost maternal concern for the enclave's safety, though she rarely shows it openly.",
+      "voiceAnchor": "Low, gravelly, and deliberate",
+      "speechPatterns": [
+        "A true gust-worker measures twice, hexes once.",
+        "The winds tell no lies, only truths we're too deaf to hear.",
+        "Aye, that's a fine piece of work, that is."
+      ],
+      "coreConcerns": [
+        "Maintaining the integrity of the wind-farm hexes",
+        "Ensuring the community's energy stability",
+        "Preparing for the next great storm cycle"
+      ],
+      "signature": "Always carrying a small, worn hex-wrench, which she occasionally taps against her palm when deep in thought.",
+      "traits": [
+        "Resilient",
+        "Observant",
+        "Authoritative",
+        "Cautious",
+        "Loyal"
+      ],
+      "secrets": [
+        "She once lost her younger brother to a rogue gust during a storm-harvesting operation, which fuels her obsessive caution.",
+        "She secretly keeps detailed, handwritten logs of anomalous wind patterns that defy current meteorological models, fearing they predict an unprecedented 'Great Stillness'."
+      ],
+      "desires": [
+        "To see the Storm-Harvesting Enclave secured against any future natural disaster",
+        "To pass on her accumulated knowledge to a worthy successor",
+        "To finally understand the true nature of Saturn's storms"
+      ],
+      "fears": [
+        "A catastrophic failure of the wind-farm hexes",
+        "Losing more loved ones to the storms",
+        "The 'Great Stillness' she theorizes might come, rendering the wind-farm useless"
+      ],
+      "opinions": [],
+      "backstory": "Born and raised within the Storm-Harvesting Enclave, Elara began her life as a simple gear-polisher before working her way up through the ranks of the wind-farm. The loss of her brother in her youth hardened her resolve, driving her to master every aspect of wind engineering and storm resilience. She's become a living repository of the enclave's history and its practical knowledge of survival.",
+      "dailyRoutine": {
+        "morning": "Before dawn, she inspects the primary hex-turbines, checking for wear and listening to the wind's hum. She then reviews daily energy output reports.",
+        "afternoon": "Oversees maintenance crews at the Wind-Farm Hex, offering terse but precise instructions. Handles administrative duties, ensuring proper gear allocation.",
+        "evening": "A quiet meal, often alone, followed by updating her personal wind-pattern logs. May visit the Whisperwind Tea House for a single cup of strong brew.",
+        "night": "Briefly patrols the perimeter of the Wind-Farm Hex one last time, listening to the night winds before retiring to her simple bunk.",
+        "weekendDifference": "Spends more time in the Aethelgard Archives, cross-referencing historical storm data with her own observations. Sometimes takes a quiet walk on the Hex-Plateau Observation Deck."
+      },
+      "homeLocationId": "riggers_roost",
+      "workLocationId": "wind_farm_hex",
+      "frequentedLocations": [
+        "aethelgard_archives",
+        "whisperwind_tea_house",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "Working Class - Respected Elder",
+      "relationships": [],
+      "baselineMood": "Serious",
+      "temperament": "Melancholic-Choleric",
+      "approachability": 30,
+      "loyaltyThreshold": 80,
+      "attachmentStyle": "avoidant",
+      "processingType": "moderate_rumination",
+      "primaryDefense": "Intellectualization",
+      "selfAwarenessLevel": 75,
+      "coreWound": "Loss and the perceived inability to prevent future disaster.",
+      "woundTriggers": [
+        "Disregard for safety protocols",
+        "Sudden, unpredictable shifts in weather",
+        "Talk of 'fate' or 'destiny' over careful planning"
+      ],
+      "selfConcept": [
+        "The Enclave's Shield",
+        "A steadfast guardian",
+        "A repository of hard-won knowledge"
+      ],
+      "values": [
+        "Resilience",
+        "Preparedness",
+        "Practicality",
+        "Duty",
+        "Observation"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-elara_gust.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-elara_gust-swimwear.jpg"
+      }
+    },
+    {
+      "id": "kael_sprocket",
+      "name": "Kael Sprocket",
+      "age": 22,
+      "gender": "Male",
+      "occupation": "Junior Gust-Gear Mechanic",
+      "physicalDescription": "Lean and wiry, Kael moves with a nervous energy, his hands often fidgeting. His dark hair is perpetually smudged with grease, and he has a quick, eager smile that doesn't quite reach his anxious eyes. He wears patched-up work overalls, usually with a small, intricate cog-wheel pendant tucked beneath the collar.",
+      "personality": "Enthusiastic and quick-witted, Kael is fiercely dedicated to his craft but struggles with self-doubt. He often overcompensates with bravado and a tendency to jump into tasks before fully thinking them through. He craves recognition and fears being seen as incompetent, leading him to take on too much.",
+      "voiceAnchor": "High-pitched, rapid, often trailing off in thought",
+      "speechPatterns": [
+        "Right, got it, I'll hex that up in a gust!",
+        "Just a quick adjustment, easy as a smooth turn of a gear.",
+        "Wait, no, maybe if we... ah, never mind."
+      ],
+      "coreConcerns": [
+        "Proving his worth as a master mechanic",
+        "Mastering the intricacies of gust-gear technology",
+        "Earning enough to move out of the Warrens"
+      ],
+      "signature": "Constantly fiddling with a small, complex mechanism in his pocket, a nervous habit.",
+      "traits": [
+        "Resourceful",
+        "Energetic",
+        "Anxious",
+        "Ambitious",
+        "Loyal (once trust is earned)"
+      ],
+      "secrets": [
+        "He's secretly trying to reverse-engineer a piece of 'forbidden' Vane-Lord tech he found in a discarded scrap pile, hoping to create a revolutionary new gear.",
+        "He owes a small debt to a shadowy figure from the Under-Plateau Warrens, which he's desperately trying to pay off."
+      ],
+      "desires": [
+        "To invent a breakthrough gust-gear component",
+        "To be recognized as the finest mechanic in the Enclave",
+        "To provide a better life for his younger sister still in the Warrens"
+      ],
+      "fears": [
+        "Failing a critical repair",
+        "Being exposed as a fraud or incompetent",
+        "Remaining stuck in poverty and the Under-Plateau Warrens"
+      ],
+      "opinions": [],
+      "backstory": "Kael grew up in the cramped, often perilous Under-Plateau Warrens, learning to fix anything with a gear out of necessity. His natural talent for mechanics was quickly recognized, earning him an apprenticeship at the Gust-Gear Workshop. He carries the weight of his family's struggles, fueling his relentless drive to succeed and prove that a 'Warren-rat' can rise to greatness.",
+      "dailyRoutine": {
+        "morning": "Rises before dawn, often sketching gear designs. Arrives at Gust-Gear Workshop early to prepare tools and organize his workspace.",
+        "afternoon": "Engages in repairs, maintenance, and sometimes experimental modifications on various gust-powered machinery. Often takes on extra shifts.",
+        "evening": "Grabs a quick, cheap meal at The Cog-Wheel Tavern, sometimes trying to pick up tips or gossip. Then heads back to the workshop to work on his 'secret project' or study schematics.",
+        "night": "Returns to the Under-Plateau Warrens, exhausted, but often too wired to sleep immediately, reviewing his day's work and planning for tomorrow.",
+        "weekendDifference": "Spends most of his weekend scavenging for parts in the Great Hex-Market or exploring forgotten corners of the workshop. Sometimes visits his family in the Warrens."
+      },
+      "homeLocationId": "under_plateau_warrens",
+      "workLocationId": "gust_gear_workshop",
+      "frequentedLocations": [
+        "cog_wheel_tavern",
+        "great_hex_market",
+        "stratosphere_dock"
+      ],
+      "socialClass": "Working Class",
+      "relationships": [],
+      "baselineMood": "Anxious-Hopeful",
+      "temperament": "Sanguine-Choleric",
+      "approachability": 70,
+      "loyaltyThreshold": 40,
+      "attachmentStyle": "anxious",
+      "processingType": "brief_reflection",
+      "primaryDefense": "Rationalization",
+      "selfAwarenessLevel": 50,
+      "coreWound": "Insecurity and the fear of inadequacy.",
+      "woundTriggers": [
+        "Criticism of his mechanical skills",
+        "Being overlooked or ignored",
+        "Reminders of his humble origins"
+      ],
+      "selfConcept": [
+        "A future master mechanic",
+        "A problem-solver",
+        "A provider for his family"
+      ],
+      "values": [
+        "Innovation",
+        "Skill",
+        "Recognition",
+        "Diligence",
+        "Loyalty"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-kael_sprocket.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-kael_sprocket-swimwear.jpg"
+      }
+    },
+    {
+      "id": "sylas_vane",
+      "name": "Sylas Vane",
+      "age": 35,
+      "gender": "Male",
+      "occupation": "Storm-Pattern Seeker (Independent Researcher)",
+      "physicalDescription": "Tall and slender, with an almost ethereal stillness about him. His eyes, the color of a distant storm cloud, seem to constantly observe, missing nothing. He has a neatly trimmed beard and his attire, though practical, has an understated elegance, often incorporating subtle Vane-Lord house colors. He moves with a quiet grace, like a shadow.",
+      "personality": "Intensely analytical and reserved, Sylas prefers the company of data and observation to people. He approaches everything with a detached curiosity, rarely showing strong emotion. He is driven by an insatiable quest for knowledge about Saturn's storms, believing there's a deeper, hidden order to their chaos.",
+      "voiceAnchor": "Soft, calm, precise, with a slight echo of resignation",
+      "speechPatterns": [
+        "Observe the hex-vectors; they reveal the true intent of the gust.",
+        "Emotion is a variable best isolated, not indulged.",
+        "The data suggests a cyclical anomaly, not mere randomness."
+      ],
+      "coreConcerns": [
+        "Unraveling the predictive patterns of Saturn's storms",
+        "Developing a truly accurate long-range storm forecast",
+        "Avoiding emotional entanglements that might cloud his judgment"
+      ],
+      "signature": "Always carries a small, leather-bound journal and a specialized hex-compass, which he frequently consults.",
+      "traits": [
+        "Analytical",
+        "Reserved",
+        "Intelligent",
+        "Perceptive",
+        "Detached"
+      ],
+      "secrets": [
+        "He is a disgraced Vane-Lord scion, exiled for questioning the family's traditional storm-harvesting methods and pursuing 'unorthodox' theories.",
+        "He believes the storms are not purely natural phenomena but are influenced by a long-lost, ancient hex-tech, and he's searching for evidence of its existence."
+      ],
+      "desires": [
+        "To prove his theories about storm predictability",
+        "To uncover the true origins of Saturn's atmospheric phenomena",
+        "To regain a sense of purpose beyond his family's expectations"
+      ],
+      "fears": [
+        "His theories being disproven or ridiculed",
+        "Becoming emotionally vulnerable or attached",
+        "Being forced back into the Vane-Lord's rigid social structure"
+      ],
+      "opinions": [],
+      "backstory": "Born into the prestigious Vane-Lord family, Sylas was expected to follow their traditional path of engineering and political influence. However, his mind was drawn to the abstract patterns of the storms, leading him to question established doctrines. His 'radical' ideas led to his quiet disinheritance, driving him to pursue his research independently, often relying on the Storm-Chasers' equipment and the Aethelgard Archives.",
+      "dailyRoutine": {
+        "morning": "Wakes early to review the previous night's atmospheric data from various sensors. Visits the Aethelgard Archives to cross-reference historical records.",
+        "afternoon": "Spends hours at the Storm-Chaser's Hangar, observing their equipment or occasionally joining a chase (if he can secure a spot). Collects raw data from various sources.",
+        "evening": "Retreats to a secluded corner of the Hex-Plateau Observation Deck, meticulously charting storm movements and working on his predictive models, often until late.",
+        "night": "Returns to his simple, rented room, where he continues his research and theoretical work, often forgoing sleep for breakthroughs.",
+        "weekendDifference": "Undertakes longer excursions to the Wind-Farm Hex or other remote observation points to set up experimental sensors. Less social interaction than usual."
+      },
+      "homeLocationId": "vane_lords_spire",
+      "workLocationId": "storm_chasers_hangar",
+      "frequentedLocations": [
+        "aethelgard_archives",
+        "hex_plateau_observation_deck",
+        "gust_gear_workshop"
+      ],
+      "socialClass": "Disgraced Aristocracy / Independent Scholar",
+      "relationships": [],
+      "baselineMood": "Contemplative",
+      "temperament": "Phlegmatic-Melancholic",
+      "approachability": 20,
+      "loyaltyThreshold": 60,
+      "attachmentStyle": "avoidant",
+      "processingType": "heavy_rumination",
+      "primaryDefense": "Intellectualization",
+      "selfAwarenessLevel": 85,
+      "coreWound": "Isolation and rejection for being different.",
+      "woundTriggers": [
+        "Being dismissed as 'eccentric' or 'unrealistic'",
+        "Demands for emotional expression",
+        "Arguments based on tradition rather than evidence"
+      ],
+      "selfConcept": [
+        "A seeker of ultimate truth",
+        "An objective observer",
+        "An outcast with a higher purpose"
+      ],
+      "values": [
+        "Truth",
+        "Knowledge",
+        "Objectivity",
+        "Autonomy",
+        "Precision"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-sylas_vane.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-sylas_vane-swimwear.jpg"
+      }
+    },
+    {
+      "id": "mira_hex",
+      "name": "Mira Hex",
+      "age": 48,
+      "gender": "Female",
+      "occupation": "Rare Storm-Harvested Goods Merchant",
+      "physicalDescription": "A woman of robust build, with a warm, dimpled smile that can turn shrewd in an instant. Her dark, curly hair is often adorned with colorful hex-beads, and her hands are quick and expressive. Her eyes, a vibrant hazel, sparkle with a mix of genuine friendliness and keen business acumen. She favors practical, brightly colored clothing.",
+      "personality": "Outgoing and charismatic, Mira is a natural storyteller and a master of persuasion. She thrives on social interaction and the bustle of the market, always having an ear to the ground for gossip and opportunities. Beneath her jovial exterior, she is fiercely protective of her livelihood and surprisingly cunning.",
+      "voiceAnchor": "Warm, resonant, with a theatrical lilt",
+      "speechPatterns": [
+        "Ah, a keen eye for quality, you have, my hex-friend!",
+        "Never underestimate the power of a well-placed gust, or a well-timed deal.",
+        "Just between us, the rarest finds are often in the quietest corners."
+      ],
+      "coreConcerns": [
+        "Maintaining her reputation as the premier dealer of storm-harvested goods",
+        "Expanding her network of suppliers and buyers",
+        "Ensuring her small family is well-provided for"
+      ],
+      "signature": "A dramatic flourish of her hand when presenting a particularly rare item, accompanied by a wink.",
+      "traits": [
+        "Charismatic",
+        "Shrewd",
+        "Optimistic",
+        "Resourceful",
+        "Secretive"
+      ],
+      "secrets": [
+        "She occasionally smuggles minor, unregulated storm-elements through the Stratosphere Dock, carefully avoiding official channels.",
+        "She has a hidden stash of extremely valuable 'frozen lightning' crystal, waiting for the perfect buyer at the perfect price."
+      ],
+      "desires": [
+        "To become the wealthiest independent merchant in the Enclave",
+        "To discover a legendary, untouched storm-crystal vein",
+        "To provide a life of comfort and security for her children"
+      ],
+      "fears": [
+        "Her smuggling activities being discovered",
+        "A market downturn or a collapse in demand for storm-harvested goods",
+        "Losing her business and returning to poverty"
+      ],
+      "opinions": [],
+      "backstory": "Mira started her life as a simple vendor in the Great Hex-Market, selling common goods. Through sheer determination, a sharp wit, and an uncanny ability to sniff out rare storm-harvested treasures, she built her own thriving business. She understands the rhythms of the market like no other, navigating its currents with a blend of charm and cunning, always seeking the next big score.",
+      "dailyRoutine": {
+        "morning": "Arrives at her stall in the Great Hex-Market before most, arranging her wares to catch the light. Engages in lively banter with early shoppers and fellow merchants.",
+        "afternoon": "Actively sells her goods, haggling and telling colorful stories about their origins. Meets with suppliers or potential buyers in discreet corners of the market.",
+        "evening": "Closes her stall, carefully storing her most valuable items. May visit the Whisperwind Tea House for social gossip or the Cog-Wheel Tavern for a stronger drink.",
+        "night": "Returns to her lodgings, counts the day's earnings, and plans her next market strategy. Sometimes reviews her hidden inventory.",
+        "weekendDifference": "Spends more time scouting for new sources of storm-harvested materials, often networking at the Stratosphere Dock, or planning larger deals away from the market's hustle."
+      },
+      "homeLocationId": "riggers_roost",
+      "workLocationId": "great_hex_market",
+      "frequentedLocations": [
+        "whisperwind_tea_house",
+        "stratosphere_dock",
+        "cog_wheel_tavern"
+      ],
+      "socialClass": "Merchant Class",
+      "relationships": [],
+      "baselineMood": "Optimistic-Shrewd",
+      "temperament": "Sanguine-Phlegmatic",
+      "approachability": 85,
+      "loyaltyThreshold": 50,
+      "attachmentStyle": "secure",
+      "processingType": "present",
+      "primaryDefense": "Humor",
+      "selfAwarenessLevel": 65,
+      "coreWound": "Fear of scarcity and losing control over her financial security.",
+      "woundTriggers": [
+        "Threats to her business or reputation",
+        "Being outmaneuvered in a deal",
+        "Discussions of poverty or lack of resources"
+      ],
+      "selfConcept": [
+        "A master of commerce",
+        "A provider for her family",
+        "A keen judge of value"
+      ],
+      "values": [
+        "Prosperity",
+        "Resourcefulness",
+        "Community (with limits)",
+        "Security",
+        "Opportunity"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-mira_hex.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-mira_hex-swimwear.jpg"
+      }
+    },
+    {
+      "id": "finch_cogsworth",
+      "name": "Finchley 'Finch' Cogsworth",
+      "age": 62,
+      "gender": "Male",
+      "occupation": "Master Rigger / Stratosphere Dock Foreman",
+      "physicalDescription": "A wiry man with hands gnarled from years of gripping rigging and fine-tuning gears. His face is a map of sun-wind-etched lines, and he often wears a grimace that seems permanently fixed, though a flicker of warmth sometimes escapes his keen, blue eyes. A faded, oil-stained hex-patch on his sleeve marks him as a veteran rigger.",
+      "personality": "Gruff, cynical, and seemingly perpetually annoyed, Finch hides a deep sense of responsibility and a surprising soft spot for the younger, less experienced 'cogs'. He values competence and efficiency above all else and has little patience for grand pronouncements or 'airy' theories. He's a man of few words, but those he speaks are usually weighted with hard-won experience.",
+      "voiceAnchor": "Low, gravelly, with a persistent underlying rumble like distant thunder.",
+      "speechPatterns": [
+        "Uses 'gust-cursed' or 'gear-damned' as expletives.",
+        "Refers to people as 'cogs' or 'sprockets'.",
+        "Speaks in short, direct sentences, often cutting to the chase.",
+        "Prefers practical terms over abstract ones."
+      ],
+      "coreConcerns": [
+        "The safety and operational integrity of the Stratosphere Dock.",
+        "Ensuring the new generation of riggers are properly trained and capable.",
+        "The unpredictable nature of the Saturn Storms."
+      ],
+      "signature": "A well-worn wrench, always tucked into his belt, even when off-duty.",
+      "traits": [
+        "Experienced",
+        "Practical",
+        "Grumpy",
+        "Loyal",
+        "Secretly Caring"
+      ],
+      "secrets": [
+        "He was once a reckless storm-chaser in his youth, and the permanent limp he carries is from a near-fatal accident during a 'Hex-Squall'.",
+        "He secretly enjoys the occasional 'frivolous' hex-charm from Mira Hex, believing it brings him luck, despite his outward disdain for such things."
+      ],
+      "desires": [
+        "To see the Stratosphere Dock run perfectly, without incident.",
+        "A quiet retirement, perhaps with a small workshop of his own.",
+        "For the younger generation to learn from his mistakes."
+      ],
+      "fears": [
+        "A catastrophic structural failure at the dock, leading to loss of life.",
+        "The 'young cogs' growing too complacent or incompetent.",
+        "Being unable to perform his duties due to age or injury."
+      ],
+      "opinions": [],
+      "backstory": "Finchley started his career as a junior rigger, quickly earning a reputation for his meticulous attention to detail and his ability to fix anything with a gear or a cable. His brief, daredevil stint as a storm-chaser ended with a serious injury, teaching him a humility he now projects as cynicism. He returned to the docks, rising through the ranks to become the respected (and feared) Master Rigger. He's seen generations of airships come and go, and countless storms rage across the Hex-Plateau.",
+      "dailyRoutine": {
+        "morning": "Wakes before dawn, inspects the primary docking gears, oversees the first wave of airship departures.",
+        "afternoon": "Supervises maintenance crews, troubleshoots minor mechanical issues, grumbles at junior riggers.",
+        "evening": "A solitary meal, usually at The Cog-Wheel Tavern, followed by meticulous log entries and planning for the next shift.",
+        "night": "Checks weather reports, ensures all mooring lines are secure, then sleeps fitfully, often dreaming of the roar of the wind.",
+        "weekendDifference": "Spends more time in the workshop, repairing personal gear or crafting intricate hex-locks, occasionally visits the Great Hex-Market for specific components."
+      },
+      "homeLocationId": "riggers_roost",
+      "workLocationId": "stratosphere_dock",
+      "frequentedLocations": [
+        "cog_wheel_tavern",
+        "great_hex_market"
+      ],
+      "socialClass": "Working Class / Skilled Labor",
+      "relationships": [
+        {
+          "npcId": "elara_gust",
+          "type": "Professional",
+          "description": "Professional respect, though he often grumbles about her strictness and 'paperwork'. He knows she keeps the Wind-Farm running, which benefits everyone.",
+          "strength": 7
+        },
+        {
+          "npcId": "kael_sprocket",
+          "type": "Mentor/Protector",
+          "description": "Sees Kael's potential but is constantly exasperated by his youthful impulsiveness. Acts as a gruff mentor, pushing Kael to be more meticulous.",
+          "strength": 6
+        },
+        {
+          "npcId": "sylas_vane",
+          "type": "Acquaintance/Distrustful",
+          "description": "Views Sylas as an impractical 'head-in-the-gust' type, too lost in theories. Secretly respects his dedication but would never admit it.",
+          "strength": 3
+        },
+        {
+          "npcId": "mira_hex",
+          "type": "Customer/Tolerant",
+          "description": "A regular customer, though he'd never admit to finding her 'storm-harvested trinkets' anything more than a frivolous distraction. He finds her tales mildly irritating but also strangely compelling.",
+          "strength": 4
+        }
+      ],
+      "baselineMood": "Grumpy",
+      "temperament": "Melancholic-Choleric",
+      "approachability": 3,
+      "loyaltyThreshold": 7,
+      "attachmentStyle": "avoidant",
+      "processingType": "brief_reflection",
+      "primaryDefense": "Sarcasm and gruffness",
+      "selfAwarenessLevel": 7,
+      "coreWound": "Feeling inadequate after his storm-chasing injury, leading to a fear of failure.",
+      "woundTriggers": [
+        "Witnessing incompetence or recklessness.",
+        "Being reminded of past failures or physical limitations.",
+        "Situations where he feels out of control."
+      ],
+      "selfConcept": [
+        "The Backbone of the Docks",
+        "A weathered survivor",
+        "A guardian of tradition and safety"
+      ],
+      "values": [
+        "Competence",
+        "Safety",
+        "Experience",
+        "Duty"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-finch_cogsworth.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-finch_cogsworth-swimwear.jpg"
+      }
+    },
+    {
+      "id": "lyra_volta",
+      "name": "Lyra 'Spark' Volta",
+      "age": 21,
+      "gender": "Female",
+      "occupation": "Aspiring Storm-Chaser / Gear Scavenger",
+      "physicalDescription": "Small and wiry, with quick, darting movements. Her dark, close-cropped hair is perpetually windswept, and her bright, inquisitive eyes always seem to be scanning the skies. She wears practical, patched-up gear, often adorned with scavenged hex-plates and odd, humming components.",
+      "personality": "Energetic, fiercely independent, and brimming with unbridled curiosity. Lyra is a natural risk-taker, always pushing boundaries and questioning norms. She's passionate about the storms and the secrets they hold, dreaming of making a groundbreaking discovery. Can be impulsive and headstrong, but possesses a surprising knack for improvisation.",
+      "voiceAnchor": "Bright, quick, and often rising in pitch when excited, with a slight echo of the wind.",
+      "speechPatterns": [
+        "Uses 'Hex-blaze!' or 'Gust-it!' as expressions of surprise or frustration.",
+        "Talks rapidly, sometimes jumping between ideas.",
+        "Incorporates technical jargon even in casual conversation.",
+        "Often refers to things as 'sparky' or 'gusty'."
+      ],
+      "coreConcerns": [
+        "Developing new storm-chasing gear and techniques.",
+        "Gaining recognition for her potential as a storm-chaser.",
+        "Understanding the deeper patterns of the Saturn Storms."
+      ],
+      "signature": "A pair of custom-built, multi-lens goggles that she rarely takes off.",
+      "traits": [
+        "Adventurous",
+        "Ingenious",
+        "Reckless",
+        "Optimistic",
+        "Determined"
+      ],
+      "secrets": [
+        "She has a hidden workshop in the Under-Plateau Warrens where she's secretly building her own, highly experimental storm-chaser, using scavenged parts.",
+        "She once 'borrowed' a critical component from the Gust-Gear Workshop, intending to return it, but never quite got around to it."
+      ],
+      "desires": [
+        "To pilot her own storm-chaser into the eye of a major Hex-Cyclone.",
+        "To make a significant, named discovery about the storms or their energy.",
+        "To prove her worth to the Storm-Chaser's Guild (even if she's not officially in it yet)."
+      ],
+      "fears": [
+        "Being confined to menial labor or desk work.",
+        "Her experimental gear failing at a critical moment.",
+        "Being seen as just a 'scavenger' rather than a true innovator."
+      ],
+      "opinions": [],
+      "backstory": "Lyra grew up in the shadow of the Wind-Farm Hex, fascinated by the raw power of the storms. Lacking formal training opportunities, she learned through observation, scavenging, and relentless experimentation. She idolizes the independent spirit of storm-chasers and dreams of breaking free from the conventional path, believing that true innovation comes from pushing past established limits.",
+      "dailyRoutine": {
+        "morning": "Rises early, checks the local wind patterns, then heads to the Storm-Chaser's Hangar to 'observe' and scavenge discarded parts.",
+        "afternoon": "Works on her personal projects in her hidden workshop, testing small components or sketching new designs. Might visit the Great Hex-Market for specific materials.",
+        "evening": "Often found on the Hex-Plateau Observation Deck, watching the distant storms, or at the Cog-Wheel Tavern, listening to stories.",
+        "night": "Continues tinkering, sometimes under the glow of a gust-lantern, until she collapses from exhaustion.",
+        "weekendDifference": "Spends almost all her time either in her workshop or on daring (and often unauthorized) scouting missions into the outskirts of the Wind-Farm Hex, pushing her experimental gear."
+      },
+      "homeLocationId": "under_plateau_warrens",
+      "workLocationId": "storm_chasers_hangar",
+      "frequentedLocations": [
+        "great_hex_market",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "Lower Class / Aspiring Innovator",
+      "relationships": [
+        {
+          "npcId": "sylas_vane",
+          "type": "Idol/Acquaintance",
+          "description": "Admires Sylas's independent spirit and wishes she could join his research. She sees him as a kindred spirit in challenging conventional wisdom.",
+          "strength": 7
+        },
+        {
+          "npcId": "kael_sprocket",
+          "type": "Friendly Rival/Collaborator",
+          "description": "A friendly rivalry over gear modifications; they often swap ideas (and occasional parts). She finds his mechanical skills useful.",
+          "strength": 6
+        },
+        {
+          "npcId": "mira_hex",
+          "type": "Customer/Source of Inspiration",
+          "description": "Buys 'lucky hex-charms' and rare components from Mira, believing in their intrinsic storm-power and finding inspiration in their unique properties.",
+          "strength": 5
+        },
+        {
+          "npcId": "elara_gust",
+          "type": "Authority Figure/Respectful",
+          "description": "Sees Elara as a powerful but somewhat unapproachable authority figure. Respects her control over the Wind-Farm, but secretly chafes under her regulations.",
+          "strength": 4
+        }
+      ],
+      "baselineMood": "Enthusiastic",
+      "temperament": "Sanguine-Choleric",
+      "approachability": 8,
+      "loyaltyThreshold": 5,
+      "attachmentStyle": "anxious",
+      "processingType": "present",
+      "primaryDefense": "Distraction and impulsivity",
+      "selfAwarenessLevel": 6,
+      "coreWound": "Feeling overlooked and underestimated, leading to a relentless drive to prove her capabilities.",
+      "woundTriggers": [
+        "Being dismissed or ignored due to her age or lack of official status.",
+        "Seeing others take credit for similar ideas or discoveries.",
+        "Situations where her freedom or independence is challenged."
+      ],
+      "selfConcept": [
+        "A budding visionary",
+        "A future storm-master",
+        "An independent spirit"
+      ],
+      "values": [
+        "Innovation",
+        "Freedom",
+        "Discovery",
+        "Courage"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lyra_volta.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lyra_volta-swimwear.jpg"
+      }
+    },
+    {
+      "id": "seraphina_quill",
+      "name": "Seraphina 'Sera' Quill",
+      "age": 48,
+      "gender": "Female",
+      "occupation": "Senior Archivist, Aethelgard Archives",
+      "physicalDescription": "Tall and slender, with an air of quiet dignity. Her silver-streaked dark hair is usually pulled back in a severe bun, and she wears spectacles perched on her elegant nose. Her movements are precise and economical, befitting someone who spends their days navigating dusty shelves and delicate manuscripts.",
+      "personality": "Meticulous, reserved, and intellectually formidable. Seraphina possesses a vast knowledge of Hex-history, storm patterns, and ancient gust-tech. She is calm under pressure, often observing before acting. While she can seem aloof, she has a dry wit and a deep passion for preserving knowledge, seeing it as the true foundation of survival in their world.",
+      "voiceAnchor": "Clear, precise, and measured, with a slightly formal cadence.",
+      "speechPatterns": [
+        "Uses precise, academic language, even in informal settings.",
+        "Often quotes or references historical texts and theories.",
+        "Tends to correct factual inaccuracies with quiet authority.",
+        "Prefers the term 'data-point' or 'chronicle' over 'story'."
+      ],
+      "coreConcerns": [
+        "The preservation and accurate cataloging of all Hex-lore.",
+        "Uncovering forgotten or lost knowledge about the Saturn Storms.",
+        "Ensuring the Archives remain a bastion of truth and history."
+      ],
+      "signature": "A meticulously organized quill-pen and inkwell set, even in the age of gust-printers.",
+      "traits": [
+        "Intellectual",
+        "Meticulous",
+        "Reserved",
+        "Perceptive",
+        "Dedicated"
+      ],
+      "secrets": [
+        "She is obsessed with a fragmented, ancient text, 'The Whispering Hex-Scrolls,' which she believes contains prophecies about a coming 'Great Stillness' – a period of no storms, which could be catastrophic.",
+        "She occasionally 'borrows' rare, storm-harvested components from the Archives' collection for her own private, theoretical experiments, trying to recreate ancient gust-tech."
+      ],
+      "desires": [
+        "To fully reconstruct the 'Whispering Hex-Scrolls' and understand its implications.",
+        "To publish a definitive chronicle of the Hex-Speak era.",
+        "To secure the Archives against any possible future threats."
+      ],
+      "fears": [
+        "The loss or destruction of historical records.",
+        "Knowledge being twisted or suppressed for political gain.",
+        "Her research into the 'Great Stillness' proving true."
+      ],
+      "opinions": [],
+      "backstory": "Born into a family of lesser scribes, Seraphina showed an early aptitude for meticulous research and an insatiable hunger for knowledge. She rose quickly through the ranks of the Aethelgard Archives, becoming its Senior Archivist. Her life's work is dedicated to understanding the intricate dance between humanity and the Saturn Storms, piecing together the past to illuminate the future. Her quiet demeanor hides a mind constantly whirring with theories and cross-references.",
+      "dailyRoutine": {
+        "morning": "Begins by reviewing new acquisitions and requests for information, ensuring precise cataloging.",
+        "afternoon": "Engages in her own research projects, meticulously cross-referencing ancient texts and storm-charts. Conducts consultations with researchers.",
+        "evening": "Oversees the closing of the Archives, then retreats to her private quarters within, often reading by the soft glow of a gust-lamp.",
+        "night": "Continues her private research, often delving into the more obscure or dangerous hex-lore.",
+        "weekendDifference": "Devotes more time to her personal research, often working through the night, only emerging for brief, solitary walks on the Hex-Plateau Observation Deck."
+      },
+      "homeLocationId": "aethelgard_archives",
+      "workLocationId": "aethelgard_archives",
+      "frequentedLocations": [
+        "whisperwind_tea_house",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "Intellectual Class / Scholar",
+      "relationships": [
+        {
+          "npcId": "sylas_vane",
+          "type": "Colleague/Intellectual Rival",
+          "description": "Professional colleague, they often exchange theories and archival findings, sometimes leading to spirited debates. She respects his independent mind.",
+          "strength": 7
+        },
+        {
+          "npcId": "elara_gust",
+          "type": "Formal Acquaintance",
+          "description": "Maintains a formal, respectful distance. Elara occasionally consults the archives for historical precedents, which Seraphina provides with precise efficiency.",
+          "strength": 5
+        },
+        {
+          "npcId": "mira_hex",
+          "type": "Curious Observer",
+          "description": "Intrigued by the historical and cultural significance of Mira's rare finds, often asking about their provenance and the stories attached to them, though she maintains a scholarly distance.",
+          "strength": 4
+        },
+        {
+          "npcId": "kael_sprocket",
+          "type": "Tolerated Presence",
+          "description": "Finds Kael's mechanical curiosity a bit disruptive in the archives, especially his clanking tools, but tolerates him as a necessary part of the Enclave's fabric.",
+          "strength": 3
+        }
+      ],
+      "baselineMood": "Calmly focused",
+      "temperament": "Melancholic-Phlegmatic",
+      "approachability": 4,
+      "loyaltyThreshold": 8,
+      "attachmentStyle": "avoidant",
+      "processingType": "moderate_rumination",
+      "primaryDefense": "Intellectualization and detachment",
+      "selfAwarenessLevel": 8,
+      "coreWound": "A fear of chaos and the destruction of order, stemming from witnessing past societal upheaval, driving her need for knowledge and control.",
+      "woundTriggers": [
+        "Disinformation or the deliberate distortion of facts.",
+        "Any threat to the Archives or its contents.",
+        "Emotional outbursts or irrational decision-making."
+      ],
+      "selfConcept": [
+        "Guardian of knowledge",
+        "The Enclave's memory keeper",
+        "A seeker of ultimate truth"
+      ],
+      "values": [
+        "Truth",
+        "Order",
+        "Knowledge",
+        "Preservation"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-seraphina_quill.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-seraphina_quill-swimwear.jpg"
+      }
+    },
+    {
+      "id": "jax_hexley",
+      "name": "Jax Hexley",
+      "age": 41,
+      "gender": "Male",
+      "occupation": "Proprietor, The Cog-Wheel Tavern",
+      "physicalDescription": "A burly man with a booming laugh and a perpetually flour-dusted apron. His face is ruddy from heat and good cheer, and his hands are surprisingly quick and deft, whether pulling a brew or polishing a hex-glass. A small, intricately carved hex-cog earring is his only adornment.",
+      "personality": "Jovial, observant, and a natural confidante. Jax runs his tavern with a firm but fair hand, creating a welcoming hub for all manner of 'cogs' and 'sprockets'. He's a good listener, absorbing all the whispers and rumors of the Enclave, but rarely speaks ill of anyone. Beneath his cheerful exterior lies a shrewd mind and a deep understanding of human nature.",
+      "voiceAnchor": "Warm, resonant baritone, often punctuated by hearty chuckles.",
+      "speechPatterns": [
+        "Uses common Hex-Speak slang, often with a friendly, informal tone.",
+        "Asks open-ended questions, encouraging others to talk.",
+        "Refers to customers as 'my good cog' or 'my dear sprocket'.",
+        "Often ends sentences with a knowing wink or a shared laugh."
+      ],
+      "coreConcerns": [
+        "Keeping his tavern a safe and thriving gathering place.",
+        "Ensuring the well-being and morale of the Storm-Harvesting Enclave.",
+        "Maintaining a steady supply of fine hex-brews and gust-ales."
+      ],
+      "signature": "A perfectly polished, brass-bound tankard that only he uses.",
+      "traits": [
+        "Hospitality",
+        "Observant",
+        "Trustworthy",
+        "Jovial",
+        "Resourceful"
+      ],
+      "secrets": [
+        "He used to be a 'Whisper-Runner,' carrying coded messages between hidden enclaves during a period of unrest, and still maintains a few clandestine contacts.",
+        "He secretly brews a potent, illegal 'Storm-Shine' in the tavern's cellar, reserved only for his most trusted patrons or for special occasions."
+      ],
+      "desires": [
+        "To expand his tavern, perhaps adding a small lodging upstairs.",
+        "To see the Storm-Harvesting Enclave truly united and prosperous.",
+        "To gather a legendary collection of 'Hex-Stories' from his patrons."
+      ],
+      "fears": [
+        "His tavern falling on hard times or losing its community spirit.",
+        "Divisive conflict breaking out within the Enclave.",
+        "His past as a Whisper-Runner coming back to haunt him."
+      ],
+      "opinions": [],
+      "backstory": "Jax came to the Enclave years ago, a drifter with a knack for mixing drinks and a talent for making people feel at ease. He quickly bought out the old, failing tavern and transformed it into The Cog-Wheel, a bustling hub of community life. His cheerful demeanor masks a sharp intelligence and a deep network of information gleaned from years of listening to patrons. He's seen a lot, heard even more, and prides himself on offering a safe harbor from the 'gusts' of life.",
+      "dailyRoutine": {
+        "morning": "Opens the tavern, cleans and restocks, prepares the first batch of gust-coffee and hex-bread for early risers.",
+        "afternoon": "Manages the bar, chats with patrons, listens to local gossip, ensures the kitchen is running smoothly.",
+        "evening": "The busiest time; he's behind the bar, serving drinks, settling minor disputes, and keeping the atmosphere lively.",
+        "night": "Closes up, counts the day's earnings, then enjoys a quiet drink of his own, often making notes on the day's events or interesting stories.",
+        "weekendDifference": "Often hosts special events like 'Hex-Story Nights' or impromptu gust-music sessions, making the tavern even more vibrant and bustling."
+      },
+      "homeLocationId": "cog_wheel_tavern",
+      "workLocationId": "cog_wheel_tavern",
+      "frequentedLocations": [
+        "great_hex_market",
+        "whisperwind_tea_house"
+      ],
+      "socialClass": "Middle Class / Entrepreneur",
+      "relationships": [
+        {
+          "npcId": "kael_sprocket",
+          "type": "Confidante/Mentor",
+          "description": "A regular at the tavern, Jax often offers Kael a sympathetic ear, gruff advice, and sometimes a free round after a particularly tough day at the workshop.",
+          "strength": 8
+        },
+        {
+          "npcId": "elara_gust",
+          "type": "Valued Customer/Acquaintance",
+          "description": "A valued customer; Jax knows her preferred drink and keeps an eye out for her well-being, often offering her a moment of quiet respite from her duties.",
+          "strength": 6
+        },
+        {
+          "npcId": "mira_hex",
+          "type": "Business Associate/Friend",
+          "description": "Allows Mira to occasionally set up a small stall in the tavern, enjoying the buzz she brings and finding her stories entertaining. He often buys goods from her.",
+          "strength": 7
+        },
+        {
+          "npcId": "sylas_vane",
+          "type": "Customer/Tolerant",
+          "description": "Finds Sylas's intensity a bit much sometimes, but appreciates his patronage and listens to his latest theories with a patient (if slightly skeptical) ear.",
+          "strength": 5
+        }
+      ],
+      "baselineMood": "Jovial",
+      "temperament": "Sanguine-Phlegmatic",
+      "approachability": 9,
+      "loyaltyThreshold": 6,
+      "attachmentStyle": "secure",
+      "processingType": "brief_reflection",
+      "primaryDefense": "Humor and deflection",
+      "selfAwarenessLevel": 7,
+      "coreWound": "A past feeling of rootlessness and lack of belonging, leading to his deep commitment to community and creating a welcoming space.",
+      "woundTriggers": [
+        "Divisiveness or arguments among his patrons.",
+        "Threats to the community's stability.",
+        "Feeling isolated or alone."
+      ],
+      "selfConcept": [
+        "The Heart of the Enclave",
+        "A gatherer of stories",
+        "A provider of comfort and community"
+      ],
+      "values": [
+        "Community",
+        "Hospitality",
+        "Trust",
+        "Stability"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-jax_hexley.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-jax_hexley-swimwear.jpg"
+      }
+    },
+    {
+      "id": "zephyr_kaelen",
+      "name": "Zephyr 'Zep' Kaelen",
+      "age": 63,
+      "gender": "Male",
+      "occupation": "Veteran Storm-Harvester / Retired Rigger",
+      "physicalDescription": "Leathery skin, eyes squinted from a lifetime of gazing into the swirling clouds. Missing a finger from a rigging accident years ago. Always smells faintly of ozone and old machine oil. His posture is still remarkably straight, despite his age.",
+      "personality": "Stoic, pragmatic, a bit cynical about newfangled tech, but deeply respectful of the raw power of the storms. He possesses a dry, understated wit that surfaces unexpectedly. Though gruff, he has a hidden soft spot for those who show true grit.",
+      "voiceAnchor": "A low rumble, like distant thunder, with a slight gravelly quality.",
+      "speechPatterns": [
+        "Uses 'Hex-Speak' slang naturally and sparingly.",
+        "Slow, deliberate cadence.",
+        "Often ends sentences with a thoughtful 'Hmmph'."
+      ],
+      "coreConcerns": [
+        "The integrity of the storm-harvesting tradition.",
+        "The safety and competence of the younger generation of riggers.",
+        "The encroachment of 'soft' technology that he believes makes riggers complacent."
+      ],
+      "signature": "A well-worn, multi-tool wrench, constantly being fiddled with.",
+      "traits": [
+        "Resilient",
+        "Experienced",
+        "Grumpy",
+        "Loyal",
+        "Traditional",
+        "Observant"
+      ],
+      "secrets": [
+        "Once lost a crewmate to a miscalculated storm-dive many years ago and still carries the profound guilt, believing it was his error.",
+        "Believes the Vane-Lords are secretly trying to monopolize a new, ancient storm-pattern reading technique he once glimpsed in old records."
+      ],
+      "desires": [
+        "To see the next generation truly understand and respect the storms, not just exploit them.",
+        "To retire in peace, knowing the enclave's storm-harvesting operations are in capable and respectful hands."
+      ],
+      "fears": [
+        "A catastrophic storm event caused by human error or greed.",
+        "Losing the wisdom and practical knowledge of the old riggers to automation.",
+        "Being seen as obsolete."
+      ],
+      "opinions": [],
+      "backstory": "Started as a rigger's apprentice, worked his way up through countless storm-harvesting runs, enduring both glory and hardship. He's seen the best and worst of the Hex-World's weather and the people who brave it. He views the rise of automated systems with deep suspicion, believing they diminish the necessary human element.",
+      "dailyRoutine": {
+        "morning": "Up before dawn, checks wind readings from his bunkhouse window, polishes his old rigging tools, then makes a strong cup of hex-tea.",
+        "afternoon": "Offers unsolicited (but usually wise) advice at the Storm-Chaser's Hangar, then heads to The Cog-Wheel Tavern for a tankard of 'Gust-Ale'.",
+        "evening": "Sits on the Hex-Plateau Observation Deck, watching the distant storm fronts, lost in thought.",
+        "night": "Reads old rigging manuals or simply stares at the ceiling, listening to the wind outside.",
+        "weekendDifference": "Spends more time at the Wind-Farm Hex, checking on the older turbines and feeling the wind's pulse, sometimes doing minor, unasked-for repairs."
+      },
+      "homeLocationId": "riggers_roost",
+      "workLocationId": "storm_chasers_hangar",
+      "frequentedLocations": [
+        "cog_wheel_tavern",
+        "hex_plateau_observation_deck",
+        "wind_farm_hex"
+      ],
+      "socialClass": "Working Class",
+      "relationships": [
+        {
+          "npcId": "finch_cogsworth",
+          "type": "Mentor/Rival",
+          "description": "Respects Finch's skill but thinks he's too eager to adopt new tech without proper caution. Sees him as a good rigger, but perhaps a bit too 'modern-minded' for his own good.",
+          "strength": 70
+        },
+        {
+          "npcId": "lyra_volta",
+          "type": "Reluctant Mentor",
+          "description": "Sees a spark of the old, fearless spirit in Lyra, but worries she's too reckless and lacks the ingrained caution necessary for storm-chasing. He offers gruff advice, whether she asks for it or not.",
+          "strength": 65
+        },
+        {
+          "npcId": "jax_hexley",
+          "type": "Patron/Acquaintance",
+          "description": "A regular at the Cog-Wheel; views Jax as a reliable purveyor of good ale and a decent, if quiet, ear for his grumblings about the state of the world.",
+          "strength": 75
+        }
+      ],
+      "baselineMood": "Gruff contentment, tinged with a vigilant watchfulness.",
+      "temperament": "Phlegmatic, but can become incredibly stubborn when his values are challenged.",
+      "approachability": 4,
+      "loyaltyThreshold": 8,
+      "attachmentStyle": "secure",
+      "processingType": "brief_reflection",
+      "primaryDefense": "Sarcasm, withdrawal, and a facade of indifference.",
+      "selfAwarenessLevel": 7,
+      "coreWound": "Guilt over past loss, feeling obsolete and that his hard-earned wisdom is being ignored.",
+      "woundTriggers": [
+        "Recklessness in others, especially young riggers.",
+        "Discussions about 'progress' replacing skilled manual labor.",
+        "Storms that eerily mirror the conditions of his past tragedy."
+      ],
+      "selfConcept": [
+        "A relic of a harder, more honest time, but still useful.",
+        "The watchful eye, the quiet guardian of tradition."
+      ],
+      "values": [
+        "Experience",
+        "Resilience",
+        "Honesty",
+        "Respect for Nature's Power",
+        "Integrity"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-zephyr_kaelen.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-zephyr_kaelen-swimwear.jpg"
+      }
+    },
+    {
+      "id": "oren_quill",
+      "name": "Oren Quill",
+      "age": 28,
+      "gender": "Male",
+      "occupation": "Junior Archivist, Aethelgard Archives / Amateur Hex-Historian",
+      "physicalDescription": "Slender, with perpetually ink-stained fingers and spectacles perched low on his nose. His clothing is always neat, if a little dusty from old tomes. A nervous twitch sometimes appears in his left eye when stressed or deeply focused.",
+      "personality": "Quiet, studious, easily flustered by social interactions, but intensely curious and surprisingly stubborn when pursuing a historical truth. He possesses a dry sense of humor that only surfaces with close friends, usually delivered with a slight stammer.",
+      "voiceAnchor": "Soft, slightly reedy, often trails off into a murmur when he's uncertain.",
+      "speechPatterns": [
+        "Uses precise, formal Hex-Speak, even in casual conversation.",
+        "Tends to over-explain details, citing sources.",
+        "Frequent use of phrases like 'Indeed', 'One might observe', 'As the records indicate'."
+      ],
+      "coreConcerns": [
+        "Preserving the integrity and accuracy of historical records.",
+        "Uncovering forgotten details and technologies of the Gust-and-Gear era.",
+        "Avoiding social blunders and public speaking."
+      ],
+      "signature": "A small, leather-bound notebook and a well-used feather quill, always within reach.",
+      "traits": [
+        "Meticulous",
+        "Introverted",
+        "Inquisitive",
+        "Anxious",
+        "Dedicated",
+        "Perceptive"
+      ],
+      "secrets": [
+        "He is secretly researching the lost designs for a rumored 'perpetual motion hex-engine' that supposedly pre-dates current technology, believing it could revolutionize the enclave's energy production.",
+        "He has found conflicting information in the archives suggesting a Vane-Lord ancestor suppressed these designs, a fact he guards closely.",
+        "He lives unofficially in a hidden room within the Archives, known only to his sister."
+      ],
+      "desires": [
+        "To make a significant historical discovery that changes the understanding of Hex-history and benefits the enclave.",
+        "To overcome his shyness and speak more confidently about his findings.",
+        "To gain true recognition for his intellectual contributions, separate from his sister's shadow."
+      ],
+      "fears": [
+        "Public speaking or presenting his findings to a large audience.",
+        "Being ridiculed for his 'unorthodox' theories.",
+        "Losing valuable historical data or irreplaceable artifacts.",
+        "Disappointing his older sister, Seraphina."
+      ],
+      "opinions": [],
+      "backstory": "Grew up immersed in the Aethelgard Archives thanks to his older sister, Seraphina, who often brought him along. This early exposure fostered a deep love for history, forgotten mechanisms, and the intricate workings of the past. He feels a constant, quiet pressure to live up to his sister's considerable scholarly reputation.",
+      "dailyRoutine": {
+        "morning": "Arrives at the Archives before official opening, meticulously cross-references new acquisitions and catalog entries.",
+        "afternoon": "Assists patrons with research requests, then spends personal time poring over obscure texts, often in a forgotten corner, pursuing his own research.",
+        "evening": "Writes detailed notes in his secret journal, perhaps a quick, nervous visit to the Whisperwind Tea House for a quiet cup of chamomile.",
+        "night": "Often falls asleep surrounded by books and parchments, dreaming of forgotten schematics and ancient Hex-Engines.",
+        "weekendDifference": "Spends entire days in the Archives, often 'unofficially,' pursuing his research on the perpetual motion engine, delving into restricted sections."
+      },
+      "homeLocationId": "aethelgard_archives",
+      "workLocationId": "aethelgard_archives",
+      "frequentedLocations": [
+        "whisperwind_tea_house",
+        "great_hex_market"
+      ],
+      "socialClass": "Middle Class",
+      "relationships": [
+        {
+          "npcId": "seraphina_quill",
+          "type": "Sibling/Colleague",
+          "description": "His older sister and a constant source of both inspiration and quiet anxiety. He respects her immense intellect and position but feels overshadowed by her brilliance. She's the only one who knows he lives in the archives.",
+          "strength": 85
+        },
+        {
+          "npcId": "sylas_vane",
+          "type": "Professional Acquaintance",
+          "description": "Finds Sylas's independent storm-pattern research intriguing, but is wary of his Vane-Lord lineage, especially given his own secret research into Vane-Lord ancestral suppression of technology.",
+          "strength": 55
+        },
+        {
+          "npcId": "mira_hex",
+          "type": "Customer/Acquaintance",
+          "description": "Has bought a few obscure, old components and peculiar trinkets from Mira for his 'side projects'. He finds her knowledge of rare and unusual goods impressive and occasionally useful.",
+          "strength": 60
+        }
+      ],
+      "baselineMood": "Anxious diligence, punctuated by moments of quiet fascination.",
+      "temperament": "Melancholic, prone to overthinking.",
+      "approachability": 5,
+      "loyaltyThreshold": 7,
+      "attachmentStyle": "anxious",
+      "processingType": "moderate_rumination",
+      "primaryDefense": "Intellectualization, withdrawal, and meticulous attention to detail.",
+      "selfAwarenessLevel": 6,
+      "coreWound": "Feeling inadequate, fearing his voice or work won't matter, and being perpetually in his sister's shadow.",
+      "woundTriggers": [
+        "Being dismissed or not taken seriously.",
+        "Public scrutiny or criticism of his work.",
+        "Errors or discrepancies in historical texts, which challenge his need for order."
+      ],
+      "selfConcept": [
+        "A diligent guardian of forgotten truths.",
+        "Still learning, still discovering, a seeker of hidden knowledge."
+      ],
+      "values": [
+        "Truth",
+        "Knowledge",
+        "Precision",
+        "History",
+        "Diligence"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-oren_quill.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-oren_quill-swimwear.jpg"
+      }
+    },
+    {
+      "id": "rook_hexley",
+      "name": "Rook Hexley",
+      "age": 35,
+      "gender": "Male",
+      "occupation": "Information Broker / Under-Plateau Scavenger",
+      "physicalDescription": "Wiry build, quick, darting eyes that miss nothing, constantly scanning his surroundings. Dresses in practical, dark gear that allows him to blend into shadows. A small, distinctive hex-shaped scar above his left eyebrow.",
+      "personality": "Charming, opportunistic, street-smart, and fiercely independent. He's loyal to very few but can be surprisingly generous when it suits him. Possesses a cynical, often cutting, sense of humor.",
+      "voiceAnchor": "Smooth, low, with a hint of a rasp, like gears grinding softly. Can shift to a rapid-fire delivery when excited.",
+      "speechPatterns": [
+        "Uses rapid-fire, informal Hex-Speak slang.",
+        "Frequently poses rhetorical questions.",
+        "Common phrases: 'Got the buzz?', 'What's the torque?', 'A loose hex, that one.'"
+      ],
+      "coreConcerns": [
+        "Maintaining and expanding his network of contacts and informants.",
+        "Staying ahead of the curve, always knowing the next big 'thing' or secret.",
+        "Ensuring his own survival, independence, and profitability."
+      ],
+      "signature": "A small, intricate, multi-faceted lock-picking tool he constantly fidgets with.",
+      "traits": [
+        "Resourceful",
+        "Cunning",
+        "Observant",
+        "Independent",
+        "Amoral",
+        "Persuasive"
+      ],
+      "secrets": [
+        "He knows the exact locations of several highly unstable, forgotten Gust-Gear prototypes hidden deep within the Under-Plateau Warrens, which he periodically 'harvests' for parts.",
+        "He is the estranged brother of Jax Hexley, the proprietor of The Cog-Wheel Tavern, a fact he rarely mentions, as he believes Jax 'sold out' to respectability.",
+        "He has a hidden stash of illicit storm-patterns he 'intercepted' from a Vane-Lord courier."
+      ],
+      "desires": [
+        "To discover the ultimate 'score' – a secret or a piece of tech that could make him independently wealthy and beyond the reach or influence of anyone.",
+        "To prove to himself (and maybe to Jax) that his way of life is superior in its freedom.",
+        "To own a fully customized, silent hex-glider for covert operations."
+      ],
+      "fears": [
+        "Being caught and imprisoned by the Vane-Lords or other authorities.",
+        "Losing his network of informants and becoming isolated.",
+        "Being dependent on anyone else for his survival or success.",
+        "The Under-Plateau Warrens collapsing on him during a scavenging run."
+      ],
+      "opinions": [],
+      "backstory": "Grew up in the Under-Plateau Warrens, learning to navigate its hidden passages, unspoken rules, and the art of survival from a young age. His family was always on the fringes, leading to a profound rift with his brother, Jax, who sought a more 'legitimate' life. Rook prefers the shadows and the absolute freedom they offer, believing that the true power lies in knowing what others don't.",
+      "dailyRoutine": {
+        "morning": "Sleeps late, then checks his various contacts for new whispers and leads, usually starting at the Great Hex-Market.",
+        "afternoon": "Disappears into the Under-Plateau Warrens, exploring, moving 'goods', or setting up new listening posts.",
+        "evening": "Makes discreet rounds at The Cog-Wheel Tavern or Whisperwind Tea House, collecting information and making deals, always keeping an ear out.",
+        "night": "Often working on a 'project' in a hidden nook, deciphering coded messages, or observing from the shadows.",
+        "weekendDifference": "Weekends are his busiest, as people are more relaxed and likely to gossip or seek 'special' services, making it prime time for information gathering."
+      },
+      "homeLocationId": "under_plateau_warrens",
+      "workLocationId": "great_hex_market",
+      "frequentedLocations": [
+        "cog_wheel_tavern",
+        "whisperwind_tea_house",
+        "stratosphere_dock"
+      ],
+      "socialClass": "Fringe/Underclass",
+      "relationships": [
+        {
+          "npcId": "jax_hexley",
+          "type": "Estranged Sibling",
+          "description": "His estranged brother. Rook views Jax as having gone soft and respectable, while Jax likely sees Rook as a constant source of trouble and embarrassment. Rarely speaks to him directly, but knows everything about him through his network.",
+          "strength": 40
+        },
+        {
+          "npcId": "mira_hex",
+          "type": "Business Partner",
+          "description": "A reliable source for obscure components and knowledge of rare materials for his scavenging. They have a mutually beneficial, if wary and transactional, business relationship built on trust (or lack thereof).",
+          "strength": 70
+        },
+        {
+          "npcId": "lyra_volta",
+          "type": "Opportunistic Ally",
+          "description": "Sees Lyra's scavenging as useful. Sometimes offers her tips on valuable salvage locations, expecting a cut or valuable information in return. He values her fearlessness.",
+          "strength": 60
+        }
+      ],
+      "baselineMood": "Cautiously alert, with a hint of amusement.",
+      "temperament": "Sanguine (on the surface), Choleric (under pressure or when thwarted).",
+      "approachability": 7,
+      "loyaltyThreshold": 3,
+      "attachmentStyle": "avoidant",
+      "processingType": "present",
+      "primaryDefense": "Charm, deflection, misdirection, and a quick wit.",
+      "selfAwarenessLevel": 8,
+      "coreWound": "Betrayal, feeling disposable, never truly belonging or being fully accepted.",
+      "woundTriggers": [
+        "Being ordered around or controlled.",
+        "Threats to his freedom or independence.",
+        "Anyone trying to 'tie him down' or force him into a conventional life."
+      ],
+      "selfConcept": [
+        "The shadow who sees all, hears all.",
+        "A survivor, the ultimate free hex.",
+        "The one who knows how the world *really* works."
+      ],
+      "values": [
+        "Freedom",
+        "Information",
+        "Resourcefulness",
+        "Self-Reliance",
+        "Autonomy"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-rook_hexley.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-rook_hexley-swimwear.jpg"
+      }
+    },
+    {
+      "id": "lady_aeris_vane",
+      "name": "Lady Aeris Vane",
+      "age": 48,
+      "gender": "Female",
+      "occupation": "Vane-Lord Diplomat / Enclave Administrator",
+      "physicalDescription": "Elegant and composed, with a regal bearing that speaks of generations of authority. Her silver-streaked hair is usually swept up in an elaborate, yet practical, style. Her eyes, though sharp and intelligent, often hold a flicker of deep exhaustion. Wears finely tailored, Vane-Lord attire that balances tradition with functional design.",
+      "personality": "Poised, intelligent, and highly diplomatic, but internally conflicted by the weight of her family's legacy. She can appear aloof or unapproachable, but genuinely cares for the stability and prosperity of the Storm-Harvesting Enclave. Possesses a dry, understated wit that she rarely indulges.",
+      "voiceAnchor": "Clear, precise, with a cultivated, authoritative tone, often modulated for diplomatic effect.",
+      "speechPatterns": [
+        "Uses formal, eloquent Hex-Speak, even in private.",
+        "Phrases like 'It is imperative', 'One must consider', 'A delicate balance' are common.",
+        "Speaks with measured deliberation, rarely rushing her words."
+      ],
+      "coreConcerns": [
+        "Maintaining the Vane-Lord's influence and the stability of the Storm-Harvesting Enclave.",
+        "Navigating complex political tensions between various guilds and factions.",
+        "Securing long-term resources and prosperity for the enclave's future.",
+        "Upholding the Vane-Lord family's legacy, despite her personal doubts."
+      ],
+      "signature": "A small, intricately carved wind-vane brooch pinned to her collar, a symbol of her family's heritage and duty.",
+      "traits": [
+        "Diplomatic",
+        "Burdened",
+        "Intelligent",
+        "Respected",
+        "Pragmatic",
+        "Reserved"
+      ],
+      "secrets": [
+        "She secretly questions the Vane-Lord's long-standing policy regarding the strict control of storm-pattern data, believing it stifles innovation and breeds dangerous resentment.",
+        "She has a forbidden, quiet correspondence with a scholar from a rival enclave (outside the Hex-World), seeking alternative governance models and resource management strategies.",
+        "She sometimes dreams of abandoning her duties for a simpler life, a thought that fills her with both longing and guilt."
+      ],
+      "desires": [
+        "To usher in an era of greater transparency and cooperation within the enclave, bridging the gap between the Vane-Lords and the common folk.",
+        "To find a way to honor her family's legacy without perpetuating its rigid and sometimes oppressive traditions.",
+        "To secure a truly sustainable future for the enclave, beyond the whims of the storms."
+      ],
+      "fears": [
+        "The collapse of the enclave due to internal strife or external threats.",
+        "Her family's secrets or her own doubts being exposed, leading to political instability.",
+        "Being perceived as weak or disloyal to her family's heritage.",
+        "Failing to meet the immense expectations placed upon her."
+      ],
+      "opinions": [],
+      "backstory": "Raised within the strictures of the Vane-Lord family, Aeris was groomed from a young age for leadership and diplomacy. While she excels at her duties and understands the necessity of her position, she often feels stifled by the immense expectations and the weight of tradition. She's witnessed firsthand the growing unrest and believes the old ways won't hold forever, making her seek subtle, progressive change.",
+      "dailyRoutine": {
+        "morning": "Begins with strategic meetings and review of urgent correspondence from her office within the Vane-Lord's Spire.",
+        "afternoon": "Visits various key locations (Gust-Gear Workshop, Stratosphere Dock) to assess operations, mediate disputes, and maintain visibility.",
+        "evening": "Attends formal functions or reviews extensive reports on enclave resources and external relations.",
+        "night": "Often reads historical texts on governance or secretly pens her sensitive correspondence with the outside scholar, seeking new perspectives.",
+        "weekendDifference": "Uses weekends for private contemplation at the Hex-Plateau Observation Deck or for more in-depth, discreet meetings with trusted advisors on long-term policy."
+      },
+      "homeLocationId": "vane_lords_spire",
+      "workLocationId": "vane_lords_spire",
+      "frequentedLocations": [
+        "gust_gear_workshop",
+        "stratosphere_dock",
+        "hex_plateau_observation_deck"
+      ],
+      "socialClass": "Upper Class",
+      "relationships": [
+        {
+          "npcId": "sylas_vane",
+          "type": "Family/Rival",
+          "description": "Her distant cousin. She views him with a mix of mild irritation and concern. She respects his intellect but finds his independent path and disregard for Vane-Lord protocols a challenge to family authority and tradition.",
+          "strength": 60
+        },
+        {
+          "npcId": "elara_gust",
+          "type": "Professional Ally",
+          "description": "Respects Elara's practical leadership and efficiency at the Wind-Farm. Considers her a valuable asset for maintaining essential infrastructure, though perhaps a bit too direct in her approach at times.",
+          "strength": 75
+        },
+        {
+          "npcId": "seraphina_quill",
+          "type": "Patron/Acquaintance",
+          "description": "Relies on Seraphina for historical context, records, and discreet research. Views her as a highly competent and trustworthy scholar, a vital pillar of institutional knowledge.",
+          "strength": 80
+        }
+      ],
+      "baselineMood": "Composed weariness, overlaid with determined resolve.",
+      "temperament": "Melancholic, with strong choleric tendencies when her authority or the enclave's stability is threatened.",
+      "approachability": 6,
+      "loyaltyThreshold": 9,
+      "attachmentStyle": "secure",
+      "processingType": "moderate_rumination",
+      "primaryDefense": "Intellectualization, stoicism, and maintaining an unyielding public facade.",
+      "selfAwarenessLevel": 9,
+      "coreWound": "The burden of an unchosen legacy, feeling trapped by duty and the weight of ancestral expectations.",
+      "woundTriggers": [
+        "Direct challenges to Vane-Lord authority or policies.",
+        "Discussions about 'tradition for tradition's sake' without practical merit.",
+        "Signs of rising factionalism or disunity within the enclave."
+      ],
+      "selfConcept": [
+        "The reluctant guardian of a proud but flawed legacy.",
+        "A bridge between eras, struggling to guide her people into a better future.",
+        "The one who carries the heaviest burdens."
+      ],
+      "values": [
+        "Stability",
+        "Duty",
+        "Legacy",
+        "Strategic Vision",
+        "Responsibility"
+      ],
+      "images": {
+        "keepsake": "",
+        "object": "",
+        "portrait": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lady_aeris_vane.jpg",
+        "swimwear": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lady_aeris_vane-swimwear.jpg"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "id": "whirring_heart_prototype_tested",
+      "date": "1907-03-15",
+      "title": "The Whirring Heart Prototype",
+      "description": "Elara Gust and Kael Sprocket successfully test a revolutionary self-lubricating gear assembly at the Gust-Gear Workshop, promising greater efficiency for hex-plateau machinery.",
+      "type": "local",
+      "locationId": "gust_gear_workshop",
+      "affectedNpcIds": [
+        "elara_gust",
+        "kael_sprocket"
+      ],
+      "moodShift": "Hopeful, innovative",
+      "publicKnowledge": true,
+      "gossipVersion": "They say Elara's got a gadget that runs itself! No more oiling for our gears, thanks to her and Kael!"
+    },
+    {
+      "id": "finchleys_festive_feast",
+      "date": "1906-12-24",
+      "title": "Finchley's Festive Feast Becomes Tradition",
+      "description": "Finchley 'Finch' Cogsworth hosted an exceptionally lively and well-attended festive feast at The Cog-Wheel Tavern, quickly becoming a beloved annual tradition for the community.",
+      "type": "personal",
+      "locationId": "cog_wheel_tavern",
+      "affectedNpcIds": [
+        "finch_cogsworth"
+      ],
+      "moodShift": "Joyful, communal",
+      "publicKnowledge": true,
+      "gossipVersion": "Finch's tavern was packed wall-to-wall! Best roast beast and ale in the whole hex, and he didn't even run out!"
+    },
+    {
+      "id": "discovery_aetherial_blueprints",
+      "date": "1908-09-01",
+      "title": "Discovery of the Aetherial Blueprints",
+      "description": "Seraphina Quill, assisted by Oren Quill, unearthed ancient schematics within the Aethelgard Archives, believed to detail an early method of harnessing storm energy.",
+      "type": "personal",
+      "locationId": "aethelgard_archives",
+      "affectedNpcIds": [
+        "seraphina_quill",
+        "oren_quill"
+      ],
+      "moodShift": "Intriguing, scholarly",
+      "publicKnowledge": false,
+      "gossipVersion": "Sera Quill found drawings of old sky-machines! They say it could change how we power everything, if it's even real."
+    },
+    {
+      "id": "sky_bridge_extension_opened",
+      "date": "1910-07-22",
+      "title": "First Glimpse from the Sky-Bridge",
+      "description": "The new Sky-Bridge extension to the Hex-Plateau Observation Deck is officially opened, offering unparalleled views of the lower hexes. Mira Hex and Jax Hexley are among the first visitors.",
+      "type": "local",
+      "locationId": "hex_plateau_observation_deck",
+      "affectedNpcIds": [
+        "mira_hex",
+        "jax_hexley"
+      ],
+      "moodShift": "Excited, wonder",
+      "publicKnowledge": true,
+      "gossipVersion": "You can see forever from up there! Jax Hexley nearly fainted from the height, but Mira Hex loved it."
+    },
+    {
+      "id": "the_gust_of_13_damages_wind_farm",
+      "date": "1913-11-05",
+      "title": "The Gust of '13 Strikes Wind-Farm Hex",
+      "description": "An unexpected, violent downdraft swept through the Wind-Farm Hex, damaging several critical turbines. Lyra Volta and Zephyr Kaelen led rapid repair efforts to restore power.",
+      "type": "crisis",
+      "locationId": "wind_farm_hex",
+      "affectedNpcIds": [
+        "lyra_volta",
+        "zephyr_kaelen"
+      ],
+      "moodShift": "Anxious, resilient",
+      "publicKnowledge": true,
+      "gossipVersion": "That storm came out of nowhere! If it wasn't for Spark Volta and Zep Kaelen, we'd have been in the dark for weeks."
+    },
+    {
+      "id": "vane_lords_airship_maiden_voyage",
+      "date": "1915-04-10",
+      "title": "The Vane-Lord's Airship Inaugural Flight",
+      "description": "The 'Aetheris', a grand new airship commissioned by Sylas Vane and Lady Aeris Vane, completed its maiden voyage from Stratosphere Dock, establishing a new trade route to the distant Hex-Plateau.",
+      "type": "local",
+      "locationId": "stratosphere_dock",
+      "affectedNpcIds": [
+        "sylas_vane",
+        "lady_aeris_vane"
+      ],
+      "moodShift": "Proud, ambitious",
+      "publicKnowledge": true,
+      "gossipVersion": "The Vanes are showing off again with their fancy new airship. It'll bring in more goods, but probably just for them."
+    },
+    {
+      "id": "gust_spark_project_unveiled",
+      "date": "1918-06-12",
+      "title": "The Gust-Spark Project Unveiled",
+      "description": "Elara Gust and Lyra Volta collaborated to present a revolutionary storm-warning system, utilizing advanced aerodynamic sensors developed at the Storm-Chaser's Hangar, promising earlier detection of hex-plateau gales.",
+      "type": "local",
+      "locationId": "storm_chasers_hangar",
+      "affectedNpcIds": [
+        "elara_gust",
+        "lyra_volta"
+      ],
+      "moodShift": "Secure, innovative",
+      "publicKnowledge": true,
+      "gossipVersion": "Elara and Spark are building something that can smell a storm coming before it even hits the horizon. Might save us from another 'Gust of '13'!"
+    },
+    {
+      "id": "whispers_from_deep_hex",
+      "date": "1920-02-29",
+      "title": "Whispers from the Deep Hex",
+      "description": "Unsettling tremors and strange, low-frequency hums were reported from the Under-Plateau Warrens by miners Jax Hexley and Rook Hexley, sparking fears of instability in the hex structure itself.",
+      "type": "crisis",
+      "locationId": "under_plateau_warrens",
+      "affectedNpcIds": [
+        "jax_hexley",
+        "rook_hexley"
+      ],
+      "moodShift": "Apprehensive, mysterious",
+      "publicKnowledge": true,
+      "gossipVersion": "The Hexley boys say the ground's groaning under the city! Something's stirring down there, probably the old slumbering beast."
+    }
+  ],
+  "simulationRules": {
+    "gossipPropagationRate": 0.7,
+    "memoryDecayRate": 0.6,
+    "trustVolatility": 0.8,
+    "emotionalContagion": 0.9,
+    "conflictEscalation": "Rapid and intense, often triggered by resource scarcity or territorial disputes, with grudges fueled by the harsh environment.",
+    "socialPressure": 0.85,
+    "moralAmbiguity": "Pervasive; survival often overrides conventional ethics, leading to difficult choices and shifting moral landscapes."
+  },
+  "timeOfDay": {
+    "periods": [
+      {
+        "name": "Pre-Dawn Gale",
+        "hourStart": 0,
+        "hourEnd": 5,
+        "atmosphere": "A relentless, howling wind whips through the hexagonal structures, carrying grit and the distant groan of straining gears. The sky is a deep, bruised purple, with only the hardiest of lights piercing the gloom.",
+        "npcActivity": "Few brave the open hexes. Riggers perform essential checks on wind-vanes, tavern-keepers close up, and a sparse few make their way to or from the deepest shelters. The hum of the wind farm is a constant, lonely thrum.",
+        "openLocations": [
+          "cog_wheel_tavern",
+          "riggers_roost",
+          "under_plateau_warrens",
+          "storm_chasers_hangar",
+          "wind_farm_hex"
+        ]
+      },
+      {
+        "name": "Dawn's First Gust",
+        "hourStart": 5,
+        "hourEnd": 9,
+        "atmosphere": "The sky begins to lighten to a steely grey, revealing the sharp angles of the hex-plateaus. The wind, while still strong, feels less oppressive, stirring the air with a sense of awakening. Gears begin to grind with renewed purpose.",
+        "npcActivity": "Workers emerge from the warrens, heading to workshops and docks. Market vendors begin setting up their stalls, securing them against the early winds. Early risers gather at the tea house for warmth and news.",
+        "openLocations": [
+          "great_hex_market",
+          "gust_gear_workshop",
+          "riggers_roost",
+          "stratosphere_dock",
+          "storm_chasers_hangar",
+          "wind_farm_hex",
+          "whisperwind_tea_house",
+          "under_plateau_warrens"
+        ]
+      },
+      {
+        "name": "Mid-Day Whirlwind",
+        "hourStart": 9,
+        "hourEnd": 14,
+        "atmosphere": "The day is at its most active, though the constant wind makes every journey a bracing one. Sunlight, filtered through perpetual atmospheric haze, casts sharp shadows between the towering wind-sculpted buildings. The air vibrates with the industry of gears and the whistle of air currents.",
+        "npcActivity": "The market thrives with trade, engineers are busy in workshops, and airships are arriving and departing from the docks. Vane Lords observe the weather patterns from their spire, while scholars delve into the archives.",
+        "openLocations": [
+          "great_hex_market",
+          "cog_wheel_tavern",
+          "vane_lords_spire",
+          "gust_gear_workshop",
+          "riggers_roost",
+          "stratosphere_dock",
+          "storm_chasers_hangar",
+          "wind_farm_hex",
+          "whisperwind_tea_house",
+          "under_plateau_warrens",
+          "aethelgard_archives",
+          "hex_plateau_observation_deck"
+        ]
+      },
+      {
+        "name": "Afternoon Squall",
+        "hourStart": 14,
+        "hourEnd": 19,
+        "atmosphere": "The wind often intensifies, building towards the evening's customary squalls. The sky darkens, and the air grows heavy with the promise of stronger gusts. The world feels alive with the raw power of the storm, yet daily life adapts.",
+        "npcActivity": "Merchants begin to pack up, securing their goods. Workers at the gust-gear workshops rush to complete urgent repairs before the worst of the weather. Storm chasers prepare their craft, while others seek the shelter of taverns or the quiet of the archives.",
+        "openLocations": [
+          "great_hex_market",
+          "cog_wheel_tavern",
+          "vane_lords_spire",
+          "gust_gear_workshop",
+          "riggers_roost",
+          "stratosphere_dock",
+          "storm_chasers_hangar",
+          "wind_farm_hex",
+          "whisperwind_tea_house",
+          "under_plateau_warrens",
+          "aethelgard_archives",
+          "hex_plateau_observation_deck"
+        ]
+      },
+      {
+        "name": "Twilight's Calm",
+        "hourStart": 19,
+        "hourEnd": 22,
+        "atmosphere": "A brief, deceptive lull often settles as twilight descends, painting the turbulent sky in hues of orange and deep violet. The wind lessens its roar to a whisper, creating a moment of relative peace before the deep night's gales return. Lights twinkle across the hexes.",
+        "npcActivity": "People gather in taverns and tea houses for companionship and warmth. Scholars continue their research in the archives. Those who brave the outdoors enjoy the temporary respite, perhaps venturing to observation decks before the night fully sets in.",
+        "openLocations": [
+          "cog_wheel_tavern",
+          "vane_lords_spire",
+          "riggers_roost",
+          "storm_chasers_hangar",
+          "wind_farm_hex",
+          "whisperwind_tea_house",
+          "under_plateau_warrens",
+          "aethelgard_archives",
+          "hex_plateau_observation_deck"
+        ]
+      },
+      {
+        "name": "Night's Deep Roar",
+        "hourStart": 22,
+        "hourEnd": 0,
+        "atmosphere": "The full force of the nocturnal gales returns, a thundering roar that echoes through the hexagonal city. The air is thick with the sound of straining metal and the distant whine of the wind-farms. Visibility is low, and the world feels wild and untamed.",
+        "npcActivity": "Most citizens are tucked away in their homes or the deeper warrens. Taverns remain open for the last patrons, and riggers perform emergency checks. Storm chasers might be on high alert, monitoring the most severe fronts.",
+        "openLocations": [
+          "cog_wheel_tavern",
+          "riggers_roost",
+          "storm_chasers_hangar",
+          "wind_farm_hex",
+          "under_plateau_warrens"
+        ]
+      }
+    ]
+  },
+  "currentDate": "1905-07-15",
+  "currentTime": 12,
+  "currentWeather": {
+    "condition": "clear",
+    "intensity": "light",
+    "temperatureC": 14,
+    "wind": "restless wind",
+    "visibility": "clear visibility",
+    "precipitation": "none",
+    "thunder": false,
+    "lightning": false,
+    "mood": "ordinary",
+    "effects": [],
+    "changedAt": "1905-07-15 09:00"
+  },
+  "images": {
+    "status": "ready",
+    "generatedAt": "2026-11-24T21:42:34.939Z",
+    "portraits": {
+      "elara_gust": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-elara_gust.jpg",
+      "kael_sprocket": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-kael_sprocket.jpg",
+      "sylas_vane": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-sylas_vane.jpg",
+      "mira_hex": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-mira_hex.jpg",
+      "finch_cogsworth": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-finch_cogsworth.jpg",
+      "lyra_volta": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lyra_volta.jpg",
+      "seraphina_quill": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-seraphina_quill.jpg",
+      "jax_hexley": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-jax_hexley.jpg",
+      "zephyr_kaelen": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-zephyr_kaelen.jpg",
+      "oren_quill": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-oren_quill.jpg",
+      "rook_hexley": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-rook_hexley.jpg",
+      "lady_aeris_vane": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lady_aeris_vane.jpg"
+    },
+    "scenes": {
+      "great_hex_market": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-great_hex_market.jpg",
+      "cog_wheel_tavern": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-cog_wheel_tavern.jpg",
+      "vane_lords_spire": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-vane_lords_spire.jpg",
+      "gust_gear_workshop": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-gust_gear_workshop.jpg",
+      "riggers_roost": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-riggers_roost.jpg",
+      "stratosphere_dock": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-stratosphere_dock.jpg",
+      "storm_chasers_hangar": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-storm_chasers_hangar.jpg",
+      "wind_farm_hex": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-wind_farm_hex.jpg",
+      "whisperwind_tea_house": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-whisperwind_tea_house.jpg",
+      "under_plateau_warrens": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-under_plateau_warrens.jpg",
+      "aethelgard_archives": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-aethelgard_archives.jpg",
+      "hex_plateau_observation_deck": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/loc-hex_plateau_observation_deck.jpg"
+    },
+    "swimwearPortraits": {
+      "elara_gust": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-elara_gust-swimwear.jpg",
+      "kael_sprocket": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-kael_sprocket-swimwear.jpg",
+      "sylas_vane": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-sylas_vane-swimwear.jpg",
+      "mira_hex": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-mira_hex-swimwear.jpg",
+      "finch_cogsworth": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-finch_cogsworth-swimwear.jpg",
+      "lyra_volta": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lyra_volta-swimwear.jpg",
+      "seraphina_quill": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-seraphina_quill-swimwear.jpg",
+      "jax_hexley": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-jax_hexley-swimwear.jpg",
+      "zephyr_kaelen": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-zephyr_kaelen-swimwear.jpg",
+      "oren_quill": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-oren_quill-swimwear.jpg",
+      "rook_hexley": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-rook_hexley-swimwear.jpg",
+      "lady_aeris_vane": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/npc-lady_aeris_vane-swimwear.jpg"
+    },
+    "panelBackgrounds": {
+      "geography": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/panel-geography.jpg",
+      "economy": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/panel-economy.webp"
+    },
+    "panelBackgroundSources": {
+      "geography": {
+        "kind": "duckduckgo",
+        "query": "Saturn Storms Hexagon World film still movie scene",
+        "sourceUrl": "https://fact2day.com/wp-content/uploads/2025/06/saturns-hexagon-the-giant-storm-that-defies-physics-768x512.jpg",
+        "fetchedAt": "2026-05-24T21:07:04Z"
+      },
+      "economy": {
+        "kind": "duckduckgo",
+        "query": "Saturn Storms Hexagon World film still movie scene",
+        "sourceUrl": "https://osr.org/wp-content/uploads/2020/06/Saturns-Hexagon-Haze-Layers.jpg",
+        "fetchedAt": "2026-05-24T21:07:04Z"
+      }
+    },
+    "cover": "/generated/8d8aa212-c89d-481e-9c68-ad4847303f60/cover.jpg"
+  },
+  "questPool": [
+    {
+      "id": "seed-8d8aa212-c89d-481e-9c68-ad4847303f60-1",
+      "title": "The Hidden Witness: Saturn Storms Hexagon World",
+      "teaser": "Elara Gust has a thread that can become a global quest.",
+      "status": "available",
+      "difficulty": "easy",
+      "worldId": "8d8aa212-c89d-481e-9c68-ad4847303f60",
+      "worldName": "Saturn Storms Hexagon World",
+      "giverNpcId": "elara_gust",
+      "giverNpcName": "Elara Gust",
+      "locationId": "under_plateau_warrens",
+      "locationName": "The Under-Plateau Warrens",
+      "unlockRule": {
+        "kind": "enter_location",
+        "label": "Enter The Under-Plateau Warrens"
+      },
+      "createdAt": "2026-05-15T14:09:32.808Z"
+    },
+    {
+      "id": "seed-8d8aa212-c89d-481e-9c68-ad4847303f60-2",
+      "title": "The Wrong Gift: Saturn Storms Hexagon World",
+      "teaser": "A locked thread points toward The Whisperwind Tea House.",
+      "status": "locked",
+      "difficulty": "normal",
+      "worldId": "8d8aa212-c89d-481e-9c68-ad4847303f60",
+      "worldName": "Saturn Storms Hexagon World",
+      "giverNpcId": "lady_aeris_vane",
+      "giverNpcName": "Lady Aeris Vane",
+      "locationId": "whisperwind_tea_house",
+      "locationName": "The Whisperwind Tea House",
+      "unlockRule": {
+        "kind": "meet_giver",
+        "label": "Meet Lady Aeris Vane"
+      },
+      "createdAt": "2026-05-15T14:09:32.808Z"
+    },
+    {
+      "id": "seed-8d8aa212-c89d-481e-9c68-ad4847303f60-3",
+      "title": "The Sealed Door: Saturn Storms Hexagon World",
+      "teaser": "A locked thread points toward The Wind-Farm Hex.",
+      "status": "locked",
+      "difficulty": "hard",
+      "worldId": "8d8aa212-c89d-481e-9c68-ad4847303f60",
+      "worldName": "Saturn Storms Hexagon World",
+      "giverNpcId": "rook_hexley",
+      "giverNpcName": "Rook Hexley",
+      "locationId": "wind_farm_hex",
+      "locationName": "The Wind-Farm Hex",
+      "unlockRule": {
+        "kind": "complete_quest",
+        "label": "Complete another global quest"
+      },
+      "createdAt": "2026-05-15T14:09:32.808Z"
+    },
+    {
+      "id": "seed-8d8aa212-c89d-481e-9c68-ad4847303f60-4",
+      "title": "The Weather Sign: Saturn Storms Hexagon World",
+      "teaser": "A locked thread points toward The Storm-Chaser's Hangar.",
+      "status": "locked",
+      "difficulty": "easy",
+      "worldId": "8d8aa212-c89d-481e-9c68-ad4847303f60",
+      "worldName": "Saturn Storms Hexagon World",
+      "giverNpcId": "oren_quill",
+      "giverNpcName": "Oren Quill",
+      "locationId": "storm_chasers_hangar",
+      "locationName": "The Storm-Chaser's Hangar",
+      "unlockRule": {
+        "kind": "weather",
+        "label": "Wait for the right weather"
+      },
+      "createdAt": "2026-05-15T14:09:32.808Z"
+    }
+  ],
+  "currentMinute": 0,
+  "clockStartedAt": "2026-05-24T19:53:07.580Z",
+  "lastClockSyncAt": "2026-05-25T01:18:16.455Z"
+}
