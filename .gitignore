@@ -31,6 +31,11 @@ release/
 *.mp3
 # ...except the small UI sound effects the app ships with
 !public/sounds/*.mp3
+# ...and the demo worlds' sound packs (credits in public/audio/CREDITS.md); your own packs stay local
+!public/audio/saturn_storms_hexagon_world/**/*.mp3
+!public/audio/andromeda_year_3000_humans_live_on_a_sma/**/*.mp3
+!public/audio/year_3000_humans_live_on_stsrships/**/*.mp3
+!public/audio/1920_world_where_only_robots_exist_and_t/**/*.mp3
 
 # Backup files
 *.bak

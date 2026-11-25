@@ -1,0 +1,124 @@
+{
+  "pack": "1920_world_where_only_robots_exist_and_t",
+  "license_mode": "ccby",
+  "count": 13,
+  "sounds": [
+    {
+      "theme": "dying_sun_wind",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/dying_sun_wind/178575_city_evening_hum_winter_LONG_130220_02.flac.mp3",
+      "freesound_id": 178575,
+      "name": "city_evening_hum_winter_LONG_130220_02",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "klankbeeld",
+      "source": "https://freesound.org/s/178575/"
+    },
+    {
+      "theme": "dying_sun_wind",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/dying_sun_wind/370366_DecemberWindAndLeaves48KHZVersionOnAsphaltDec11th2016.WAV.mp3",
+      "freesound_id": 370366,
+      "name": "DecemberWindAndLeaves48KHZVersionOnAsphaltDec11th2016",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "kvgarlic",
+      "source": "https://freesound.org/s/370366/"
+    },
+    {
+      "theme": "dying_sun_wind",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/dying_sun_wind/397718_Wind_Hakea_1_No_EQ.mp3",
+      "freesound_id": 397718,
+      "name": "Wind_Hakea_1_No_EQ",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "kangaroovindaloo",
+      "source": "https://freesound.org/s/397718/"
+    },
+    {
+      "theme": "dying_sun_wind",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/dying_sun_wind/423520_March_floodplains_river_NL_180305_1257.flac.mp3",
+      "freesound_id": 423520,
+      "name": "March_floodplains_river_NL_180305_1257",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "klankbeeld",
+      "source": "https://freesound.org/s/423520/"
+    },
+    {
+      "theme": "neon_alley_drip",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/neon_alley_drip/748693_RAIN_Alleyway.Drops_On_Leaves_Puddles_Sidewalk.Eaves_Leaking.mp3",
+      "freesound_id": 748693,
+      "name": "RAIN_Alleyway.Drops_On_Leaves_Puddles_Sidewalk.Eaves_Leaking",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "newlocknew",
+      "source": "https://freesound.org/s/748693/"
+    },
+    {
+      "theme": "robot_city_traffic",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/robot_city_traffic/259226_Outdoors_rumble.mp3",
+      "freesound_id": 259226,
+      "name": "Outdoors rumble",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "decembered",
+      "source": "https://freesound.org/s/259226/"
+    },
+    {
+      "theme": "robot_city_traffic",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/robot_city_traffic/348868_city_night_hum_2am_suburban_160606_00.flac.mp3",
+      "freesound_id": 348868,
+      "name": "city night hum 2am suburban 160606_00.flac",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "klankbeeld",
+      "source": "https://freesound.org/s/348868/"
+    },
+    {
+      "theme": "robot_city_traffic",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/robot_city_traffic/368095_traffic_wet_asphalt_50km_161110_1044.wav.mp3",
+      "freesound_id": 368095,
+      "name": "traffic wet asphalt 50km 161110_1044.wav",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "klankbeeld",
+      "source": "https://freesound.org/s/368095/"
+    },
+    {
+      "theme": "robot_city_traffic",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/robot_city_traffic/506019_city_night_hum_07_160927_0989.flac.mp3",
+      "freesound_id": 506019,
+      "name": "city night hum 07 160927_0989.flac",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "klankbeeld",
+      "source": "https://freesound.org/s/506019/"
+    },
+    {
+      "theme": "robot_city_traffic",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/robot_city_traffic/662518_room_tone_aparment_1012AM_220813_0498.flac.mp3",
+      "freesound_id": 662518,
+      "name": "room_tone_aparment_1012AM_220813_0498",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "klankbeeld",
+      "source": "https://freesound.org/s/662518/"
+    },
+    {
+      "theme": "steampunk_workshop",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/steampunk_workshop/263144_industrial_gas_heater.mp3",
+      "freesound_id": 263144,
+      "name": "industrial_gas_heater",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "soundslikewillem",
+      "source": "https://freesound.org/s/263144/"
+    },
+    {
+      "theme": "steampunk_workshop",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/steampunk_workshop/697379_Electric_Scooter.mp3",
+      "freesound_id": 697379,
+      "name": "Electric_Scooter",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "IENBA",
+      "source": "https://freesound.org/s/697379/"
+    },
+    {
+      "theme": "steampunk_workshop",
+      "file": "public/audio/1920_world_where_only_robots_exist_and_t/steampunk_workshop/744098_Lake_Night.wav.mp3",
+      "freesound_id": 744098,
+      "name": "Lake_Night",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "ChristmasKrumble666",
+      "source": "https://freesound.org/s/744098/"
+    }
+  ]
+}

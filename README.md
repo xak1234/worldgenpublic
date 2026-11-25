@@ -95,6 +95,13 @@ Run `npx tsx scripts/build-world.ts --help` for every option. Worlds are written
 
 A new world gets a cover, a portrait per character and a scene per location. These are generated through Pollinations, Together or fal (`IMAGE_GEN_PROVIDERS`), or taken from TMDB for source-based worlds. The world list only shows worlds whose pictures are **all** present, so a world still being illustrated appears once it's ready. The **◐** button at the top of the list, or `WORLDGEN_SHOW_INCOMPLETE_WORLDS=1`, shows everything. `WORLDGEN_DISABLE_IMAGE_GEN=1` turns generation off and serves only existing files.
 
+### Sound
+
+Each world can have its own **sound pack**: layered ambience matched to its places (a hangar's engine hum, a storm, a crowded market) plus weather and night layers.
+- **Demo worlds** ship with their packs in `public/audio/`. Every sound comes from [Freesound](https://freesound.org) and is credited in [`public/audio/CREDITS.md`](public/audio/CREDITS.md).
+- **New worlds:** click **🔊 Build sound packs** (or run `python scripts/build-world-packs.py`). An AI picks themes for the world's locations and moods, and the builder finds matching sounds on Freesound. It records each sound's author and licence in the pack's `manifest.json`. This needs a free Freesound API key (`FREESOUND_API_KEY` or `SOMA_API`) and Python with `scripts/requirements.txt`.
+- **Without a pack,** a world can still get live Freesound ambience through the same key, or falls back to a matching genre pack.
+
 ---
 
 ## Simulate it: play, wait, watch

@@ -1,0 +1,187 @@
+{
+  "pack": "saturn_storms_hexagon_world",
+  "license_mode": "ccby",
+  "count": 20,
+  "sounds": [
+    {
+      "theme": "airlock",
+      "file": "public/audio/saturn_storms_hexagon_world/airlock/425090_Pressurized_Door_Opening.mp3",
+      "freesound_id": 425090,
+      "name": "Pressurized Door Opening",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "NeoSpica",
+      "source": "https://freesound.org/s/425090/"
+    },
+    {
+      "theme": "airlock",
+      "file": "public/audio/saturn_storms_hexagon_world/airlock/813566_starwars_inspired_andor_interrogation_room_door_opening_and.mp3",
+      "freesound_id": 813566,
+      "name": "starwars_inspired_andor_interrogation_room_door_opening_and_closing_sound_06262025",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Artninja",
+      "source": "https://freesound.org/s/813566/"
+    },
+    {
+      "theme": "computer_beep",
+      "file": "public/audio/saturn_storms_hexagon_world/computer_beep/366101_Bleep_Descending.mp3",
+      "freesound_id": 366101,
+      "name": "Bleep Descending",
+      "license": "http://creativecommons.org/licenses/by/3.0/",
+      "author": "original_sound",
+      "source": "https://freesound.org/s/366101/"
+    },
+    {
+      "theme": "computer_beep",
+      "file": "public/audio/saturn_storms_hexagon_world/computer_beep/366105_Oscillating_Shorter.mp3",
+      "freesound_id": 366105,
+      "name": "Oscillating Shorter",
+      "license": "http://creativecommons.org/licenses/by/3.0/",
+      "author": "original_sound",
+      "source": "https://freesound.org/s/366105/"
+    },
+    {
+      "theme": "computer_beep",
+      "file": "public/audio/saturn_storms_hexagon_world/computer_beep/366106_Oscillating_Short.mp3",
+      "freesound_id": 366106,
+      "name": "Oscillating Short",
+      "license": "http://creativecommons.org/licenses/by/3.0/",
+      "author": "original_sound",
+      "source": "https://freesound.org/s/366106/"
+    },
+    {
+      "theme": "computer_beep",
+      "file": "public/audio/saturn_storms_hexagon_world/computer_beep/751295_Starwars_the_clone_wars_inspired_seperatist_button_sounds_01.mp3",
+      "freesound_id": 751295,
+      "name": "Starwars_the_clone_wars_inspired_seperatist_button_sounds_01272023",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Artninja",
+      "source": "https://freesound.org/s/751295/"
+    },
+    {
+      "theme": "computer_beep",
+      "file": "public/audio/saturn_storms_hexagon_world/computer_beep/751297_star_wars_like_button_sounds_with_clicking_sound.mp3",
+      "freesound_id": 751297,
+      "name": "star_wars_like_button_sounds_with_clicking_sound",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Artninja",
+      "source": "https://freesound.org/s/751297/"
+    },
+    {
+      "theme": "computer_beep",
+      "file": "public/audio/saturn_storms_hexagon_world/computer_beep/751318_Scifi_button_beeping_modern_starwars_inspired_w_buttons_clic.mp3",
+      "freesound_id": 751318,
+      "name": "Scifi_button_beeping_modern_starwars_inspired_w_buttons_clicking_part_3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Artninja",
+      "source": "https://freesound.org/s/751318/"
+    },
+    {
+      "theme": "deep_space",
+      "file": "public/audio/saturn_storms_hexagon_world/deep_space/268198_All_comments.mp3",
+      "freesound_id": 268198,
+      "name": "All comments",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "the_odds",
+      "source": "https://freesound.org/s/268198/"
+    },
+    {
+      "theme": "deep_space",
+      "file": "public/audio/saturn_storms_hexagon_world/deep_space/270896_cine_background5.WAV.mp3",
+      "freesound_id": 270896,
+      "name": "cine background5.WAV",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "phantastonia",
+      "source": "https://freesound.org/s/270896/"
+    },
+    {
+      "theme": "deep_space",
+      "file": "public/audio/saturn_storms_hexagon_world/deep_space/270904_dream7.WAV.mp3",
+      "freesound_id": 270904,
+      "name": "dream7.WAV",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "phantastonia",
+      "source": "https://freesound.org/s/270904/"
+    },
+    {
+      "theme": "deep_space",
+      "file": "public/audio/saturn_storms_hexagon_world/deep_space/272595_drone6.wav.mp3",
+      "freesound_id": 272595,
+      "name": "drone6.wav",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "phantastonia",
+      "source": "https://freesound.org/s/272595/"
+    },
+    {
+      "theme": "deep_space",
+      "file": "public/audio/saturn_storms_hexagon_world/deep_space/398533_CWD_LT_Der_Stern.mp3.mp3",
+      "freesound_id": 398533,
+      "name": "CWD_LT_Der Stern.mp3",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "ColdWombDescent",
+      "source": "https://freesound.org/s/398533/"
+    },
+    {
+      "theme": "deep_space",
+      "file": "public/audio/saturn_storms_hexagon_world/deep_space/463317_Electronic_Minute_No_249_-_Deep_Space_Kyrie.wav.mp3",
+      "freesound_id": 463317,
+      "name": "Electronic Minute No 249 - Deep Space Kyrie.wav",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "gis_sweden",
+      "source": "https://freesound.org/s/463317/"
+    },
+    {
+      "theme": "spaceship_hum",
+      "file": "public/audio/saturn_storms_hexagon_world/spaceship_hum/182047_karma-ron_-_fx_background_drone_spaceship_requested_.wav.mp3",
+      "freesound_id": 182047,
+      "name": "karma-ron - fx background drone spaceship (requested).wav",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Karma-Ron",
+      "source": "https://freesound.org/s/182047/"
+    },
+    {
+      "theme": "spaceship_hum",
+      "file": "public/audio/saturn_storms_hexagon_world/spaceship_hum/376791_machine_ultracore_sound_2.wav.mp3",
+      "freesound_id": 376791,
+      "name": "machine_ultracore_sound_2.wav",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "CosmicD",
+      "source": "https://freesound.org/s/376791/"
+    },
+    {
+      "theme": "spaceship_hum",
+      "file": "public/audio/saturn_storms_hexagon_world/spaceship_hum/422174_Sci-Fi_-_Effects_-_Interference_drone_noise_02.mp3",
+      "freesound_id": 422174,
+      "name": "Sci-Fi - Effects - Interference, drone, noise 02",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "GregorQuendel",
+      "source": "https://freesound.org/s/422174/"
+    },
+    {
+      "theme": "spaceship_hum",
+      "file": "public/audio/saturn_storms_hexagon_world/spaceship_hum/422176_Sci-Fi_-_Effects_-_Ambience_interference_03.mp3",
+      "freesound_id": 422176,
+      "name": "Sci-Fi - Effects - Ambience, interference 03",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "GregorQuendel",
+      "source": "https://freesound.org/s/422176/"
+    },
+    {
+      "theme": "spaceship_hum",
+      "file": "public/audio/saturn_storms_hexagon_world/spaceship_hum/638441_Designed_Sci-Fi_Atmospheres_-_Harmonic_-_015.wav.mp3",
+      "freesound_id": 638441,
+      "name": "Designed Sci-Fi Atmospheres - Harmonic - 015.wav",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "GregorQuendel",
+      "source": "https://freesound.org/s/638441/"
+    },
+    {
+      "theme": "spaceship_hum",
+      "file": "public/audio/saturn_storms_hexagon_world/spaceship_hum/725828_Basic_Spaceship_Engine_Bass.mp3",
+      "freesound_id": 725828,
+      "name": "Basic Spaceship Engine (Bass)",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "clif_creates",
+      "source": "https://freesound.org/s/725828/"
+    }
+  ]
+}

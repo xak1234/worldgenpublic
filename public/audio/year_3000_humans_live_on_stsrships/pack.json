@@ -1,0 +1,25 @@
+{
+  "name": "year_3000_humans_live_on_stsrships",
+  "dir": "year_3000_humans_live_on_stsrships",
+  "worldIds": [
+    "b12c703a-2a1d-4597-bbdc-4f4aef5a13d9"
+  ],
+  "match": [
+    "year 3000 humans live on stsrships",
+    "year 3000 humans live on stsrships"
+  ],
+  "volumes": {
+    "base": 0.42,
+    "detail": 0.3,
+    "weather": 0.22,
+    "crowd": 0.22
+  },
+  "base": {
+    "default": "spaceship_hum",
+    "byKeyword": []
+  },
+  "detail": {
+    "default": "deep_space",
+    "byKeyword": []
+  }
+}

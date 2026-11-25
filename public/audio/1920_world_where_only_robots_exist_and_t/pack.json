@@ -1,0 +1,25 @@
+{
+  "name": "1920_world_where_only_robots_exist_and_t",
+  "dir": "1920_world_where_only_robots_exist_and_t",
+  "worldIds": [
+    "a31d312c-54b8-459e-90fb-bb366db98f91"
+  ],
+  "match": [
+    "1920 world where only robots exist and the sun is dying",
+    "1920 world where only robots exist and t"
+  ],
+  "volumes": {
+    "base": 0.42,
+    "detail": 0.3,
+    "weather": 0.22,
+    "crowd": 0.22
+  },
+  "base": {
+    "default": "city_street",
+    "byKeyword": []
+  },
+  "detail": {
+    "default": "apartment",
+    "byKeyword": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "andromeda_year_3000_humans_live_on_a_sma",
+  "dir": "andromeda_year_3000_humans_live_on_a_sma",
+  "worldIds": [
+    "184c9438-92e1-41ff-aa94-fd15c953a8e9"
+  ],
+  "match": [
+    "andromeda year 3000 , humans live on a small moon called cheese",
+    "andromeda year 3000 humans live on a sma"
+  ],
+  "volumes": {
+    "base": 0.42,
+    "detail": 0.3,
+    "weather": 0.22,
+    "crowd": 0.22
+  },
+  "base": {
+    "default": "spaceship_hum",
+    "byKeyword": []
+  },
+  "detail": {
+    "default": "deep_space",
+    "byKeyword": []
+  }
+}

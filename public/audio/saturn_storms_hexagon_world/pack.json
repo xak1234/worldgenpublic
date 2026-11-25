@@ -1,0 +1,25 @@
+{
+  "name": "saturn_storms_hexagon_world",
+  "dir": "saturn_storms_hexagon_world",
+  "worldIds": [
+    "8d8aa212-c89d-481e-9c68-ad4847303f60"
+  ],
+  "match": [
+    "saturn storms hexagon world",
+    "saturn storms hexagon world"
+  ],
+  "volumes": {
+    "base": 0.42,
+    "detail": 0.3,
+    "weather": 0.22,
+    "crowd": 0.22
+  },
+  "base": {
+    "default": "spaceship_hum",
+    "byKeyword": []
+  },
+  "detail": {
+    "default": "deep_space",
+    "byKeyword": []
+  }
+}
