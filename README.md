@@ -1,6 +1,6 @@
 # WorldGen
 
-**An AI storytelling engine where every character has an inner life.**
+**consciousness integrated into characters, provide wiki, book, film script and worldgen will provide the world with characters to explore**
 
 Describe a world in a sentence, or hand WorldGen a script, a book or a Wikipedia page, and it builds a place to walk around in. You get locations, a history, and a population of characters who think, feel, remember, gossip, dream and change, whether or not you're talking to them.
 
