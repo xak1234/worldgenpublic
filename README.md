@@ -225,3 +225,9 @@ data/                 Worlds (world-*.json), sessions and players
 - **The words come from the language model,** so dialogue quality depends on the provider you connect.
 - **Some systems need time,** such as torn loyalties and contradictory memories between characters. They show over longer play.
 - **The numbers are design choices** (decay rates, thresholds, gossip accuracy), informed by psychology and tuned for play.
+
+---
+
+## Licence
+
+[MIT](LICENSE). Use it, change it, build on it; keep the copyright notice.
