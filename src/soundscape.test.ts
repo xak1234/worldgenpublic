@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { searchSounds, __test as freesoundTest } from './freesound.js';
@@ -108,6 +108,36 @@ function weather(overrides: Partial<CurrentWeather> = {}): CurrentWeather {
     console.warn = originalWarn;
     freesoundTest.clearCaches();
   }
+}
+
+// Pack selection with a throwaway fixture pack, so a clean checkout (which ships no sound packs)
+// still exercises the logic: world-id match, concept-phrase match, and no match.
+{
+  const createdAudioRoot = !existsSync(AUDIO_ROOT);
+  const fixtureDir = join(AUDIO_ROOT, 'zz_test_fixture_pack');
+  mkdirSync(fixtureDir, { recursive: true });
+  writeFileSync(join(fixtureDir, 'pack.json'), JSON.stringify({
+    name: 'zz_test_fixture_pack', dir: 'zz_test_fixture_pack',
+    worldIds: ['fixture-world-0001'], match: ['lighthouse fog harbour'], base: { theme: 'base' },
+  }));
+  try {
+    assert.equal(localSoundscapeTest.pickPackName('anything at all', 'fixture-world-0001'), 'zz_test_fixture_pack');
+    assert.equal(localSoundscapeTest.pickPackName('A lighthouse fog harbour where secrets drift'), 'zz_test_fixture_pack');
+    assert.equal(localSoundscapeTest.pickPackName('An escalating corporate scandal of Seattle elites'), null);
+  } finally {
+    rmSync(createdAudioRoot ? AUDIO_ROOT : fixtureDir, { recursive: true, force: true });
+  }
+}
+
+// The remaining checks assert the specific film-world packs and worlds of a full local install.
+// A clean checkout ships neither, so they run only where those packs are present.
+const INSTALLED_PACKS = ['pete_tong', 'hellraiser', 'blade_runner', 'blade', 'pretty_woman', 'fifty_shades', 'war_of_the_worlds',
+  'thelma_louise', 'fatal_attraction', 'sleeping_with_the_enemy', 'fifty_first_dates', 'addams_family', 'walk_the_line'];
+const missingPacks = INSTALLED_PACKS.filter(name => !existsSync(join(AUDIO_ROOT, name, 'pack.json')));
+if (missingPacks.length) {
+  console.log(`soundscape: skipped installed-pack checks (packs not present: ${missingPacks.length}/${INSTALLED_PACKS.length})`);
+  console.log('soundscape checks passed');
+  process.exit(0);
 }
 
 assert.equal(localSoundscapeTest.pickPackName('Kevin & Perry Go Large', 'build_9753e2d9-5d1a-4567-8eaf-eb1a2f9ef844'), 'pete_tong');

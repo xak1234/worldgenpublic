@@ -84,8 +84,9 @@ function missingImages(w) {
 }
 
 const demoWorlds = demoIds.map(id => {
-  const file = join(ROOT, 'data', `world-${id}.json`);
-  if (!existsSync(file)) fail(`world ${id} not found in data/`);
+  // data/ holds the live copy; a fresh checkout has only the shipped seed (seeds/data/).
+  const file = [join(ROOT, 'data', `world-${id}.json`), join(ROOT, 'seeds', 'data', `world-${id}.json`)].find(existsSync);
+  if (!file) fail(`world ${id} not found in data/ or seeds/data/`);
   const world = readJson(file);
   const missing = missingImages(world);
   if (missing.length) fail(`${world.name || world.concept} (${id}) is incomplete: ${missing.slice(0, 8).join(', ')}${missing.length > 8 ? ` +${missing.length - 8} more` : ''}`);
@@ -200,7 +201,9 @@ async function verify() {
     for (const w of demoWorlds) {
       const row = list.worlds.find(x => x.id === w.id);
       if (!row) { problems.push(`${w.name} not listed`); continue; }
-      if (!row.audioPackApplied) problems.push(`${w.name} has no sound pack`);
+      // A pack that was copied must be picked up; a checkout without sound packs only gets a warning.
+      if (!row.audioPackApplied && w.pack) problems.push(`${w.name}: sound pack ${w.pack.folder} was copied but not applied`);
+      if (!w.pack) log(`  note: ${w.name} has no sound pack (none in public/audio); it will play without ambience`);
       const full = await get(`/api/worlds/${w.id}`);
       const world = full.world ?? full;
       const urls = [row.coverImageUrl, ...Object.values(world.images?.portraits ?? {}), ...Object.values(world.images?.scenes ?? {})].filter(u => typeof u === 'string' && u.startsWith('/'));
